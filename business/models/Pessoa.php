@@ -10,7 +10,7 @@ class Pessoa{
     }
 
 	function getNome(){
-    	return $this->idPessoa;
+    	return $this->nome;
     }
 	
 	function setNome($nome){

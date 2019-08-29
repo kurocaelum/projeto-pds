@@ -3,3 +3,93 @@ Module compiled with module API=20160303
 PHP    compiled with module API=20131226
 These options need to match
  in Unknown on line 0
+[29-Aug-2019 17:23:19 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to undefined function getListaFuncionarios() in /home1/anaju876/public_html/pds.dev.anaju.me/gui/cadastro-funcionario.php:39
+Stack trace:
+#0 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/gui/cadastro-funcionario.php on line 39
+[29-Aug-2019 17:23:22 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to undefined function getListaFuncionarios() in /home1/anaju876/public_html/pds.dev.anaju.me/gui/cadastro-funcionario.php:39
+Stack trace:
+#0 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/gui/cadastro-funcionario.php on line 39
+[29-Aug-2019 17:24:45 America/Sao_Paulo] PHP Warning:  include(../models/Funcionario.php): failed to open stream: No such file or directory in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroFuncionario.php on line 5
+[29-Aug-2019 17:24:45 America/Sao_Paulo] PHP Warning:  include(../models/Funcionario.php): failed to open stream: No such file or directory in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroFuncionario.php on line 5
+[29-Aug-2019 17:24:45 America/Sao_Paulo] PHP Warning:  include(): Failed opening '../models/Funcionario.php' for inclusion (include_path='.:/opt/php71/lib/php') in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroFuncionario.php on line 5
+[29-Aug-2019 17:24:45 America/Sao_Paulo] PHP Warning:  include(../../data/DAO/funcionarioDAO.php): failed to open stream: No such file or directory in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroFuncionario.php on line 6
+[29-Aug-2019 17:24:45 America/Sao_Paulo] PHP Warning:  include(../../data/DAO/funcionarioDAO.php): failed to open stream: No such file or directory in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroFuncionario.php on line 6
+[29-Aug-2019 17:24:45 America/Sao_Paulo] PHP Warning:  include(): Failed opening '../../data/DAO/funcionarioDAO.php' for inclusion (include_path='.:/opt/php71/lib/php') in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroFuncionario.php on line 6
+[29-Aug-2019 17:24:45 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Class 'FuncionarioDAO' not found in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroFuncionario.php:13
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/gui/cadastro-funcionario.php(5): ControleCadastroFuncionario->__construct()
+#1 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroFuncionario.php on line 13
+[29-Aug-2019 17:24:47 America/Sao_Paulo] PHP Warning:  include(../models/Funcionario.php): failed to open stream: No such file or directory in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroFuncionario.php on line 5
+[29-Aug-2019 17:24:47 America/Sao_Paulo] PHP Warning:  include(../models/Funcionario.php): failed to open stream: No such file or directory in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroFuncionario.php on line 5
+[29-Aug-2019 17:24:47 America/Sao_Paulo] PHP Warning:  include(): Failed opening '../models/Funcionario.php' for inclusion (include_path='.:/opt/php71/lib/php') in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroFuncionario.php on line 5
+[29-Aug-2019 17:24:47 America/Sao_Paulo] PHP Warning:  include(../../data/DAO/funcionarioDAO.php): failed to open stream: No such file or directory in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroFuncionario.php on line 6
+[29-Aug-2019 17:24:47 America/Sao_Paulo] PHP Warning:  include(../../data/DAO/funcionarioDAO.php): failed to open stream: No such file or directory in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroFuncionario.php on line 6
+[29-Aug-2019 17:24:47 America/Sao_Paulo] PHP Warning:  include(): Failed opening '../../data/DAO/funcionarioDAO.php' for inclusion (include_path='.:/opt/php71/lib/php') in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroFuncionario.php on line 6
+[29-Aug-2019 17:24:47 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Class 'FuncionarioDAO' not found in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroFuncionario.php:13
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/gui/cadastro-funcionario.php(5): ControleCadastroFuncionario->__construct()
+#1 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroFuncionario.php on line 13
+[29-Aug-2019 17:24:50 America/Sao_Paulo] PHP Warning:  include(../models/Funcionario.php): failed to open stream: No such file or directory in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroFuncionario.php on line 5
+[29-Aug-2019 17:24:50 America/Sao_Paulo] PHP Warning:  include(../models/Funcionario.php): failed to open stream: No such file or directory in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroFuncionario.php on line 5
+[29-Aug-2019 17:24:50 America/Sao_Paulo] PHP Warning:  include(): Failed opening '../models/Funcionario.php' for inclusion (include_path='.:/opt/php71/lib/php') in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroFuncionario.php on line 5
+[29-Aug-2019 17:24:50 America/Sao_Paulo] PHP Warning:  include(../../data/DAO/funcionarioDAO.php): failed to open stream: No such file or directory in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroFuncionario.php on line 6
+[29-Aug-2019 17:24:50 America/Sao_Paulo] PHP Warning:  include(../../data/DAO/funcionarioDAO.php): failed to open stream: No such file or directory in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroFuncionario.php on line 6
+[29-Aug-2019 17:24:50 America/Sao_Paulo] PHP Warning:  include(): Failed opening '../../data/DAO/funcionarioDAO.php' for inclusion (include_path='.:/opt/php71/lib/php') in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroFuncionario.php on line 6
+[29-Aug-2019 17:24:50 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Class 'FuncionarioDAO' not found in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroFuncionario.php:13
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/gui/cadastro-funcionario.php(5): ControleCadastroFuncionario->__construct()
+#1 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroFuncionario.php on line 13
+[29-Aug-2019 17:25:39 America/Sao_Paulo] PHP Warning:  include(../../data/DAO/funcionarioDAO.php): failed to open stream: No such file or directory in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroFuncionario.php on line 7
+[29-Aug-2019 17:25:39 America/Sao_Paulo] PHP Warning:  include(../../data/DAO/funcionarioDAO.php): failed to open stream: No such file or directory in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroFuncionario.php on line 7
+[29-Aug-2019 17:25:39 America/Sao_Paulo] PHP Warning:  include(): Failed opening '../../data/DAO/funcionarioDAO.php' for inclusion (include_path='.:/opt/php71/lib/php') in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroFuncionario.php on line 7
+[29-Aug-2019 17:25:39 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Class 'FuncionarioDAO' not found in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroFuncionario.php:14
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/gui/cadastro-funcionario.php(5): ControleCadastroFuncionario->__construct()
+#1 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroFuncionario.php on line 14
+[29-Aug-2019 17:25:42 America/Sao_Paulo] PHP Warning:  include(../../data/DAO/funcionarioDAO.php): failed to open stream: No such file or directory in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroFuncionario.php on line 7
+[29-Aug-2019 17:25:42 America/Sao_Paulo] PHP Warning:  include(../../data/DAO/funcionarioDAO.php): failed to open stream: No such file or directory in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroFuncionario.php on line 7
+[29-Aug-2019 17:25:42 America/Sao_Paulo] PHP Warning:  include(): Failed opening '../../data/DAO/funcionarioDAO.php' for inclusion (include_path='.:/opt/php71/lib/php') in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroFuncionario.php on line 7
+[29-Aug-2019 17:25:42 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Class 'FuncionarioDAO' not found in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroFuncionario.php:14
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/gui/cadastro-funcionario.php(5): ControleCadastroFuncionario->__construct()
+#1 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroFuncionario.php on line 14
+[29-Aug-2019 17:25:56 America/Sao_Paulo] PHP Warning:  include(../../data/DAO/funcionarioDAO.php): failed to open stream: No such file or directory in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroFuncionario.php on line 7
+[29-Aug-2019 17:25:56 America/Sao_Paulo] PHP Warning:  include(../../data/DAO/funcionarioDAO.php): failed to open stream: No such file or directory in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroFuncionario.php on line 7
+[29-Aug-2019 17:25:56 America/Sao_Paulo] PHP Warning:  include(): Failed opening '../../data/DAO/funcionarioDAO.php' for inclusion (include_path='.:/opt/php71/lib/php') in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroFuncionario.php on line 7
+[29-Aug-2019 17:25:56 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Class 'FuncionarioDAO' not found in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroFuncionario.php:14
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/gui/cadastro-funcionario.php(5): ControleCadastroFuncionario->__construct()
+#1 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroFuncionario.php on line 14
+[29-Aug-2019 17:25:58 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function getFuncionarios() on null in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroFuncionario.php:37
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/gui/cadastro-funcionario.php(43): ControleCadastroFuncionario->getListaFuncionarios()
+#1 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroFuncionario.php on line 37
+[29-Aug-2019 17:26:50 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Class 'ControleCadastrofuncionario' not found in /home1/anaju876/public_html/pds.dev.anaju.me/gui/cadastro-funcionario.php:5
+Stack trace:
+#0 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/gui/cadastro-funcionario.php on line 5
+[29-Aug-2019 17:32:11 America/Sao_Paulo] PHP Fatal error:  Cannot declare class Funcionario, because the name is already in use in /home1/anaju876/public_html/pds.dev.anaju.me/business/models/Funcionario.php on line 15
+[29-Aug-2019 17:32:13 America/Sao_Paulo] PHP Fatal error:  Cannot declare class Funcionario, because the name is already in use in /home1/anaju876/public_html/pds.dev.anaju.me/business/models/Funcionario.php on line 15
+[29-Aug-2019 17:32:17 America/Sao_Paulo] PHP Fatal error:  Cannot declare class Funcionario, because the name is already in use in /home1/anaju876/public_html/pds.dev.anaju.me/business/models/Funcionario.php on line 15
+[29-Aug-2019 17:32:25 America/Sao_Paulo] PHP Fatal error:  Cannot declare class Funcionario, because the name is already in use in /home1/anaju876/public_html/pds.dev.anaju.me/business/models/Funcionario.php on line 15
+[29-Aug-2019 17:32:41 America/Sao_Paulo] PHP Fatal error:  Cannot declare class Funcionario, because the name is already in use in /home1/anaju876/public_html/pds.dev.anaju.me/business/models/Funcionario.php on line 15
+[29-Aug-2019 17:45:01 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Class 'ControleCadastrofuncionario' not found in /home1/anaju876/public_html/pds.dev.anaju.me/gui/cadastro-funcionario.php:5
+Stack trace:
+#0 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/gui/cadastro-funcionario.php on line 5
+[29-Aug-2019 17:47:48 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected 'return' (T_RETURN), expecting function (T_FUNCTION) or const (T_CONST) in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/funcionarioDAO.php on line 40
+[29-Aug-2019 17:47:51 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected 'return' (T_RETURN), expecting function (T_FUNCTION) or const (T_CONST) in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/funcionarioDAO.php on line 40
+[29-Aug-2019 17:47:51 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected 'return' (T_RETURN), expecting function (T_FUNCTION) or const (T_CONST) in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/funcionarioDAO.php on line 40
+[29-Aug-2019 17:47:52 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected 'return' (T_RETURN), expecting function (T_FUNCTION) or const (T_CONST) in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/funcionarioDAO.php on line 40
+[29-Aug-2019 18:40:01 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home1/anaju876/public_html/pds.dev.anaju.me/gui/cadastro-funcionario.php on line 43
+[29-Aug-2019 18:48:15 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroFuncionario.php on line 77
+[29-Aug-2019 18:48:17 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroFuncionario.php on line 77
