@@ -1,0 +1,5 @@
+[28-Aug-2019 19:10:26 America/Sao_Paulo] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20160303
+PHP    compiled with module API=20131226
+These options need to match
+ in Unknown on line 0
