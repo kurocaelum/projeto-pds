@@ -1,4 +1,6 @@
 <?php 
+// controlador da parte do gerenciamento de Pessoa. Essa classe que cadastra pessoa, recebe os dados do html, salva no banco  e tmb retorna os dados salvos
+// ela que faz ligacao entre Pessoa e PessoaDAO
 include("Pessoa.php");
 include("../../data/pessoaDAO.php");
 
@@ -29,6 +31,7 @@ class ControleCadastroPessoa{
 }
 
 if(isset($_POST['addPessoa'])){
+	// pegar demais dados enviados do form html e adicionar uma pesssoa
 	$nomePessoa = $_POST['nomePessoa'];
 	$pessoa = new Pessoa();
 	$pessoa->setNome($nomePessoa);
@@ -37,7 +40,6 @@ if(isset($_POST['addPessoa'])){
 	$controleCadastroPessoa->addPessoa($pessoa);
 
 
-	// pegar demais dados enviados do form html e adicionar uma pesssoa
 
 
 }
