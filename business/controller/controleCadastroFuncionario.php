@@ -29,9 +29,9 @@ class ControleCadastroFuncionario{
     	return 0;
     }
 
-    public function alterarFuncionario($funcionario, $funcionarioNovo){
+    public function alterarFuncionario($funcionarioNovo){
     	//envia o objeto funcionario para a funcao salvar funcionario no funcionarioDAO
-    	$funcionarioDAO->update($funcionario, $funcionarioNovo); //criar esse método para inserir a funcionario no banco de dados
+    	$this->funcionarioDAO->update($funcionarioNovo); //criar esse método para inserir a funcionario no banco de dados
     }
 
     public function excluirFuncionario($funcionario){
@@ -53,14 +53,30 @@ class ControleCadastroFuncionario{
 $controleCadastrofuncionario = new ControleCadastrofuncionario();
 $funcionario = new Funcionario();
 
-if(isset($_POST['addFuncionario'])){
+if(isset($_POST['idFuncionario'])){
+	
 	$nome = $_POST['nome'];
 	$telefone = $_POST['telefone'];
 	$email = $_POST['email'];
-	$funcionario->setNome($nome); // falta email e telefone
-	$retorno = $controleCadastrofuncionario->addFuncionario($funcionario);
-	echo $retorno;
 
+	if($_POST['idFuncionario'] != ""){
+		// editar funcionário
+		$id = $_POST['idFuncionario'];
+		//aqui deve setar parametros do funcionário e enviar ele para alterarFUncionario
+		$retorno = $controleCadastrofuncionario->alterarFuncionario($funcionario);
+		//a classe update do DAO nao fo feita tmb
+		echo 1; // 1 é pra quando editou corretamente. 0 é quando deu erro
+
+	}else{
+		if(isset($_POST['addFuncionario'])){
+			//adicionar funcionário
+			$funcionario->setNome($nome); // falta email e telefone
+			$retorno = $controleCadastrofuncionario->addFuncionario($funcionario);
+			echo $retorno;
+
+		}
+		
+	}
 }
 
 if(isset($_POST['excluirFuncionario'])){

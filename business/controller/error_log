@@ -267,3 +267,8 @@ Stack trace:
 Stack trace:
 #0 {main}
   thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroFuncionario.php on line 68
+[30-Aug-2019 13:05:29 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function update() on null in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroFuncionario.php:34
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroFuncionario.php(66): ControleCadastroFuncionario->alterarFuncionario(Object(Funcionario))
+#1 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroFuncionario.php on line 34

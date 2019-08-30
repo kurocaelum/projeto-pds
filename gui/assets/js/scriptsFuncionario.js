@@ -16,25 +16,54 @@ jQuery(document).ready(function($){
                 	resultFormFoncionario(JSON.stringify(enviado));
                 }    
        	 	});
-        return false;
-    });
-	function resultFormFoncionario(ret){
-     	if(ret == "1"){
-            alert("Cadastrado com sucesso.");
-            $('#form_funcionario')[0].reset();
-            carregarFuncionarios();
-        }else{
-            alert("Erro no cadastro.");
+            return false;
+        });
+    	function resultFormFoncionario(ret){
+         	if(ret == "1"){
+                alert("Cadastrado com sucesso.");
+                $('#form_funcionario')[0].reset();
+                carregarFuncionarios("tabela");
+            }else{
+                alert("Erro no cadastro.");
+            }
+    	}
+
+    $('#form_supervisor').submit(function() {
+        dados = $('#form_supervisor').serialize();
+            $.ajax({
+                    type: 'POST',
+                    dataType: 'json',
+                    url: 'http://pds.dev.anaju.me/business/controller/controleCadastroSupervisor.php',
+                    async: true,
+                    data: dados,
+                error: function(enviado) {
+                    resultFormSupervisor(JSON.stringify(enviado));
+                 },
+                success: function(enviado) {
+                    resultFormSupervisor(JSON.stringify(enviado));
+                }    
+            });
+            return false;
+        });
+        function resultFormSupervisor(ret){
+            if(ret == "1"){
+                alert("Cadastrado com sucesso.");
+                $('#form_supervisor')[0].reset();
+                // carregarFuncionarios();
+            }else{
+                alert("Erro no cadastro.");
+            }
         }
-	}
 
-
-
+    
 
 
 });
 
-function carregarFuncionarios(){
+
+
+
+function carregarFuncionarios(tipo){
 	$.ajax({
             type: 'POST',
             dataType: 'json',
@@ -42,10 +71,18 @@ function carregarFuncionarios(){
             async: true,
             data: {"listaFuncionarios": true},
         error: function(enviado) {
-        	resultCarregarFuncionarios(JSON.stringify(enviado));
+            if(tipo == "tabela"){
+                resultCarregarFuncionarios(JSON.stringify(enviado));
+            }else{
+                resultCarregarOptionFuncionarios(JSON.stringify(enviado));
+            }
          },
         success: function(enviado) {
-        	resultCarregarFuncionarios(JSON.stringify(enviado));
+        	if(tipo == "tabela"){
+                resultCarregarFuncionarios(JSON.stringify(enviado));
+            }else{
+                resultCarregarOptionFuncionarios(JSON.stringify(enviado));
+            }
         }    
 	 	});
 }
@@ -69,7 +106,7 @@ function removerFuncionario(id_remover){
 }
 function resultFormRemoverFuncionario(ret, id_remover){
  	if(ret == "1"){
- 		carregarFuncionarios()
+ 		carregarFuncionarios("tabela");
     }else{
         alert("Erro na remoção.");
     }
@@ -110,11 +147,21 @@ function resultCarregarFuncionarios(listaFuncionarios){
 		$("#form_input_telefone").val( $("#funcionario"+id_editar).find(".telefone_funcionario").text() );
 	});
 
-	
-
-
 }
 
 
 
 
+function resultCarregarOptionFuncionarios(listaFuncionarios){
+    jsonLista = JSON.parse(listaFuncionarios);
+    var optionFuncionarios = "";
+    for(var k in jsonLista) {
+        optionFuncionarios = optionFuncionarios+'<option value='+jsonLista[k].id_funcionario+' >'+jsonLista[k].nome+'</option>';
+    }
+
+    $("#listaFuncionariosOption").html("");
+    $("#listaFuncionariosOption").append(optionFuncionarios);
+    
+   
+
+}

@@ -1,6 +1,6 @@
 <?php
 
-public class OrdemServico
+class OrdemServico
 {
 	private $idOs;
 	private $servicos;

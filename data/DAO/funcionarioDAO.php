@@ -18,7 +18,7 @@ class FuncionarioDAO{
         return 0;
     }
      
-    public function update($fields,$params=null,$where=null){
+    public function update($funcionario){
         
     }
      

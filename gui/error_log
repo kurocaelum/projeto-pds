@@ -93,3 +93,23 @@ Stack trace:
 [29-Aug-2019 18:40:01 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home1/anaju876/public_html/pds.dev.anaju.me/gui/cadastro-funcionario.php on line 43
 [29-Aug-2019 18:48:15 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroFuncionario.php on line 77
 [29-Aug-2019 18:48:17 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroFuncionario.php on line 77
+[30-Aug-2019 13:12:52 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Class 'ControleCadastroSupervisor' not found in /home1/anaju876/public_html/pds.dev.anaju.me/gui/cadastro-supervisor.php:5
+Stack trace:
+#0 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/gui/cadastro-supervisor.php on line 5
+[30-Aug-2019 13:12:55 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Class 'ControleCadastroSupervisor' not found in /home1/anaju876/public_html/pds.dev.anaju.me/gui/cadastro-supervisor.php:5
+Stack trace:
+#0 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/gui/cadastro-supervisor.php on line 5
+[30-Aug-2019 13:43:57 America/Sao_Paulo] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function Supervisor::__construct(), 0 passed in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroSupervisor.php on line 44 and exactly 2 expected in /home1/anaju876/public_html/pds.dev.anaju.me/business/models/Supervisor.php:8
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroSupervisor.php(44): Supervisor->__construct()
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/gui/cadastro-supervisor.php(3): include('/home1/anaju876...')
+#2 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/models/Supervisor.php on line 8
+[30-Aug-2019 13:44:19 America/Sao_Paulo] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function Supervisor::__construct(), 0 passed in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroSupervisor.php on line 44 and exactly 2 expected in /home1/anaju876/public_html/pds.dev.anaju.me/business/models/Supervisor.php:8
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroSupervisor.php(44): Supervisor->__construct()
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/gui/cadastro-supervisor.php(3): include('/home1/anaju876...')
+#2 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/models/Supervisor.php on line 8

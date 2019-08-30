@@ -1,6 +1,6 @@
 <?php
 
-public class TipoServico
+class TipoServico
 {
 	private $nome;
 	private $unidadeMedida;

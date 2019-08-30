@@ -1,6 +1,6 @@
 <?php
 
- public class Servico
+ class Servico
  {
  	private $tipoServico;
  	private $quantidade;
@@ -47,7 +47,7 @@
  	}
  	public function setStatus($status){
  		$this->$status = $status;
-
+ 	}
 
 
  } 

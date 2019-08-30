@@ -9,7 +9,7 @@
  	<form id="form_funcionario" action="" method="post">
  		<h3>Cadastro de novo funcionário</h3>
  		<input type="hidden" name="addFuncionario">
- 		<input type="hidden" id="form_input_id">
+ 		<input type="hidden" name="idFuncionario" id="form_input_id">
 		<div class="form-group">
 			<label for="form_input_nome">Nome</label>
 			<input name="nome" required type="text" class="form-control" id="form_input_nome" placeholder="Nome">
@@ -50,7 +50,7 @@
 
 <script type="text/javascript">
 	
-	carregarFuncionarios();
+	carregarFuncionarios("tabela");
 
 
 </script>

@@ -1,6 +1,6 @@
 <?php
 
-public class VariacaoTipoServico
+class VariacaoTipoServico
 {
 	private $fatorMultiplicacao;
 
