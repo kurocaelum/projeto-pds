@@ -21,6 +21,9 @@
 				<nav class="topo_site-menu">
 					<a href="http://pds.dev.anaju.me/gui/cadastro-funcionario.php">Gerenciar funcionários</a>
 					<a href="http://pds.dev.anaju.me/gui/cadastro-supervisor.php">Gerenciar supervisores</a>
+					<a href="http://pds.dev.anaju.me/gui/cadastro-servico.php">Gerenciar serviços</a>
+					<a href="http://pds.dev.anaju.me/gui/cadastro-tipo-servico.php">Gerenciar tipos de serviços</a>
+					
 				</nav>
 			</div>
 		</header>

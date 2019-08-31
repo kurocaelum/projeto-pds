@@ -10,23 +10,20 @@
  		<h3>Cadastro de supervisor</h3>
  		<input type="hidden" name="addSupervisor">
  		<input type="hidden" name="idSupervisor" id="form_input_id">
+ 		<input type="hidden" name="idAdministrados" id="form_input_id_administrados">
+
 		<div class="form-group">
 			<div class="form-group">
-			    <label for="exampleInputEmail1">Descrição</label>
-			    <input name="setor" type="text" class="form-control" id="exampleInputEmail1" placeholder="Setor">
+			    <label for="form_input_setor">Setor</label>
+			    <input name="setor" type="text" class="form-control" id="form_input_setor" placeholder="Setor">
 		  	</div>
 		    <label for="listaFuncionariosOption">Funcionário supervisor</label>
-		    <select class="form-control" name="funcionarioSupervisor" id="listaFuncionariosOption">
+		    <select class="form-control exibirListaFuncionariosOption" name="funcionarioSupervisor" id="listaFuncionariosOption">
 		    </select>
 		 </div>
 		<div class="form-group">
-		    <label for="exampleFormControlSelect2">Funcionários administrados</label>
-		    <select multiple name="funcionarioAdministrados" class="form-control" id="exampleFormControlSelect2">
-		    	<option>1</option>
-		    	<option>2</option>
-		    	<option>3</option>
-		    	<option>4</option>
-		    	<option>5</option>
+		    <label for="listaFuncionariosAdministrados">Funcionários administrados</label>
+		    <select multiple name="funcionarioAdministrados" class="exibirListaFuncionariosOption form-control" id="listaFuncionariosAdministrados">
 		    </select>
 		</div>
 
@@ -41,6 +38,7 @@
 		    <tr>
 			      <th scope="col">ID supervisor</th>
 			      <th scope="col">ID funcionário</th>
+			      <th scope="col">ID funcionário administrados</th>
 			      <th scope="col">Nome</th>
 			      <th scope="col">Setor</th>
 			      <th scope="col">Email</th>
@@ -48,7 +46,7 @@
 			      <th scope="col">Ações</th>
 		    </tr>
 		</thead>
-		<tbody class="allFuncionarios">
+		<tbody class="allSupervisores">
 			
 			
 		</tbody>
@@ -60,6 +58,7 @@
 <script type="text/javascript">
 	
 	carregarFuncionarios("option");
+	carregarSupervisores();
 
 
 </script>

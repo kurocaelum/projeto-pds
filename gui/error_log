@@ -113,3 +113,15 @@ Stack trace:
 #1 /home1/anaju876/public_html/pds.dev.anaju.me/gui/cadastro-supervisor.php(3): include('/home1/anaju876...')
 #2 {main}
   thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/models/Supervisor.php on line 8
+[31-Aug-2019 10:20:13 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Class 'SupervisorDAO' not found in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroSupervisor.php:16
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroSupervisor.php(61): ControleCadastroSupervisor->__construct()
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/gui/cadastro-supervisor.php(3): include('/home1/anaju876...')
+#2 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroSupervisor.php on line 16
+[31-Aug-2019 10:28:30 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Class 'Funcionario' not found in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroFuncionario.php:16
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroFuncionario.php(54): ControleCadastroFuncionario->__construct()
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/gui/cadastro-funcionario.php(3): include('/home1/anaju876...')
+#2 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroFuncionario.php on line 16

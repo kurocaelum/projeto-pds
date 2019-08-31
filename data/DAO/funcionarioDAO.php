@@ -11,7 +11,7 @@ class FuncionarioDAO{
     }
     
     public function insert($funcionario){
-        $sql = "INSERT INTO funcionario (nome, telefone, email) VALUES ('".$funcionario->getNome()."', '', '') ";
+        $sql = "INSERT INTO funcionario (nome, telefone, email) VALUES ('".$funcionario->getNome()."', '".$funcionario->getTelefone()."', '".$funcionario->getEmail()."') ";
         if(mysqli_query($this->conexao, $sql)){
             return 1;
         }
@@ -19,7 +19,12 @@ class FuncionarioDAO{
     }
      
     public function update($funcionario){
-        
+         $sql = "UPDATE funcionario SET nome = '".$funcionario->getNome()."', telefone = '".$funcionario->getTelefone()."', email = '".$funcionario->getEmail()."' WHERE  funcionario.id_funcionario = '".$funcionario->getIdFuncionario()."'";
+        // echo $sql;
+        if(mysqli_query($this->conexao, $sql)){
+            return 1;
+        }
+        return 0;
     }
      
     public function delete($funcionario){

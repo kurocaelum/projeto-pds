@@ -1,8 +1,11 @@
 <?php 
 include("Pessoa.php");
 
-class Funcionario extends Pessoa{
-	private $idFuncionario = "";
+class Funcionario{
+	private $idFuncionario;
+   	public $nome;
+   	public $telefone;
+   	public $email;
 
 	public function __construct(){
     }
@@ -15,6 +18,29 @@ class Funcionario extends Pessoa{
     	$this->idFuncionario = $idFuncionario;
     }
 
+	function getNome(){
+    	return $this->nome;
+    }
+	
+	function setNome($nome){
+		$this->nome = $nome;
+	}
+
+	function getEmail(){
+    	return $this->email;
+    }
+	
+	function setEmail($email){
+		$this->email = $email;
+	}
+
+	function getTelefone(){
+    	return $this->telefone;
+    }
+	
+	function setTelefone($telefone){
+		$this->telefone = $telefone;
+	}
 	
 }
 

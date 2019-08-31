@@ -1,18 +1,41 @@
 <?php
 
-class TipoServico
-{
+class TipoServico{
 	private $nome;
 	private $unidadeMedida;
-	private $variacaoTipoServico;
+	private $tempo;
 
 	
-	public function __construct($nome, $unidadeMedida, $variacaoTipoServico)
-	{
-		$this->nome = $nome;
-		$this->unidadeMedida = $unidadeMedida;
-		$this->variacaoTipoServico = $variacaoTipoServico;
+	public function __construct(){
+		$this->nome = "";
+		$this->unidadeMedida = "";
+		$this->tempo = "";
 	}
+
+	function setNome($nome){
+		$this->nome = $nome;
+	}
+
+	function getNome(){
+		return $this->nome;
+	}
+
+	function setUnidadeMedida($unidadeMedida){
+		$this->unidadeMedida = $unidadeMedida;
+	}
+
+	function getUnidadeMedida(){
+		return $this->unidadeMedida;
+	}
+
+	function setTempo($tempo){
+		$this->tempo = $tempo;
+	}
+
+	function getTempo(){
+		return $this->tempo;
+	}
+
 }
 
 ?>
