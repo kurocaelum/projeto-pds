@@ -125,3 +125,34 @@ Stack trace:
 #1 /home1/anaju876/public_html/pds.dev.anaju.me/gui/cadastro-funcionario.php(3): include('/home1/anaju876...')
 #2 {main}
   thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroFuncionario.php on line 16
+[31-Aug-2019 15:43:59 America/Sao_Paulo] PHP Warning:  include(/home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleTipoServico.php): failed to open stream: No such file or directory in /home1/anaju876/public_html/pds.dev.anaju.me/gui/cadastro-tipo-servico.php on line 3
+[31-Aug-2019 15:43:59 America/Sao_Paulo] PHP Warning:  include(/home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleTipoServico.php): failed to open stream: No such file or directory in /home1/anaju876/public_html/pds.dev.anaju.me/gui/cadastro-tipo-servico.php on line 3
+[31-Aug-2019 15:43:59 America/Sao_Paulo] PHP Warning:  include(): Failed opening '/home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleTipoServico.php' for inclusion (include_path='.:/opt/php71/lib/php') in /home1/anaju876/public_html/pds.dev.anaju.me/gui/cadastro-tipo-servico.php on line 3
+[31-Aug-2019 15:43:59 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Class 'ControleCadastrofuncionario' not found in /home1/anaju876/public_html/pds.dev.anaju.me/gui/cadastro-tipo-servico.php:5
+Stack trace:
+#0 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/gui/cadastro-tipo-servico.php on line 5
+[31-Aug-2019 15:47:58 America/Sao_Paulo] PHP Warning:  include(/home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleTipoServico.php): failed to open stream: No such file or directory in /home1/anaju876/public_html/pds.dev.anaju.me/gui/cadastro-tipo-servico.php on line 3
+[31-Aug-2019 15:47:58 America/Sao_Paulo] PHP Warning:  include(/home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleTipoServico.php): failed to open stream: No such file or directory in /home1/anaju876/public_html/pds.dev.anaju.me/gui/cadastro-tipo-servico.php on line 3
+[31-Aug-2019 15:47:58 America/Sao_Paulo] PHP Warning:  include(): Failed opening '/home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleTipoServico.php' for inclusion (include_path='.:/opt/php71/lib/php') in /home1/anaju876/public_html/pds.dev.anaju.me/gui/cadastro-tipo-servico.php on line 3
+[31-Aug-2019 15:47:58 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Class 'ControleCadastroTipoServico' not found in /home1/anaju876/public_html/pds.dev.anaju.me/gui/cadastro-tipo-servico.php:5
+Stack trace:
+#0 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/gui/cadastro-tipo-servico.php on line 5
+[31-Aug-2019 15:48:02 America/Sao_Paulo] PHP Warning:  include(/home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleTipoServico.php): failed to open stream: No such file or directory in /home1/anaju876/public_html/pds.dev.anaju.me/gui/cadastro-tipo-servico.php on line 3
+[31-Aug-2019 15:48:02 America/Sao_Paulo] PHP Warning:  include(/home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleTipoServico.php): failed to open stream: No such file or directory in /home1/anaju876/public_html/pds.dev.anaju.me/gui/cadastro-tipo-servico.php on line 3
+[31-Aug-2019 15:48:02 America/Sao_Paulo] PHP Warning:  include(): Failed opening '/home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleTipoServico.php' for inclusion (include_path='.:/opt/php71/lib/php') in /home1/anaju876/public_html/pds.dev.anaju.me/gui/cadastro-tipo-servico.php on line 3
+[31-Aug-2019 15:48:02 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Class 'ControleCadastroTipoServico' not found in /home1/anaju876/public_html/pds.dev.anaju.me/gui/cadastro-tipo-servico.php:5
+Stack trace:
+#0 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/gui/cadastro-tipo-servico.php on line 5
+[31-Aug-2019 15:48:03 America/Sao_Paulo] PHP Warning:  include(/home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleTipoServico.php): failed to open stream: No such file or directory in /home1/anaju876/public_html/pds.dev.anaju.me/gui/cadastro-tipo-servico.php on line 3
+[31-Aug-2019 15:48:03 America/Sao_Paulo] PHP Warning:  include(/home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleTipoServico.php): failed to open stream: No such file or directory in /home1/anaju876/public_html/pds.dev.anaju.me/gui/cadastro-tipo-servico.php on line 3
+[31-Aug-2019 15:48:03 America/Sao_Paulo] PHP Warning:  include(): Failed opening '/home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleTipoServico.php' for inclusion (include_path='.:/opt/php71/lib/php') in /home1/anaju876/public_html/pds.dev.anaju.me/gui/cadastro-tipo-servico.php on line 3
+[31-Aug-2019 15:48:03 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Class 'ControleCadastroTipoServico' not found in /home1/anaju876/public_html/pds.dev.anaju.me/gui/cadastro-tipo-servico.php:5
+Stack trace:
+#0 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/gui/cadastro-tipo-servico.php on line 5
+[31-Aug-2019 23:56:48 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected '")., '"' (T_CONSTANT_ENCAPSED_STRING) in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/servicoDAO.php on line 14
+[01-Sep-2019 12:22:47 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected '<' in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/servicoDAO.php on line 25
+[01-Sep-2019 12:23:03 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected '<' in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/servicoDAO.php on line 25

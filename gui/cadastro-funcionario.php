@@ -24,6 +24,13 @@
 			<label for="form_input_telefone">Telefone</label>
 			<input name="telefone" required type="text" class="form-control" id="form_input_telefone" placeholder="Telefone">
 		</div>
+		<div class="form-group">
+			<label for="form_input_id_supervisor_chefe">Supervisor chefe</label>
+		    <select class="form-control exibirListaSupervisoresOption" name="supervisor_chefe" id="form_input_id_supervisor_chefe">
+		    </select>
+		</div>
+
+
 		  <button type="submit" class="btn btn-primary">Cadastrar</button>
 	</form>
 
@@ -33,9 +40,10 @@
 		<thead>
 		    <tr>
 			      <th scope="col">ID</th>
+			      <th scope="col">ID supervisor chefe</th>
 			      <th scope="col">Nome</th>
-			      <th scope="col">Email</th>
 			      <th scope="col">Telefone</th>
+			      <th scope="col">Email</th>
 			      <th scope="col">Ações</th>
 		    </tr>
 		</thead>
@@ -51,7 +59,7 @@
 <script type="text/javascript">
 	
 	carregarFuncionarios("tabela");
-
+	carregarSupervisores("option");
 
 </script>
 

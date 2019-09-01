@@ -21,11 +21,11 @@
 		    <select class="form-control exibirListaFuncionariosOption" name="funcionarioSupervisor" id="listaFuncionariosOption">
 		    </select>
 		 </div>
-		<div class="form-group">
+		<!-- <div class="form-group">
 		    <label for="listaFuncionariosAdministrados">Funcionários administrados</label>
 		    <select multiple name="funcionarioAdministrados" class="exibirListaFuncionariosOption form-control" id="listaFuncionariosAdministrados">
 		    </select>
-		</div>
+		</div> -->
 
 
 		<button type="submit" class="btn btn-primary">Cadastrar</button>
@@ -38,7 +38,7 @@
 		    <tr>
 			      <th scope="col">ID supervisor</th>
 			      <th scope="col">ID funcionário</th>
-			      <th scope="col">ID funcionário administrados</th>
+			      <!-- <th scope="col">ID funcionário administrados</th> -->
 			      <th scope="col">Nome</th>
 			      <th scope="col">Setor</th>
 			      <th scope="col">Email</th>
@@ -58,7 +58,7 @@
 <script type="text/javascript">
 	
 	carregarFuncionarios("option");
-	carregarSupervisores();
+	carregarSupervisores("tabela");
 
 
 </script>

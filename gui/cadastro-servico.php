@@ -1,23 +1,31 @@
 <?php 
 	include("header.php");
-	// include($_SERVER["DOCUMENT_ROOT"]."/business/controller/controleCadastroSupervisor.php");
+	include($_SERVER["DOCUMENT_ROOT"]."/business/controller/controleCadastroServico.php");
 
-	// $controleCadastroSupervisor = new ControleCadastroSupervisor();
+	$controleCadastroServico = new ControleCadastroServico();
 
  ?>
  <div class="container">
- 	<form id="form_supervisor" action="" method="post">
+ 	<form id="form_servico" action="" method="post">
  		<h3>Cadastro de novo serviço</h3>
  		<input type="hidden" name="addServico">
  		<input type="hidden" name="idServico" id="form_input_id">
 		<div class="form-group">
 			<div class="form-group">
 			    <label for="form_input_nome">Nome</label>
-			    <input name="setor" type="text" class="form-control" id="form_input_nome" placeholder="">
+			    <input name="nome" type="text" class="form-control" id="form_input_nome" placeholder="">
 		  	</div>
 		  	<div class="form-group">
 			    <label for="form_input_local">Local</label>
 			    <input name="local" type="text" class="form-control" id="form_input_local" placeholder="">
+		  	</div>
+		  	<div class="form-group">
+			    <label for="form_input_data">Data</label>
+			    <input name="data" type="date" class="form-control" id="form_input_data" placeholder="">
+		  	</div>
+		  	<div class="form-group">
+			    <label for="form_input_status">Status</label>
+			    <input name="status" type="text" class="form-control" id="form_input_status" placeholder="">
 		  	</div>
 		    <label for="listaTiposServicosOption">Tipo de serviço</label>
 		    <select class="form-control exibirListaTiposServicosOption" name="tipoServico" id="listaTiposServicosOption">
@@ -41,12 +49,11 @@
 		<thead>
 		    <tr>
 			      <th scope="col">ID serviço</th>
-			      <th scope="col">ID tipo serviço</th>
 			      <th scope="col">Nome</th>
 			      <th scope="col">Local</th>
 			      <th scope="col">Tipo de serviço</th>
 			      <th scope="col">Quantidade</th>
-			      <th scope="col">Prazo estimado</th>
+			      <th scope="col">Status</th>
 			      <th scope="col">Ações</th>
 		    </tr>
 		</thead>
@@ -61,8 +68,8 @@
 
 <script type="text/javascript">
 	
-//	carregarFuncionarios("option");
-
+ carregarServicos("tabela");
+ carregarTipoServico("option");
 
 </script>
 

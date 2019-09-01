@@ -1,11 +1,11 @@
 <?php 
-include("Pessoa.php");
 
 class Funcionario{
-	private $idFuncionario;
+	public $idFuncionario;
    	public $nome;
    	public $telefone;
    	public $email;
+   	public $idSupervisorChefe;
 
 	public function __construct(){
     }
@@ -24,6 +24,14 @@ class Funcionario{
 	
 	function setNome($nome){
 		$this->nome = $nome;
+	}
+
+	function getIdSupervisorChefe(){
+    	return $this->idSupervisorChefe;
+    }
+	
+	function setIdSupervisorChefe($idSupervisorChefe){
+		$this->idSupervisorChefe = $idSupervisorChefe;
 	}
 
 	function getEmail(){

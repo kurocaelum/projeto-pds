@@ -1,16 +1,24 @@
 <?php
 
 class TipoServico{
-	private $nome;
-	private $unidadeMedida;
-	private $tempo;
-
+	public $nome;
+	public $unidadeMedida;
+	public $tempo;
+	public $id_tipo_servico;
 	
 	public function __construct(){
 		$this->nome = "";
 		$this->unidadeMedida = "";
 		$this->tempo = "";
 	}
+	
+	function setIdTipoServico($id_tipo_servico){
+		$this->id_tipo_servico = $id_tipo_servico;
+	}
+	function getIdTipoServico(){
+		return $this->id_tipo_servico;
+	}
+
 
 	function setNome($nome){
 		$this->nome = $nome;

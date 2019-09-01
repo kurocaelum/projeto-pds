@@ -1,5 +1,5 @@
 <?php
-include($_SERVER["DOCUMENT_ROOT"]."/data/conexao.php");
+include_once($_SERVER["DOCUMENT_ROOT"]."/data/conexao.php");
 
 class FuncionarioDAO{
     public $arrayFuncionarios;
@@ -11,7 +11,7 @@ class FuncionarioDAO{
     }
     
     public function insert($funcionario){
-        $sql = "INSERT INTO funcionario (nome, telefone, email) VALUES ('".$funcionario->getNome()."', '".$funcionario->getTelefone()."', '".$funcionario->getEmail()."') ";
+        $sql = "INSERT INTO funcionario (nome, telefone, email, id_supervisor_chefe) VALUES ('".$funcionario->getNome()."', '".$funcionario->getTelefone()."', '".$funcionario->getEmail()."', '".$funcionario->getIdSupervisorChefe()."') ";
         if(mysqli_query($this->conexao, $sql)){
             return 1;
         }
@@ -19,7 +19,7 @@ class FuncionarioDAO{
     }
      
     public function update($funcionario){
-         $sql = "UPDATE funcionario SET nome = '".$funcionario->getNome()."', telefone = '".$funcionario->getTelefone()."', email = '".$funcionario->getEmail()."' WHERE  funcionario.id_funcionario = '".$funcionario->getIdFuncionario()."'";
+         $sql = "UPDATE funcionario SET id_supervisor_chefe = '".$funcionario->getIdSupervisorChefe()."', nome = '".$funcionario->getNome()."', telefone = '".$funcionario->getTelefone()."', email = '".$funcionario->getEmail()."' WHERE  funcionario.id_funcionario = '".$funcionario->getIdFuncionario()."'";
         // echo $sql;
         if(mysqli_query($this->conexao, $sql)){
             return 1;

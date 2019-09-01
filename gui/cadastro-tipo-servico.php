@@ -1,8 +1,8 @@
 <?php 
 	include("header.php");
-	// include($_SERVER["DOCUMENT_ROOT"]."/business/controller/controleTipoServico.php");
+	include($_SERVER["DOCUMENT_ROOT"]."/business/controller/controleCadastroTipoServico.php");
 
-	// $controleCadastrofuncionario = new ControleCadastrofuncionario();
+	$controleCadastroTipoServico = new ControleCadastroTipoServico();
 
  ?>
  <div class="container">
@@ -49,7 +49,7 @@
 
 <script type="text/javascript">
 	
-
+	carregarTipoServico("tabela");
 
 </script>
 

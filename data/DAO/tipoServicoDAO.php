@@ -1,5 +1,5 @@
 <?php
-include($_SERVER["DOCUMENT_ROOT"]."/data/conexao.php");
+include_once($_SERVER["DOCUMENT_ROOT"]."/data/conexao.php");
 
 class TipoServicoDAO{
     public $arrayTiposServicos;

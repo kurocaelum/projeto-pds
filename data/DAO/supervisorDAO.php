@@ -1,5 +1,5 @@
 <?php
-include($_SERVER["DOCUMENT_ROOT"]."/data/conexao.php");
+include_once($_SERVER["DOCUMENT_ROOT"]."/data/conexao.php");
 
 class SupervisorDAO{
     public $arraySupervisores;
@@ -10,34 +10,39 @@ class SupervisorDAO{
     }
     
     public function insert($supervisor){
-        $sql = "INSERT INTO supervisor (id_funcionario, setor) VALUES ('".$supervisor->getIdFuncionario()."', '".$supervisor->getSetor()."' ) ";
+        $sql = "INSERT INTO supervisor (id_funcionario, setor, id_supervisor) VALUES ('".$supervisor->getIdFuncionario()."', '".$supervisor->getSetor()."', '".$supervisor->getIdSupervisor()."' ) ";
       
         
         $id_retorno = mysqli_query($this->conexao, $sql);
-        $id_supervisor = mysqli_insert_id($this->conexao);
+        // $id_supervisor = mysqli_insert_id($this->conexao);
 
         if($id_retorno){
 
-            foreach ($supervisor->getFuncionariosAdministrados() as $funcionario) {
-                $this->insertRelacaoAdministrado($funcionario->getIdFuncionario(), $id_supervisor);
-            }
+            // foreach ($supervisor->getFuncionariosAdministrados() as $funcionario) {
+            //     $this->insertRelacaoAdministrado($funcionario->getIdFuncionario(), $id_supervisor);
+            // }
 
             return 1;
         }
         return 0;
     }
     
-    public function insertRelacaoAdministrado($idAdministrado, $idSupervisor){
-        $sql = "INSERT INTO administracao (id_funcionario, id_supervisor) VALUES ('".$idAdministrado."', '".$idSupervisor."' ) ";     
+    // public function insertRelacaoAdministrado($idAdministrado, $idSupervisor){
+    //     $sql = "INSERT INTO administracao (id_funcionario, id_supervisor) VALUES ('".$idAdministrado."', '".$idSupervisor."' ) ";     
+    //     if(mysqli_query($this->conexao, $sql)){
+    //         return 1;
+    //     }
+    //     return 0;
+    // }
+     
+     
+    public function update($supervisor){
+        $sql = "UPDATE supervisor SET setor = '".$supervisor->getSetor()."', id_funcionario = '".$supervisor->getIdFuncionario()."' WHERE supervisor.id_supervisor = '".$supervisor->getIdSupervisor()."'";
+        // echo $sql;
         if(mysqli_query($this->conexao, $sql)){
             return 1;
         }
         return 0;
-    }
-     
-     
-    public function update($funcionario){
-        
     }
      
     public function delete($supervisor){
@@ -52,7 +57,7 @@ class SupervisorDAO{
 
     //retorna array de objetos de funcionarios
     public function getSupervisores(){
-        $sql = "SELECT * FROM supervisor INNER JOIN funcionario ON supervisor.id_funcionario = funcionario.id_funcionario ";
+        $sql = "SELECT * FROM supervisor INNER JOIN funcionario as f ON supervisor.id_funcionario = f.id_funcionario ";
 
         $result = mysqli_query($this->conexao, $sql);
             if ($result->num_rows > 0) {

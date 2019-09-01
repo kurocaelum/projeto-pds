@@ -9,7 +9,7 @@ jQuery(document).ready(function($){
         $.ajax({
                 type: 'POST',
                 dataType: 'json',
-                url: 'http://pds.dev.anaju.me/business/controller/controleCadastroServico.php',
+                url: 'http://pds.dev.anaju.me/business/services/ajaxGeral.php',
                 async: true,
                 data: dados,
             error: function(enviado) {
@@ -43,7 +43,7 @@ function carregarServicos(tipo){
     $.ajax({
             type: 'POST',
             dataType: 'json',
-            url: 'http://pds.dev.anaju.me/business/controller/controleCadastroServico.php',
+            url: 'http://pds.dev.anaju.me/business/services/ajaxGeral.php',
             async: true,
             data: {"listaServicos": true},
             error: function(enviado) {
@@ -67,11 +67,11 @@ function carregarServicos(tipo){
 
 
 function removerServico(id_remover){
-    alert(id_remover);
+    
     $.ajax({
             type: 'POST',
             dataType: 'json',
-            url: 'http://pds.dev.anaju.me/business/controller/controleCadastroServico.php',
+            url: 'http://pds.dev.anaju.me/business/services/ajaxGeral.php',
             async: true,
             data: {"excluirServico": id_remover},
         error: function(enviado) {
@@ -84,6 +84,7 @@ function removerServico(id_remover){
 }
 function resultFormRemoverServico(ret, id_remover){
     if(ret == "1"){
+        alert("Serviço removido.");
         carregarServicos("tabela");
 
     }else{
@@ -109,18 +110,18 @@ function resultCarregarServicos(listaServicos){
     jsonLista = JSON.parse(listaServicos);
     var tabelaServicos = "";
     for(var k in jsonLista) {
-        tabelaServicos = tabelaServicos+'<tr id="supervisor'+jsonLista[k].id_supervisor+'">';
+        tabelaServicos = tabelaServicos+'<tr id="servico'+jsonLista[k].id_servico+'">';
+        tabelaServicos = tabelaServicos+'<th class="id_servico" scope="row">'+jsonLista[k].id_servico+'</th>';
 
-        tabelaServicos = tabelaServicos+'<th class="id_supervisor" scope="row">'+jsonLista[k].id_supervisor+'</th>';
-        tabelaServicos = tabelaServicos+'<th class="id_funcionario" scope="row">'+jsonLista[k].id_funcionario+'</th>';
+        tabelaServicos = tabelaServicos+'<td class="nome_servico">'+jsonLista[k].nome+'</td>';
 
-        tabelaServicos = tabelaServicos+'<td class="nome_supervisor">'+jsonLista[k].nome+'</td>';
-        tabelaServicos = tabelaServicos+'<td class="setor_supervisor">'+jsonLista[k].setor+'</td>';
-        tabelaServicos = tabelaServicos+'<td class="email_supervisor">'+jsonLista[k].email+'</td>';
-        tabelaServicos = tabelaServicos+'<td class="telefone_supervisor">'+jsonLista[k].telefone+'</td>';
+        tabelaServicos = tabelaServicos+'<td class="local_servico">'+jsonLista[k].localizacao+'</td>';
+        tabelaServicos = tabelaServicos+'<td class="id_tipo_servico">'+jsonLista[k].id_tipo_servico+'</td>';
+        tabelaServicos = tabelaServicos+'<td class="quantidade_servico">'+jsonLista[k].quantidade+'</td>';
+        tabelaServicos = tabelaServicos+'<td class="status_supervisor">'+jsonLista[k].status+'</td>';
         tabelaServicos = tabelaServicos+'<td>';
-        tabelaServicos = tabelaServicos+'       <button type="button" id-editar="'+jsonLista[k].id_supervisor+'" class="editar_supervisor btn btn-info">Editar</button>';
-        tabelaServicos = tabelaServicos+'       <button type="button" id-remove="'+jsonLista[k].id_supervisor+'" class="remover_supervisor btn btn-danger">Excluir</button>';
+        tabelaServicos = tabelaServicos+'       <button type="button" id-editar="'+jsonLista[k].id_servico+'" class="editar_servico btn btn-info">Editar</button>';
+        tabelaServicos = tabelaServicos+'       <button type="button" id-remove="'+jsonLista[k].id_servico+'" class="remover_servico btn btn-danger">Excluir</button>';
         tabelaServicos = tabelaServicos+'</td>';
         tabelaServicos = tabelaServicos+'</tr>';
     }
@@ -137,9 +138,13 @@ function resultCarregarServicos(listaServicos){
 
     $('.editar_servico').on('click', function() {
         var id_editar = $(this).attr("id-editar");
-        $("#form_input_id").val( $("#servico"+id_editar).find(".id_supervisor").text() );
-        $("#form_input_setor").val( $("#servico"+id_editar).find(".setor_supervisor").text() );
-        $("#listaFuncionariosOption").val( $("#servico"+id_editar).find(".id_funcionario").text() );
+        $("#form_input_id").val( $("#servico"+id_editar).find(".id_servico").text() );
+        $("#form_input_nome").val( $("#servico"+id_editar).find(".nome_servico").text() );
+        $("#form_input_local").val( $("#servico"+id_editar).find(".local_servico").text() );
+        $("#form_input_data").val( $("#servico"+id_editar).find(".data").text() );
+        $("#form_input_status").val( $("#servico"+id_editar).find(".status_supervisor").text() );
+        $("#exampleInputQuantidade").val( $("#servico"+id_editar).find(".quantidade_servico").text() );
+        $("#listaTiposServicosOption").val( $("#servico"+id_editar).find(".id_tipo_servico").text() );
     });
 
 }
@@ -168,7 +173,7 @@ jQuery(document).ready(function($){
         $.ajax({
                 type: 'POST',
                 dataType: 'json',
-                url: 'http://pds.dev.anaju.me/business/controller/controleCadastroSupervisor.php',
+                url: 'http://pds.dev.anaju.me/business/services/ajaxGeral.php',
                 async: true,
                 data: dados,
             error: function(enviado) {
@@ -202,7 +207,7 @@ function carregarSupervisores(tipo){
     $.ajax({
             type: 'POST',
             dataType: 'json',
-            url: 'http://pds.dev.anaju.me/business/controller/controleCadastroSupervisor.php',
+            url: 'http://pds.dev.anaju.me/business/services/ajaxGeral.php',
             async: true,
             data: {"listaSupervisores": true},
             error: function(enviado) {
@@ -230,7 +235,7 @@ function removerSupervisor(id_remover){
     $.ajax({
             type: 'POST',
             dataType: 'json',
-            url: 'http://pds.dev.anaju.me/business/controller/controleCadastroSupervisor.php',
+            url: 'http://pds.dev.anaju.me/business/services/ajaxGeral.php',
             async: true,
             data: {"excluirSupervisor": id_remover},
         error: function(enviado) {
@@ -320,7 +325,7 @@ jQuery(document).ready(function($){
             $.ajax({
                     type: 'POST',
                     dataType: 'json',
-                    url: 'http://pds.dev.anaju.me/business/controller/controleCadastroFuncionario.php',
+                    url: 'http://pds.dev.anaju.me/business/services/ajaxGeral.php',
                     async: true,
                     data: dados,
                 error: function(enviado) {
@@ -356,7 +361,7 @@ function carregarFuncionarios(tipo){
 	$.ajax({
             type: 'POST',
             dataType: 'json',
-            url: 'http://pds.dev.anaju.me/business/controller/controleCadastroFuncionario.php',
+            url: 'http://pds.dev.anaju.me/business/services/ajaxGeral.php',
             async: true,
             data: {"listaFuncionarios": true},
         error: function(enviado) {
@@ -382,7 +387,7 @@ function removerFuncionario(id_remover){
 	$.ajax({
             type: 'POST',
             dataType: 'json',
-            url: 'http://pds.dev.anaju.me/business/controller/controleCadastroFuncionario.php',
+            url: 'http://pds.dev.anaju.me/business/services/ajaxGeral.php',
             async: true,
             data: {"excluirFuncionario": id_remover},
         error: function(enviado) {
@@ -475,7 +480,7 @@ jQuery(document).ready(function($){
             $.ajax({
                     type: 'POST',
                     dataType: 'json',
-                    url: 'http://pds.dev.anaju.me/business/controller/controleCadastroTipoServico.php',
+                    url: 'http://pds.dev.anaju.me/business/services/ajaxGeral.php',
                     async: true,
                     data: dados,
                 error: function(enviado) {
@@ -511,7 +516,7 @@ function carregarTipoServico(tipo){
     $.ajax({
             type: 'POST',
             dataType: 'json',
-            url: 'http://pds.dev.anaju.me/business/controller/controleCadastroTipoServico.php',
+            url: 'http://pds.dev.anaju.me/business/services/ajaxGeral.php',
             async: true,
             data: {"listaTipoServicos": true}, // listaFuncionarios?
         error: function(enviado) {
@@ -536,7 +541,7 @@ function removerTipoServico(id_remover){
     $.ajax({
             type: 'POST',
             dataType: 'json',
-            url: 'http://pds.dev.anaju.me/business/controller/controleCadastroTipoServico.php',
+            url: 'http://pds.dev.anaju.me/business/services/ajaxGeral.php',
             async: true,
             data: {"excluirTipoServico": id_remover},
         error: function(enviado) {
@@ -597,13 +602,13 @@ function resultCarregarTipoServico(listaTiposServicos){
 
 function resultCarregarOptionTiposServicos(listaTiposServicos){
     jsonLista = JSON.parse(listaTiposServicos);
-    var optionTiposServicos = "";
+    var optionTiposServicos = "<option value=''></option> ";
     for(var k in jsonLista) {
-        optionTiposServicos = optionTiposServicos+'<option value='+jsonLista[k].nome+' >'+jsonLista[k].unidadeMedida+'</option>';
+        optionTiposServicos = optionTiposServicos+'<option value='+jsonLista[k].id_tipo_servico+' >'+jsonLista[k].id_tipo_servico+'</option>';
     }
 
-    $(".exibirListaFuncionariosOption").html("");
-    $(".exibirListaFuncionariosOption").append(optionTiposServicos);
+    $(".exibirListaTiposServicosOption").html("");
+    $(".exibirListaTiposServicosOption").append(optionTiposServicos);
     
    
 

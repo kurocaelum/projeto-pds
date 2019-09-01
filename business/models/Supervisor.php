@@ -1,13 +1,13 @@
 <?php 
-include("Funcionario.php");
+include_once("Funcionario.php");
 
 class Supervisor extends Funcionario{
 	public $idSupervisor;
 	public $setor;
-    public $funcionariosAdministrados;
+    // public $funcionariosAdministrados;
 
 	public function __construct(){
-        $this->funcionariosAdministrados = [];
+        // $this->funcionariosAdministrados = [];
     }
 
 	function getIdSupervisor(){
@@ -27,13 +27,13 @@ class Supervisor extends Funcionario{
     	$this->setor = $setor;
     }
 
-    function setFuncionariosAdministrados($funcionariosAdministrados){
-        $this->funcionariosAdministrados = $funcionariosAdministrados; 
-    }
+    // function setFuncionariosAdministrados($funcionariosAdministrados){
+    //     $this->funcionariosAdministrados = $funcionariosAdministrados; 
+    // }
 
-    function getFuncionariosAdministrados(){
-        return $this->funcionariosAdministrados; 
-    }
+    // function getFuncionariosAdministrados(){
+    //     return $this->funcionariosAdministrados; 
+    // }
 
 
 }
