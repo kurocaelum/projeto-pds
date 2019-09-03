@@ -51,7 +51,7 @@
 			      <th scope="col">ID serviço</th>
 			      <th scope="col">Nome</th>
 			      <th scope="col">Local</th>
-			      <th scope="col">Tipo de serviço</th>
+			      <th scope="col">ID Tipo de serviço</th>
 			      <th scope="col">Quantidade</th>
 			      <th scope="col">Status</th>
 			      <th scope="col">Ações</th>

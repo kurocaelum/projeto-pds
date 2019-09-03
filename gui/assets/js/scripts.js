@@ -604,7 +604,7 @@ function resultCarregarOptionTiposServicos(listaTiposServicos){
     jsonLista = JSON.parse(listaTiposServicos);
     var optionTiposServicos = "<option value=''></option> ";
     for(var k in jsonLista) {
-        optionTiposServicos = optionTiposServicos+'<option value='+jsonLista[k].id_tipo_servico+' >'+jsonLista[k].id_tipo_servico+'</option>';
+        optionTiposServicos = optionTiposServicos+'<option value='+jsonLista[k].id_tipo_servico+' >'+jsonLista[k].nome+'</option>';
     }
 
     $(".exibirListaTiposServicosOption").html("");
