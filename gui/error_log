@@ -156,3 +156,19 @@ Stack trace:
 [31-Aug-2019 23:56:48 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected '")., '"' (T_CONSTANT_ENCAPSED_STRING) in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/servicoDAO.php on line 14
 [01-Sep-2019 12:22:47 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected '<' in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/servicoDAO.php on line 25
 [01-Sep-2019 12:23:03 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected '<' in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/servicoDAO.php on line 25
+[06-Sep-2019 19:34:50 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroFuncionario.php on line 47
+[06-Sep-2019 19:35:04 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Class 'ServiceFuncionario' not found in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroFuncionario.php:13
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/gui/cadastro-funcionario.php(5): ControleCadastroFuncionario->__construct()
+#1 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroFuncionario.php on line 13
+[06-Sep-2019 19:35:06 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Class 'ServiceFuncionario' not found in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroFuncionario.php:13
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/gui/cadastro-funcionario.php(5): ControleCadastroFuncionario->__construct()
+#1 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroFuncionario.php on line 13
+[06-Sep-2019 19:35:25 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Class 'ServiceFuncionario' not found in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroFuncionario.php:13
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/gui/cadastro-funcionario.php(5): ControleCadastroFuncionario->__construct()
+#1 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroFuncionario.php on line 13

@@ -325,7 +325,7 @@ jQuery(document).ready(function($){
             $.ajax({
                     type: 'POST',
                     dataType: 'json',
-                    url: 'http://pds.dev.anaju.me/business/services/ajaxGeral.php',
+                    url: 'http://pds.dev.anaju.me/business/controller/controleCadastroFuncionario.php',
                     async: true,
                     data: dados,
                 error: function(enviado) {
@@ -361,7 +361,7 @@ function carregarFuncionarios(tipo){
 	$.ajax({
             type: 'POST',
             dataType: 'json',
-            url: 'http://pds.dev.anaju.me/business/services/ajaxGeral.php',
+            url: 'http://pds.dev.anaju.me/business/controller/controleCadastroFuncionario.php',
             async: true,
             data: {"listaFuncionarios": true},
         error: function(enviado) {
@@ -387,7 +387,7 @@ function removerFuncionario(id_remover){
 	$.ajax({
             type: 'POST',
             dataType: 'json',
-            url: 'http://pds.dev.anaju.me/business/services/ajaxGeral.php',
+            url: 'http://pds.dev.anaju.me/business/controller/controleCadastroFuncionario.php',
             async: true,
             data: {"excluirFuncionario": id_remover},
         error: function(enviado) {
