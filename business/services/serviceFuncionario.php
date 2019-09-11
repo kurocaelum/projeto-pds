@@ -17,6 +17,8 @@ class ServiceFuncionario{
         return $this->funcionario;
     }
 
+    // return 1: sucesso
+    // return 0: erro na inserção
     public function addFuncionario(){
         if($this->funcionarioDAO->insert($this->getFuncionario()) == 1){
             return 1;
@@ -24,19 +26,52 @@ class ServiceFuncionario{
         return 0;
     }
 
+    // return 1: sucesso
+    // return 0: erro na atualização
+    // return 2: erro no supervisor
     public function alterarFuncionario(){
-        return $this->funcionarioDAO->update($this->getFuncionario()); //criar esse método para inserir a funcionario no banco de dados
+        if($this->funcionarioDAO->update($this->getFuncionario()) == 1){
+            return 1;
+        }
+        return 0;
     }
 
     public function excluirFuncionario(){
-        return $this->funcionarioDAO->delete($this->getFuncionario()); //criar esse método para inserir a funcionario no banco de dados
+        if($this->funcionarioDAO->delete($this->getFuncionario()) == 1){
+            return 1;
+        }
+        return 0;
     }
 
 
     public function getListaFuncionarios(){
-        return $this->funcionarioDAO->getFuncionarios();
+        $retorno = $this->funcionarioDAO->getFuncionarios();
+        if($retorno != 0){
+            return $retorno;
+        }
+        return 0;
     }
 
+
+    public function setNomeFuncionario($nome){
+        $this->getFuncionario()->setNome($nome);
+    }
+
+    public function setIdFuncionario($idFuncionario){
+        $this->getFuncionario()->setIdFuncionario($idFuncionario);
+    }
+
+    public function setIdSupervisorChefeFuncionario($idSupervisorChefe){
+       $this->getFuncionario()->setIdSupervisorChefe($setIdSupervisorChefe);
+    }
+
+    public function setEmailFuncionario($email){
+        $this->getFuncionario()->setEmail($email);
+    }
+    
+    public function setTelefoneFuncionario($telefone){
+        $this->getFuncionario()->setTelefone($telefone);
+    }
 
     
     

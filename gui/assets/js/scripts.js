@@ -342,8 +342,12 @@ jQuery(document).ready(function($){
                 alert("Cadastrado com sucesso.");
                 $('#form_funcionario')[0].reset();
                 carregarFuncionarios("tabela");
-            }else{
-                alert("Erro no cadastro.");
+            }
+            if(ret == "2"){
+                alert("Erro na valiação.");
+            }
+            if(ret == "3"){
+                alert("Erro ao inserir.");
             }
     	}
 
@@ -383,7 +387,6 @@ function carregarFuncionarios(tipo){
 
 
 function removerFuncionario(id_remover){
-	alert(id_remover);
 	$.ajax({
             type: 'POST',
             dataType: 'json',
@@ -400,10 +403,14 @@ function removerFuncionario(id_remover){
 }
 function resultFormRemoverFuncionario(ret, id_remover){
  	if(ret == "1"){
+        alert("Funcionário excluído");
  		carregarFuncionarios("tabela");
     }else{
-        alert("Erro na remoção.");
+        if(ret == "0"){
+            alert("Erro na remoção.");
+        }   
     }
+    
 }
 
 
