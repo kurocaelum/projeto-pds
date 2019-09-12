@@ -2,50 +2,106 @@
 // controlador da parte do gerenciamento de Servico. Essa classe que cadastra Servico, recebe os dados do html, salva no banco  e tmb retorna os dados salvos
 // ela que faz ligacao entre Servico e ServicoDAO
 
+include_once($_SERVER["DOCUMENT_ROOT"]."/business/services/serviceServico.php");
 include_once($_SERVER["DOCUMENT_ROOT"]."/business/models/Servico.php");
-include_once($_SERVER["DOCUMENT_ROOT"]."/data/DAO/servicoDAO.php");
 
 
 class ControleCadastroServico{
-	public $servicoDAO; // objeto dao para salvar as tipoServicos e obter dados.
-	public $servico;
+
+	private $serviceServico;
+	private $servico;
 
 	public function __construct(){
-		$this->servicoDAO = new servicoDAO();
+		
+		$this->serviceServico = new ServiceServico();
 		$this->servico = new Servico();
+		$this->verificarRequisicao();
 	}
 
-	public function getServico(){
-		return $this->servico;
-	}
+	public function verificarRequisicao(){
 
-    public function addServico($servico){
-    	//envia o objeto servico para a funcao salvar servico no servicoDAO
-    	//criar esse método para inserir o servico no banco de dados
-    	if($this->servicoDAO->insert($servico) == 1){
-    		return 1;
+        if(isset($_POST['idServico'])){
+
+            if($_POST['idServico'] != ""){
+                $this->alterarServico();
+            }else{
+                if(isset($_POST['addServico'])){
+                    $this->addServico();  
+                }
+            }
+        }
+        if(isset($_POST['listaServicos'])){
+            $this->getListaServicos();
+        }
+        if(isset($_POST['excluirServico'])){
+            $this->excluirServico();
+        }
+        
+    }
+
+
+    public function addServico(){
+    	
+    	if(!$this->validarDadosServico()){
+    		return false;
     	}
-    	return 0;
+
+    	return $this->serviceServico->addServico($this->servico);
+    	
     }
 
-    public function alterarServico($servico){
-    	//envia o objeto servico para a funcao alterar servico no servicoDAO
-    	return $this->servicoDAO->update($servico); //criar esse método para atualizar o servico no banco de dados
+    public function alterarServico(){
+    
+    	if(!$this->validarDadosServico()){
+    		return false;
+    	}
+    	$this->servico->setId($_POST['idServico']);
+
+    	return $this->serviceServico->alterarServico($this->servico); 
     }
 
-    public function excluirServico($servico){
-    	//envia o objeto servico para a funcao excluir servico no servicoDAO
-    	return $this->servicoDAO->delete($servico); //criar esse método para excluir o servico no banco de dados
+    public function excluirServico(){
+    	
+    	$this->validarDadosServico();
+    	$this->servico->setId($_POST['idServico']);
+
+    	return $this->serviceServico->excluirServico($this->servico); 
     }
 
 
     public function getListaServicos(){
-    	return $this->servicoDAO->getServicos();
+    	return $this->serviceServico->getListaServicos();
     }
 
+    public function validarDadosServico(){
 
+    	 $nome = $_POST['nome'];
+		 $local = $_POST['local'];
+		 $dataCadastro = $_POST['data'];
+		 $status = $_POST['status'];
+		 $tipoServico = $_POST['tipoServico'];
+		 $quantidade = $_POST['quantidade'];
+
+		 if($nome == "" || $local == "" || $dataCadastro == "" || $status == "" ||
+            $tipoServico == "" || $quantidade == ""){
+            return false;
+         } 
+
+		 $this->servico->setNome($nome);
+		 $this->servico->setLocal($local);
+		 $this->servico->setDataCadastro($dataCadastro);
+		 $this->servico->setStatus($status);
+		 $this->servico->setTipoServico($tipoServico);
+		 $this->servico->setQuantidade($quantidade);
+
+		 return true;
+    }
     
 	
+}
+
+if(isset($_POST['idServico']) || isset($_POST['listaServicos']) || isset($_POST['excluirServico']) || isset($_POST['addServico']) ){
+    $controleCadastroServico = new ControleCadastroServico();
 }
 
 
