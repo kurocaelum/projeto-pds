@@ -1,49 +1,97 @@
 <?php 
-// controlador da parte do gerenciamento de TipoServico. Essa classe que cadastra tipoServico, recebe os dados do html, salva no banco  e tmb retorna os dados salvos
-// ela que faz ligacao entre tipoServico e tipoServicoDAO
+// controlador da parte do gerenciamento de TipoServico. Essa classe recebe os dados do html, faz a //validação dos dados, encapsula-os em um objeto TipoServico e envia para serviceTipoServico
 
 include_once($_SERVER["DOCUMENT_ROOT"]."/business/models/TipoServico.php");
-include_once($_SERVER["DOCUMENT_ROOT"]."/data/DAO/tipoServicoDAO.php");
+include_once($_SERVER["DOCUMENT_ROOT"]."/business/services/serviceTipoServico.php");
 
 
 class ControleCadastroTipoServico{
-	public $tipoServicoDAO; // objeto dao para salvar as tipoServicos e obter dados.
-	// public $tipoServicosArray; //lista de todas as tipoServicos
+
+	public $serviceTipoServico;
 	public $tipoServico;
 
 	public function __construct(){
-		$this->tipoServicoDAO = new TipoServicoDAO();
+		$this->serviceTipoServico = new ServiceTipoServico();
 		$this->tipoServico = new TipoServico();
-		// $this->tipoServicosArray = [];
+        $this->verificarRequisicao();
 	}
 
-	public function getTipoServico(){
-		return $this->tipoServico;
-	}
+    public function verificarRequisicao(){
+
+        if(isset($_POST['idTipoServico'])){
+
+            if($_POST['idTipoServico'] != ""){
+                $this->alterarTipoServico();
+            }else{
+                if(isset($_POST['addTipoServico'])){
+                    $this->addTipoServico();  
+                }
+            }
+        }
+        if(isset($_POST['listaTipoServicos'])){
+            $this->getListaTipoServicos();
+        }
+        if(isset($_POST['excluirTipoServico'])){
+            $this->excluirTipoServico();
+        }
+        
+    }
+
 
     public function addTipoServico($tipoServico){
-    	//envia o objeto tipoServico para a funcao salvar tipoServico no tipoServicoDAO
-    	//criar esse método para inserir a tipoServico no banco de dados
-    	if($this->tipoServicoDAO->insert($tipoServico) == 1){
-    		return 1;
-    	}
-    	return 0;
+    	if(!$this->validarDadosTipoServico()){
+            return false;
+        }
+
+        return $this->serviceTipoServico->addTipoServico($this->tipoServico);
     }
 
     public function alterarTipoServico($tipoServico){
-    	//envia o objeto tipoServico para a funcao salvar tipoServico no tipoServicoDAO
-    	return $this->tipoServicoDAO->update($tipoServico); //criar esse método para inserir a tipoServico no banco de dados
+    	if(!$this->validarDadosTipoServico()){
+            return false;
+        }
+        $this->tipoServico->setIdTipoServico($_POST['idTipoServico']);
+
+        return $this->serviceTipoServico->alterarTipoServico($this->tipoServico);
     }
 
     public function excluirTipoServico($tipoServico){
-    	//envia o objeto tipoServico para a funcao salvar tipoServico no tipoServicoDAO
-    	return $this->tipoServicoDAO->delete($tipoServico); //criar esse método para inserir a tipoServico no banco de dados
+    	$this->validarDadosTipoServico();
+        $this->tipoServico->setIdTipoServico($_POST['idTipoServico']);
+
+        return $this->serviceTipoServico->excluirTipoServico($this->tipoServico); 
     }
 
 
     public function getListaTipoServicos(){
-    	return $this->tipoServicoDAO->getTiposServicos();
+    	return $this->serviceTipoServico->getListaTipoServicos();
     }
+
+    public function validarDadosTipoServico(){
+
+         $nome = $_POST['nome'];
+         $unidade = $_POST['unidade'];
+         $tempo = $_POST['tempo'];
+
+
+         if($nome == "" || $unidade == "" || $tempo == ""){
+            return false;
+         } 
+
+         $this->tipoServico->setNome($nome);
+         $this->tipoServico->setUnidadeMedida($unidade);
+         $this->tipoServico->setTempo($tempo);
+
+         return true;
+    }
+    
+    
+}
+
+if(isset($_POST['idTipoServico']) || isset($_POST['listaTipoServicos']) || isset($_POST['excluirTipoServico']) || isset($_POST['addTipoServico']) ){
+    $controleCadastroTipoServico = new ControleCadastroTipoServico();
+}
+
 
 
     
