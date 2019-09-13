@@ -9,7 +9,7 @@ jQuery(document).ready(function($){
         $.ajax({
                 type: 'POST',
                 dataType: 'json',
-                url: 'http://pds.dev.anaju.me/business/services/ajaxGeral.php',
+                url: 'http://pds.dev.anaju.me/business/controller/controleCadastroServico.php',
                 async: true,
                 data: dados,
             error: function(enviado) {
@@ -43,7 +43,7 @@ function carregarServicos(tipo){
     $.ajax({
             type: 'POST',
             dataType: 'json',
-            url: 'http://pds.dev.anaju.me/business/services/ajaxGeral.php',
+            url: 'http://pds.dev.anaju.me/business/controller/controleCadastroServico.php',
             async: true,
             data: {"listaServicos": true},
             error: function(enviado) {
@@ -71,7 +71,7 @@ function removerServico(id_remover){
     $.ajax({
             type: 'POST',
             dataType: 'json',
-            url: 'http://pds.dev.anaju.me/business/services/ajaxGeral.php',
+            url: 'http://pds.dev.anaju.me/business/controller/controleCadastroServico.php',
             async: true,
             data: {"excluirServico": id_remover},
         error: function(enviado) {
@@ -116,6 +116,7 @@ function resultCarregarServicos(listaServicos){
         tabelaServicos = tabelaServicos+'<td class="nome_servico">'+jsonLista[k].nome+'</td>';
 
         tabelaServicos = tabelaServicos+'<td class="local_servico">'+jsonLista[k].localizacao+'</td>';
+        tabelaServicos = tabelaServicos+'<td class="data_servico">'+jsonLista[k].data_cadastro+'</td>';
         tabelaServicos = tabelaServicos+'<td class="id_tipo_servico">'+jsonLista[k].id_tipo_servico+'</td>';
         tabelaServicos = tabelaServicos+'<td class="quantidade_servico">'+jsonLista[k].quantidade+'</td>';
         tabelaServicos = tabelaServicos+'<td class="status_supervisor">'+jsonLista[k].status+'</td>';
@@ -141,7 +142,7 @@ function resultCarregarServicos(listaServicos){
         $("#form_input_id").val( $("#servico"+id_editar).find(".id_servico").text() );
         $("#form_input_nome").val( $("#servico"+id_editar).find(".nome_servico").text() );
         $("#form_input_local").val( $("#servico"+id_editar).find(".local_servico").text() );
-        $("#form_input_data").val( $("#servico"+id_editar).find(".data").text() );
+        $("#form_input_data").val( $("#servico"+id_editar).find(".data_servico").text() );
         $("#form_input_status").val( $("#servico"+id_editar).find(".status_supervisor").text() );
         $("#exampleInputQuantidade").val( $("#servico"+id_editar).find(".quantidade_servico").text() );
         $("#listaTiposServicosOption").val( $("#servico"+id_editar).find(".id_tipo_servico").text() );
@@ -342,12 +343,8 @@ jQuery(document).ready(function($){
                 alert("Cadastrado com sucesso.");
                 $('#form_funcionario')[0].reset();
                 carregarFuncionarios("tabela");
-            }
-            if(ret == "2"){
-                alert("Erro na valiação.");
-            }
-            if(ret == "3"){
-                alert("Erro ao inserir.");
+            }else{
+                alert(JSON.parse(ret).responseText);
             }
     	}
 
@@ -402,13 +399,11 @@ function removerFuncionario(id_remover){
 	 	});
 }
 function resultFormRemoverFuncionario(ret, id_remover){
- 	if(ret == "1"){
+    if(ret == "1"){
         alert("Funcionário excluído");
  		carregarFuncionarios("tabela");
     }else{
-        if(ret == "0"){
-            alert("Erro na remoção.");
-        }   
+        alert(JSON.parse(ret).responseText);  
     }
     
 }
@@ -487,7 +482,7 @@ jQuery(document).ready(function($){
             $.ajax({
                     type: 'POST',
                     dataType: 'json',
-                    url: 'http://pds.dev.anaju.me/business/services/ajaxGeral.php',
+                    url: 'http://pds.dev.anaju.me/business/controller/controleCadastroTipoServico.php',
                     async: true,
                     data: dados,
                 error: function(enviado) {
@@ -523,7 +518,7 @@ function carregarTipoServico(tipo){
     $.ajax({
             type: 'POST',
             dataType: 'json',
-            url: 'http://pds.dev.anaju.me/business/services/ajaxGeral.php',
+            url: 'http://pds.dev.anaju.me/business/controller/controleCadastroTipoServico.php',
             async: true,
             data: {"listaTipoServicos": true}, // listaFuncionarios?
         error: function(enviado) {
@@ -548,7 +543,7 @@ function removerTipoServico(id_remover){
     $.ajax({
             type: 'POST',
             dataType: 'json',
-            url: 'http://pds.dev.anaju.me/business/services/ajaxGeral.php',
+            url: 'http://pds.dev.anaju.me/business/controller/controleCadastroTipoServico.php',
             async: true,
             data: {"excluirTipoServico": id_remover},
         error: function(enviado) {
@@ -561,6 +556,7 @@ function removerTipoServico(id_remover){
 }
 function resultFormRemoverTipoServico(ret, id_remover){
     if(ret == "1"){
+        alert("Tipo de serviço removido!")
         carregarTipoServico("tabela");
     }else{
         alert("Erro na remoção.");

@@ -5,8 +5,10 @@ include_once($_SERVER["DOCUMENT_ROOT"]."/business/services/serviceFuncionario.ph
 
 class ControleCadastroFuncionario{
     public $serviceFuncionario;
+    public $funcionario;
 
     public function __construct(){
+        $this->funcionario = new Funcionario();
         $this->serviceFuncionario = new ServiceFuncionario();
         $this->verificarRequisicao();
     }
@@ -14,6 +16,7 @@ class ControleCadastroFuncionario{
     public function verificarRequisicao(){
         if(isset($_POST['idFuncionario'])){
             if($_POST['idFuncionario'] != ""){
+                $this->funcionario->setIdFuncionario($_POST['idFuncionario']);
                 echo $this->alterarFuncionario();
             }else{
                 if(isset($_POST['addFuncionario'])){
@@ -27,117 +30,74 @@ class ControleCadastroFuncionario{
         }
      
         if(isset($_POST['excluirFuncionario'])){
+            $this->funcionario->setIdFuncionario($_POST['excluirFuncionario']);
             echo $this->excluirFuncionario();
-        }
-        
+        }   
     }
 
-    // return 1: sucesso
-    // return 2: erro na validação
-    // return 3: erro ao inserir
-    public function addFuncionario(){    
-        if($this->validarDadosFuncionario() == 1){
-            if($this->serviceFuncionario->addFuncionario() == 1){
-                return 1;
-            }
-        }else{
-            return 2;
-        }
-        return 3;
+    public function setAtrFuncionario($nome, $telefone, $email, $supervisor_chefe){
+        $this->funcionario->setNome($nome);
+        $this->funcionario->setTelefone($telefone);
+        $this->funcionario->setEmail($email);
+        $this->funcionario->setIdSupervisorChefe($supervisor_chefe);
     }
 
-    public function alterarFuncionario(){
-        $this->validarDadosFuncionario();
-        $id = $_POST['idFuncionario'];
-        $this->validarIdFuncionario($_POST['idFuncionario']);
-        $retorno = $this->serviceFuncionario->alterarFuncionario();
-        if($retorno == 1){
-            return 1;
-        }
-        return 0;
-    }
-
-    public function excluirFuncionario(){
-        $idFuncionario = $_POST['excluirFuncionario'];
-        $this->validarIdFuncionario($idFuncionario); 
-        if($this->serviceFuncionario->excluirFuncionario() == 1){
-            return 1;
-        } 
-        return 0;
-    }
-
-    public function listarFuncionarios(){
-        $retorno = $this->serviceFuncionario->getListaFuncionarios();
-        if($retorno != 0){
-            return $retorno;
-        }
-        return 0;
-    }
-
-    // return 0: erro na validação
-    // return 1: campos validadas e setados
-    public function validarDadosFuncionario(){
+    public function setAtrPostsFuncionario(){
         $nome = $_POST['nome'];
         $telefone = $_POST['telefone'];
         $email = $_POST['email'];
         $supervisor_chefe = $_POST['supervisor_chefe'];
+        $this->setAtrFuncionario($nome, $telefone, $email, $supervisor_chefe);
+    }
     
-        if($this->validarNomeFuncionario($nome) != 1){
-            return 0;
-        }
-        if($this->validarTelefoneFuncionario($telefone) != 1){
-            return 0;
-        }
-        if($this->validarEmailFuncionario($email) != 1){
-            return 0;
-        }
 
-        if($this->validarChefeFuncionario($supervisor_chefe) != 1){
-            return 0;
-        }     
-
+    public function addFuncionario(){    
+        $this->setAtrPostsFuncionario();
+        try {    
+            $this->serviceFuncionario->addFuncionario($this->getFuncionario());
+        } catch (ServiceException $e) {
+            return $e->getMessage(); 
+        } catch (DataException $d) {
+            return $d->getMessage(); 
+        }
         return 1;
     }
 
-    public function validarNomeFuncionario($nome){
-        if($nome == ""){
-            return 0;
+    public function alterarFuncionario(){
+        try {    
+            $this->serviceFuncionario->alterarFuncionario($this->getFuncionario());
+        } catch (ServiceException $e) {
+            return $e->getMessage(); 
+        } catch (DataException $d) {
+            return $d->getMessage(); 
         }
-        $this->serviceFuncionario->setNomeFuncionario($nome);
         return 1;
     }
 
-    public function validarTelefoneFuncionario($telefone){
-        if($telefone == ""){
-            return 0;
+    public function excluirFuncionario(){
+        try {    
+            $this->serviceFuncionario->excluirFuncionario($this->getFuncionario());
+        } catch (ServiceException $e) {
+            return $e->getMessage(); 
+        } catch (DataException $d) {
+            return $d->getMessage(); 
         }
-        $this->serviceFuncionario->setTelefoneFuncionario($telefone);
         return 1;
     }
 
-    public function validarEmailFuncionario($email){
-        if(($email == "") || (strpos($email, "@") === false)){
-            return 0;
+    public function listarFuncionarios(){
+        try {    
+            $retorno = $this->serviceFuncionario->getListaFuncionarios();
+        } catch (DataException $d) {
+            return $d->getMessage(); 
         }
-        $this->serviceFuncionario->setEmailFuncionario($email);
-        return 1;
+        return $retorno;
     }
 
-    public function validarChefeFuncionario($chefe){
-        if(!is_numeric($chefe)){
-            return 0;
-        }
-        $this->serviceFuncionario->setIdSupervisorChefeFuncionario($chefe);
-        return 1;
+    public function getFuncionario(){
+        return $this->funcionario;
     }
 
-    public function validarIdFuncionario($id_funcionario){
-        if(!is_numeric($id_funcionario)){
-            return 0;
-        }
-        $this->serviceFuncionario->setIdFuncionario($id_funcionario);
-        return 1;
-    }
 
 
 }

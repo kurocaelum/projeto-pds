@@ -701,3 +701,195 @@ Stack trace:
 #0 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroSupervisor.php(98): ControleCadastroSupervisor->setFuncionariosAdministrados(Array)
 #1 {main}
   thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroSupervisor.php on line 56
+[11-Sep-2019 09:59:46 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to undefined method ServiceFuncionario::setIdFuncionarioFuncionario() in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroFuncionario.php:138
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroFuncionario.php(62): ControleCadastroFuncionario->validarIdFuncionario('36')
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroFuncionario.php(30): ControleCadastroFuncionario->excluirFuncionario()
+#2 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroFuncionario.php(11): ControleCadastroFuncionario->verificarRequisicao()
+#3 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroFuncionario.php(147): ControleCadastroFuncionario->__construct()
+#4 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroFuncionario.php on line 138
+[11-Sep-2019 09:59:57 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to undefined method ServiceFuncionario::setIdFuncionarioFuncionario() in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroFuncionario.php:138
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroFuncionario.php(62): ControleCadastroFuncionario->validarIdFuncionario('36')
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroFuncionario.php(30): ControleCadastroFuncionario->excluirFuncionario()
+#2 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroFuncionario.php(11): ControleCadastroFuncionario->verificarRequisicao()
+#3 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroFuncionario.php(147): ControleCadastroFuncionario->__construct()
+#4 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroFuncionario.php on line 138
+[11-Sep-2019 10:00:27 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function setIdFuncionario() on null in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceFuncionario.php:61
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroFuncionario.php(138): ServiceFuncionario->setIdFuncionario('36')
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroFuncionario.php(62): ControleCadastroFuncionario->validarIdFuncionario('36')
+#2 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroFuncionario.php(30): ControleCadastroFuncionario->excluirFuncionario()
+#3 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroFuncionario.php(11): ControleCadastroFuncionario->verificarRequisicao()
+#4 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroFuncionario.php(147): ControleCadastroFuncionario->__construct()
+#5 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceFuncionario.php on line 61
+[11-Sep-2019 10:01:01 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function setIdFuncionario() on null in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceFuncionario.php:61
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroFuncionario.php(138): ServiceFuncionario->setIdFuncionario('36')
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroFuncionario.php(62): ControleCadastroFuncionario->validarIdFuncionario('36')
+#2 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroFuncionario.php(30): ControleCadastroFuncionario->excluirFuncionario()
+#3 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroFuncionario.php(11): ControleCadastroFuncionario->verificarRequisicao()
+#4 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroFuncionario.php(147): ControleCadastroFuncionario->__construct()
+#5 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceFuncionario.php on line 61
+[11-Sep-2019 10:02:16 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function setIdFuncionario() on null in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceFuncionario.php:61
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroFuncionario.php(138): ServiceFuncionario->setIdFuncionario('36')
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroFuncionario.php(62): ControleCadastroFuncionario->validarIdFuncionario('36')
+#2 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroFuncionario.php(30): ControleCadastroFuncionario->excluirFuncionario()
+#3 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroFuncionario.php(11): ControleCadastroFuncionario->verificarRequisicao()
+#4 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroFuncionario.php(147): ControleCadastroFuncionario->__construct()
+#5 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceFuncionario.php on line 61
+[11-Sep-2019 10:04:08 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function setNome() on null in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceFuncionario.php:57
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroFuncionario.php(106): ServiceFuncionario->setNomeFuncionario('asdasd')
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroFuncionario.php(85): ControleCadastroFuncionario->validarNomeFuncionario('asdasd')
+#2 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroFuncionario.php(39): ControleCadastroFuncionario->validarDadosFuncionario()
+#3 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroFuncionario.php(20): ControleCadastroFuncionario->addFuncionario()
+#4 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroFuncionario.php(11): ControleCadastroFuncionario->verificarRequisicao()
+#5 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/co in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceFuncionario.php on line 57
+[11-Sep-2019 10:04:50 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function setTelefone() on null in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceFuncionario.php:73
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroFuncionario.php(114): ServiceFuncionario->setTelefoneFuncionario('324234')
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroFuncionario.php(88): ControleCadastroFuncionario->validarTelefoneFuncionario('324234')
+#2 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroFuncionario.php(39): ControleCadastroFuncionario->validarDadosFuncionario()
+#3 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroFuncionario.php(20): ControleCadastroFuncionario->addFuncionario()
+#4 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroFuncionario.php(11): ControleCadastroFuncionario->verificarRequisicao()
+#5 /home1/anaju876/public_html/pds.dev.anaju.me/business/c in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceFuncionario.php on line 73
+[12-Sep-2019 17:57:49 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroTipoServico.php on line 99
+[12-Sep-2019 17:58:35 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroTipoServico.php on line 99
+[12-Sep-2019 17:58:43 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroTipoServico.php on line 99
+[12-Sep-2019 17:58:53 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroTipoServico.php on line 99
+[12-Sep-2019 18:46:23 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to undefined method Servico::setId() in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroServico.php:57
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroServico.php(25): ControleCadastroServico->alterarServico()
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroServico.php(17): ControleCadastroServico->verificarRequisicao()
+#2 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroServico.php(103): ControleCadastroServico->__construct()
+#3 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroServico.php on line 57
+[12-Sep-2019 19:46:16 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function getIdServico() on null in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/servicoDAO.php:47
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceServico.php(32): ServicoDAO->delete(NULL)
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroServico.php(68): ServiceServico->excluirServico(NULL)
+#2 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroServico.php(36): ControleCadastroServico->excluirServico()
+#3 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroServico.php(17): ControleCadastroServico->verificarRequisicao()
+#4 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroServico.php(104): ControleCadastroServico->__construct()
+#5 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/servicoDAO.php on line 47
+[12-Sep-2019 19:51:10 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function getIdServico() on string in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/servicoDAO.php:47
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceServico.php(32): ServicoDAO->delete('24')
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroServico.php(67): ServiceServico->excluirServico('24')
+#2 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroServico.php(36): ControleCadastroServico->excluirServico()
+#3 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroServico.php(17): ControleCadastroServico->verificarRequisicao()
+#4 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroServico.php(103): ControleCadastroServico->__construct()
+#5 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/servicoDAO.php on line 47
+[12-Sep-2019 20:02:13 America/Sao_Paulo] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function ControleCadastroTipoServico::addTipoServico(), 0 passed in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroTipoServico.php on line 27 and exactly 1 expected in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroTipoServico.php:41
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroTipoServico.php(27): ControleCadastroTipoServico->addTipoServico()
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroTipoServico.php(16): ControleCadastroTipoServico->verificarRequisicao()
+#2 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroTipoServico.php(92): ControleCadastroTipoServico->__construct()
+#3 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroTipoServico.php on line 41
+[12-Sep-2019 20:02:32 America/Sao_Paulo] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function ControleCadastroTipoServico::addTipoServico(), 0 passed in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroTipoServico.php on line 27 and exactly 1 expected in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroTipoServico.php:41
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroTipoServico.php(27): ControleCadastroTipoServico->addTipoServico()
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroTipoServico.php(16): ControleCadastroTipoServico->verificarRequisicao()
+#2 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroTipoServico.php(92): ControleCadastroTipoServico->__construct()
+#3 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroTipoServico.php on line 41
+[12-Sep-2019 21:59:31 America/Sao_Paulo] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function ServiceServico::validarDadosServico(), 0 passed in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceServico.php on line 31 and exactly 1 expected in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceServico.php:48
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceServico.php(31): ServiceServico->validarDadosServico()
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroServico.php(73): ServiceServico->alterarServico(Object(Servico))
+#2 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroServico.php(25): ControleCadastroServico->alterarServico()
+#3 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroServico.php(17): ControleCadastroServico->verificarRequisicao()
+#4 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroServico.php(91): ControleCadastroServico->__c in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceServico.php on line 48
+[12-Sep-2019 21:59:50 America/Sao_Paulo] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function ServiceServico::validarDadosServico(), 0 passed in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceServico.php on line 31 and exactly 1 expected in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceServico.php:48
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceServico.php(31): ServiceServico->validarDadosServico()
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroServico.php(73): ServiceServico->alterarServico(Object(Servico))
+#2 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroServico.php(25): ControleCadastroServico->alterarServico()
+#3 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroServico.php(17): ControleCadastroServico->verificarRequisicao()
+#4 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroServico.php(91): ControleCadastroServico->__c in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceServico.php on line 48
+[12-Sep-2019 22:00:00 America/Sao_Paulo] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function ServiceServico::validarDadosServico(), 0 passed in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceServico.php on line 31 and exactly 1 expected in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceServico.php:48
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceServico.php(31): ServiceServico->validarDadosServico()
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroServico.php(73): ServiceServico->alterarServico(Object(Servico))
+#2 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroServico.php(25): ControleCadastroServico->alterarServico()
+#3 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroServico.php(17): ControleCadastroServico->verificarRequisicao()
+#4 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroServico.php(91): ControleCadastroServico->__c in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceServico.php on line 48
+[13-Sep-2019 14:48:28 America/Sao_Paulo] PHP Warning:  include_once(/home1/anaju876/public_html/pds.dev.anaju.me/business/exception/FuncionarioException.php): failed to open stream: No such file or directory in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/funcionarioDAO.php on line 3
+[13-Sep-2019 14:48:28 America/Sao_Paulo] PHP Warning:  include_once(): Failed opening '/home1/anaju876/public_html/pds.dev.anaju.me/business/exception/FuncionarioException.php' for inclusion (include_path='.:/opt/php71/lib/php') in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/funcionarioDAO.php on line 3
+[13-Sep-2019 14:48:28 America/Sao_Paulo] PHP Warning:  include_once(/home1/anaju876/public_html/pds.dev.anaju.me/business/exception/FuncionarioException.php): failed to open stream: No such file or directory in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceFuncionario.php on line 5
+[13-Sep-2019 14:48:28 America/Sao_Paulo] PHP Warning:  include_once(): Failed opening '/home1/anaju876/public_html/pds.dev.anaju.me/business/exception/FuncionarioException.php' for inclusion (include_path='.:/opt/php71/lib/php') in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceFuncionario.php on line 5
+[13-Sep-2019 14:49:18 America/Sao_Paulo] PHP Warning:  include_once(/home1/anaju876/public_html/pds.dev.anaju.me/business/exception/FuncionarioException.php): failed to open stream: No such file or directory in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceFuncionario.php on line 5
+[13-Sep-2019 14:49:18 America/Sao_Paulo] PHP Warning:  include_once(): Failed opening '/home1/anaju876/public_html/pds.dev.anaju.me/business/exception/FuncionarioException.php' for inclusion (include_path='.:/opt/php71/lib/php') in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceFuncionario.php on line 5
+[13-Sep-2019 14:52:25 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to undefined function getMessage() in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceFuncionario.php:22
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroFuncionario.php(59): ServiceFuncionario->addFuncionario(Object(Funcionario))
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroFuncionario.php(23): ControleCadastroFuncionario->addFuncionario()
+#2 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroFuncionario.php(13): ControleCadastroFuncionario->verificarRequisicao()
+#3 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroFuncionario.php(86): ControleCadastroFuncionario->__construct()
+#4 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceFuncionario.php on line 22
+[13-Sep-2019 14:52:30 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to undefined function getMessage() in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceFuncionario.php:22
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroFuncionario.php(59): ServiceFuncionario->addFuncionario(Object(Funcionario))
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroFuncionario.php(23): ControleCadastroFuncionario->addFuncionario()
+#2 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroFuncionario.php(13): ControleCadastroFuncionario->verificarRequisicao()
+#3 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroFuncionario.php(86): ControleCadastroFuncionario->__construct()
+#4 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceFuncionario.php on line 22
+[13-Sep-2019 14:53:07 America/Sao_Paulo] PHP Fatal error:  Uncaught FuncionarioException: Nome do funcionário NULL
+ in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceFuncionario.php:23
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroFuncionario.php(59): ServiceFuncionario->addFuncionario(Object(Funcionario))
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroFuncionario.php(23): ControleCadastroFuncionario->addFuncionario()
+#2 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroFuncionario.php(13): ControleCadastroFuncionario->verificarRequisicao()
+#3 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroFuncionario.php(86): ControleCadastroFuncionario->__construct()
+#4 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceFuncionario.php on line 23
+[13-Sep-2019 14:58:47 America/Sao_Paulo] PHP Fatal error:  Uncaught FuncionarioException: asdsda in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceFuncionario.php:23
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroFuncionario.php(59): ServiceFuncionario->addFuncionario(Object(Funcionario))
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroFuncionario.php(23): ControleCadastroFuncionario->addFuncionario()
+#2 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroFuncionario.php(13): ControleCadastroFuncionario->verificarRequisicao()
+#3 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroFuncionario.php(86): ControleCadastroFuncionario->__construct()
+#4 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceFuncionario.php on line 23
+[13-Sep-2019 15:22:13 America/Sao_Paulo] PHP Warning:  include_once(/home1/anaju876/public_html/pds.dev.anaju.me/business/exception/Exception.php): failed to open stream: No such file or directory in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/funcionarioDAO.php on line 3
+[13-Sep-2019 15:22:13 America/Sao_Paulo] PHP Warning:  include_once(): Failed opening '/home1/anaju876/public_html/pds.dev.anaju.me/business/exception/Exception.php' for inclusion (include_path='.:/opt/php71/lib/php') in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/funcionarioDAO.php on line 3
+[13-Sep-2019 16:10:19 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected ')' in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceFuncionario.php on line 62
+[13-Sep-2019 16:15:31 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to undefined function setIdByPost() in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroFuncionario.php:19
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroFuncionario.php(13): ControleCadastroFuncionario->verificarRequisicao()
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroFuncionario.php(96): ControleCadastroFuncionario->__construct()
+#2 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroFuncionario.php on line 19
+[13-Sep-2019 16:27:44 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to undefined method FuncionarioDAO::getFuncionarioById() in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceFuncionario.php:39
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceFuncionario.php(28): ServiceFuncionario->verificarDataId(Object(Funcionario))
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroFuncionario.php(81): ServiceFuncionario->excluirFuncionario(Object(Funcionario))
+#2 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroFuncionario.php(34): ControleCadastroFuncionario->excluirFuncionario()
+#3 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroFuncionario.php(13): ControleCadastroFuncionario->verificarRequisicao()
+#4 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroFuncionario.php(108): ControleCadastroFuncionario->__construct()
+#5 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceFuncionario.php on line 39
+[13-Sep-2019 16:42:37 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_error() in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/funcionarioDAO.php:57
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceFuncionario.php(39): FuncionarioDAO->getFuncionarioById(NULL)
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceFuncionario.php(28): ServiceFuncionario->verificarDataId(Object(Funcionario))
+#2 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroFuncionario.php(81): ServiceFuncionario->excluirFuncionario(Object(Funcionario))
+#3 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroFuncionario.php(34): ControleCadastroFuncionario->excluirFuncionario()
+#4 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroFuncionario.php(13): ControleCadastroFuncionario->verificarRequisicao()
+#5 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroFuncionario.php(108): Control in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/funcionarioDAO.php on line 57
+[13-Sep-2019 16:53:21 America/Sao_Paulo] PHP Recoverable fatal error:  Object of class mysqli_result could not be converted to string in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/funcionarioDAO.php on line 58
+[13-Sep-2019 16:54:03 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/funcionarioDAO.php on line 61
+[13-Sep-2019 17:06:24 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroFuncionario.php on line 20
+[13-Sep-2019 17:06:28 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroFuncionario.php on line 20

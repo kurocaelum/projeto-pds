@@ -2,76 +2,68 @@
 
 include_once($_SERVER["DOCUMENT_ROOT"]."/business/models/Funcionario.php");
 include_once($_SERVER["DOCUMENT_ROOT"]."/data/DAO/funcionarioDAO.php");
+include_once($_SERVER["DOCUMENT_ROOT"]."/business/exception/serviceException.php");
+include_once($_SERVER["DOCUMENT_ROOT"]."/business/exception/dataException.php");
 
 
 class ServiceFuncionario{
     public $funcionarioDAO; // objeto dao para salvar as funcionarios e obter dados.
-    public $funcionario;
 
     public function __construct(){
         $this->funcionarioDAO = new FuncionarioDAO();
-        $this->funcionario = new Funcionario();
     }
 
-    public function getFuncionario(){
-        return $this->funcionario;
+    public function addFuncionario($funcionario){
+        $this->verificarFuncionario($funcionario);
+        $this->funcionarioDAO->insert($funcionario);
     }
 
-    // return 1: sucesso
-    // return 0: erro na inserção
-    public function addFuncionario(){
-        if($this->funcionarioDAO->insert($this->getFuncionario()) == 1){
-            return 1;
-        }
-        return 0;
+    public function alterarFuncionario($funcionario){
+        $this->verificarDataId($funcionario);
+        $this->verificarFuncionario($funcionario);
+        $this->funcionarioDAO->update($funcionario);
     }
 
-    // return 1: sucesso
-    // return 0: erro na atualização
-    // return 2: erro no supervisor
-    public function alterarFuncionario(){
-        if($this->funcionarioDAO->update($this->getFuncionario()) == 1){
-            return 1;
-        }
-        return 0;
+    public function excluirFuncionario($funcionario){
+        $this->verificarDataId($funcionario);
+        $this->funcionarioDAO->delete($funcionario);
     }
-
-    public function excluirFuncionario(){
-        if($this->funcionarioDAO->delete($this->getFuncionario()) == 1){
-            return 1;
-        }
-        return 0;
-    }
-
 
     public function getListaFuncionarios(){
         $retorno = $this->funcionarioDAO->getFuncionarios();
-        if($retorno != 0){
-            return $retorno;
+        return $retorno;
+    }
+
+    //verifica se o funcionário está cadastrado, caso contrário retorna exceção
+    public function verificarDataId($funcionario){
+        // echo $this->funcionarioDAO->getFuncionarioById($funcionario->getIdFuncionario());
+        // echo "string";
+        if(count($this->funcionarioDAO->getFuncionarioById($funcionario->getIdFuncionario())) == 0){
+            throw new ServiceException("Funcionário não encontrado.");
         }
-        return 0;
+    }
+
+    public function verificarFuncionario($funcionario){
+        $ret = "";
+
+        if($funcionario->getNome() == ""){
+            $ret = $ret."Nome não informado.\n";
+        }
+
+        if($funcionario->getEmail() == ""){
+            $ret = $ret."Email não informado.\n";
+        }
+        
+        if($funcionario->getTelefone() == ""){
+            $ret = $ret."Telefone não informado.\n";
+        }
+
+        if($ret != ""){
+            throw new ServiceException($ret);
+        }
     }
 
 
-    public function setNomeFuncionario($nome){
-        $this->getFuncionario()->setNome($nome);
-    }
-
-    public function setIdFuncionario($idFuncionario){
-        $this->getFuncionario()->setIdFuncionario($idFuncionario);
-    }
-
-    public function setIdSupervisorChefeFuncionario($idSupervisorChefe){
-       $this->getFuncionario()->setIdSupervisorChefe($setIdSupervisorChefe);
-    }
-
-    public function setEmailFuncionario($email){
-        $this->getFuncionario()->setEmail($email);
-    }
-    
-    public function setTelefoneFuncionario($telefone){
-        $this->getFuncionario()->setTelefone($telefone);
-    }
 
     
     
