@@ -13,19 +13,19 @@
 		<div class="form-group">
 			<div class="form-group">
 			    <label for="form_input_nome">Nome</label>
-			    <input name="nome" type="text" class="form-control" id="form_input_nome" placeholder="">
+			    <input name="nome" required type="text" class="form-control" id="form_input_nome" placeholder="">
 		  	</div>
 		  	<div class="form-group">
 			    <label for="form_input_local">Local</label>
-			    <input name="local" type="text" class="form-control" id="form_input_local" placeholder="">
+			    <input name="local" required type="text" class="form-control" id="form_input_local" placeholder="">
 		  	</div>
 		  	<div class="form-group">
 			    <label for="form_input_data">Data</label>
-			    <input name="data" type="date" class="form-control" id="form_input_data" placeholder="">
+			    <input name="data" required type="date" class="form-control" id="form_input_data" placeholder="">
 		  	</div>
 		  	<div class="form-group">
 			    <label for="form_input_status">Status</label>
-			    <input name="status" type="text" class="form-control" id="form_input_status" placeholder="">
+			    <input name="status" required type="text" class="form-control" id="form_input_status" placeholder="">
 		  	</div>
 		    <label for="listaTiposServicosOption">Tipo de serviço</label>
 		    <select class="form-control exibirListaTiposServicosOption" name="tipoServico" id="listaTiposServicosOption">
@@ -33,7 +33,7 @@
 		   	
 		   	<div class="form-group">
 			    <label for="exampleInputQuantidade">Quantidade</label>
-			    <input name="quantidade" type="text" class="form-control" id="exampleInputQuantidade" placeholder="">
+			    <input name="quantidade" required type="text" class="form-control" id="exampleInputQuantidade" placeholder="">
 		  	</div>
 		
 
@@ -51,6 +51,7 @@
 			      <th scope="col">ID serviço</th>
 			      <th scope="col">Nome</th>
 			      <th scope="col">Local</th>
+			      <th scope="col">Data</th>
 			      <th scope="col">ID Tipo de serviço</th>
 			      <th scope="col">Quantidade</th>
 			      <th scope="col">Status</th>

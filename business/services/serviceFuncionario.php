@@ -14,23 +14,47 @@ class ServiceFuncionario{
     }
 
     public function addFuncionario($funcionario){
-        $this->verificarFuncionario($funcionario);
-        $this->funcionarioDAO->insert($funcionario);
+        try {
+            $this->verificarFuncionario($funcionario);
+            $this->funcionarioDAO->insert($funcionario);
+        } catch (ServiceException $s) {
+            throw $s;
+        } catch (DataException $d) {
+            throw $d;
+        } 
     }
 
     public function alterarFuncionario($funcionario){
-        $this->verificarDataId($funcionario);
-        $this->verificarFuncionario($funcionario);
-        $this->funcionarioDAO->update($funcionario);
+        try {
+            $this->verificarDataId($funcionario);
+            $this->verificarFuncionario($funcionario);
+            $this->funcionarioDAO->update($funcionario);
+        } catch (ServiceException $s) {
+            throw $s;
+        } catch (DataException $d) {
+            throw $d;
+        } 
     }
 
     public function excluirFuncionario($funcionario){
-        $this->verificarDataId($funcionario);
-        $this->funcionarioDAO->delete($funcionario);
+        try {
+            $this->verificarDataId($funcionario);
+            $this->funcionarioDAO->delete($funcionario);
+        } catch (ServiceException $s) {
+            throw $s;
+        } catch (DataException $d) {
+            throw $d;
+        } 
     }
 
     public function getListaFuncionarios(){
-        $retorno = $this->funcionarioDAO->getFuncionarios();
+        try {
+            $retorno = $this->funcionarioDAO->getFuncionarios();
+        } catch (ServiceException $s) {
+            throw $s;
+        } catch (DataException $d) {
+            throw $d;
+        } 
         return $retorno;
     }
 
@@ -52,10 +76,20 @@ class ServiceFuncionario{
 
         if($funcionario->getEmail() == ""){
             $ret = $ret."Email não informado.\n";
+        }else{
+            if(count($this->funcionarioDAO->getFuncionarioByEmail($funcionario->getEmail())) != 0){
+                throw new ServiceException("Email já cadastrado.");
+            }
         }
         
         if($funcionario->getTelefone() == ""){
             $ret = $ret."Telefone não informado.\n";
+        }
+
+        if($funcionario->idSupervisorChefe() != ""){
+            if($funcionario->idSupervisorChefe() == $funcionario->idFuncionario()){
+                $ret = $ret."ID chefe igual ao ID do funcionário.\n";
+            }
         }
 
         if($ret != ""){

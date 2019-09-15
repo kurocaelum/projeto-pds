@@ -893,3 +893,276 @@ Stack trace:
 [13-Sep-2019 16:54:03 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/funcionarioDAO.php on line 61
 [13-Sep-2019 17:06:24 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroFuncionario.php on line 20
 [13-Sep-2019 17:06:28 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroFuncionario.php on line 20
+[13-Sep-2019 22:20:36 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to undefined method Funcionario::idSupervisorChefe() in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceFuncionario.php:89
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceFuncionario.php(18): ServiceFuncionario->verificarFuncionario(Object(Funcionario))
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroFuncionario.php(57): ServiceFuncionario->addFuncionario(Object(Funcionario))
+#2 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroFuncionario.php(23): ControleCadastroFuncionario->addFuncionario()
+#3 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroFuncionario.php(13): ControleCadastroFuncionario->verificarRequisicao()
+#4 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroFuncionario.php(107): ControleCadastroFuncionario->__construct()
+#5 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceFuncionario.php on line 89
+[13-Sep-2019 22:21:10 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to undefined method Funcionario::idSupervisorChefe() in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceFuncionario.php:89
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceFuncionario.php(18): ServiceFuncionario->verificarFuncionario(Object(Funcionario))
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroFuncionario.php(57): ServiceFuncionario->addFuncionario(Object(Funcionario))
+#2 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroFuncionario.php(23): ControleCadastroFuncionario->addFuncionario()
+#3 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroFuncionario.php(13): ControleCadastroFuncionario->verificarRequisicao()
+#4 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroFuncionario.php(107): ControleCadastroFuncionario->__construct()
+#5 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceFuncionario.php on line 89
+[13-Sep-2019 22:21:45 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to undefined method Funcionario::idSupervisorChefe() in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceFuncionario.php:89
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceFuncionario.php(18): ServiceFuncionario->verificarFuncionario(Object(Funcionario))
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroFuncionario.php(57): ServiceFuncionario->addFuncionario(Object(Funcionario))
+#2 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroFuncionario.php(23): ControleCadastroFuncionario->addFuncionario()
+#3 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroFuncionario.php(13): ControleCadastroFuncionario->verificarRequisicao()
+#4 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroFuncionario.php(107): ControleCadastroFuncionario->__construct()
+#5 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceFuncionario.php on line 89
+[13-Sep-2019 22:21:45 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to undefined method Funcionario::idSupervisorChefe() in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceFuncionario.php:89
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceFuncionario.php(18): ServiceFuncionario->verificarFuncionario(Object(Funcionario))
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroFuncionario.php(57): ServiceFuncionario->addFuncionario(Object(Funcionario))
+#2 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroFuncionario.php(23): ControleCadastroFuncionario->addFuncionario()
+#3 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroFuncionario.php(13): ControleCadastroFuncionario->verificarRequisicao()
+#4 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroFuncionario.php(107): ControleCadastroFuncionario->__construct()
+#5 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceFuncionario.php on line 89
+[13-Sep-2019 22:30:21 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to undefined method Funcionario::idSupervisorChefe() in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceFuncionario.php:89
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceFuncionario.php(18): ServiceFuncionario->verificarFuncionario(Object(Funcionario))
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroFuncionario.php(57): ServiceFuncionario->addFuncionario(Object(Funcionario))
+#2 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroFuncionario.php(23): ControleCadastroFuncionario->addFuncionario()
+#3 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroFuncionario.php(13): ControleCadastroFuncionario->verificarRequisicao()
+#4 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroFuncionario.php(107): ControleCadastroFuncionario->__construct()
+#5 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceFuncionario.php on line 89
+[14-Sep-2019 14:41:31 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Class 'ServiceException' not found in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceServico.php:82
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceServico.php(22): ServiceServico->validarDadosServico(Object(Servico))
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroServico.php(64): ServiceServico->addServico(Object(Servico))
+#2 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroServico.php(28): ControleCadastroServico->addServico()
+#3 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroServico.php(17): ControleCadastroServico->verificarRequisicao()
+#4 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroServico.php(108): ControleCadastroServico->__construct()
+#5 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceServico.php on line 82
+[14-Sep-2019 14:47:58 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Class 'ServiceException' not found in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceServico.php:82
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceServico.php(22): ServiceServico->validarDadosServico(Object(Servico))
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroServico.php(64): ServiceServico->addServico(Object(Servico))
+#2 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroServico.php(28): ControleCadastroServico->addServico()
+#3 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroServico.php(17): ControleCadastroServico->verificarRequisicao()
+#4 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroServico.php(108): ControleCadastroServico->__construct()
+#5 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceServico.php on line 82
+[14-Sep-2019 14:51:11 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Class 'ServiceException' not found in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceServico.php:84
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceServico.php(24): ServiceServico->validarDadosServico(Object(Servico))
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroServico.php(64): ServiceServico->addServico(Object(Servico))
+#2 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroServico.php(28): ControleCadastroServico->addServico()
+#3 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroServico.php(17): ControleCadastroServico->verificarRequisicao()
+#4 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroServico.php(108): ControleCadastroServico->__construct()
+#5 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceServico.php on line 84
+[14-Sep-2019 14:52:15 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Class 'ServiceException' not found in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceServico.php:84
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceServico.php(24): ServiceServico->validarDadosServico(Object(Servico))
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroServico.php(64): ServiceServico->addServico(Object(Servico))
+#2 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroServico.php(28): ControleCadastroServico->addServico()
+#3 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroServico.php(17): ControleCadastroServico->verificarRequisicao()
+#4 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroServico.php(108): ControleCadastroServico->__construct()
+#5 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceServico.php on line 84
+[14-Sep-2019 16:18:21 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroOrdemServico.php on line 42
+[14-Sep-2019 16:18:21 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroOrdemServico.php on line 45
+[14-Sep-2019 16:18:21 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to undefined method OrdemServico::getFuncionarios() in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php:20
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceOrdemServico.php(19): OrdemServicoDAO->insert(Object(OrdemServico))
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroOrdemServico.php(61): ServiceOrdemServico->addOrdemServico(Object(OrdemServico))
+#2 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroOrdemServico.php(24): ControleCadastroOrdemServico->addOrdemServico()
+#3 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroOrdemServico.php(13): ControleCadastroOrdemServico->verificarRequisicao()
+#4 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroOrdemServico.php(111): ControleCadastroOrdemServico->__construct()
+#5 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php on line 20
+[14-Sep-2019 16:34:13 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to undefined method OrdemServico::getFuncionarios() in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php:20
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceOrdemServico.php(19): OrdemServicoDAO->insert(Object(OrdemServico))
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroOrdemServico.php(61): ServiceOrdemServico->addOrdemServico(Object(OrdemServico))
+#2 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroOrdemServico.php(24): ControleCadastroOrdemServico->addOrdemServico()
+#3 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroOrdemServico.php(13): ControleCadastroOrdemServico->verificarRequisicao()
+#4 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroOrdemServico.php(111): ControleCadastroOrdemServico->__construct()
+#5 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php on line 20
+[14-Sep-2019 17:11:55 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function getNome() on null in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceTipoServico.php:68
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceTipoServico.php(23): ServiceTipoServico->validarDadosTipoServico(NULL)
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroTipoServico.php(57): ServiceTipoServico->addTipoServico(Object(TipoServico))
+#2 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroTipoServico.php(27): ControleCadastroTipoServico->addTipoServico()
+#3 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroTipoServico.php(16): ControleCadastroTipoServico->verificarRequisicao()
+#4 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroTipoServico.php(109): ControleCadastroTipoServico->__construct()
+#5 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceTipoServico.php on line 68
+[14-Sep-2019 18:12:49 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function getNome() on null in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceTipoServico.php:68
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceTipoServico.php(23): ServiceTipoServico->validarDadosTipoServico(NULL)
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroTipoServico.php(57): ServiceTipoServico->addTipoServico(Object(TipoServico))
+#2 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroTipoServico.php(27): ControleCadastroTipoServico->addTipoServico()
+#3 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroTipoServico.php(16): ControleCadastroTipoServico->verificarRequisicao()
+#4 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroTipoServico.php(109): ControleCadastroTipoServico->__construct()
+#5 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceTipoServico.php on line 68
+[14-Sep-2019 18:18:46 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Class 'DataException' not found in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/tipoServicoDAO.php:17
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceTipoServico.php(24): TipoServicoDAO->insert(Object(TipoServico))
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroTipoServico.php(57): ServiceTipoServico->addTipoServico(Object(TipoServico))
+#2 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroTipoServico.php(27): ControleCadastroTipoServico->addTipoServico()
+#3 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroTipoServico.php(16): ControleCadastroTipoServico->verificarRequisicao()
+#4 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroTipoServico.php(109): ControleCadastroTipoServico->__construct()
+#5 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/tipoServicoDAO.php on line 17
+[14-Sep-2019 18:35:35 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Class 'ServiceException' not found in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceTipoServico.php:87
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceTipoServico.php(36): ServiceTipoServico->validarDadosTipoServico(Object(TipoServico))
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroTipoServico.php(70): ServiceTipoServico->alterarTipoServico(Object(TipoServico))
+#2 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroTipoServico.php(24): ControleCadastroTipoServico->alterarTipoServico()
+#3 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroTipoServico.php(16): ControleCadastroTipoServico->verificarRequisicao()
+#4 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroTipoServico.php(109): ControleCadastroTipoServico->__construct()
+#5 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceTipoServico.php on line 87
+[14-Sep-2019 21:01:08 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to undefined method ControleCadastroOrdemServico::listarFuncionarios() in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroOrdemServico.php:30
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroOrdemServico.php(13): ControleCadastroOrdemServico->verificarRequisicao()
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroOrdemServico.php(111): ControleCadastroOrdemServico->__construct()
+#2 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroOrdemServico.php on line 30
+[14-Sep-2019 21:11:27 America/Sao_Paulo] PHP Warning:  include_once(/home1/anaju876/public_html/pds.dev.anaju.me/business/models/ordemServico.php): failed to open stream: No such file or directory in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php on line 4
+[14-Sep-2019 21:11:27 America/Sao_Paulo] PHP Warning:  include_once(): Failed opening '/home1/anaju876/public_html/pds.dev.anaju.me/business/models/ordemServico.php' for inclusion (include_path='.:/opt/php71/lib/php') in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php on line 4
+[14-Sep-2019 21:11:32 America/Sao_Paulo] PHP Warning:  include_once(/home1/anaju876/public_html/pds.dev.anaju.me/business/models/ordemServico.php): failed to open stream: No such file or directory in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php on line 4
+[14-Sep-2019 21:11:32 America/Sao_Paulo] PHP Warning:  include_once(): Failed opening '/home1/anaju876/public_html/pds.dev.anaju.me/business/models/ordemServico.php' for inclusion (include_path='.:/opt/php71/lib/php') in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php on line 4
+[14-Sep-2019 21:15:08 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Cannot use object of type mysqli_result as array in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php:61
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceOrdemServico.php(52): OrdemServicoDAO->getOrdemServico()
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroOrdemServico.php(94): ServiceOrdemServico->getListaOrdemServico()
+#2 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroOrdemServico.php(30): ControleCadastroOrdemServico->listarOrdemServicos()
+#3 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroOrdemServico.php(13): ControleCadastroOrdemServico->verificarRequisicao()
+#4 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroOrdemServico.php(111): ControleCadastroOrdemServico->__construct()
+#5 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php on line 61
+[14-Sep-2019 21:15:08 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Cannot use object of type mysqli_result as array in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php:61
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceOrdemServico.php(52): OrdemServicoDAO->getOrdemServico()
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroOrdemServico.php(94): ServiceOrdemServico->getListaOrdemServico()
+#2 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroOrdemServico.php(30): ControleCadastroOrdemServico->listarOrdemServicos()
+#3 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroOrdemServico.php(13): ControleCadastroOrdemServico->verificarRequisicao()
+#4 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroOrdemServico.php(111): ControleCadastroOrdemServico->__construct()
+#5 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php on line 61
+[14-Sep-2019 21:21:59 America/Sao_Paulo] PHP Warning:  mysqli_fetch_object() expects parameter 1 to be mysqli_result, array given in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php on line 61
+[14-Sep-2019 21:21:59 America/Sao_Paulo] PHP Warning:  mysqli_fetch_object() expects parameter 1 to be mysqli_result, array given in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php on line 61
+[14-Sep-2019 21:21:59 America/Sao_Paulo] PHP Warning:  mysqli_fetch_object() expects parameter 1 to be mysqli_result, array given in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php on line 61
+[14-Sep-2019 21:21:59 America/Sao_Paulo] PHP Warning:  mysqli_fetch_object() expects parameter 1 to be mysqli_result, array given in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php on line 61
+[14-Sep-2019 21:21:59 America/Sao_Paulo] PHP Warning:  mysqli_fetch_object() expects parameter 1 to be mysqli_result, array given in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php on line 61
+[14-Sep-2019 21:21:59 America/Sao_Paulo] PHP Warning:  mysqli_fetch_object() expects parameter 1 to be mysqli_result, array given in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php on line 61
+[14-Sep-2019 21:21:59 America/Sao_Paulo] PHP Warning:  mysqli_fetch_object() expects parameter 1 to be mysqli_result, array given in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php on line 61
+[14-Sep-2019 21:21:59 America/Sao_Paulo] PHP Warning:  mysqli_fetch_object() expects parameter 1 to be mysqli_result, array given in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php on line 61
+[14-Sep-2019 21:21:59 America/Sao_Paulo] PHP Warning:  mysqli_fetch_object() expects parameter 1 to be mysqli_result, array given in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php on line 61
+[14-Sep-2019 21:21:59 America/Sao_Paulo] PHP Warning:  mysqli_fetch_object() expects parameter 1 to be mysqli_result, array given in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php on line 61
+[14-Sep-2019 21:21:59 America/Sao_Paulo] PHP Warning:  mysqli_fetch_object() expects parameter 1 to be mysqli_result, array given in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php on line 61
+[14-Sep-2019 21:21:59 America/Sao_Paulo] PHP Warning:  mysqli_fetch_object() expects parameter 1 to be mysqli_result, array given in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php on line 61
+[14-Sep-2019 21:21:59 America/Sao_Paulo] PHP Warning:  mysqli_fetch_object() expects parameter 1 to be mysqli_result, array given in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php on line 61
+[14-Sep-2019 21:21:59 America/Sao_Paulo] PHP Warning:  mysqli_fetch_object() expects parameter 1 to be mysqli_result, array given in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php on line 61
+[14-Sep-2019 21:21:59 America/Sao_Paulo] PHP Warning:  mysqli_fetch_object() expects parameter 1 to be mysqli_result, array given in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php on line 61
+[14-Sep-2019 21:40:17 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to undefined method OrdemServicoDAO::getOrdemServico() in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceOrdemServico.php:52
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroOrdemServico.php(94): ServiceOrdemServico->getListaOrdemServico()
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroOrdemServico.php(30): ControleCadastroOrdemServico->listarOrdemServicos()
+#2 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroOrdemServico.php(13): ControleCadastroOrdemServico->verificarRequisicao()
+#3 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroOrdemServico.php(111): ControleCadastroOrdemServico->__construct()
+#4 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceOrdemServico.php on line 52
+[14-Sep-2019 21:42:20 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to undefined method OrdemServicoDAO::getOrdemServico() in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceOrdemServico.php:52
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroOrdemServico.php(94): ServiceOrdemServico->getListaOrdemServico()
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroOrdemServico.php(30): ControleCadastroOrdemServico->listarOrdemServicos()
+#2 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroOrdemServico.php(13): ControleCadastroOrdemServico->verificarRequisicao()
+#3 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroOrdemServico.php(111): ControleCadastroOrdemServico->__construct()
+#4 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceOrdemServico.php on line 52
+[14-Sep-2019 21:42:53 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to undefined function getServicosByOrdemServico() in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php:64
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceOrdemServico.php(52): OrdemServicoDAO->getOrdemServicos()
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroOrdemServico.php(94): ServiceOrdemServico->getListaOrdemServico()
+#2 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroOrdemServico.php(30): ControleCadastroOrdemServico->listarOrdemServicos()
+#3 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroOrdemServico.php(13): ControleCadastroOrdemServico->verificarRequisicao()
+#4 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroOrdemServico.php(111): ControleCadastroOrdemServico->__construct()
+#5 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php on line 64
+[14-Sep-2019 21:43:52 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php on line 66
+[14-Sep-2019 21:43:52 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php on line 70
+[14-Sep-2019 21:43:52 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php on line 66
+[14-Sep-2019 21:43:52 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php on line 70
+[14-Sep-2019 21:43:52 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php on line 66
+[14-Sep-2019 21:43:52 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php on line 70
+[14-Sep-2019 21:43:52 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php on line 66
+[14-Sep-2019 21:43:52 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php on line 70
+[14-Sep-2019 21:43:52 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php on line 66
+[14-Sep-2019 21:43:52 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php on line 70
+[14-Sep-2019 21:43:52 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php on line 66
+[14-Sep-2019 21:43:52 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php on line 70
+[14-Sep-2019 21:43:52 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php on line 66
+[14-Sep-2019 21:43:52 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php on line 70
+[14-Sep-2019 21:43:52 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php on line 66
+[14-Sep-2019 21:43:52 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php on line 70
+[14-Sep-2019 21:43:52 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php on line 66
+[14-Sep-2019 21:43:52 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php on line 70
+[14-Sep-2019 21:43:52 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php on line 66
+[14-Sep-2019 21:43:52 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php on line 70
+[14-Sep-2019 21:44:58 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php on line 67
+[14-Sep-2019 21:44:58 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php on line 71
+[14-Sep-2019 21:44:58 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php on line 67
+[14-Sep-2019 21:44:58 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php on line 71
+[14-Sep-2019 21:44:58 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php on line 67
+[14-Sep-2019 21:44:58 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php on line 71
+[14-Sep-2019 21:44:58 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php on line 67
+[14-Sep-2019 21:44:58 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php on line 71
+[14-Sep-2019 21:44:58 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php on line 67
+[14-Sep-2019 21:44:58 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php on line 71
+[14-Sep-2019 21:44:58 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php on line 67
+[14-Sep-2019 21:44:58 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php on line 71
+[14-Sep-2019 21:44:58 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php on line 67
+[14-Sep-2019 21:44:58 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php on line 71
+[14-Sep-2019 21:44:58 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php on line 67
+[14-Sep-2019 21:44:58 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php on line 71
+[14-Sep-2019 21:44:58 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php on line 67
+[14-Sep-2019 21:44:58 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php on line 71
+[14-Sep-2019 21:44:58 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php on line 67
+[14-Sep-2019 21:44:58 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php on line 71
+[14-Sep-2019 21:47:21 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php on line 72
+[14-Sep-2019 21:47:21 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php on line 72
+[14-Sep-2019 21:47:21 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php on line 72
+[14-Sep-2019 21:47:21 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php on line 72
+[14-Sep-2019 21:47:21 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php on line 72
+[14-Sep-2019 21:47:21 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php on line 72
+[14-Sep-2019 21:47:21 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php on line 72
+[14-Sep-2019 21:47:21 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php on line 72
+[14-Sep-2019 21:47:21 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php on line 72
+[14-Sep-2019 21:47:21 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php on line 72
+[15-Sep-2019 08:32:21 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to undefined method OrdemServicoDAO::getOrdemServicoById() in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceOrdemServico.php:65
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceOrdemServico.php(29): ServiceOrdemServico->verificarDataId(Object(OrdemServico))
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroOrdemServico.php(72): ServiceOrdemServico->alterarOrdemServico(Object(OrdemServico))
+#2 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroOrdemServico.php(20): ControleCadastroOrdemServico->alterarOrdemServico()
+#3 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroOrdemServico.php(13): ControleCadastroOrdemServico->verificarRequisicao()
+#4 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroOrdemServico.php(111): ControleCadastroOrdemServico->__construct()
+#5 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceOrdemServico.php on line 65
+[15-Sep-2019 08:33:11 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to undefined function deleteRelFuncionarioOS() in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php:53
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceOrdemServico.php(31): OrdemServicoDAO->update(Object(OrdemServico))
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroOrdemServico.php(72): ServiceOrdemServico->alterarOrdemServico(Object(OrdemServico))
+#2 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroOrdemServico.php(20): ControleCadastroOrdemServico->alterarOrdemServico()
+#3 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroOrdemServico.php(13): ControleCadastroOrdemServico->verificarRequisicao()
+#4 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroOrdemServico.php(111): ControleCadastroOrdemServico->__construct()
+#5 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php on line 53

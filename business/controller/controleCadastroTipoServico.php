@@ -21,68 +21,85 @@ class ControleCadastroTipoServico{
         if(isset($_POST['idTipoServico'])){
 
             if($_POST['idTipoServico'] != ""){
-                $this->alterarTipoServico();
+                echo $this->alterarTipoServico();
             }else{
                 if(isset($_POST['addTipoServico'])){
-                    $this->addTipoServico();  
+                    echo $this->addTipoServico();  
                 }
             }
         }
         if(isset($_POST['listaTipoServicos'])){
-            $this->getListaTipoServicos();
+            echo json_encode($this->getListaTipoServicos(), JSON_PRETTY_PRINT);
         }
         if(isset($_POST['excluirTipoServico'])){
-            $this->excluirTipoServico();
+            echo $this->excluirTipoServico();
         }
         
     }
 
-
-    public function addTipoServico($tipoServico){
-    	if(!$this->validarDadosTipoServico()){
-            return false;
-        }
-
-        return $this->serviceTipoServico->addTipoServico($this->tipoServico);
-    }
-
-    public function alterarTipoServico($tipoServico){
-    	if(!$this->validarDadosTipoServico()){
-            return false;
-        }
-        $this->tipoServico->setIdTipoServico($_POST['idTipoServico']);
-
-        return $this->serviceTipoServico->alterarTipoServico($this->tipoServico);
-    }
-
-    public function excluirTipoServico($tipoServico){
-    	$this->validarDadosTipoServico();
-        $this->tipoServico->setIdTipoServico($_POST['idTipoServico']);
-
-        return $this->serviceTipoServico->excluirTipoServico($this->tipoServico); 
-    }
-
-
-    public function getListaTipoServicos(){
-    	return $this->serviceTipoServico->getListaTipoServicos();
-    }
-
-    public function validarDadosTipoServico(){
+    private function setTipoServico(){
 
          $nome = $_POST['nome'];
          $unidade = $_POST['unidade'];
          $tempo = $_POST['tempo'];
 
-
-         if($nome == "" || $unidade == "" || $tempo == ""){
-            return false;
-         } 
-
          $this->tipoServico->setNome($nome);
          $this->tipoServico->setUnidadeMedida($unidade);
          $this->tipoServico->setTempo($tempo);
+    }
 
-         return true;
+
+    public function addTipoServico(){
+
+        $this->setTipoServico();
+       
+        try {
+             return $this->serviceTipoServico->addTipoServico($this->tipoServico);
+            
+        } catch (DataException | ServiceException $e) {
+            return $e->getMessage();
+        }   
+    }
+
+    public function alterarTipoServico(){
+    	
+        $this->setTipoServico();
+        $this->tipoServico->setIdTipoServico($_POST['idTipoServico']);
+
+        try {
+            return $this->serviceTipoServico->alterarTipoServico($this->tipoServico);
+            
+        } catch (DataException | ServiceException $e) {
+            return $e->getMessage();
+        }   
+
+        
+    }
+
+    public function excluirTipoServico(){
+    	
+        $this->tipoServico->setIdTipoServico($_POST['excluirTipoServico']);
+
+        try {
+            return $this->serviceTipoServico->excluirTipoServico($this->tipoServico);
+            
+        } catch (DataException | ServiceException $e) {
+            return $e->getMessage();
+        }   
+
+        
+    }
+
+
+    public function getListaTipoServicos(){
+
+        try {
+            return $this->serviceTipoServico->getListaTipoServicos();
+            
+        } catch (DataException | ServiceException $e) {
+            return $e->getMessage();
+        }   
+    	
     }
     
     
@@ -90,12 +107,6 @@ class ControleCadastroTipoServico{
 
 if(isset($_POST['idTipoServico']) || isset($_POST['listaTipoServicos']) || isset($_POST['excluirTipoServico']) || isset($_POST['addTipoServico']) ){
     $controleCadastroTipoServico = new ControleCadastroTipoServico();
-}
-
-
-
-    
-	
 }
 
 	

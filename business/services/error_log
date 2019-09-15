@@ -32,3 +32,166 @@ Stack trace:
 #0 /home1/anaju876/public_html/pds.dev.anaju.me/business/services/ajaxGeral.php(254): ControleAjax->ajaxTipoServico()
 #1 {main}
   thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/ajaxGeral.php on line 224
+[11-Sep-2019 14:53:26 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function getTipoServico() on null in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/servicoDAO.php:15
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceServico.php(19): ServicoDAO->insert(NULL)
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroServico.php(49): ServiceServico->addServico(NULL)
+#2 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroServico.php(29): ControleCadastroServico->addServico()
+#3 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroServico.php(18): ControleCadastroServico->verificarRequisicao()
+#4 /home1/anaju876/public_html/pds.dev.anaju.me/business/services/ajaxGeral.php(16): ControleCadastroServico->__construct()
+#5 /home1/anaju876/public_html/pds.dev.anaju.me/business/services/ajaxGeral.php(237): ControleAjax->__construct()
+#6 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/servicoDAO.php on line 15
+[11-Sep-2019 14:53:46 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function getTipoServico() on null in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/servicoDAO.php:15
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceServico.php(19): ServicoDAO->insert(NULL)
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroServico.php(49): ServiceServico->addServico(NULL)
+#2 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroServico.php(29): ControleCadastroServico->addServico()
+#3 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroServico.php(18): ControleCadastroServico->verificarRequisicao()
+#4 /home1/anaju876/public_html/pds.dev.anaju.me/business/services/ajaxGeral.php(16): ControleCadastroServico->__construct()
+#5 /home1/anaju876/public_html/pds.dev.anaju.me/business/services/ajaxGeral.php(237): ControleAjax->__construct()
+#6 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/servicoDAO.php on line 15
+[11-Sep-2019 14:56:22 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function getTipoServico() on null in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/servicoDAO.php:15
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceServico.php(19): ServicoDAO->insert(NULL)
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroServico.php(49): ServiceServico->addServico(NULL)
+#2 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroServico.php(29): ControleCadastroServico->addServico()
+#3 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroServico.php(18): ControleCadastroServico->verificarRequisicao()
+#4 /home1/anaju876/public_html/pds.dev.anaju.me/business/services/ajaxGeral.php(16): ControleCadastroServico->__construct()
+#5 /home1/anaju876/public_html/pds.dev.anaju.me/business/services/ajaxGeral.php(237): ControleAjax->__construct()
+#6 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/servicoDAO.php on line 15
+[11-Sep-2019 21:58:19 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to undefined method ControleCadastroServico::getServico() in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/ajaxGeral.php:33
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/services/ajaxGeral.php(238): ControleAjax->ajaxServicos()
+#1 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/ajaxGeral.php on line 33
+[11-Sep-2019 22:04:03 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function getTipoServico() on null in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/servicoDAO.php:15
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceServico.php(19): ServicoDAO->insert(NULL)
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroServico.php(49): ServiceServico->addServico(NULL)
+#2 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroServico.php(29): ControleCadastroServico->addServico()
+#3 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroServico.php(18): ControleCadastroServico->verificarRequisicao()
+#4 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroServico.php(104): ControleCadastroServico->__construct()
+#5 /home1/anaju876/public_html/pds.dev.anaju.me/business/services/ajaxGeral.php(2): include_once('/home1/anaju876...')
+#6 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/servicoDAO.php on line 15
+[11-Sep-2019 22:05:05 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function getTipoServico() on null in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/servicoDAO.php:15
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceServico.php(19): ServicoDAO->insert(NULL)
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroServico.php(49): ServiceServico->addServico(NULL)
+#2 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroServico.php(29): ControleCadastroServico->addServico()
+#3 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroServico.php(18): ControleCadastroServico->verificarRequisicao()
+#4 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroServico.php(104): ControleCadastroServico->__construct()
+#5 /home1/anaju876/public_html/pds.dev.anaju.me/business/services/ajaxGeral.php(2): include_once('/home1/anaju876...')
+#6 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/servicoDAO.php on line 15
+[11-Sep-2019 22:05:43 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function getTipoServico() on null in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/servicoDAO.php:15
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceServico.php(19): ServicoDAO->insert(NULL)
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroServico.php(49): ServiceServico->addServico(NULL)
+#2 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroServico.php(29): ControleCadastroServico->addServico()
+#3 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroServico.php(18): ControleCadastroServico->verificarRequisicao()
+#4 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroServico.php(104): ControleCadastroServico->__construct()
+#5 /home1/anaju876/public_html/pds.dev.anaju.me/business/services/ajaxGeral.php(2): include_once('/home1/anaju876...')
+#6 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/servicoDAO.php on line 15
+[11-Sep-2019 22:17:13 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function getTipoServico() on null in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/servicoDAO.php:15
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceServico.php(19): ServicoDAO->insert(NULL)
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroServico.php(49): ServiceServico->addServico(NULL)
+#2 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroServico.php(29): ControleCadastroServico->addServico()
+#3 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroServico.php(18): ControleCadastroServico->verificarRequisicao()
+#4 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroServico.php(104): ControleCadastroServico->__construct()
+#5 /home1/anaju876/public_html/pds.dev.anaju.me/business/services/ajaxGeral.php(2): include_once('/home1/anaju876...')
+#6 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/servicoDAO.php on line 15
+[11-Sep-2019 22:17:44 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function getTipoServico() on null in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/servicoDAO.php:15
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceServico.php(19): ServicoDAO->insert(NULL)
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroServico.php(49): ServiceServico->addServico(NULL)
+#2 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroServico.php(29): ControleCadastroServico->addServico()
+#3 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroServico.php(18): ControleCadastroServico->verificarRequisicao()
+#4 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroServico.php(104): ControleCadastroServico->__construct()
+#5 /home1/anaju876/public_html/pds.dev.anaju.me/business/services/ajaxGeral.php(2): include_once('/home1/anaju876...')
+#6 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/servicoDAO.php on line 15
+[11-Sep-2019 22:18:40 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function getTipoServico() on null in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/servicoDAO.php:15
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceServico.php(19): ServicoDAO->insert(NULL)
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroServico.php(49): ServiceServico->addServico(NULL)
+#2 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroServico.php(29): ControleCadastroServico->addServico()
+#3 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroServico.php(18): ControleCadastroServico->verificarRequisicao()
+#4 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroServico.php(104): ControleCadastroServico->__construct()
+#5 /home1/anaju876/public_html/pds.dev.anaju.me/business/services/ajaxGeral.php(2): include_once('/home1/anaju876...')
+#6 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/servicoDAO.php on line 15
+[11-Sep-2019 22:26:03 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to undefined method ControleCadastroServico::getServico() in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/ajaxGeral.php:33
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/services/ajaxGeral.php(238): ControleAjax->ajaxServicos()
+#1 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/ajaxGeral.php on line 33
+[12-Sep-2019 09:05:10 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to undefined method ControleCadastroServico::getServico() in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/ajaxGeral.php:33
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/services/ajaxGeral.php(238): ControleAjax->ajaxServicos()
+#1 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/ajaxGeral.php on line 33
+[12-Sep-2019 09:05:45 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to undefined method ControleCadastroServico::getServico() in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/ajaxGeral.php:33
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/services/ajaxGeral.php(238): ControleAjax->ajaxServicos()
+#1 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/ajaxGeral.php on line 33
+[12-Sep-2019 09:10:32 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to undefined method Servico::setId() in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroServico.php:66
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroServico.php(37): ControleCadastroServico->excluirServico()
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroServico.php(18): ControleCadastroServico->verificarRequisicao()
+#2 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroServico.php(104): ControleCadastroServico->__construct()
+#3 /home1/anaju876/public_html/pds.dev.anaju.me/business/services/ajaxGeral.php(2): include_once('/home1/anaju876...')
+#4 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroServico.php on line 66
+[12-Sep-2019 09:10:40 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to undefined method Servico::setId() in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroServico.php:66
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroServico.php(37): ControleCadastroServico->excluirServico()
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroServico.php(18): ControleCadastroServico->verificarRequisicao()
+#2 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroServico.php(104): ControleCadastroServico->__construct()
+#3 /home1/anaju876/public_html/pds.dev.anaju.me/business/services/ajaxGeral.php(2): include_once('/home1/anaju876...')
+#4 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroServico.php on line 66
+[12-Sep-2019 09:10:56 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to undefined method Servico::setId() in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroServico.php:66
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroServico.php(37): ControleCadastroServico->excluirServico()
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroServico.php(18): ControleCadastroServico->verificarRequisicao()
+#2 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroServico.php(104): ControleCadastroServico->__construct()
+#3 /home1/anaju876/public_html/pds.dev.anaju.me/business/services/ajaxGeral.php(2): include_once('/home1/anaju876...')
+#4 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroServico.php on line 66
+[12-Sep-2019 09:25:40 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to undefined method ControleCadastroServico::getServico() in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/ajaxGeral.php:65
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/services/ajaxGeral.php(238): ControleAjax->ajaxServicos()
+#1 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/ajaxGeral.php on line 65
+[12-Sep-2019 09:25:51 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to undefined method ControleCadastroServico::getServico() in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/ajaxGeral.php:65
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/services/ajaxGeral.php(238): ControleAjax->ajaxServicos()
+#1 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/ajaxGeral.php on line 65
+[12-Sep-2019 11:32:07 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroTipoServico.php on line 99
+[12-Sep-2019 11:32:35 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroTipoServico.php on line 99
+[12-Sep-2019 11:32:35 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroTipoServico.php on line 99
+[12-Sep-2019 11:35:51 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroTipoServico.php on line 99
+[12-Sep-2019 11:35:59 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroTipoServico.php on line 99
+[12-Sep-2019 11:35:59 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroTipoServico.php on line 99
+[12-Sep-2019 11:38:15 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroTipoServico.php on line 99
+[12-Sep-2019 11:38:26 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroTipoServico.php on line 99
+[12-Sep-2019 11:38:26 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroTipoServico.php on line 99
+[12-Sep-2019 11:39:55 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroTipoServico.php on line 99
+[12-Sep-2019 11:39:55 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroTipoServico.php on line 99
+[12-Sep-2019 17:58:19 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroTipoServico.php on line 99
+[12-Sep-2019 17:58:25 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroTipoServico.php on line 99
+[13-Sep-2019 14:48:28 America/Sao_Paulo] PHP Warning:  include_once(/home1/anaju876/public_html/pds.dev.anaju.me/business/exception/FuncionarioException.php): failed to open stream: No such file or directory in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/funcionarioDAO.php on line 3
+[13-Sep-2019 14:48:28 America/Sao_Paulo] PHP Warning:  include_once(): Failed opening '/home1/anaju876/public_html/pds.dev.anaju.me/business/exception/FuncionarioException.php' for inclusion (include_path='.:/opt/php71/lib/php') in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/funcionarioDAO.php on line 3
+[13-Sep-2019 14:48:28 America/Sao_Paulo] PHP Warning:  include_once(/home1/anaju876/public_html/pds.dev.anaju.me/business/exception/FuncionarioException.php): failed to open stream: No such file or directory in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceFuncionario.php on line 5
+[13-Sep-2019 14:48:28 America/Sao_Paulo] PHP Warning:  include_once(): Failed opening '/home1/anaju876/public_html/pds.dev.anaju.me/business/exception/FuncionarioException.php' for inclusion (include_path='.:/opt/php71/lib/php') in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceFuncionario.php on line 5
+[13-Sep-2019 14:49:18 America/Sao_Paulo] PHP Warning:  include_once(/home1/anaju876/public_html/pds.dev.anaju.me/business/exception/FuncionarioException.php): failed to open stream: No such file or directory in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceFuncionario.php on line 5
+[13-Sep-2019 14:49:18 America/Sao_Paulo] PHP Warning:  include_once(): Failed opening '/home1/anaju876/public_html/pds.dev.anaju.me/business/exception/FuncionarioException.php' for inclusion (include_path='.:/opt/php71/lib/php') in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceFuncionario.php on line 5

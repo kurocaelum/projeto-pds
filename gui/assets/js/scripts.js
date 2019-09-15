@@ -1,3 +1,214 @@
+// ------------------ Controle Ordem servico ---------------------------
+
+
+jQuery(document).ready(function($){
+    $('#form_ordem_servico').submit(function() {
+        var ids_servicos = "";
+        $( "#form_input_servicos option:selected" ).each(function(){
+            if(ids_servicos != ""){
+                ids_servicos = ids_servicos+",";
+            }
+            if($(this).val() != ""){  
+                ids_servicos = ids_servicos + $(this).val(); 
+            }
+            $("#ids_servicos").val(ids_servicos);
+        });
+
+        var ids_funcionarios = "";
+        $( "#form_input_funcionarios option:selected" ).each(function(){
+            if(ids_funcionarios != ""){
+                ids_funcionarios = ids_funcionarios+",";
+            }
+            if($(this).val() != ""){  
+               ids_funcionarios = ids_funcionarios + $(this).val(); 
+            }
+            $("#ids_funcionarios").val(ids_funcionarios);
+        });
+    
+
+        dados = $('#form_ordem_servico').serialize();
+
+        $.ajax({
+                type: 'POST',
+                dataType: 'json',
+                url: 'http://pds.dev.anaju.me/business/controller/controleCadastroOrdemServico.php',
+                async: true,
+                data: dados,
+            error: function(enviado) {
+                resultFormOrdemServico(JSON.stringify(enviado));
+             },
+            success: function(enviado) {
+                resultFormOrdemServico(JSON.stringify(enviado));
+            }    
+        });
+
+        return false;
+
+    });
+
+    function resultFormOrdemServico(ret){
+        if(ret == "1"){
+            alert("Cadastrado com sucesso.");
+            $('#form_ordem_servico')[0].reset();
+            carregarOrdemServicos("tabela");
+        }else{
+            alert(JSON.parse(ret).responseText);
+        }
+    }
+
+
+
+});
+
+
+function carregarOrdemServicos(tipo){
+    $.ajax({
+            type: 'POST',
+            dataType: 'json',
+            url: 'http://pds.dev.anaju.me/business/controller/controleCadastroOrdemServico.php',
+            async: true,
+            data: {"listaOrdemServicos": true},
+            error: function(enviado) {
+                if(tipo == "tabela"){   
+                    resultCarregarOrdemServicos(JSON.stringify(enviado));
+                }
+                if(tipo == "option"){   
+                    resultCarregarOptionOrdemServicos(JSON.stringify(enviado));
+                }
+             },
+            success: function(enviado) {
+                if(tipo == "tabela"){   
+                    resultCarregarOrdemServicos(JSON.stringify(enviado));
+                }
+                if(tipo == "option"){   
+                    resultCarregarOptionOrdemServicos(JSON.stringify(enviado));
+                }
+            }    
+        });
+}
+
+
+function removerOrdemServico(id_remover){
+    
+    $.ajax({
+            type: 'POST',
+            dataType: 'json',
+            url: 'http://pds.dev.anaju.me/business/controller/controleCadastroOrdemServico.php',
+            async: true,
+            data: {"excluirOrdemServico": id_remover},
+        error: function(enviado) {
+            resultFormRemoverOrdemServico(JSON.stringify(enviado), id_remover);
+         },
+        success: function(enviado) {
+            resultFormRemoverOrdemServico(JSON.stringify(enviado), id_remover);
+        }    
+        });
+}
+function resultFormRemoverOrdemServico(ret, id_remover){
+    if(ret == "1"){
+        alert("Ordem de serviço removido.");
+        carregarServicos("tabela");
+
+    }else{
+        alert(JSON.parse(ret).responseText);
+    }
+}
+
+
+function resultCarregarOptionOrdemServicos(listaServicos){
+    jsonLista = JSON.parse(listaServicos);
+    var optionServicos = "<option value=''></option> ";
+    for(var k in jsonLista) {
+        optionServicos = optionServicos+'<option value='+jsonLista[k].id_servico+' >'+jsonLista[k].nome+'</option>';
+    }
+
+    $(".exibirListaServicosOption").html("");
+    $(".exibirListaServicosOption").append(optionServicos);
+    
+}
+
+
+function resultCarregarOrdemServicos(listaOrdemServicos){
+    jsonLista = JSON.parse(listaOrdemServicos);
+    var tabelaServicos = "";
+    var idsListaServicos = "";
+    var idsListaFuncionarios = "";
+    for(var k in jsonLista) {
+        idsListaServicos = "";
+        idsListaFuncionarios = "";
+
+        if(jsonLista[k].listaServicos != null){        
+            for(var i in jsonLista[k].listaServicos){
+                if(idsListaServicos != ""){
+                    idsListaServicos = idsListaServicos+", ";
+                }    
+                idsListaServicos = idsListaServicos +jsonLista[k].listaServicos[i];
+            };
+        }
+
+        if(jsonLista[k].listaFuncionarios != null){ 
+              for(var i in jsonLista[k].listaFuncionarios){
+                if(idsListaFuncionarios != ""){
+                    idsListaFuncionarios = idsListaFuncionarios+", ";
+                } 
+                idsListaFuncionarios = idsListaFuncionarios +jsonLista[k].listaFuncionarios[i];
+            };  
+        }
+
+        tabelaServicos = tabelaServicos+'<tr id="ordem_servico'+jsonLista[k].idOrdemServico+'">';
+        tabelaServicos = tabelaServicos+'<th class="id_ordem_servico" scope="row">'+jsonLista[k].idOrdemServico+'</th>';
+
+        tabelaServicos = tabelaServicos+'<td class="descricao_ordem_servico">'+jsonLista[k].descricao+'</td>';
+
+        tabelaServicos = tabelaServicos+'<td attr_id="'+idsListaFuncionarios+'" class="funcionarios_ordem_servico">'+idsListaFuncionarios+'</td>';
+        tabelaServicos = tabelaServicos+'<td attr_id="'+idsListaServicos+'" class="servicos_ordem_servico">'+idsListaServicos+'</td>';
+        tabelaServicos = tabelaServicos+'<td>';
+        tabelaServicos = tabelaServicos+'       <button type="button" id-editar="'+jsonLista[k].idOrdemServico+'" class="editar_ordem_servico btn btn-info">Editar</button>';
+        tabelaServicos = tabelaServicos+'       <button type="button" id-remove="'+jsonLista[k].idOrdemServico+'" class="remover_ordem_servico btn btn-danger">Excluir</button>';
+        tabelaServicos = tabelaServicos+'</td>';
+        tabelaServicos = tabelaServicos+'</tr>';
+    }
+
+
+    $(".allOrdemServicos").html("");
+    $(".allOrdemServicos").append(tabelaServicos);
+    
+    $('.remover_ordem_servico').on('click', function() {
+        var id_remover = $(this).attr("id-remove");
+        removerOrdemServico(id_remover);
+        carregarOrdemServicos("tabela");
+    });
+
+    $('.editar_ordem_servico').on('click', function() {
+        var id_editar = $(this).attr("id-editar");
+        $("#form_input_id").val( $("#ordem_servico"+id_editar).find(".id_ordem_servico").text() );
+        $("#form_input_descricao").val( $("#ordem_servico"+id_editar).find(".descricao_ordem_servico").text() );
+        
+        var ordem_servico_array_servicos = ($("#ordem_servico"+id_editar).find(".servicos_ordem_servico").attr("attr_id")).split(",");
+        var ordem_servico_array_tratado_servicos = [];
+
+        var ordem_servico_array_funcionarios = ($("#ordem_servico"+id_editar).find(".funcionarios_ordem_servico").attr("attr_id")).split(",");
+        var ordem_servico_array_tratado_funcionarios = [];
+
+        for (var i = 0; i < ordem_servico_array_funcionarios.length; i++) {
+            ordem_servico_array_tratado_funcionarios.push(ordem_servico_array_funcionarios[i].replace(" ",""));
+        };
+        for (var i = 0; i < ordem_servico_array_servicos.length; i++) {
+            ordem_servico_array_tratado_servicos.push(ordem_servico_array_servicos[i].replace(" ",""));
+        };
+
+        $("#form_input_funcionarios").val(ordem_servico_array_tratado_funcionarios);
+        $("#form_input_servicos").val(ordem_servico_array_tratado_servicos);
+        // $("#form_input_servicos").val( ["+$("#ordem_servico"+id_editar).find(".servicos_ordem_servico").attr("attr_id") + "]);
+    });
+
+}
+
+
+// ------------------ FIm Controle Ordem servico ---------------------------  
+
+
+
 // ------------------ Controle servico ---------------------------
 
 
@@ -30,7 +241,7 @@ jQuery(document).ready(function($){
             $('#form_servico')[0].reset();
             carregarServicos("tabela");
         }else{
-            alert("Erro no cadastro.");
+            alert(JSON.parse(ret).responseText);
         }
     }
 
@@ -88,7 +299,7 @@ function resultFormRemoverServico(ret, id_remover){
         carregarServicos("tabela");
 
     }else{
-        alert("Erro na remoção.");
+        alert(JSON.parse(ret).responseText);
     }
 }
 
@@ -97,7 +308,7 @@ function resultCarregarOptionServicos(listaServicos){
     jsonLista = JSON.parse(listaServicos);
     var optionServicos = "<option value=''></option> ";
     for(var k in jsonLista) {
-        optionServicos = optionServicos+'<option value='+jsonLista[k].id_supervisor+' >'+jsonLista[k].nome+'</option>';
+        optionServicos = optionServicos+'<option value='+jsonLista[k].id_servico+' >'+jsonLista[k].nome+'</option>';
     }
 
     $(".exibirListaServicosOption").html("");
@@ -151,7 +362,7 @@ function resultCarregarServicos(listaServicos){
 }
 
 
-// ------------------ FIm Controle servico ---------------------------
+// ------------------ FIm Controle servico ---------------------------  
 
 
 
@@ -162,12 +373,12 @@ function resultCarregarServicos(listaServicos){
 jQuery(document).ready(function($){
     $('#form_supervisor').submit(function() {
         var idsAdministrados = "";
-        $( "#listaFuncionariosAdministrados option:selected" ).each(function(){
-            if($(this).val() != ""){  
-                idsAdministrados = idsAdministrados+","+$(this).val(); 
-            }
-            $("#form_input_id_administrados").val(idsAdministrados);
-        });
+        // $( "#listaFuncionariosAdministrados option:selected" ).each(function(){
+        //     if($(this).val() != ""){  
+        //         idsAdministrados = idsAdministrados+","+$(this).val(); 
+        //     }
+        //     $("#form_input_id_administrados").val(idsAdministrados);
+        // });
 
         dados = $('#form_supervisor').serialize();
 
@@ -500,7 +711,7 @@ jQuery(document).ready(function($){
                 $('#form_tipo_servico')[0].reset();
                 carregarTipoServico("tabela");
             }else{
-                alert("Erro no cadastro.");
+                alert(JSON.parse(ret).responseText);
             }
         }
 
@@ -559,7 +770,7 @@ function resultFormRemoverTipoServico(ret, id_remover){
         alert("Tipo de serviço removido!")
         carregarTipoServico("tabela");
     }else{
-        alert("Erro na remoção.");
+        alert(JSON.parse(ret).responseText);
     }
 }
 

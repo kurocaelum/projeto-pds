@@ -172,3 +172,97 @@ Stack trace:
 #0 /home1/anaju876/public_html/pds.dev.anaju.me/gui/cadastro-funcionario.php(5): ControleCadastroFuncionario->__construct()
 #1 {main}
   thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroFuncionario.php on line 13
+[11-Sep-2019 10:13:23 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function setTelefone() on null in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceFuncionario.php:73
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroFuncionario.php(114): ServiceFuncionario->setTelefoneFuncionario('6')
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroFuncionario.php(88): ControleCadastroFuncionario->validarTelefoneFuncionario('6')
+#2 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroFuncionario.php(39): ControleCadastroFuncionario->validarDadosFuncionario()
+#3 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroFuncionario.php(20): ControleCadastroFuncionario->addFuncionario()
+#4 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroFuncionario.php(11): ControleCadastroFuncionario->verificarRequisicao()
+#5 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/ in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceFuncionario.php on line 73
+[11-Sep-2019 10:14:58 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function setTelefone() on null in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceFuncionario.php:73
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroFuncionario.php(114): ServiceFuncionario->setTelefoneFuncionario('6')
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroFuncionario.php(88): ControleCadastroFuncionario->validarTelefoneFuncionario('6')
+#2 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroFuncionario.php(39): ControleCadastroFuncionario->validarDadosFuncionario()
+#3 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroFuncionario.php(20): ControleCadastroFuncionario->addFuncionario()
+#4 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroFuncionario.php(11): ControleCadastroFuncionario->verificarRequisicao()
+#5 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/ in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceFuncionario.php on line 73
+[12-Sep-2019 11:39:33 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroTipoServico.php on line 99
+[12-Sep-2019 11:40:04 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroTipoServico.php on line 99
+[12-Sep-2019 17:58:11 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroTipoServico.php on line 99
+[12-Sep-2019 17:58:49 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroTipoServico.php on line 99
+[12-Sep-2019 19:18:49 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected 'return' (T_RETURN) in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroServico.php on line 68
+[12-Sep-2019 19:19:38 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected 'return' (T_RETURN) in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroServico.php on line 68
+[12-Sep-2019 21:41:25 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR) in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroServico.php on line 62
+[12-Sep-2019 22:16:24 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected 'encapsularDados' (T_STRING), expecting function (T_FUNCTION) or const (T_CONST) in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroTipoServico.php on line 40
+[13-Sep-2019 14:48:28 America/Sao_Paulo] PHP Warning:  include_once(/home1/anaju876/public_html/pds.dev.anaju.me/business/exception/FuncionarioException.php): failed to open stream: No such file or directory in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/funcionarioDAO.php on line 3
+[13-Sep-2019 14:48:28 America/Sao_Paulo] PHP Warning:  include_once(): Failed opening '/home1/anaju876/public_html/pds.dev.anaju.me/business/exception/FuncionarioException.php' for inclusion (include_path='.:/opt/php71/lib/php') in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/funcionarioDAO.php on line 3
+[13-Sep-2019 14:48:28 America/Sao_Paulo] PHP Warning:  include_once(/home1/anaju876/public_html/pds.dev.anaju.me/business/exception/FuncionarioException.php): failed to open stream: No such file or directory in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceFuncionario.php on line 5
+[13-Sep-2019 14:48:28 America/Sao_Paulo] PHP Warning:  include_once(): Failed opening '/home1/anaju876/public_html/pds.dev.anaju.me/business/exception/FuncionarioException.php' for inclusion (include_path='.:/opt/php71/lib/php') in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceFuncionario.php on line 5
+[13-Sep-2019 14:49:02 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC), expecting end of file in /home1/anaju876/public_html/pds.dev.anaju.me/business/exception/funcionarioException.php on line 3
+[13-Sep-2019 14:49:17 America/Sao_Paulo] PHP Warning:  include_once(/home1/anaju876/public_html/pds.dev.anaju.me/business/exception/FuncionarioException.php): failed to open stream: No such file or directory in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceFuncionario.php on line 5
+[13-Sep-2019 14:49:17 America/Sao_Paulo] PHP Warning:  include_once(): Failed opening '/home1/anaju876/public_html/pds.dev.anaju.me/business/exception/FuncionarioException.php' for inclusion (include_path='.:/opt/php71/lib/php') in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceFuncionario.php on line 5
+[13-Sep-2019 19:59:47 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Class 'ControleCadastrofuncionario' not found in /home1/anaju876/public_html/pds.dev.anaju.me/gui/cadastro-ordem-servico.php:5
+Stack trace:
+#0 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/gui/cadastro-ordem-servico.php on line 5
+[13-Sep-2019 20:26:37 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Class 'ControleCadastroOrdemServico' not found in /home1/anaju876/public_html/pds.dev.anaju.me/gui/cadastro-ordem-servico.php:5
+Stack trace:
+#0 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/gui/cadastro-ordem-servico.php on line 5
+[13-Sep-2019 20:29:19 America/Sao_Paulo] PHP Warning:  include_once(/home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php): failed to open stream: No such file or directory in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroOrdemServico.php on line 3
+[13-Sep-2019 20:29:19 America/Sao_Paulo] PHP Warning:  include_once(): Failed opening '/home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php' for inclusion (include_path='.:/opt/php71/lib/php') in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroOrdemServico.php on line 3
+[13-Sep-2019 20:29:19 America/Sao_Paulo] PHP Warning:  include_once(/home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php): failed to open stream: No such file or directory in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceOrdemServico.php on line 4
+[13-Sep-2019 20:29:19 America/Sao_Paulo] PHP Warning:  include_once(): Failed opening '/home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php' for inclusion (include_path='.:/opt/php71/lib/php') in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceOrdemServico.php on line 4
+[13-Sep-2019 20:29:19 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Class 'Funcionario' not found in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroOrdemServico.php:11
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/gui/cadastro-ordem-servico.php(5): ControleCadastroOrdemServico->__construct()
+#1 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroOrdemServico.php on line 11
+[13-Sep-2019 20:32:45 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Class 'Funcionario' not found in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroOrdemServico.php:11
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/gui/cadastro-ordem-servico.php(5): ControleCadastroOrdemServico->__construct()
+#1 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroOrdemServico.php on line 11
+[13-Sep-2019 20:32:47 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Class 'Funcionario' not found in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroOrdemServico.php:11
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/gui/cadastro-ordem-servico.php(5): ControleCadastroOrdemServico->__construct()
+#1 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroOrdemServico.php on line 11
+[13-Sep-2019 20:32:47 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Class 'Funcionario' not found in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroOrdemServico.php:11
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/gui/cadastro-ordem-servico.php(5): ControleCadastroOrdemServico->__construct()
+#1 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroOrdemServico.php on line 11
+[13-Sep-2019 20:36:06 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Class 'Funcionario' not found in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroOrdemServico.php:11
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/gui/cadastro-ordem-servico.php(5): ControleCadastroOrdemServico->__construct()
+#1 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroOrdemServico.php on line 11
+[14-Sep-2019 11:03:19 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Class 'ServiceServico' not found in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroServico.php:15
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/gui/cadastro-servico.php(5): ControleCadastroServico->__construct()
+#1 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroServico.php on line 15
+[14-Sep-2019 11:08:32 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Class 'ServiceServico' not found in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroServico.php:15
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/gui/cadastro-servico.php(5): ControleCadastroServico->__construct()
+#1 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroServico.php on line 15
+[14-Sep-2019 11:09:58 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Class 'ServiceServico' not found in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroServico.php:15
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/gui/cadastro-servico.php(5): ControleCadastroServico->__construct()
+#1 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroServico.php on line 15
+[14-Sep-2019 11:10:45 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Class 'ServiceServico' not found in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroServico.php:15
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/gui/cadastro-servico.php(5): ControleCadastroServico->__construct()
+#1 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroServico.php on line 15
+[14-Sep-2019 14:37:56 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected 'return' (T_RETURN) in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceServico.php on line 23
+[14-Sep-2019 18:33:10 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected ';' in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceTipoServico.php on line 75
+[14-Sep-2019 21:11:26 America/Sao_Paulo] PHP Warning:  include_once(/home1/anaju876/public_html/pds.dev.anaju.me/business/models/ordemServico.php): failed to open stream: No such file or directory in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php on line 4
+[14-Sep-2019 21:11:26 America/Sao_Paulo] PHP Warning:  include_once(): Failed opening '/home1/anaju876/public_html/pds.dev.anaju.me/business/models/ordemServico.php' for inclusion (include_path='.:/opt/php71/lib/php') in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php on line 4
+[14-Sep-2019 21:11:32 America/Sao_Paulo] PHP Warning:  include_once(/home1/anaju876/public_html/pds.dev.anaju.me/business/models/ordemServico.php): failed to open stream: No such file or directory in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php on line 4
+[14-Sep-2019 21:11:32 America/Sao_Paulo] PHP Warning:  include_once(): Failed opening '/home1/anaju876/public_html/pds.dev.anaju.me/business/models/ordemServico.php' for inclusion (include_path='.:/opt/php71/lib/php') in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php on line 4

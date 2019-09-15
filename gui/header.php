@@ -23,6 +23,7 @@
 					<a href="http://pds.dev.anaju.me/gui/cadastro-supervisor.php">Gerenciar supervisores</a>
 					<a href="http://pds.dev.anaju.me/gui/cadastro-servico.php">Gerenciar serviços</a>
 					<a href="http://pds.dev.anaju.me/gui/cadastro-tipo-servico.php">Gerenciar tipos de serviços</a>
+					<a href="http://pds.dev.anaju.me/gui/cadastro-ordem-servico.php">Gerenciar OS</a>
 					
 				</nav>
 			</div>

@@ -1,8 +1,10 @@
 <?php 
-// controlador da parte do gerenciamento de Servico. Essa classe que cadastra Servico, recebe os dados do html, salva no banco  e tmb retorna os dados salvos
-// ela que faz ligacao entre Servico e ServicoDAO
+//Classe de serviços da parte do gerenciamento de Servico. Essa classe recebe o serviço do 
+//controlador, avalia as regras de negócio e depois envia para a camada de dados. Ela que faz ligacao entre //controllerServico e ServicoDAO
 
 include_once($_SERVER["DOCUMENT_ROOT"]."/data/DAO/servicoDAO.php");
+include_once($_SERVER["DOCUMENT_ROOT"]."/business/models/Servico.php");
+include_once($_SERVER["DOCUMENT_ROOT"]."/business/exception/serviceException.php");
 
 
 class ServiceServico{
@@ -15,30 +17,83 @@ class ServiceServico{
 
     public function addServico($servico){
     	//envia o objeto servico para a funcao salvar servico no servicoDAO
-    	//criar esse método para inserir o servico no banco de dados
-    	if($this->servicoDAO->insert($servico) == 1){
-    		return 1;
-    	}
-    	return 0;
+
+        try {
+
+            $this->validarDadosServico($servico);
+            return $this->servicoDAO->insert($servico); 
+            
+        } catch (DataException $e) {
+            throw $e;
+        }
+       
     }
 
     public function alterarServico($servico){
     	//envia o objeto servico para a funcao alterar servico no servicoDAO
-    	return $this->servicoDAO->update($servico); //criar esse método para atualizar o servico no banco de dados
+
+        try {
+                       
+            $this->validarDadosServico($servico);
+    	    return $this->servicoDAO->update($servico);
+        } catch (DataException $e) {
+            throw $e;            
+        }        
     }
 
     public function excluirServico($servico){
     	//envia o objeto servico para a funcao excluir servico no servicoDAO
-    	return $this->servicoDAO->delete($servico); //criar esse método para excluir o servico no banco de dados
+
+        try {
+            return $this->servicoDAO->delete($servico);
+        } catch (DataException $e) {
+            throw $e;
+        }
+    	
     }
 
 
     public function getListaServicos(){
-    	return $this->servicoDAO->getServicos();
+        try {
+            return $this->servicoDAO->getServicos();
+        } catch (DataException $e) {
+            throw $e;
+        }
+    	
     }
 
+    private function validarDadosServico($servico){
 
-    
+        $ret="";
+
+        if($servico->getNome() == "" ){
+           $ret .= "Nome não informado\n";  
+        }
+        if($servico->getLocal() == "" ){
+            $ret .= "Local não informado\n";  
+        }
+        if($servico->getDataCadastro() == "" ){
+            $ret .= "Data não informada\n";  
+        }
+        if($servico->getStatus() == "" ){
+            $ret .= "Status não informado\n";  
+        }
+        if($servico->getTipoServico() == "" ){
+            $ret .= "Tipo de Serviço não informado\n";  
+        }
+        if($servico->getQuantidade() == "" ){
+            $ret .= "Quantidade não informada\n";  
+        }
+        if(!is_numeric($servico->getQuantidade())){
+            $ret .= "Quantidade deve ser um valor numérico\n";  
+        }
+        
+        if($ret != ""){
+            throw new ServiceException($ret);
+            
+        }
+
+    }
 	
 }
 
