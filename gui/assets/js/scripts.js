@@ -107,7 +107,7 @@ function removerOrdemServico(id_remover){
 function resultFormRemoverOrdemServico(ret, id_remover){
     if(ret == "1"){
         alert("Ordem de serviço removido.");
-        carregarServicos("tabela");
+        carregarOrdemServicos("tabela");
 
     }else{
         alert(JSON.parse(ret).responseText);
@@ -385,7 +385,7 @@ jQuery(document).ready(function($){
         $.ajax({
                 type: 'POST',
                 dataType: 'json',
-                url: 'http://pds.dev.anaju.me/business/services/ajaxGeral.php',
+                url: 'http://pds.dev.anaju.me/business/controller/controleCadastroSupervisor.php',
                 async: true,
                 data: dados,
             error: function(enviado) {
@@ -406,8 +406,9 @@ jQuery(document).ready(function($){
             $('#form_supervisor')[0].reset();
             carregarSupervisores("tabela");
         }else{
-            alert("Erro no cadastro.");
+            alert(JSON.parse(ret).responseText);
         }
+
     }
 
 
@@ -419,7 +420,7 @@ function carregarSupervisores(tipo){
     $.ajax({
             type: 'POST',
             dataType: 'json',
-            url: 'http://pds.dev.anaju.me/business/services/ajaxGeral.php',
+            url: 'http://pds.dev.anaju.me/business/controller/controleCadastroSupervisor.php',
             async: true,
             data: {"listaSupervisores": true},
             error: function(enviado) {
@@ -443,11 +444,11 @@ function carregarSupervisores(tipo){
 
 
 function removerSupervisor(id_remover){
-    alert(id_remover);
+    
     $.ajax({
             type: 'POST',
             dataType: 'json',
-            url: 'http://pds.dev.anaju.me/business/services/ajaxGeral.php',
+            url: 'http://pds.dev.anaju.me/business/controller/controleCadastroSupervisor.php',
             async: true,
             data: {"excluirSupervisor": id_remover},
         error: function(enviado) {
@@ -460,11 +461,13 @@ function removerSupervisor(id_remover){
 }
 function resultFormRemoverSupervisor(ret, id_remover){
     if(ret == "1"){
+        alert("Supervisor removido");
         carregarSupervisores("tabela");
 
     }else{
-        alert("Erro na remoção.");
+        alert(JSON.parse(ret).responseText);
     }
+
 }
 
 
@@ -558,12 +561,6 @@ jQuery(document).ready(function($){
                 alert(JSON.parse(ret).responseText);
             }
     	}
-
-
-
-    
-
-
 });
 
 

@@ -3,6 +3,7 @@
 //controlador, avalia as regras de negócio e depois envia para a camada de dados. Ela que faz ligacao entre //controllerServico e ServicoDAO
 
 include_once($_SERVER["DOCUMENT_ROOT"]."/data/DAO/servicoDAO.php");
+include_once($_SERVER["DOCUMENT_ROOT"]."/data/DAO/tipoServicoDAO.php");
 include_once($_SERVER["DOCUMENT_ROOT"]."/business/models/Servico.php");
 include_once($_SERVER["DOCUMENT_ROOT"]."/business/exception/serviceException.php");
 
@@ -21,6 +22,7 @@ class ServiceServico{
         try {
 
             $this->validarDadosServico($servico);
+            $this->validarIdTipoServico($servico);
             return $this->servicoDAO->insert($servico); 
             
         } catch (DataException $e) {
@@ -35,6 +37,8 @@ class ServiceServico{
         try {
                        
             $this->validarDadosServico($servico);
+            $this->validarIdServico($servico);
+            $this->validarIdTipoServico($servico);
     	    return $this->servicoDAO->update($servico);
         } catch (DataException $e) {
             throw $e;            
@@ -45,6 +49,7 @@ class ServiceServico{
     	//envia o objeto servico para a funcao excluir servico no servicoDAO
 
         try {
+            $this->validarIdServico($servico);
             return $this->servicoDAO->delete($servico);
         } catch (DataException $e) {
             throw $e;
@@ -61,6 +66,22 @@ class ServiceServico{
         }
     	
     }
+
+    private function validarIdServico($servico){
+        if(count($this->servicoDAO->getServicoById($servico->getIdServico())) == 0){
+            throw new ServiceException("Serviço não encontrado");
+            
+        }
+    }
+
+    private function validarIdTipoServico($servico){
+        if(count((new TipoServicoDAO())->getTipoServicoById($servico->getTipoServico())) == 0){
+            throw new ServiceException("Tipo de Serviço não encontrado");
+            
+        }
+    }
+
+
 
     private function validarDadosServico($servico){
 

@@ -1,58 +1,40 @@
 <?php
 include_once($_SERVER["DOCUMENT_ROOT"]."/data/conexao.php");
+include_once($_SERVER["DOCUMENT_ROOT"]."/business/exception/dataException.php");
 
 class SupervisorDAO{
     public $arraySupervisores;
     public $conexao;
 
     public function __construct(){
+        $this->arraySupervisores = [];
         $this->conexao = (new Conexao())->getConexao();
     }
     
     public function insert($supervisor){
         $sql = "INSERT INTO supervisor (id_funcionario, setor, id_supervisor) VALUES ('".$supervisor->getIdFuncionario()."', '".$supervisor->getSetor()."', '".$supervisor->getIdSupervisor()."' ) ";
-      
-        
-        $id_retorno = mysqli_query($this->conexao, $sql);
-        // $id_supervisor = mysqli_insert_id($this->conexao);
-
-        if($id_retorno){
-
-            // foreach ($supervisor->getFuncionariosAdministrados() as $funcionario) {
-            //     $this->insertRelacaoAdministrado($funcionario->getIdFuncionario(), $id_supervisor);
-            // }
-
-            return 1;
+        if(!mysqli_query($this->conexao, $sql)){
+            throw new DataException("Erro ao inserir o supervisor no banco de dados.\n");
         }
-        return 0;
+        return true;
     }
-    
-    // public function insertRelacaoAdministrado($idAdministrado, $idSupervisor){
-    //     $sql = "INSERT INTO administracao (id_funcionario, id_supervisor) VALUES ('".$idAdministrado."', '".$idSupervisor."' ) ";     
-    //     if(mysqli_query($this->conexao, $sql)){
-    //         return 1;
-    //     }
-    //     return 0;
-    // }
-     
      
     public function update($supervisor){
         $sql = "UPDATE supervisor SET setor = '".$supervisor->getSetor()."', id_funcionario = '".$supervisor->getIdFuncionario()."' WHERE supervisor.id_supervisor = '".$supervisor->getIdSupervisor()."'";
-        // echo $sql;
-        if(mysqli_query($this->conexao, $sql)){
-            return 1;
+        if(!mysqli_query($this->conexao, $sql)){
+            throw new DataException("Erro ao atualizar o supervisor no banco de dados.\n");
         }
-        return 0;
+        return true;
     }
      
     public function delete($supervisor){
         if($supervisor->getIdSupervisor() != ""){
             $sql = "DELETE FROM supervisor WHERE id_supervisor = ".$supervisor->getIdSupervisor();
-            if(mysqli_query($this->conexao, $sql)){
-                return 1;
+            if(!mysqli_query($this->conexao, $sql)){
+                throw new DataException("Erro ao remover o supervisor do banco de dados.\n");
             }
         }
-        return 0;
+        return true;
     }
 
     //retorna array de objetos de funcionarios
@@ -65,8 +47,19 @@ class SupervisorDAO{
                     $this->arraySupervisores[count($this->arraySupervisores) + 1] = $row;
                 }
                 return $this->arraySupervisores;
-            }   
-        return 0;
+            } else {
+                throw new DataException("Erro ao listar os supervisores do banco de dados.\n");
+            }
+    }
+
+    public function getSupervisorById($idSupervisor){
+        $sql = "SELECT * FROM supervisor WHERE id_supervisor = '".$idSupervisor."' ;";
+        $result = mysqli_query($this->conexao, $sql);
+        if($result){
+            return mysqli_fetch_object($result);
+        }else{
+            throw new DataException("Erro ao selecionar o supervisor no banco de dados.\n");
+        }
     }
 
 }

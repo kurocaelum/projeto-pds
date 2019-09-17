@@ -66,6 +66,16 @@ class ServicoDAO{
         return $this->arrayServicos;
     }
 
+    public function getServicoById($idServico){
+        $sql = "SELECT * FROM servico WHERE id_servico = '".$idServico."' ;";
+        $result = mysqli_query($this->conexao, $sql);
+        if($result){
+            return mysqli_fetch_object($result);
+        }else{
+            throw new DataException("Erro ao selecionar o serviço no banco de dados.\n");
+        }
+    }
+
 }
 
 ?>

@@ -1,70 +1,100 @@
 <?php 
-// controlador da parte do gerenciamento de Funcionario. Essa classe que cadastra funcionario, recebe os dados do html, salva no banco  e tmb retorna os dados salvos
-// ela que faz ligacao entre funcionario e funcionarioDAO
-
 include_once($_SERVER["DOCUMENT_ROOT"]."/business/models/Supervisor.php");
 include_once($_SERVER["DOCUMENT_ROOT"]."/data/DAO/supervisorDAO.php");
-
+include_once($_SERVER["DOCUMENT_ROOT"]."/business/services/serviceSupervisor.php");
 
 class ControleCadastroSupervisor{
-	public $supervisorDAO; // objeto dao para salvar as funcionarios e obter dados.
+	public $serviceSupervisor;
 	public $supervisor;
 
-	// public $funcionariosArray; //lista de todas as funcionarios
-
 	public function __construct(){
-		$this->supervisorDAO = new SupervisorDAO();
+		$this->serviceSupervisor = new ServiceSupervisor();
 		$this->supervisor = new Supervisor();
+		$this->verificarRequisicao();
 	}
 
+	public function verificarRequisicao(){
+        if(isset($_POST['idSupervisor'])){
+            if($_POST['idSupervisor'] != ""){
+                $this->supervisor->setIdSupervisor($_POST['idSupervisor']);
+                echo $this->alterarSupervisor();
+            }else{
+                if(isset($_POST['addSupervisor'])){
+                    echo $this->addSupervisor();
+                }
+            }
+        }
+     
+        if(isset($_POST['listaSupervisores'])){
+            echo json_encode($this->getListaSupervisores(), JSON_PRETTY_PRINT);
+        }
+     
+        if(isset($_POST['excluirSupervisor'])){
+            $this->supervisor->setIdSupervisor($_POST['excluirSupervisor']);
+            echo $this->excluirSupervisor();
+        }   
+    }
+
+	public function setSupervisor(){
+		$setor = $_POST['setor'];
+        $funcionarioSupervisor = $_POST['funcionarioSupervisor'];		
+        
+		$this->supervisor->setSetor($setor);
+        $this->supervisor->setIdFuncionario($funcionarioSupervisor);
+    }
+
+	
+	public function addSupervisor(){
+
+		$this->setSupervisor();
+		
+		try {
+			return $this->serviceSupervisor->addSupervisor($this->getSupervisor());
+		} catch (ServiceException $e) {
+            return $e->getMessage(); 
+        } catch (DataException $d) {
+            return $d->getMessage(); 
+        }
+	}
+	
+	public function alterarSupervisor(){
+    	 
+        $this->setSupervisor();
+        try {    
+            return $this->serviceSupervisor->alterarSupervisor($this->getSupervisor());
+        } catch (ServiceException $e) {
+            return $e->getMessage(); 
+        } catch (DataException $d) {
+            return $d->getMessage(); 
+        }
+	}
+	
+	public function excluirSupervisor(){
+    	try {    
+            return $this->serviceSupervisor->excluirSupervisor($this->getSupervisor());
+        } catch (ServiceException $e) {
+            return $e->getMessage(); 
+        } catch (DataException $d) {
+            return $d->getMessage();
+        }
+	}
+	
+	public function getListaSupervisores(){
+    	try {    
+            return $this->serviceSupervisor->getListaSupervisores();
+        } catch (DataException $d) {
+            return $d->getMessage(); 
+        }
+    }
+	
 	public function getSupervisor(){
 		return $this->supervisor;
-	}
-
-	public function addSupervisor(){
-    	if($this->supervisorDAO->insert($this->supervisor) == 1){
-    		return 1;
-    	}
-    	return 0;
-    }
-
-    public function alterarSupervisor($supervisorNovo){
-    	//envia o objeto funcionario para a funcao salvar funcionario no funcionarioDAO
-    	return $this->supervisorDAO->update($supervisorNovo); //criar esse método para inserir a funcionario no banco de dados
-    }
-
-    public function excluirSupervisor($supervisor){
-    	//envia o objeto funcionario para a funcao salvar funcionario no funcionarioDAO
-    	return $this->supervisorDAO->delete($supervisor); //criar esse método para inserir a funcionario no banco de dados
-    }
-
-
-    public function getListaSupervisores(){
-    	return $this->supervisorDAO->getSupervisores();
-    }
-
-    /* Remover
-    function setFuncionariosAdministrados($idsFuncionarios){
-    	$listFuncionarios = [];
-    	for ($i=0; $i < count($idsFuncionarios); $i++) { 
-    		if($idsFuncionarios != ""){
-	            $funcionarioAdm = new Funcionario();
-	            $funcionarioAdm->setIdFuncionario($idsFuncionarios[$i]);
-	            $listFuncionarios[count($listFuncionarios)+1] = $funcionarioAdm;
-	            // echo $idsFuncionarios[$i]."==";
-    		}
-        }
-        $this->supervisor->setFuncionariosAdministrados( $listFuncionarios );
-
-    }
-    */
-    
+	}    	
 	
 }
 
+if(isset($_POST['idSupervisor']) || isset($_POST['listaSupervisores']) || isset($_POST['excluirSupervisor']) || isset($_POST['addSupervisor']) ){
+	$controleCadastrosupervisor = new ControleCadastroSupervisor();
+}
 
-
-	
-	
-
- ?>
+?>

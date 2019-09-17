@@ -4,8 +4,3 @@ RewriteRule .* - [F]
 # php -- BEGIN cPanel-generated handler, do not edit
 # Este domínio herda o pacote “PHP”.
 # php -- END cPanel-generated handler, do not edit
-# Use PHP71 as default
-AddHandler application/x-httpd-php71 .php
-<IfModule mod_suphp.c>
-    suPHP_ConfigPath /opt/php71/lib
-</IfModule>

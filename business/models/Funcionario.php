@@ -10,43 +10,43 @@ class Funcionario{
 	public function __construct(){
     }
 
-	function getIdFuncionario(){
+	public function getIdFuncionario(){
     	return $this->idFuncionario;
     }
 
-	function setIdFuncionario($idFuncionario){
+	public function setIdFuncionario($idFuncionario){
     	$this->idFuncionario = $idFuncionario;
     }
 
-	function getNome(){
+	public function getNome(){
     	return $this->nome;
     }
 	
-	function setNome($nome){
+	public function setNome($nome){
 		$this->nome = $nome;
 	}
 
-	function getIdSupervisorChefe(){
+	public function getIdSupervisorChefe(){
     	return $this->idSupervisorChefe;
     }
 	
-	function setIdSupervisorChefe($idSupervisorChefe){
+	public function setIdSupervisorChefe($idSupervisorChefe){
 		$this->idSupervisorChefe = $idSupervisorChefe;
 	}
 
-	function getEmail(){
+	public function getEmail(){
     	return $this->email;
     }
 	
-	function setEmail($email){
+	public function setEmail($email){
 		$this->email = $email;
 	}
 
-	function getTelefone(){
+	public function getTelefone(){
     	return $this->telefone;
     }
 	
-	function setTelefone($telefone){
+	public function setTelefone($telefone){
 		$this->telefone = $telefone;
 	}
 	

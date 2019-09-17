@@ -86,8 +86,8 @@ class ServiceFuncionario{
             $ret = $ret."Telefone não informado.\n";
         }
 
-        if($funcionario->idSupervisorChefe() != ""){
-            if($funcionario->idSupervisorChefe() == $funcionario->idFuncionario()){
+        if($funcionario->getIdSupervisorChefe() != ""){
+            if($funcionario->getIdSupervisorChefe() == $funcionario->getIdFuncionario()){
                 $ret = $ret."ID chefe igual ao ID do funcionário.\n";
             }
         }

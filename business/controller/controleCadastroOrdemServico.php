@@ -79,14 +79,14 @@ class ControleCadastroOrdemServico{
     }
 
     public function excluirOrdemServico(){
-        // try {    
-        //     $this->serviceFuncionario->excluirFuncionario($this->getFuncionario());
-        // } catch (ServiceException $e) {
-        //     return $e->getMessage(); 
-        // } catch (DataException $d) {
-        //     return $d->getMessage(); 
-        // }
-        // return 1;
+        try {    
+            $this->serviceOrdemServico->excluirOrdemServico($this->getOrdemServico());
+        } catch (ServiceException $e) {
+            return $e->getMessage(); 
+        } catch (DataException $d) {
+            return $d->getMessage(); 
+        }
+        return 1;
     }
 
     public function listarOrdemServicos(){

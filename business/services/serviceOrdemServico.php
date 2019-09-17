@@ -36,15 +36,15 @@ class ServiceOrdemServico{
         } 
     }
 
-    public function excluirFuncionario($funcionario){
-        // try {
-        //     $this->verificarDataId($funcionario);
-        //     $this->ordemServicoDAO->delete($funcionario);
-        // } catch (ServiceException $s) {
-        //     throw $s;
-        // } catch (DataException $d) {
-        //     throw $d;
-        // } 
+    public function excluirOrdemServico($ordemServico){
+        try {
+            $this->verificarDataId($ordemServico);
+            $this->ordemServicoDAO->delete($ordemServico);
+        } catch (ServiceException $s) {
+            throw $s;
+        } catch (DataException $d) {
+            throw $d;
+        } 
     }
 
     public function getListaOrdemServico(){

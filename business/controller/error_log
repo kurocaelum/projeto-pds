@@ -1166,3 +1166,91 @@ Stack trace:
 #4 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroOrdemServico.php(111): ControleCadastroOrdemServico->__construct()
 #5 {main}
   thrown in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php on line 53
+[16-Sep-2019 13:46:14 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to undefined method Supervisor::idSupervisorChefe() in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceSupervisor.php:89
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceSupervisor.php(18): ServiceSupervisor->verificarSupervisor(Object(Supervisor))
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroSupervisor.php(49): ServiceSupervisor->addSupervisor(Object(Supervisor))
+#2 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroSupervisor.php(23): ControleCadastroSupervisor->addSupervisor()
+#3 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroSupervisor.php(13): ControleCadastroSupervisor->verificarRequisicao()
+#4 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroSupervisor.php(95): ControleCadastroSupervisor->__construct()
+#5 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceSupervisor.php on line 89
+[16-Sep-2019 16:53:46 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to undefined method Funcionario::idSupervisorChefe() in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceFuncionario.php:89
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceFuncionario.php(18): ServiceFuncionario->verificarFuncionario(Object(Funcionario))
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroFuncionario.php(57): ServiceFuncionario->addFuncionario(Object(Funcionario))
+#2 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroFuncionario.php(23): ControleCadastroFuncionario->addFuncionario()
+#3 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroFuncionario.php(13): ControleCadastroFuncionario->verificarRequisicao()
+#4 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroFuncionario.php(107): ControleCadastroFuncionario->__construct()
+#5 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceFuncionario.php on line 89
+[16-Sep-2019 16:55:15 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to undefined method Funcionario::idSupervisorChefe() in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceFuncionario.php:89
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceFuncionario.php(18): ServiceFuncionario->verificarFuncionario(Object(Funcionario))
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroFuncionario.php(57): ServiceFuncionario->addFuncionario(Object(Funcionario))
+#2 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroFuncionario.php(23): ControleCadastroFuncionario->addFuncionario()
+#3 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroFuncionario.php(13): ControleCadastroFuncionario->verificarRequisicao()
+#4 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroFuncionario.php(107): ControleCadastroFuncionario->__construct()
+#5 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceFuncionario.php on line 89
+[16-Sep-2019 16:59:43 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to undefined method Funcionario::idSupervisorChefe() in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceFuncionario.php:89
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceFuncionario.php(18): ServiceFuncionario->verificarFuncionario(Object(Funcionario))
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroFuncionario.php(57): ServiceFuncionario->addFuncionario(Object(Funcionario))
+#2 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroFuncionario.php(23): ControleCadastroFuncionario->addFuncionario()
+#3 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroFuncionario.php(13): ControleCadastroFuncionario->verificarRequisicao()
+#4 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroFuncionario.php(107): ControleCadastroFuncionario->__construct()
+#5 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceFuncionario.php on line 89
+[16-Sep-2019 18:52:14 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function getFuncionarioById() on null in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceSupervisor.php:65
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceSupervisor.php(29): ServiceSupervisor->verificarDataId(Object(Supervisor))
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroSupervisor.php(62): ServiceSupervisor->alterarSupervisor(Object(Supervisor))
+#2 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroSupervisor.php(20): ControleCadastroSupervisor->alterarSupervisor()
+#3 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroSupervisor.php(13): ControleCadastroSupervisor->verificarRequisicao()
+#4 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroSupervisor.php(98): ControleCadastroSupervisor->__construct()
+#5 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceSupervisor.php on line 65
+[16-Sep-2019 19:29:41 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function setIdSupervisor() on null in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroSupervisor.php:33
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroSupervisor.php(13): ControleCadastroSupervisor->verificarRequisicao()
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroSupervisor.php(98): ControleCadastroSupervisor->__construct()
+#2 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroSupervisor.php on line 33
+[16-Sep-2019 19:30:01 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function getFuncionarioById() on null in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceSupervisor.php:65
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceSupervisor.php(29): ServiceSupervisor->verificarDataId(Object(Supervisor))
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroSupervisor.php(62): ServiceSupervisor->alterarSupervisor(Object(Supervisor))
+#2 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroSupervisor.php(20): ControleCadastroSupervisor->alterarSupervisor()
+#3 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroSupervisor.php(13): ControleCadastroSupervisor->verificarRequisicao()
+#4 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroSupervisor.php(98): ControleCadastroSupervisor->__construct()
+#5 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceSupervisor.php on line 65
+[16-Sep-2019 20:16:22 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function setIdSupervisor() on null in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroSupervisor.php:33
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroSupervisor.php(13): ControleCadastroSupervisor->verificarRequisicao()
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroSupervisor.php(101): ControleCadastroSupervisor->__construct()
+#2 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroSupervisor.php on line 33
+[16-Sep-2019 20:21:04 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function setIdSupervisor() on null in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroSupervisor.php:33
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroSupervisor.php(13): ControleCadastroSupervisor->verificarRequisicao()
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroSupervisor.php(101): ControleCadastroSupervisor->__construct()
+#2 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroSupervisor.php on line 33
+[16-Sep-2019 20:24:35 America/Sao_Paulo] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function ControleCadastroSupervisor::excluirSupervisor(), 0 passed in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroSupervisor.php on line 34 and exactly 1 expected in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroSupervisor.php:74
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroSupervisor.php(34): ControleCadastroSupervisor->excluirSupervisor()
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroSupervisor.php(13): ControleCadastroSupervisor->verificarRequisicao()
+#2 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroSupervisor.php(101): ControleCadastroSupervisor->__construct()
+#3 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroSupervisor.php on line 74
+[16-Sep-2019 21:14:35 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Class 'FuncionarioDAO' not found in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceSupervisor.php:76
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceSupervisor.php(19): ServiceSupervisor->verificarIdFuncionario(Object(Supervisor))
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroSupervisor.php(52): ServiceSupervisor->addSupervisor(Object(Supervisor))
+#2 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroSupervisor.php(23): ControleCadastroSupervisor->addSupervisor()
+#3 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroSupervisor.php(13): ControleCadastroSupervisor->verificarRequisicao()
+#4 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroSupervisor.php(97): ControleCadastroSupervisor->__construct()
+#5 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceSupervisor.php on line 76
