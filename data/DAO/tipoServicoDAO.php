@@ -1,6 +1,7 @@
 <?php
 include_once($_SERVER["DOCUMENT_ROOT"]."/data/conexao.php");
 include_once($_SERVER["DOCUMENT_ROOT"]."/business/exception/dataException.php");
+include_once($_SERVER["DOCUMENT_ROOT"]."/business/models/TipoServico.php");
 
 
 class TipoServicoDAO{
@@ -67,7 +68,14 @@ class TipoServicoDAO{
         $sql = "SELECT * FROM tipo_servico WHERE id_tipo_servico = '".$idTipoServico."' ;";
         $result = mysqli_query($this->conexao, $sql);
         if($result){
-            return mysqli_fetch_object($result);
+            $row = mysqli_fetch_object($result);
+            $tipoServico = new TipoServico();
+            $tipoServico->setNome( $row->nome );
+            $tipoServico->setUnidadeMedida( $row->unidade_medida );
+            $tipoServico->setIdTipoServico( $row->id_tipo_servico );
+            $tipoServico->setTempo( $row->tempo );
+
+            return $tipoServico;
         }else{
             throw new DataException("Erro ao selecionar o tipo de serviço no banco de dados.\n");
         }

@@ -2,13 +2,16 @@
 
  class Servico
  {
- 	private $idServico;
- 	private $nome;
- 	private $tipoServico;
- 	private $quantidade;
- 	private $local;
- 	private $dataCadastro;
- 	private $status;
+ 	public $idServico;
+ 	public $nome;
+ 	public $tipoServico;
+ 	public $quantidade;
+ 	public $local;
+ 	public $dataCadastro;
+ 	public $status;
+ 	public $tempoExecucao;
+ 	public $porcentagemTempo;
+ 	public $estimativaTempoTotal;
 
  	public function __construct()
  	{
@@ -50,6 +53,9 @@
  	public function getStatus(){
  		return $this->status;
  	}
+ 	public function getTempoExecucao(){
+ 		return $this->tempoExecucao;
+ 	}
 
 
  	public function setIdServico($idServico){
@@ -74,6 +80,23 @@
  	}
  	public function setStatus($status){
  		$this->status = $status;
+ 	}
+ 	public function setTempoExecucao($tempo){
+ 		$this->tempoExecucao = $tempo;
+ 	}
+
+ 	public function getPorcentagemTempo(){
+ 		return $this->porcentagemTempo;
+ 	}
+ 	public function setPorcentagemTempo($porcentagemTempo){
+ 		$this->porcentagemTempo = $porcentagemTempo;
+ 	}
+
+ 	public function getEstimativaTempoTotal(){
+ 		return $this->estimativaTempoTotal;
+ 	}
+ 	public function setEstimativaTempoTotal($estimativaTempoTotal){
+ 		$this->estimativaTempoTotal = $estimativaTempoTotal;
  	}
 
 

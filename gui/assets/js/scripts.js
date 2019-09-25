@@ -163,6 +163,7 @@ function resultCarregarOrdemServicos(listaOrdemServicos){
         tabelaServicos = tabelaServicos+'<td attr_id="'+idsListaFuncionarios+'" class="funcionarios_ordem_servico">'+idsListaFuncionarios+'</td>';
         tabelaServicos = tabelaServicos+'<td attr_id="'+idsListaServicos+'" class="servicos_ordem_servico">'+idsListaServicos+'</td>';
         tabelaServicos = tabelaServicos+'<td>';
+        tabelaServicos = tabelaServicos+'       <a href="http://pds.dev.anaju.me/gui/relatorio_os.php/?os='+jsonLista[k].idOrdemServico+'"><button type="button" class="editar_servico btn btn-info">Ver relatório</button></a>';
         tabelaServicos = tabelaServicos+'       <button type="button" id-editar="'+jsonLista[k].idOrdemServico+'" class="editar_ordem_servico btn btn-info">Editar</button>';
         tabelaServicos = tabelaServicos+'       <button type="button" id-remove="'+jsonLista[k].idOrdemServico+'" class="remover_ordem_servico btn btn-danger">Excluir</button>';
         tabelaServicos = tabelaServicos+'</td>';
@@ -330,8 +331,15 @@ function resultCarregarServicos(listaServicos){
         tabelaServicos = tabelaServicos+'<td class="data_servico">'+jsonLista[k].data_cadastro+'</td>';
         tabelaServicos = tabelaServicos+'<td class="id_tipo_servico">'+jsonLista[k].id_tipo_servico+'</td>';
         tabelaServicos = tabelaServicos+'<td class="quantidade_servico">'+jsonLista[k].quantidade+'</td>';
-        tabelaServicos = tabelaServicos+'<td class="status_supervisor">'+jsonLista[k].status+'</td>';
+        tabelaServicos = tabelaServicos+'<td class="tempo_conclusao">'+jsonLista[k].tempo_conclusao+'</td>';
+        switch(jsonLista[k].status){
+            case "1": tabelaServicos = tabelaServicos+'<td attr-cod= '+jsonLista[k].status+' class="status_servico">'+'Concluído'+'</td>'; break;
+            case "2": tabelaServicos = tabelaServicos+'<td attr-cod= '+jsonLista[k].status+' class="status_servico">'+'Em Execução'+'</td>'; break;
+            case "3": tabelaServicos = tabelaServicos+'<td attr-cod= '+jsonLista[k].status+' class="status_servico">'+'Pendente'+'</td>'; break;
+            case "4": tabelaServicos = tabelaServicos+'<td attr-cod= '+jsonLista[k].status+' class="status_servico">'+'Cancelado'+'</td>'; break;
+        }
         tabelaServicos = tabelaServicos+'<td>';
+        tabelaServicos = tabelaServicos+'       <a href=""><button type="button" class="editar_servico btn btn-info">Ver relatório</button></a>';
         tabelaServicos = tabelaServicos+'       <button type="button" id-editar="'+jsonLista[k].id_servico+'" class="editar_servico btn btn-info">Editar</button>';
         tabelaServicos = tabelaServicos+'       <button type="button" id-remove="'+jsonLista[k].id_servico+'" class="remover_servico btn btn-danger">Excluir</button>';
         tabelaServicos = tabelaServicos+'</td>';
@@ -354,9 +362,10 @@ function resultCarregarServicos(listaServicos){
         $("#form_input_nome").val( $("#servico"+id_editar).find(".nome_servico").text() );
         $("#form_input_local").val( $("#servico"+id_editar).find(".local_servico").text() );
         $("#form_input_data").val( $("#servico"+id_editar).find(".data_servico").text() );
-        $("#form_input_status").val( $("#servico"+id_editar).find(".status_supervisor").text() );
+        $("#form_input_status").val( $("#servico"+id_editar).find(".status_servico").attr("attr-cod") );
         $("#exampleInputQuantidade").val( $("#servico"+id_editar).find(".quantidade_servico").text() );
         $("#listaTiposServicosOption").val( $("#servico"+id_editar).find(".id_tipo_servico").text() );
+        $("#form_input_tempo").val( $("#servico"+id_editar).find(".tempo_conclusao").text() );
     });
 
 }

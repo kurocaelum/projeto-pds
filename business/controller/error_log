@@ -1254,3 +1254,759 @@ Stack trace:
 #4 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroSupervisor.php(97): ControleCadastroSupervisor->__construct()
 #5 {main}
   thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceSupervisor.php on line 76
+[23-Sep-2019 20:17:37 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Class 'ServiceRelatorioOS' not found in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php:13
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(124): ControleRelatorioOS->__construct()
+#1 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php on line 13
+[23-Sep-2019 20:17:58 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Class 'ServiceRelatorioOS' not found in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php:13
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(124): ControleRelatorioOS->__construct()
+#1 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php on line 13
+[23-Sep-2019 20:18:01 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Class 'RelatorioOS' not found in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php:15
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(125): ControleRelatorioOS->__construct()
+#1 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php on line 15
+[23-Sep-2019 20:18:19 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Class 'RelatorioOS' not found in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php:15
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(125): ControleRelatorioOS->__construct()
+#1 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php on line 15
+[23-Sep-2019 20:18:25 America/Sao_Paulo] PHP Warning:  include_once(/home1/anaju876/public_html/pds.dev.anaju.me/business/models/relatorioOS.php): failed to open stream: No such file or directory in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php on line 3
+[23-Sep-2019 20:18:25 America/Sao_Paulo] PHP Warning:  include_once(): Failed opening '/home1/anaju876/public_html/pds.dev.anaju.me/business/models/relatorioOS.php' for inclusion (include_path='.:/opt/php71/lib/php') in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php on line 3
+[23-Sep-2019 20:18:25 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Class 'RelatorioOS' not found in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php:17
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(127): ControleRelatorioOS->__construct()
+#1 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php on line 17
+[23-Sep-2019 20:18:30 America/Sao_Paulo] PHP Warning:  include_once(/home1/anaju876/public_html/pds.dev.anaju.me/business/models/relatorioOS.php): failed to open stream: No such file or directory in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php on line 3
+[23-Sep-2019 20:18:30 America/Sao_Paulo] PHP Warning:  include_once(): Failed opening '/home1/anaju876/public_html/pds.dev.anaju.me/business/models/relatorioOS.php' for inclusion (include_path='.:/opt/php71/lib/php') in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php on line 3
+[23-Sep-2019 20:18:30 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Class 'RelatorioOS' not found in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php:17
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(127): ControleRelatorioOS->__construct()
+#1 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php on line 17
+[23-Sep-2019 20:19:02 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to undefined method ControleRelatorioOS::verificarRequisicao() in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php:18
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(127): ControleRelatorioOS->__construct()
+#1 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php on line 18
+[23-Sep-2019 20:19:03 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to undefined method ControleRelatorioOS::verificarRequisicao() in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php:18
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(127): ControleRelatorioOS->__construct()
+#1 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php on line 18
+[23-Sep-2019 20:19:11 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to undefined method ControleRelatorioOS::verificarRequisicao() in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php:18
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(127): ControleRelatorioOS->__construct()
+#1 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php on line 18
+[23-Sep-2019 20:19:13 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to undefined method ServiceOrdemServico::getOrdemServicoById() in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php:44
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(128): ControleRelatorioOS->carregarOrdemServico(21)
+#1 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php on line 44
+[23-Sep-2019 20:19:13 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to undefined method ServiceOrdemServico::getOrdemServicoById() in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php:44
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(128): ControleRelatorioOS->carregarOrdemServico(21)
+#1 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php on line 44
+[23-Sep-2019 20:19:14 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to undefined method ServiceOrdemServico::getOrdemServicoById() in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php:44
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(128): ControleRelatorioOS->carregarOrdemServico(21)
+#1 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php on line 44
+[23-Sep-2019 20:21:06 America/Sao_Paulo] PHP Recoverable fatal error:  Object of class OrdemServico could not be converted to string in /home1/anaju876/public_html/pds.dev.anaju.me/business/models/RelatorioOS.php on line 16
+[23-Sep-2019 20:21:07 America/Sao_Paulo] PHP Recoverable fatal error:  Object of class OrdemServico could not be converted to string in /home1/anaju876/public_html/pds.dev.anaju.me/business/models/RelatorioOS.php on line 16
+[23-Sep-2019 20:21:09 America/Sao_Paulo] PHP Recoverable fatal error:  Object of class OrdemServico could not be converted to string in /home1/anaju876/public_html/pds.dev.anaju.me/business/models/RelatorioOS.php on line 16
+[23-Sep-2019 20:24:11 America/Sao_Paulo] PHP Recoverable fatal error:  Object of class OrdemServico could not be converted to string in /home1/anaju876/public_html/pds.dev.anaju.me/business/models/RelatorioOS.php on line 16
+[23-Sep-2019 20:24:22 America/Sao_Paulo] PHP Recoverable fatal error:  Object of class OrdemServico could not be converted to string in /home1/anaju876/public_html/pds.dev.anaju.me/business/models/RelatorioOS.php on line 16
+[23-Sep-2019 20:26:20 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Class 'Object' not found in /home1/anaju876/public_html/pds.dev.anaju.me/business/models/RelatorioOS.php:12
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(17): RelatorioOS->__construct()
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(127): ControleRelatorioOS->__construct()
+#2 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/models/RelatorioOS.php on line 12
+[23-Sep-2019 20:26:21 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Class 'Object' not found in /home1/anaju876/public_html/pds.dev.anaju.me/business/models/RelatorioOS.php:12
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(17): RelatorioOS->__construct()
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(127): ControleRelatorioOS->__construct()
+#2 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/models/RelatorioOS.php on line 12
+[23-Sep-2019 20:26:22 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Class 'Object' not found in /home1/anaju876/public_html/pds.dev.anaju.me/business/models/RelatorioOS.php:12
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(17): RelatorioOS->__construct()
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(127): ControleRelatorioOS->__construct()
+#2 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/models/RelatorioOS.php on line 12
+[23-Sep-2019 20:26:28 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Class 'Object' not found in /home1/anaju876/public_html/pds.dev.anaju.me/business/models/RelatorioOS.php:12
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(17): RelatorioOS->__construct()
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(127): ControleRelatorioOS->__construct()
+#2 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/models/RelatorioOS.php on line 12
+[23-Sep-2019 20:26:28 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Class 'RelatorioOS' not found in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php:17
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(127): ControleRelatorioOS->__construct()
+#1 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php on line 17
+[23-Sep-2019 20:26:29 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Class 'Object' not found in /home1/anaju876/public_html/pds.dev.anaju.me/business/models/RelatorioOS.php:12
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(17): RelatorioOS->__construct()
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(127): ControleRelatorioOS->__construct()
+#2 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/models/RelatorioOS.php on line 12
+[23-Sep-2019 20:26:30 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Class 'Object' not found in /home1/anaju876/public_html/pds.dev.anaju.me/business/models/RelatorioOS.php:12
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(17): RelatorioOS->__construct()
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(127): ControleRelatorioOS->__construct()
+#2 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/models/RelatorioOS.php on line 12
+[23-Sep-2019 20:26:30 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Class 'Object' not found in /home1/anaju876/public_html/pds.dev.anaju.me/business/models/RelatorioOS.php:12
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(17): RelatorioOS->__construct()
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(127): ControleRelatorioOS->__construct()
+#2 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/models/RelatorioOS.php on line 12
+[23-Sep-2019 20:26:31 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Class 'Object' not found in /home1/anaju876/public_html/pds.dev.anaju.me/business/models/RelatorioOS.php:12
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(17): RelatorioOS->__construct()
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(127): ControleRelatorioOS->__construct()
+#2 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/models/RelatorioOS.php on line 12
+[23-Sep-2019 20:26:42 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Class 'Object' not found in /home1/anaju876/public_html/pds.dev.anaju.me/business/models/RelatorioOS.php:12
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(17): RelatorioOS->__construct()
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(127): ControleRelatorioOS->__construct()
+#2 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/models/RelatorioOS.php on line 12
+[23-Sep-2019 20:26:42 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Class 'Object' not found in /home1/anaju876/public_html/pds.dev.anaju.me/business/models/RelatorioOS.php:12
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(17): RelatorioOS->__construct()
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(127): ControleRelatorioOS->__construct()
+#2 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/models/RelatorioOS.php on line 12
+[23-Sep-2019 20:26:43 America/Sao_Paulo] PHP Recoverable fatal error:  Object of class OrdemServico could not be converted to string in /home1/anaju876/public_html/pds.dev.anaju.me/business/models/RelatorioOS.php on line 17
+[23-Sep-2019 20:26:44 America/Sao_Paulo] PHP Recoverable fatal error:  Object of class OrdemServico could not be converted to string in /home1/anaju876/public_html/pds.dev.anaju.me/business/models/RelatorioOS.php on line 17
+[23-Sep-2019 20:26:45 America/Sao_Paulo] PHP Recoverable fatal error:  Object of class OrdemServico could not be converted to string in /home1/anaju876/public_html/pds.dev.anaju.me/business/models/RelatorioOS.php on line 17
+[23-Sep-2019 20:26:46 America/Sao_Paulo] PHP Recoverable fatal error:  Object of class OrdemServico could not be converted to string in /home1/anaju876/public_html/pds.dev.anaju.me/business/models/RelatorioOS.php on line 17
+[23-Sep-2019 20:26:46 America/Sao_Paulo] PHP Recoverable fatal error:  Object of class OrdemServico could not be converted to string in /home1/anaju876/public_html/pds.dev.anaju.me/business/models/RelatorioOS.php on line 17
+[23-Sep-2019 20:26:47 America/Sao_Paulo] PHP Recoverable fatal error:  Object of class OrdemServico could not be converted to string in /home1/anaju876/public_html/pds.dev.anaju.me/business/models/RelatorioOS.php on line 17
+[23-Sep-2019 20:27:13 America/Sao_Paulo] PHP Recoverable fatal error:  Object of class OrdemServico could not be converted to string in /home1/anaju876/public_html/pds.dev.anaju.me/business/models/RelatorioOS.php on line 17
+[23-Sep-2019 20:27:13 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Class 'RelatorioOS' not found in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php:17
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(127): ControleRelatorioOS->__construct()
+#1 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php on line 17
+[23-Sep-2019 20:27:14 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php on line 49
+[23-Sep-2019 20:27:15 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php on line 49
+[23-Sep-2019 20:27:17 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php on line 49
+[23-Sep-2019 20:27:42 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php on line 49
+[23-Sep-2019 20:35:18 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php on line 49
+[23-Sep-2019 20:35:21 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php on line 49
+[23-Sep-2019 20:35:22 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php on line 49
+[23-Sep-2019 20:35:23 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php on line 49
+[23-Sep-2019 20:35:42 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php on line 49
+[23-Sep-2019 20:35:42 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php on line 49
+[24-Sep-2019 13:35:21 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function setListaServicos() on null in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php:61
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(139): ControleRelatorioOS->carregarListaServicos()
+#1 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php on line 61
+[24-Sep-2019 13:58:52 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function getTempo() on null in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceServico.php:141
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(63): ServiceServico->calcularPorcentagemTempo(Object(Servico))
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(145): ControleRelatorioOS->carregarListaServicos()
+#2 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceServico.php on line 141
+[24-Sep-2019 13:58:54 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function getTempo() on null in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceServico.php:141
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(63): ServiceServico->calcularPorcentagemTempo(Object(Servico))
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(145): ControleRelatorioOS->carregarListaServicos()
+#2 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceServico.php on line 141
+[24-Sep-2019 13:59:17 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function getTempo() on null in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceServico.php:141
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(63): ServiceServico->calcularPorcentagemTempo(Object(Servico))
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(145): ControleRelatorioOS->carregarListaServicos()
+#2 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceServico.php on line 141
+[24-Sep-2019 13:59:17 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function getTempo() on null in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceServico.php:141
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(63): ServiceServico->calcularPorcentagemTempo(Object(Servico))
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(145): ControleRelatorioOS->carregarListaServicos()
+#2 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceServico.php on line 141
+[24-Sep-2019 13:59:18 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function getTempo() on null in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceServico.php:141
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(63): ServiceServico->calcularPorcentagemTempo(Object(Servico))
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(145): ControleRelatorioOS->carregarListaServicos()
+#2 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceServico.php on line 141
+[24-Sep-2019 13:59:18 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function getTempo() on null in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceServico.php:141
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(63): ServiceServico->calcularPorcentagemTempo(Object(Servico))
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(145): ControleRelatorioOS->carregarListaServicos()
+#2 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceServico.php on line 141
+[24-Sep-2019 13:59:19 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function getTempo() on null in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceServico.php:141
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(63): ServiceServico->calcularPorcentagemTempo(Object(Servico))
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(145): ControleRelatorioOS->carregarListaServicos()
+#2 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceServico.php on line 141
+[24-Sep-2019 13:59:19 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function getTempo() on null in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceServico.php:141
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(63): ServiceServico->calcularPorcentagemTempo(Object(Servico))
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(145): ControleRelatorioOS->carregarListaServicos()
+#2 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceServico.php on line 141
+[24-Sep-2019 13:59:19 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function getTempo() on null in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceServico.php:141
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(63): ServiceServico->calcularPorcentagemTempo(Object(Servico))
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(145): ControleRelatorioOS->carregarListaServicos()
+#2 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceServico.php on line 141
+[24-Sep-2019 13:59:19 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function getTempo() on null in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceServico.php:141
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(63): ServiceServico->calcularPorcentagemTempo(Object(Servico))
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(145): ControleRelatorioOS->carregarListaServicos()
+#2 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceServico.php on line 141
+[24-Sep-2019 13:59:45 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function getTempo() on null in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceServico.php:141
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(63): ServiceServico->calcularPorcentagemTempo(Object(Servico))
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(145): ControleRelatorioOS->carregarListaServicos()
+#2 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceServico.php on line 141
+[24-Sep-2019 13:59:46 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function getTempo() on null in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceServico.php:141
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(64): ServiceServico->calcularPorcentagemTempo(Object(Servico))
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(146): ControleRelatorioOS->carregarListaServicos()
+#2 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceServico.php on line 141
+[24-Sep-2019 14:00:25 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function getTempo() on null in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceServico.php:141
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(64): ServiceServico->calcularPorcentagemTempo(Object(Servico))
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(146): ControleRelatorioOS->carregarListaServicos()
+#2 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceServico.php on line 141
+[24-Sep-2019 14:00:26 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function getTempo() on null in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceServico.php:141
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(64): ServiceServico->calcularPorcentagemTempo(Object(Servico))
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(146): ControleRelatorioOS->carregarListaServicos()
+#2 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceServico.php on line 141
+[24-Sep-2019 14:00:27 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function getTempo() on null in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceServico.php:141
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(64): ServiceServico->calcularPorcentagemTempo(Object(Servico))
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(146): ControleRelatorioOS->carregarListaServicos()
+#2 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceServico.php on line 141
+[24-Sep-2019 14:00:28 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function getTempo() on null in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceServico.php:141
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(64): ServiceServico->calcularPorcentagemTempo(Object(Servico))
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(146): ControleRelatorioOS->carregarListaServicos()
+#2 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceServico.php on line 141
+[24-Sep-2019 14:00:28 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function getTempo() on null in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceServico.php:141
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(64): ServiceServico->calcularPorcentagemTempo(Object(Servico))
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(146): ControleRelatorioOS->carregarListaServicos()
+#2 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceServico.php on line 141
+[24-Sep-2019 14:00:30 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function getTempo() on null in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceServico.php:141
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(64): ServiceServico->calcularPorcentagemTempo(Object(Servico))
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(146): ControleRelatorioOS->carregarListaServicos()
+#2 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceServico.php on line 141
+[24-Sep-2019 14:25:52 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function getTipoServicoById() on null in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/servicoDAO.php:80
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceServico.php(86): ServicoDAO->getServicoById('52')
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(56): ServiceServico->getServicoById('52')
+#2 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(146): ControleRelatorioOS->carregarListaServicos()
+#3 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/servicoDAO.php on line 80
+[24-Sep-2019 14:25:54 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function getTipoServicoById() on null in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/servicoDAO.php:80
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceServico.php(86): ServicoDAO->getServicoById('52')
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(56): ServiceServico->getServicoById('52')
+#2 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(146): ControleRelatorioOS->carregarListaServicos()
+#3 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/servicoDAO.php on line 80
+[24-Sep-2019 14:31:28 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function getTipoServicoById() on null in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/servicoDAO.php:80
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceServico.php(86): ServicoDAO->getServicoById('52')
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(56): ServiceServico->getServicoById('52')
+#2 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(146): ControleRelatorioOS->carregarListaServicos()
+#3 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/servicoDAO.php on line 80
+[24-Sep-2019 14:31:29 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Class 'servicoDAO' not found in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceServico.php:15
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(19): ServiceServico->__construct()
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(144): ControleRelatorioOS->__construct()
+#2 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceServico.php on line 15
+[24-Sep-2019 14:31:30 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function getTipoServicoById() on null in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/servicoDAO.php:80
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceServico.php(86): ServicoDAO->getServicoById('52')
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(56): ServiceServico->getServicoById('52')
+#2 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(146): ControleRelatorioOS->carregarListaServicos()
+#3 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/servicoDAO.php on line 80
+[24-Sep-2019 14:31:31 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function getTipoServicoById() on null in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/servicoDAO.php:80
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceServico.php(86): ServicoDAO->getServicoById('52')
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(56): ServiceServico->getServicoById('52')
+#2 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(146): ControleRelatorioOS->carregarListaServicos()
+#3 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/servicoDAO.php on line 80
+[24-Sep-2019 14:31:32 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function getTipoServicoById() on null in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/servicoDAO.php:80
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceServico.php(86): ServicoDAO->getServicoById('52')
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(56): ServiceServico->getServicoById('52')
+#2 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(146): ControleRelatorioOS->carregarListaServicos()
+#3 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/servicoDAO.php on line 80
+[24-Sep-2019 14:31:54 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function getTipoServicoById() on null in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/servicoDAO.php:80
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceServico.php(86): ServicoDAO->getServicoById('52')
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(56): ServiceServico->getServicoById('52')
+#2 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(146): ControleRelatorioOS->carregarListaServicos()
+#3 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/servicoDAO.php on line 80
+[24-Sep-2019 14:31:55 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function getTipoServicoById() on null in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/servicoDAO.php:80
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceServico.php(86): ServicoDAO->getServicoById('52')
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(56): ServiceServico->getServicoById('52')
+#2 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(146): ControleRelatorioOS->carregarListaServicos()
+#3 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/servicoDAO.php on line 80
+[24-Sep-2019 14:31:57 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function getTipoServicoById() on null in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/servicoDAO.php:80
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceServico.php(86): ServicoDAO->getServicoById('52')
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(56): ServiceServico->getServicoById('52')
+#2 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(146): ControleRelatorioOS->carregarListaServicos()
+#3 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/servicoDAO.php on line 80
+[24-Sep-2019 14:31:58 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function getTipoServicoById() on null in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/servicoDAO.php:80
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceServico.php(86): ServicoDAO->getServicoById('52')
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(56): ServiceServico->getServicoById('52')
+#2 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(146): ControleRelatorioOS->carregarListaServicos()
+#3 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/servicoDAO.php on line 80
+[24-Sep-2019 14:31:58 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function getTipoServicoById() on null in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/servicoDAO.php:80
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceServico.php(86): ServicoDAO->getServicoById('52')
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(56): ServiceServico->getServicoById('52')
+#2 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(146): ControleRelatorioOS->carregarListaServicos()
+#3 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/servicoDAO.php on line 80
+[24-Sep-2019 14:31:59 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function getTipoServicoById() on null in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/servicoDAO.php:80
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceServico.php(86): ServicoDAO->getServicoById('52')
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(56): ServiceServico->getServicoById('52')
+#2 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(146): ControleRelatorioOS->carregarListaServicos()
+#3 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/servicoDAO.php on line 80
+[24-Sep-2019 14:34:31 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function getTipoServicoById() on null in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/servicoDAO.php:80
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceServico.php(86): ServicoDAO->getServicoById('52')
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(56): ServiceServico->getServicoById('52')
+#2 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(146): ControleRelatorioOS->carregarListaServicos()
+#3 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/servicoDAO.php on line 80
+[24-Sep-2019 14:34:32 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Class 'servicoDAO' not found in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceServico.php:15
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(19): ServiceServico->__construct()
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(144): ControleRelatorioOS->__construct()
+#2 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceServico.php on line 15
+[24-Sep-2019 14:34:33 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function getTipoServicoById() on null in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/servicoDAO.php:80
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceServico.php(86): ServicoDAO->getServicoById('52')
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(56): ServiceServico->getServicoById('52')
+#2 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(146): ControleRelatorioOS->carregarListaServicos()
+#3 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/servicoDAO.php on line 80
+[24-Sep-2019 14:34:34 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function getTipoServicoById() on null in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/servicoDAO.php:80
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceServico.php(86): ServicoDAO->getServicoById('52')
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(56): ServiceServico->getServicoById('52')
+#2 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(146): ControleRelatorioOS->carregarListaServicos()
+#3 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/servicoDAO.php on line 80
+[24-Sep-2019 14:34:35 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function getTipoServicoById() on null in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/servicoDAO.php:80
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceServico.php(86): ServicoDAO->getServicoById('52')
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(56): ServiceServico->getServicoById('52')
+#2 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(146): ControleRelatorioOS->carregarListaServicos()
+#3 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/servicoDAO.php on line 80
+[24-Sep-2019 14:35:19 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Class 'TipoServicoDAO' not found in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/servicoDAO.php:14
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceServico.php(15): ServicoDAO->__construct()
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(19): ServiceServico->__construct()
+#2 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(144): ControleRelatorioOS->__construct()
+#3 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/servicoDAO.php on line 14
+[24-Sep-2019 14:35:20 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function getTipoServicoById() on null in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/servicoDAO.php:80
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceServico.php(86): ServicoDAO->getServicoById('52')
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(56): ServiceServico->getServicoById('52')
+#2 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(146): ControleRelatorioOS->carregarListaServicos()
+#3 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/servicoDAO.php on line 80
+[24-Sep-2019 14:35:20 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function getTipoServicoById() on null in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/servicoDAO.php:80
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceServico.php(86): ServicoDAO->getServicoById('52')
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(56): ServiceServico->getServicoById('52')
+#2 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(146): ControleRelatorioOS->carregarListaServicos()
+#3 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/servicoDAO.php on line 80
+[24-Sep-2019 14:36:31 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function getTipoServicoById() on null in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/servicoDAO.php:80
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceServico.php(86): ServicoDAO->getServicoById('52')
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(56): ServiceServico->getServicoById('52')
+#2 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(146): ControleRelatorioOS->carregarListaServicos()
+#3 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/servicoDAO.php on line 80
+[24-Sep-2019 14:44:20 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function getTipoServicoById() on null in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/servicoDAO.php:80
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceServico.php(86): ServicoDAO->getServicoById('52')
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(56): ServiceServico->getServicoById('52')
+#2 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(146): ControleRelatorioOS->carregarListaServicos()
+#3 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/servicoDAO.php on line 80
+[24-Sep-2019 14:44:48 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function getTipoServicoById() on null in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/servicoDAO.php:80
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceServico.php(86): ServicoDAO->getServicoById('52')
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(56): ServiceServico->getServicoById('52')
+#2 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(146): ControleRelatorioOS->carregarListaServicos()
+#3 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/servicoDAO.php on line 80
+[24-Sep-2019 14:44:50 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function getTipoServicoById() on null in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/servicoDAO.php:80
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceServico.php(86): ServicoDAO->getServicoById('52')
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(56): ServiceServico->getServicoById('52')
+#2 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(146): ControleRelatorioOS->carregarListaServicos()
+#3 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/servicoDAO.php on line 80
+[24-Sep-2019 14:45:21 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function getTipoServicoById() on null in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/servicoDAO.php:80
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceServico.php(86): ServicoDAO->getServicoById('52')
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(56): ServiceServico->getServicoById('52')
+#2 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(146): ControleRelatorioOS->carregarListaServicos()
+#3 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/servicoDAO.php on line 80
+[24-Sep-2019 14:50:54 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function getTipoServicoById() on null in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/servicoDAO.php:80
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceServico.php(86): ServicoDAO->getServicoById('52')
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(56): ServiceServico->getServicoById('52')
+#2 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(146): ControleRelatorioOS->carregarListaServicos()
+#3 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/servicoDAO.php on line 80
+[24-Sep-2019 14:51:18 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function getTipoServicoById() on null in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/servicoDAO.php:80
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceServico.php(86): ServicoDAO->getServicoById('52')
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(56): ServiceServico->getServicoById('52')
+#2 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(146): ControleRelatorioOS->carregarListaServicos()
+#3 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/servicoDAO.php on line 80
+[24-Sep-2019 14:51:43 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function getTipoServicoById() on null in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/servicoDAO.php:80
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceServico.php(86): ServicoDAO->getServicoById('52')
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(56): ServiceServico->getServicoById('52')
+#2 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(146): ControleRelatorioOS->carregarListaServicos()
+#3 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/servicoDAO.php on line 80
+[24-Sep-2019 14:53:17 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function getTipoServicoById() on null in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/servicoDAO.php:80
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceServico.php(86): ServicoDAO->getServicoById('52')
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(56): ServiceServico->getServicoById('52')
+#2 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(146): ControleRelatorioOS->carregarListaServicos()
+#3 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/servicoDAO.php on line 80
+[24-Sep-2019 14:53:18 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Class 'servicoDAO' not found in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceServico.php:15
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(19): ServiceServico->__construct()
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(144): ControleRelatorioOS->__construct()
+#2 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceServico.php on line 15
+[24-Sep-2019 14:53:19 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function getTipoServicoById() on null in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/servicoDAO.php:81
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceServico.php(86): ServicoDAO->getServicoById('52')
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(56): ServiceServico->getServicoById('52')
+#2 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(146): ControleRelatorioOS->carregarListaServicos()
+#3 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/servicoDAO.php on line 81
+[24-Sep-2019 14:53:19 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function getTipoServicoById() on null in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/servicoDAO.php:81
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceServico.php(86): ServicoDAO->getServicoById('52')
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(56): ServiceServico->getServicoById('52')
+#2 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(146): ControleRelatorioOS->carregarListaServicos()
+#3 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/servicoDAO.php on line 81
+[24-Sep-2019 14:53:19 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function getTipoServicoById() on null in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/servicoDAO.php:81
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceServico.php(86): ServicoDAO->getServicoById('52')
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(56): ServiceServico->getServicoById('52')
+#2 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(146): ControleRelatorioOS->carregarListaServicos()
+#3 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/servicoDAO.php on line 81
+[24-Sep-2019 14:53:20 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function getTipoServicoById() on null in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/servicoDAO.php:81
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceServico.php(86): ServicoDAO->getServicoById('52')
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(56): ServiceServico->getServicoById('52')
+#2 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(146): ControleRelatorioOS->carregarListaServicos()
+#3 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/servicoDAO.php on line 81
+[24-Sep-2019 14:53:21 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function getTipoServicoById() on null in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/servicoDAO.php:81
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceServico.php(86): ServicoDAO->getServicoById('52')
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(56): ServiceServico->getServicoById('52')
+#2 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(146): ControleRelatorioOS->carregarListaServicos()
+#3 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/servicoDAO.php on line 81
+[24-Sep-2019 14:53:21 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function getTipoServicoById() on null in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/servicoDAO.php:81
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceServico.php(86): ServicoDAO->getServicoById('52')
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(56): ServiceServico->getServicoById('52')
+#2 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(146): ControleRelatorioOS->carregarListaServicos()
+#3 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/servicoDAO.php on line 81
+[24-Sep-2019 14:53:22 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function getTipoServicoById() on null in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/servicoDAO.php:81
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceServico.php(86): ServicoDAO->getServicoById('52')
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(56): ServiceServico->getServicoById('52')
+#2 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(146): ControleRelatorioOS->carregarListaServicos()
+#3 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/servicoDAO.php on line 81
+[24-Sep-2019 14:53:22 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function getTipoServicoById() on null in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/servicoDAO.php:81
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceServico.php(86): ServicoDAO->getServicoById('52')
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(56): ServiceServico->getServicoById('52')
+#2 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(146): ControleRelatorioOS->carregarListaServicos()
+#3 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/servicoDAO.php on line 81
+[24-Sep-2019 14:53:24 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function getTipoServicoById() on null in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/servicoDAO.php:81
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceServico.php(86): ServicoDAO->getServicoById('52')
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(56): ServiceServico->getServicoById('52')
+#2 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(146): ControleRelatorioOS->carregarListaServicos()
+#3 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/servicoDAO.php on line 81
+[24-Sep-2019 14:53:27 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function getTipoServicoById() on null in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/servicoDAO.php:81
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceServico.php(86): ServicoDAO->getServicoById('52')
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(56): ServiceServico->getServicoById('52')
+#2 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(146): ControleRelatorioOS->carregarListaServicos()
+#3 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/servicoDAO.php on line 81
+[24-Sep-2019 14:54:05 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Class 'servicoDAO' not found in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceServico.php:15
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(19): ServiceServico->__construct()
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(144): ControleRelatorioOS->__construct()
+#2 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceServico.php on line 15
+[24-Sep-2019 14:54:06 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function getTiposServicos() on null in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/servicoDAO.php:81
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceServico.php(86): ServicoDAO->getServicoById('52')
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(56): ServiceServico->getServicoById('52')
+#2 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(146): ControleRelatorioOS->carregarListaServicos()
+#3 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/servicoDAO.php on line 81
+[24-Sep-2019 14:54:07 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function getTiposServicos() on null in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/servicoDAO.php:81
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceServico.php(86): ServicoDAO->getServicoById('52')
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(56): ServiceServico->getServicoById('52')
+#2 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(146): ControleRelatorioOS->carregarListaServicos()
+#3 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/servicoDAO.php on line 81
+[24-Sep-2019 14:54:07 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function getTiposServicos() on null in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/servicoDAO.php:81
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceServico.php(86): ServicoDAO->getServicoById('52')
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(56): ServiceServico->getServicoById('52')
+#2 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(146): ControleRelatorioOS->carregarListaServicos()
+#3 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/servicoDAO.php on line 81
+[24-Sep-2019 14:54:12 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function getTiposServicos() on null in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/servicoDAO.php:81
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceServico.php(86): ServicoDAO->getServicoById('52')
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(56): ServiceServico->getServicoById('52')
+#2 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(146): ControleRelatorioOS->carregarListaServicos()
+#3 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/servicoDAO.php on line 81
+[24-Sep-2019 14:54:13 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function getTiposServicos() on null in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/servicoDAO.php:81
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceServico.php(86): ServicoDAO->getServicoById('52')
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(56): ServiceServico->getServicoById('52')
+#2 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(146): ControleRelatorioOS->carregarListaServicos()
+#3 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/servicoDAO.php on line 81
+[24-Sep-2019 14:54:27 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function getTiposServicos() on null in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/servicoDAO.php:81
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceServico.php(86): ServicoDAO->getServicoById('52')
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(56): ServiceServico->getServicoById('52')
+#2 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(146): ControleRelatorioOS->carregarListaServicos()
+#3 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/servicoDAO.php on line 81
+[24-Sep-2019 14:55:25 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function getTiposServicos() on null in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/servicoDAO.php:81
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceServico.php(86): ServicoDAO->getServicoById('52')
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(56): ServiceServico->getServicoById('52')
+#2 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(146): ControleRelatorioOS->carregarListaServicos()
+#3 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/servicoDAO.php on line 81
+[24-Sep-2019 14:55:38 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function getTiposServicos() on null in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/servicoDAO.php:81
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceServico.php(86): ServicoDAO->getServicoById('52')
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(56): ServiceServico->getServicoById('52')
+#2 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(146): ControleRelatorioOS->carregarListaServicos()
+#3 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/servicoDAO.php on line 81
+[24-Sep-2019 14:55:46 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function getTiposServicos() on null in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/servicoDAO.php:81
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceServico.php(86): ServicoDAO->getServicoById('52')
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(56): ServiceServico->getServicoById('52')
+#2 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(146): ControleRelatorioOS->carregarListaServicos()
+#3 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/servicoDAO.php on line 81
+[24-Sep-2019 14:57:59 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function getTipoServicoById() on null in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/servicoDAO.php:80
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceServico.php(86): ServicoDAO->getServicoById('52')
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(56): ServiceServico->getServicoById('52')
+#2 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(146): ControleRelatorioOS->carregarListaServicos()
+#3 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/servicoDAO.php on line 80
+[24-Sep-2019 15:00:16 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Class 'TipoServico' not found in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/tipoServicoDAO.php:71
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/servicoDAO.php(80): TipoServicoDAO->getTipoServicoById(NULL)
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceServico.php(86): ServicoDAO->getServicoById('52')
+#2 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(56): ServiceServico->getServicoById('52')
+#3 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(146): ControleRelatorioOS->carregarListaServicos()
+#4 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/tipoServicoDAO.php on line 71
+[24-Sep-2019 15:00:16 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Class 'TipoServico' not found in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/tipoServicoDAO.php:71
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/servicoDAO.php(80): TipoServicoDAO->getTipoServicoById(NULL)
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceServico.php(86): ServicoDAO->getServicoById('52')
+#2 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(56): ServiceServico->getServicoById('52')
+#3 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(146): ControleRelatorioOS->carregarListaServicos()
+#4 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/tipoServicoDAO.php on line 71
+[24-Sep-2019 15:00:18 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Class 'TipoServico' not found in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/tipoServicoDAO.php:71
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/servicoDAO.php(80): TipoServicoDAO->getTipoServicoById(NULL)
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceServico.php(86): ServicoDAO->getServicoById('52')
+#2 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(56): ServiceServico->getServicoById('52')
+#3 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(146): ControleRelatorioOS->carregarListaServicos()
+#4 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/tipoServicoDAO.php on line 71
+[24-Sep-2019 15:00:18 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Class 'TipoServico' not found in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/tipoServicoDAO.php:71
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/servicoDAO.php(80): TipoServicoDAO->getTipoServicoById(NULL)
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceServico.php(86): ServicoDAO->getServicoById('52')
+#2 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(56): ServiceServico->getServicoById('52')
+#3 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(146): ControleRelatorioOS->carregarListaServicos()
+#4 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/tipoServicoDAO.php on line 71
+[24-Sep-2019 15:00:19 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Class 'TipoServico' not found in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/tipoServicoDAO.php:71
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/servicoDAO.php(80): TipoServicoDAO->getTipoServicoById(NULL)
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceServico.php(86): ServicoDAO->getServicoById('52')
+#2 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(56): ServiceServico->getServicoById('52')
+#3 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(146): ControleRelatorioOS->carregarListaServicos()
+#4 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/tipoServicoDAO.php on line 71
+[24-Sep-2019 15:00:19 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Class 'TipoServico' not found in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/tipoServicoDAO.php:71
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/servicoDAO.php(80): TipoServicoDAO->getTipoServicoById(NULL)
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceServico.php(86): ServicoDAO->getServicoById('52')
+#2 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(56): ServiceServico->getServicoById('52')
+#3 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(146): ControleRelatorioOS->carregarListaServicos()
+#4 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/tipoServicoDAO.php on line 71
+[24-Sep-2019 15:04:54 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Class 'servicoDAO' not found in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceServico.php:15
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(19): ServiceServico->__construct()
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(144): ControleRelatorioOS->__construct()
+#2 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceServico.php on line 15
+[24-Sep-2019 15:06:55 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Class 'TipoServicoDAO' not found in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/servicoDAO.php:14
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceServico.php(15): ServicoDAO->__construct()
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(19): ServiceServico->__construct()
+#2 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(144): ControleRelatorioOS->__construct()
+#3 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/servicoDAO.php on line 14
+[24-Sep-2019 15:38:42 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected '}', expecting ';' in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceServico.php on line 144
+[24-Sep-2019 15:38:43 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected '}', expecting ';' in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceServico.php on line 144
+[24-Sep-2019 15:38:44 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Class 'ServiceServico' not found in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php:19
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(159): ControleRelatorioOS->__construct()
+#1 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php on line 19
+[24-Sep-2019 15:38:45 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to undefined method Servico::getTempo() in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php:67
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(163): ControleRelatorioOS->calcularPorcentagemTempo()
+#1 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php on line 67
+[24-Sep-2019 15:38:45 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to undefined method Servico::getTempo() in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php:67
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(163): ControleRelatorioOS->calcularPorcentagemTempo()
+#1 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php on line 67
+[24-Sep-2019 15:38:45 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to undefined method Servico::getTempo() in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php:67
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(163): ControleRelatorioOS->calcularPorcentagemTempo()
+#1 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php on line 67
+[24-Sep-2019 15:38:45 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to undefined method Servico::getTempo() in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php:67
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(163): ControleRelatorioOS->calcularPorcentagemTempo()
+#1 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php on line 67
+[24-Sep-2019 15:38:46 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to undefined method Servico::getTempo() in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php:67
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(163): ControleRelatorioOS->calcularPorcentagemTempo()
+#1 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php on line 67
+[24-Sep-2019 15:38:46 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to undefined method Servico::getTempo() in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php:67
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(163): ControleRelatorioOS->calcularPorcentagemTempo()
+#1 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php on line 67
+[24-Sep-2019 15:39:16 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to undefined method Servico::getTempo() in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php:67
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(163): ControleRelatorioOS->calcularPorcentagemTempo()
+#1 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php on line 67
+[24-Sep-2019 15:39:17 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function getEstimativaTempoTotal() on null in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php:67
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(162): ControleRelatorioOS->calcularPorcentagemTempo()
+#1 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php on line 67
+[24-Sep-2019 15:39:19 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function getEstimativaTempoTotal() on null in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php:67
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(162): ControleRelatorioOS->calcularPorcentagemTempo()
+#1 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php on line 67
+[24-Sep-2019 15:39:21 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function getEstimativaTempoTotal() on null in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php:67
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(162): ControleRelatorioOS->calcularPorcentagemTempo()
+#1 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php on line 67
+[24-Sep-2019 15:39:33 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function getEstimativaTempoTotal() on null in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php:67
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(162): ControleRelatorioOS->calcularPorcentagemTempo()
+#1 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php on line 67
+[24-Sep-2019 15:58:26 America/Sao_Paulo] PHP Warning:  Division by zero in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php on line 69
+[24-Sep-2019 15:58:26 America/Sao_Paulo] PHP Warning:  Division by zero in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php on line 69
+[24-Sep-2019 15:58:27 America/Sao_Paulo] PHP Warning:  Division by zero in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php on line 69
+[24-Sep-2019 15:58:27 America/Sao_Paulo] PHP Warning:  Division by zero in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php on line 69

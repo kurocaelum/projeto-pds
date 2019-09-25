@@ -270,3 +270,96 @@ Stack trace:
 [16-Sep-2019 20:06:42 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected '$result' (T_VARIABLE) in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/supervisorDAO.php on line 55
 [16-Sep-2019 22:22:23 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected 'return' (T_RETURN) in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceServico.php on line 53
 [16-Sep-2019 22:29:07 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected ')' in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceServico.php on line 78
+[24-Sep-2019 19:49:33 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Class 'ControleRelatorioOS' not found in /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio_os.php:5
+Stack trace:
+#0 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio_os.php on line 5
+[24-Sep-2019 19:49:34 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function getOrdemServico() on null in /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio_os.php:35
+Stack trace:
+#0 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio_os.php on line 35
+[24-Sep-2019 19:49:35 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function getOrdemServico() on null in /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio_os.php:35
+Stack trace:
+#0 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio_os.php on line 35
+[24-Sep-2019 19:50:20 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function getOrdemServico() on null in /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio_os.php:35
+Stack trace:
+#0 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio_os.php on line 35
+[24-Sep-2019 19:50:21 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function getOrdemServico() on null in /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio_os.php:35
+Stack trace:
+#0 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio_os.php on line 35
+[24-Sep-2019 19:50:22 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function getOrdemServico() on null in /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio_os.php:35
+Stack trace:
+#0 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio_os.php on line 35
+[24-Sep-2019 19:50:26 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function getOrdemServico() on null in /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio_os.php:35
+Stack trace:
+#0 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio_os.php on line 35
+[24-Sep-2019 19:50:39 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function getOrdemServico() on null in /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio_os.php:36
+Stack trace:
+#0 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio_os.php on line 36
+[24-Sep-2019 19:50:41 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function getOrdemServico() on null in /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio_os.php:36
+Stack trace:
+#0 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio_os.php on line 36
+[24-Sep-2019 19:50:43 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function getOrdemServico() on null in /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio_os.php:36
+Stack trace:
+#0 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio_os.php on line 36
+[24-Sep-2019 19:51:20 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function getOrdemServico() on null in /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio_os.php:36
+Stack trace:
+#0 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio_os.php on line 36
+[24-Sep-2019 19:51:21 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function getOrdemServico() on null in /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio_os.php:36
+Stack trace:
+#0 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio_os.php on line 36
+[24-Sep-2019 19:52:26 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to undefined method OrdemServico::getOrdemServico() in /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio_os.php:36
+Stack trace:
+#0 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio_os.php on line 36
+[24-Sep-2019 19:52:28 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to undefined method OrdemServico::getOrdemServico() in /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio_os.php:36
+Stack trace:
+#0 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio_os.php on line 36
+[24-Sep-2019 19:52:43 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to undefined method OrdemServico::getOrdemServico() in /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio_os.php:36
+Stack trace:
+#0 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio_os.php on line 36
+[24-Sep-2019 19:52:54 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to undefined method OrdemServico::getOrdemServico() in /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio_os.php:36
+Stack trace:
+#0 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio_os.php on line 36
+[24-Sep-2019 19:52:55 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to undefined method OrdemServico::getOrdemServico() in /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio_os.php:36
+Stack trace:
+#0 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio_os.php on line 36
+[24-Sep-2019 19:52:56 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to undefined method OrdemServico::getOrdemServico() in /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio_os.php:36
+Stack trace:
+#0 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio_os.php on line 36
+[24-Sep-2019 19:59:48 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to undefined method Servico::getData() in /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio_os.php:38
+Stack trace:
+#0 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio_os.php on line 38
+[24-Sep-2019 19:59:56 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to undefined method Servico::getData() in /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio_os.php:38
+Stack trace:
+#0 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio_os.php on line 38
+[24-Sep-2019 20:00:06 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to undefined method Servico::getData() in /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio_os.php:38
+Stack trace:
+#0 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio_os.php on line 38
+[24-Sep-2019 20:00:28 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to undefined method Servico::getData() in /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio_os.php:38
+Stack trace:
+#0 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio_os.php on line 38
+[24-Sep-2019 20:00:30 America/Sao_Paulo] PHP Recoverable fatal error:  Object of class TipoServico could not be converted to string in /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio_os.php on line 40
+[24-Sep-2019 20:00:31 America/Sao_Paulo] PHP Recoverable fatal error:  Object of class TipoServico could not be converted to string in /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio_os.php on line 40
+[24-Sep-2019 20:00:32 America/Sao_Paulo] PHP Recoverable fatal error:  Object of class TipoServico could not be converted to string in /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio_os.php on line 40
+[24-Sep-2019 20:05:12 America/Sao_Paulo] PHP Recoverable fatal error:  Object of class TipoServico could not be converted to string in /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio_os.php on line 40
+[24-Sep-2019 20:05:41 America/Sao_Paulo] PHP Recoverable fatal error:  Object of class TipoServico could not be converted to string in /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio_os.php on line 40

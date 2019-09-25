@@ -145,14 +145,30 @@ class OrdemServicoDAO{
         }
     }
 
-    public function getFuncionarioById($id){
-        // $sql = "SELECT * FROM funcionario WHERE id_funcionario = '".$id."' ;";
-        // $result = mysqli_query($this->conexao, $sql);
-        // if($result){
-        //     return mysqli_fetch_object($result);
-        // }else{
-        //     throw new DataException("Erro ao selecionar o funcionário no banco de dados.\n");
-        // }
+    public function getOrdemServicoById($id){
+        $sql = "SELECT * FROM ordem_servico WHERE id_ordem_servico = '".$id."';";
+        $result = mysqli_query($this->conexao, $sql);
+        if($result){
+            $row = mysqli_fetch_object($result);
+            $ordemServico = new OrdemServico();
+            $ordemServico->setDescricao($row->descricao);
+            $ordemServico->setIdOrdemServico($row->id_ordem_servico);
+
+            $listaServicos = $this->getServicosByOrdemServico($row->id_ordem_servico);
+            $listaFuncionarios = $this->getFuncionariosByOrdemServico($row->id_ordem_servico);
+            
+            for ($i=0; $i < count($listaServicos); $i++) { 
+                $ordemServico->addServico($listaServicos[$i]);
+            }   
+            for ($i=0; $i < count($listaFuncionarios); $i++) { 
+                $ordemServico->addFuncionario($listaFuncionarios[$i]);
+            } 
+
+            return $ordemServico;
+            
+        }else{
+            throw new DataException("Erro ao consultar a ordem de serviço no banco de dados.\n");
+        }
     }
 
     public function getFuncionarioByEmail($email){

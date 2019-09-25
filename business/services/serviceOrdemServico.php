@@ -57,6 +57,17 @@ class ServiceOrdemServico{
         } 
         return $retorno;
     }
+    
+    public function getOrdemServicoById($id){
+        try {
+            $retorno = $this->ordemServicoDAO->getOrdemServicoById($id);
+        } catch (ServiceException $s) {
+            throw $s;
+        } catch (DataException $d) {
+            throw $d;
+        } 
+        return $retorno;
+    }
 
     //verifica se o funcionário está cadastrado, caso contrário retorna exceção
     public function verificarDataId($ordemServico){

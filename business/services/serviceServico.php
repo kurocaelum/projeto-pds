@@ -81,6 +81,16 @@ class ServiceServico{
         }
     }
 
+    public function getServicoById($id){
+        try {
+            $retorno = $this->servicoDAO->getServicoById($id);
+        } catch (ServiceException $s) {
+            throw $s;
+        } catch (DataException $d) {
+            throw $d;
+        } 
+        return $retorno;
+    }
 
 
     private function validarDadosServico($servico){
@@ -108,6 +118,16 @@ class ServiceServico{
         if(!is_numeric($servico->getQuantidade())){
             $ret .= "Quantidade deve ser um valor numérico\n";  
         }
+        if(!is_numeric($servico->getTempoExecucao())){
+            if($servico->getTempoExecucao() == ""){
+                $servico->setTempoExecucao(-1);
+            }else{
+                $ret .= "Tempo de Execução deve ser um valor numérico\n";  
+            }
+            
+        }
+        
+        
         
         if($ret != ""){
             throw new ServiceException($ret);
@@ -115,7 +135,10 @@ class ServiceServico{
         }
 
     }
-	
+
+
+
+
 }
 
 

@@ -23,10 +23,16 @@
 			    <label for="form_input_data">Data</label>
 			    <input name="data" required type="date" class="form-control" id="form_input_data" placeholder="">
 		  	</div>
-		  	<div class="form-group">
-			    <label for="form_input_status">Status</label>
-			    <input name="status" required type="text" class="form-control" id="form_input_status" placeholder="">
-		  	</div>
+		  	
+			<label for="form_input_status">Status</label>
+			<select name="status" class="form-control" id="form_input_status">
+
+			    <option value="1">Concluído</option>
+				<option value="2">Em execução</option>
+				<option value="3">Pendente</option>
+				<option value="4">Cancelado</option>
+			</select>
+		  	<br>
 		    <label for="listaTiposServicosOption">Tipo de serviço</label>
 		    <select class="form-control exibirListaTiposServicosOption" name="tipoServico" id="listaTiposServicosOption">
 		    </select>
@@ -34,6 +40,11 @@
 		   	<div class="form-group">
 			    <label for="exampleInputQuantidade">Quantidade</label>
 			    <input name="quantidade" required type="text" class="form-control" id="exampleInputQuantidade" placeholder="">
+		  	</div>
+
+		  	<div class="form-group">
+			    <label for="form_input_tempo">Tempo para Conclusão (minutos)</label>
+			    <input name="tempo" type="text" class="form-control" id="form_input_tempo" placeholder="">
 		  	</div>
 		
 
@@ -54,6 +65,7 @@
 			      <th scope="col">Data</th>
 			      <th scope="col">ID Tipo de serviço</th>
 			      <th scope="col">Quantidade</th>
+			      <th scope="col">Tempo para Conclusão</th>
 			      <th scope="col">Status</th>
 			      <th scope="col">Ações</th>
 		    </tr>

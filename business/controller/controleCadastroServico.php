@@ -46,6 +46,7 @@ class ControleCadastroServico{
          $status = $_POST['status'];
          $tipoServico = $_POST['tipoServico'];
          $quantidade = $_POST['quantidade'];
+         $tempo = $_POST['tempo'];
 
          $this->servico->setNome($nome);
          $this->servico->setLocal($local);
@@ -53,6 +54,7 @@ class ControleCadastroServico{
          $this->servico->setStatus($status);
          $this->servico->setTipoServico($tipoServico);
          $this->servico->setQuantidade($quantidade);
+         $this->servico->setTempoExecucao($tempo);
 
     }
 

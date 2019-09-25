@@ -6,10 +6,10 @@ class OrdemServico
 	public $descricao;
 	public $listaFuncionarios;
 	public $listaServicos;
+	public $tempoTotal;
 	
 	public function __construct(){
 		$listaFuncionarios = [];
-		$listaServicos = [];
 	}
 
 	public function setIdOrdemServico($idOrdemServico){
@@ -26,11 +26,16 @@ class OrdemServico
 		return $this->descricao;
 	}
 
-	public function addServico($idServico){
-		 $this->listaServicos[count($this->listaServicos) + 1] = $idServico;
+	public function addServico($servico){
+		 $this->listaServicos[count($this->listaServicos) + 1] = $servico;
 	}
+
 	public function getListaServicos(){
 		return $this->listaServicos;
+	}
+
+	public function setListaServicos($listaServicos){
+		$this->listaServicos = $listaServicos;
 	}
 
 	public function addFuncionario($idFuncionario){

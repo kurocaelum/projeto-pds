@@ -1,19 +1,22 @@
 <?php
 include_once($_SERVER["DOCUMENT_ROOT"]."/data/conexao.php");
 include_once($_SERVER["DOCUMENT_ROOT"]."/business/exception/dataException.php");
+include_once($_SERVER["DOCUMENT_ROOT"]."/data/DAO/tipoServicoDAO.php");
 
 class ServicoDAO{
     private $arrayServicos;
     private $conexao;
+    private $tipoServicoDAO;
 
     public function __construct(){
         $this->arrayServicos = [];
         $this->conexao = (new Conexao())->getConexao();
+        $this->tipoServicoDAO = new TipoServicoDAO();
     }
     
     public function insert($servico){
         
-        $sql = "INSERT INTO servico (id_tipo_servico, nome, localizacao, quantidade, data_cadastro, status) VALUES (".$servico->getTipoServico().", '".$servico->getNome()."', '".$servico->getLocal()."', ".$servico->getQuantidade().", '".$servico->getDataCadastro()."', '".$servico->getStatus()."')";
+        $sql = "INSERT INTO servico (id_tipo_servico, nome, localizacao, quantidade, data_cadastro, status, tempo_conclusao) VALUES (".$servico->getTipoServico().", '".$servico->getNome()."', '".$servico->getLocal()."', ".$servico->getQuantidade().", '".$servico->getDataCadastro()."', '".$servico->getStatus()."', ".$servico->getTempoExecucao().")";
 
         if(mysqli_query($this->conexao, $sql) == 0){
             throw new DataException("Erro ao tentar inserir o serviço no banco de dados.\n");
@@ -23,7 +26,7 @@ class ServicoDAO{
     }
      
     public function update($servico){
-         $sql = "UPDATE servico SET id_tipo_servico = ".$servico->getTipoServico().", nome = '".$servico->getNome()."', localizacao = '".$servico->getLocal()."', quantidade = ".$servico->getQuantidade().", data_cadastro= '".$servico->getDataCadastro()."', status= '".$servico->getStatus()."'   WHERE  id_servico = ".$servico->getIdServico();
+         $sql = "UPDATE servico SET id_tipo_servico = ".$servico->getTipoServico().", nome = '".$servico->getNome()."', localizacao = '".$servico->getLocal()."', quantidade = ".$servico->getQuantidade().", data_cadastro= '".$servico->getDataCadastro()."', status= '".$servico->getStatus()."', tempo_conclusao= ".$servico->getTempoExecucao()." WHERE  id_servico = ".$servico->getIdServico();
     
         
         if(mysqli_query($this->conexao, $sql) == 0){
@@ -70,11 +73,25 @@ class ServicoDAO{
         $sql = "SELECT * FROM servico WHERE id_servico = '".$idServico."' ;";
         $result = mysqli_query($this->conexao, $sql);
         if($result){
-            return mysqli_fetch_object($result);
+            $row = mysqli_fetch_object($result);
+            $servico = new Servico();
+            $servico->setNome($row->nome);
+            $servico->setIdServico($row->id_servico);
+
+            $servico->setTipoServico($this->tipoServicoDAO->getTipoServicoById($row->id_tipo_servico));
+
+            $servico->setQuantidade($row->quantidade);
+            $servico->setLocal($row->local);
+            $servico->setDataCadastro($row->data_cadastro);
+            $servico->setStatus($row->status);
+            $servico->setTempoExecucao($row->tempo_conclusao);
+            return $servico;
         }else{
             throw new DataException("Erro ao selecionar o serviço no banco de dados.\n");
         }
     }
+
+    
 
 }
 
