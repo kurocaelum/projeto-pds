@@ -363,3 +363,465 @@ Stack trace:
 [24-Sep-2019 20:00:32 America/Sao_Paulo] PHP Recoverable fatal error:  Object of class TipoServico could not be converted to string in /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio_os.php on line 40
 [24-Sep-2019 20:05:12 America/Sao_Paulo] PHP Recoverable fatal error:  Object of class TipoServico could not be converted to string in /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio_os.php on line 40
 [24-Sep-2019 20:05:41 America/Sao_Paulo] PHP Recoverable fatal error:  Object of class TipoServico could not be converted to string in /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio_os.php on line 40
+[25-Sep-2019 09:28:57 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Class 'TipoServicoDAO' not found in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php:16
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceOrdemServico.php(13): OrdemServicoDAO->__construct()
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroOrdemServico.php(12): ServiceOrdemServico->__construct()
+#2 /home1/anaju876/public_html/pds.dev.anaju.me/gui/cadastro-ordem-servico.php(5): ControleCadastroOrdemServico->__construct()
+#3 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php on line 16
+[25-Sep-2019 09:29:01 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Class 'TipoServicoDAO' not found in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php:16
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceOrdemServico.php(13): OrdemServicoDAO->__construct()
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroOrdemServico.php(12): ServiceOrdemServico->__construct()
+#2 /home1/anaju876/public_html/pds.dev.anaju.me/gui/cadastro-ordem-servico.php(5): ControleCadastroOrdemServico->__construct()
+#3 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php on line 16
+[25-Sep-2019 09:29:17 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Class 'TipoServicoDAO' not found in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php:16
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceOrdemServico.php(13): OrdemServicoDAO->__construct()
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroOrdemServico.php(12): ServiceOrdemServico->__construct()
+#2 /home1/anaju876/public_html/pds.dev.anaju.me/gui/cadastro-ordem-servico.php(5): ControleCadastroOrdemServico->__construct()
+#3 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php on line 16
+[25-Sep-2019 09:37:04 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Class 'OrdemServicoDAO' not found in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceOrdemServico.php:13
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroOrdemServico.php(12): ServiceOrdemServico->__construct()
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/gui/cadastro-ordem-servico.php(5): ControleCadastroOrdemServico->__construct()
+#2 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceOrdemServico.php on line 13
+[25-Sep-2019 09:38:42 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Class 'ServicoDAO' not found in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php:22
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceOrdemServico.php(13): OrdemServicoDAO->__construct()
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroOrdemServico.php(12): ServiceOrdemServico->__construct()
+#2 /home1/anaju876/public_html/pds.dev.anaju.me/gui/cadastro-ordem-servico.php(5): ControleCadastroOrdemServico->__construct()
+#3 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php on line 22
+[25-Sep-2019 09:38:44 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Class 'ServicoDAO' not found in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php:22
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceOrdemServico.php(13): OrdemServicoDAO->__construct()
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroOrdemServico.php(12): ServiceOrdemServico->__construct()
+#2 /home1/anaju876/public_html/pds.dev.anaju.me/gui/cadastro-ordem-servico.php(5): ControleCadastroOrdemServico->__construct()
+#3 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php on line 22
+[25-Sep-2019 09:52:30 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function getListaServicos() on array in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php:80
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(90): ControleRelatorioOS->calcularEstimativaTempo()
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio_os.php(6): ControleRelatorioOS->gerarRelatorioOS('21')
+#2 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php on line 80
+[25-Sep-2019 09:52:33 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function getListaServicos() on array in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php:80
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(90): ControleRelatorioOS->calcularEstimativaTempo()
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio_os.php(6): ControleRelatorioOS->gerarRelatorioOS('21')
+#2 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php on line 80
+[25-Sep-2019 09:54:22 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function getListaServicos() on array in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php:80
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(90): ControleRelatorioOS->calcularEstimativaTempo()
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio_os.php(6): ControleRelatorioOS->gerarRelatorioOS('21')
+#2 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php on line 80
+[25-Sep-2019 09:54:23 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function getListaServicos() on array in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php:82
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(92): ControleRelatorioOS->calcularEstimativaTempo()
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio_os.php(6): ControleRelatorioOS->gerarRelatorioOS('21')
+#2 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php on line 82
+[25-Sep-2019 09:54:24 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function getListaServicos() on array in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php:82
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(92): ControleRelatorioOS->calcularEstimativaTempo()
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio_os.php(6): ControleRelatorioOS->gerarRelatorioOS('21')
+#2 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php on line 82
+[25-Sep-2019 09:54:25 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function getListaServicos() on array in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php:82
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(92): ControleRelatorioOS->calcularEstimativaTempo()
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio_os.php(6): ControleRelatorioOS->gerarRelatorioOS('21')
+#2 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php on line 82
+[25-Sep-2019 09:54:25 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function getListaServicos() on array in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php:82
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(92): ControleRelatorioOS->calcularEstimativaTempo()
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio_os.php(6): ControleRelatorioOS->gerarRelatorioOS('21')
+#2 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php on line 82
+[25-Sep-2019 09:54:56 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function getDescricao() on array in /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio_os.php:13
+Stack trace:
+#0 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio_os.php on line 13
+[25-Sep-2019 09:54:58 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function getDescricao() on array in /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio_os.php:13
+Stack trace:
+#0 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio_os.php on line 13
+[25-Sep-2019 09:54:59 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function getDescricao() on array in /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio_os.php:13
+Stack trace:
+#0 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio_os.php on line 13
+[25-Sep-2019 09:55:58 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function getListaServicos() on string in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php:88
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(99): ControleRelatorioOS->calcularEstimativaTempo()
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio_os.php(6): ControleRelatorioOS->gerarRelatorioOS('21')
+#2 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php on line 88
+[25-Sep-2019 09:56:01 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function getListaServicos() on string in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php:88
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(99): ControleRelatorioOS->calcularEstimativaTempo()
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio_os.php(6): ControleRelatorioOS->gerarRelatorioOS('21')
+#2 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php on line 88
+[25-Sep-2019 09:56:32 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function getDescricao() on array in /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio_os.php:13
+Stack trace:
+#0 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio_os.php on line 13
+[25-Sep-2019 09:56:34 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function getDescricao() on array in /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio_os.php:13
+Stack trace:
+#0 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio_os.php on line 13
+[25-Sep-2019 09:56:36 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function getDescricao() on array in /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio_os.php:13
+Stack trace:
+#0 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio_os.php on line 13
+[25-Sep-2019 09:56:55 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Cannot use object of type RelatorioOS as array in /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio_os.php:7
+Stack trace:
+#0 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio_os.php on line 7
+[25-Sep-2019 09:56:56 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Cannot use object of type RelatorioOS as array in /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio_os.php:7
+Stack trace:
+#0 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio_os.php on line 7
+[25-Sep-2019 09:56:57 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Cannot use object of type RelatorioOS as array in /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio_os.php:7
+Stack trace:
+#0 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio_os.php on line 7
+[25-Sep-2019 09:56:59 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Cannot use object of type RelatorioOS as array in /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio_os.php:7
+Stack trace:
+#0 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio_os.php on line 7
+[25-Sep-2019 09:57:24 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Cannot use object of type RelatorioOS as array in /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio_os.php:7
+Stack trace:
+#0 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio_os.php on line 7
+[25-Sep-2019 09:57:26 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Cannot use object of type RelatorioOS as array in /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio_os.php:7
+Stack trace:
+#0 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio_os.php on line 7
+[25-Sep-2019 09:57:28 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Cannot use object of type RelatorioOS as array in /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio_os.php:7
+Stack trace:
+#0 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio_os.php on line 7
+[25-Sep-2019 09:57:55 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function getListaServicos() on array in /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio_os.php:35
+Stack trace:
+#0 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio_os.php on line 35
+[25-Sep-2019 09:58:12 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function getListaServicos() on array in /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio_os.php:35
+Stack trace:
+#0 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio_os.php on line 35
+[25-Sep-2019 17:42:51 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to undefined method Servico::getIdFuncionario() in /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio_os.php:80
+Stack trace:
+#0 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio_os.php on line 80
+[25-Sep-2019 17:42:53 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to undefined method Servico::getIdFuncionario() in /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio_os.php:80
+Stack trace:
+#0 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio_os.php on line 80
+[25-Sep-2019 17:42:54 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to undefined method Servico::getIdFuncionario() in /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio_os.php:80
+Stack trace:
+#0 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio_os.php on line 80
+[25-Sep-2019 17:43:05 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to undefined method Servico::getIdFuncionario() in /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio_os.php:80
+Stack trace:
+#0 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio_os.php on line 80
+[25-Sep-2019 17:43:25 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to undefined method Servico::getIdFuncionario() in /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio_os.php:80
+Stack trace:
+#0 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio_os.php on line 80
+[25-Sep-2019 17:55:35 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio-geral-os.php on line 48
+[25-Sep-2019 17:55:38 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio-geral-os.php on line 48
+[25-Sep-2019 17:55:47 America/Sao_Paulo] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function ControleRelatorioOS::gerarRelatorioOS(), 0 passed in /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio-geral-os.php on line 6 and exactly 1 expected in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php:96
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio-geral-os.php(6): ControleRelatorioOS->gerarRelatorioOS()
+#1 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php on line 96
+[25-Sep-2019 17:55:48 America/Sao_Paulo] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function ControleRelatorioOS::gerarRelatorioOS(), 0 passed in /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio-geral-os.php on line 6 and exactly 1 expected in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php:96
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio-geral-os.php(6): ControleRelatorioOS->gerarRelatorioOS()
+#1 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php on line 96
+[25-Sep-2019 17:56:03 America/Sao_Paulo] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function ControleRelatorioOS::gerarRelatorioOS(), 0 passed in /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio-geral-os.php on line 6 and exactly 1 expected in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php:96
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio-geral-os.php(6): ControleRelatorioOS->gerarRelatorioOS()
+#1 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php on line 96
+[25-Sep-2019 17:56:05 America/Sao_Paulo] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function ControleRelatorioOS::gerarRelatorioOS(), 0 passed in /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio-geral-os.php on line 6 and exactly 1 expected in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php:96
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio-geral-os.php(6): ControleRelatorioOS->gerarRelatorioOS()
+#1 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php on line 96
+[25-Sep-2019 17:56:07 America/Sao_Paulo] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function ControleRelatorioOS::gerarRelatorioOS(), 0 passed in /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio-geral-os.php on line 6 and exactly 1 expected in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php:96
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio-geral-os.php(6): ControleRelatorioOS->gerarRelatorioOS()
+#1 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php on line 96
+[25-Sep-2019 17:56:07 America/Sao_Paulo] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function ControleRelatorioOS::gerarRelatorioOS(), 0 passed in /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio-geral-os.php on line 6 and exactly 1 expected in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php:96
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio-geral-os.php(6): ControleRelatorioOS->gerarRelatorioOS()
+#1 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php on line 96
+[25-Sep-2019 17:56:10 America/Sao_Paulo] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function ControleRelatorioOS::gerarRelatorioOS(), 0 passed in /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio-geral-os.php on line 6 and exactly 1 expected in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php:96
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio-geral-os.php(6): ControleRelatorioOS->gerarRelatorioOS()
+#1 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php on line 96
+[25-Sep-2019 17:56:42 America/Sao_Paulo] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function ControleRelatorioOS::gerarRelatorioOS(), 0 passed in /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio-geral-os.php on line 6 and exactly 1 expected in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php:96
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio-geral-os.php(6): ControleRelatorioOS->gerarRelatorioOS()
+#1 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php on line 96
+[25-Sep-2019 17:56:44 America/Sao_Paulo] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function ControleRelatorioOS::gerarRelatorioOS(), 0 passed in /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio-geral-os.php on line 6 and exactly 1 expected in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php:96
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio-geral-os.php(6): ControleRelatorioOS->gerarRelatorioOS()
+#1 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php on line 96
+[25-Sep-2019 17:57:05 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function getListaServicos() on array in /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio-geral-os.php:36
+Stack trace:
+#0 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio-geral-os.php on line 36
+[25-Sep-2019 17:57:12 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function getListaServicos() on array in /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio-geral-os.php:36
+Stack trace:
+#0 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio-geral-os.php on line 36
+[26-Sep-2019 11:50:11 America/Sao_Paulo] PHP Warning:  Division by zero in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php on line 78
+[26-Sep-2019 12:25:33 America/Sao_Paulo] PHP Warning:  Division by zero in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php on line 78
+[26-Sep-2019 12:25:39 America/Sao_Paulo] PHP Warning:  Division by zero in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php on line 78
+[26-Sep-2019 14:07:54 America/Sao_Paulo] PHP Warning:  Division by zero in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php on line 78
+[26-Sep-2019 14:14:11 America/Sao_Paulo] PHP Warning:  Division by zero in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php on line 78
+[26-Sep-2019 14:44:29 America/Sao_Paulo] PHP Warning:  Division by zero in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php on line 78
+[26-Sep-2019 14:44:34 America/Sao_Paulo] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function ServiceRelatorioOS::calcularEstimativaTempo(), 0 passed in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php on line 74 and exactly 1 expected in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceRelatorioOS.php:35
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(74): ServiceRelatorioOS->calcularEstimativaTempo()
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio-geral-os.php(6): ControleRelatorioOS->gerarRelatorioOS(-1)
+#2 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceRelatorioOS.php on line 35
+[26-Sep-2019 14:44:41 America/Sao_Paulo] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function ServiceRelatorioOS::calcularEstimativaTempo(), 0 passed in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php on line 74 and exactly 1 expected in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceRelatorioOS.php:35
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(74): ServiceRelatorioOS->calcularEstimativaTempo()
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio-geral-os.php(6): ControleRelatorioOS->gerarRelatorioOS(-1)
+#2 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceRelatorioOS.php on line 35
+[26-Sep-2019 14:44:59 America/Sao_Paulo] PHP Warning:  Division by zero in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceRelatorioOS.php on line 27
+[26-Sep-2019 14:46:02 America/Sao_Paulo] PHP Warning:  Division by zero in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceRelatorioOS.php on line 27
+[26-Sep-2019 14:46:24 America/Sao_Paulo] PHP Warning:  Division by zero in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceRelatorioOS.php on line 27
+[26-Sep-2019 14:46:34 America/Sao_Paulo] PHP Warning:  Division by zero in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceRelatorioOS.php on line 27
+[26-Sep-2019 14:47:47 America/Sao_Paulo] PHP Warning:  Division by zero in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceRelatorioOS.php on line 27
+[26-Sep-2019 14:47:48 America/Sao_Paulo] PHP Warning:  Division by zero in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceRelatorioOS.php on line 27
+[26-Sep-2019 14:47:49 America/Sao_Paulo] PHP Warning:  Division by zero in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceRelatorioOS.php on line 27
+[26-Sep-2019 14:48:55 America/Sao_Paulo] PHP Warning:  Division by zero in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceRelatorioOS.php on line 27
+[26-Sep-2019 14:49:10 America/Sao_Paulo] PHP Warning:  Division by zero in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceRelatorioOS.php on line 27
+[26-Sep-2019 14:49:40 America/Sao_Paulo] PHP Warning:  Division by zero in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceRelatorioOS.php on line 27
+[26-Sep-2019 15:22:33 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC), expecting ',' or ';' in /home1/anaju876/public_html/pds.dev.anaju.me/business/models/OrdemServico.php on line 12
+[26-Sep-2019 15:22:34 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC), expecting ',' or ';' in /home1/anaju876/public_html/pds.dev.anaju.me/business/models/OrdemServico.php on line 12
+[26-Sep-2019 15:22:36 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC), expecting ',' or ';' in /home1/anaju876/public_html/pds.dev.anaju.me/business/models/OrdemServico.php on line 12
+[26-Sep-2019 15:28:04 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to undefined method ServiceRelatorioOS::calcularPorcentagemTempo() in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php:76
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio-geral-os.php(6): ControleRelatorioOS->gerarRelatorioOS(-1)
+#1 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php on line 76
+[26-Sep-2019 15:28:06 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to undefined method ServiceRelatorioOS::calcularPorcentagemTempo() in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php:76
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio-geral-os.php(6): ControleRelatorioOS->gerarRelatorioOS(-1)
+#1 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php on line 76
+[26-Sep-2019 15:31:33 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to undefined method ServiceRelatorioOS::calcularPorcentagemTempo() in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php:76
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio-geral-os.php(6): ControleRelatorioOS->gerarRelatorioOS(-1)
+#1 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php on line 76
+[26-Sep-2019 15:31:33 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Class 'ControleRelatorioOS' not found in /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio-geral-os.php:5
+Stack trace:
+#0 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio-geral-os.php on line 5
+[26-Sep-2019 15:31:35 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to undefined method OrdemServico::getTempoRealTotal() in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceRelatorioOS.php:61
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(76): ServiceRelatorioOS->calcularPocentagemTempoUtilizado(Object(RelatorioOS))
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio-geral-os.php(6): ControleRelatorioOS->gerarRelatorioOS(-1)
+#2 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceRelatorioOS.php on line 61
+[26-Sep-2019 15:31:36 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to undefined method OrdemServico::getTempoRealTotal() in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceRelatorioOS.php:61
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(76): ServiceRelatorioOS->calcularPocentagemTempoUtilizado(Object(RelatorioOS))
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio-geral-os.php(6): ControleRelatorioOS->gerarRelatorioOS(-1)
+#2 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceRelatorioOS.php on line 61
+[26-Sep-2019 15:31:37 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to undefined method OrdemServico::getTempoRealTotal() in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceRelatorioOS.php:61
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(76): ServiceRelatorioOS->calcularPocentagemTempoUtilizado(Object(RelatorioOS))
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio-geral-os.php(6): ControleRelatorioOS->gerarRelatorioOS(-1)
+#2 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceRelatorioOS.php on line 61
+[26-Sep-2019 15:32:03 America/Sao_Paulo] PHP Warning:  Division by zero in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceRelatorioOS.php on line 77
+[26-Sep-2019 15:32:03 America/Sao_Paulo] PHP Warning:  Division by zero in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceRelatorioOS.php on line 77
+[26-Sep-2019 15:32:03 America/Sao_Paulo] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function OrdemServico::setPocentagemTempoUtilizado(), 0 passed in /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio-geral-os.php on line 45 and exactly 1 expected in /home1/anaju876/public_html/pds.dev.anaju.me/business/models/OrdemServico.php:43
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio-geral-os.php(45): OrdemServico->setPocentagemTempoUtilizado()
+#1 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/models/OrdemServico.php on line 43
+[26-Sep-2019 15:32:05 America/Sao_Paulo] PHP Warning:  Division by zero in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceRelatorioOS.php on line 77
+[26-Sep-2019 15:32:05 America/Sao_Paulo] PHP Warning:  Division by zero in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceRelatorioOS.php on line 77
+[26-Sep-2019 15:32:05 America/Sao_Paulo] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function OrdemServico::setPocentagemTempoUtilizado(), 0 passed in /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio-geral-os.php on line 45 and exactly 1 expected in /home1/anaju876/public_html/pds.dev.anaju.me/business/models/OrdemServico.php:43
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio-geral-os.php(45): OrdemServico->setPocentagemTempoUtilizado()
+#1 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/models/OrdemServico.php on line 43
+[26-Sep-2019 15:32:54 America/Sao_Paulo] PHP Warning:  Division by zero in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceRelatorioOS.php on line 77
+[26-Sep-2019 15:32:54 America/Sao_Paulo] PHP Warning:  Division by zero in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceRelatorioOS.php on line 77
+[26-Sep-2019 15:32:54 America/Sao_Paulo] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function OrdemServico::setPocentagemTempoUtilizado(), 0 passed in /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio-geral-os.php on line 45 and exactly 1 expected in /home1/anaju876/public_html/pds.dev.anaju.me/business/models/OrdemServico.php:43
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio-geral-os.php(45): OrdemServico->setPocentagemTempoUtilizado()
+#1 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/models/OrdemServico.php on line 43
+[26-Sep-2019 15:32:55 America/Sao_Paulo] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function OrdemServico::setPocentagemTempoUtilizado(), 0 passed in /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio-geral-os.php on line 45 and exactly 1 expected in /home1/anaju876/public_html/pds.dev.anaju.me/business/models/OrdemServico.php:43
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio-geral-os.php(45): OrdemServico->setPocentagemTempoUtilizado()
+#1 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/models/OrdemServico.php on line 43
+[26-Sep-2019 15:32:57 America/Sao_Paulo] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function OrdemServico::setPocentagemTempoUtilizado(), 0 passed in /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio-geral-os.php on line 45 and exactly 1 expected in /home1/anaju876/public_html/pds.dev.anaju.me/business/models/OrdemServico.php:43
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio-geral-os.php(45): OrdemServico->setPocentagemTempoUtilizado()
+#1 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/models/OrdemServico.php on line 43
+[26-Sep-2019 15:34:03 America/Sao_Paulo] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function OrdemServico::setPocentagemTempoUtilizado(), 0 passed in /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio-geral-os.php on line 45 and exactly 1 expected in /home1/anaju876/public_html/pds.dev.anaju.me/business/models/OrdemServico.php:43
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio-geral-os.php(45): OrdemServico->setPocentagemTempoUtilizado()
+#1 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/models/OrdemServico.php on line 43
+[26-Sep-2019 15:34:04 America/Sao_Paulo] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function OrdemServico::setPocentagemTempoUtilizado(), 0 passed in /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio-geral-os.php on line 45 and exactly 1 expected in /home1/anaju876/public_html/pds.dev.anaju.me/business/models/OrdemServico.php:43
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio-geral-os.php(45): OrdemServico->setPocentagemTempoUtilizado()
+#1 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/models/OrdemServico.php on line 43
+[26-Sep-2019 15:34:05 America/Sao_Paulo] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function OrdemServico::setPocentagemTempoUtilizado(), 0 passed in /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio-geral-os.php on line 45 and exactly 1 expected in /home1/anaju876/public_html/pds.dev.anaju.me/business/models/OrdemServico.php:43
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio-geral-os.php(45): OrdemServico->setPocentagemTempoUtilizado()
+#1 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/models/OrdemServico.php on line 43
+[26-Sep-2019 15:34:06 America/Sao_Paulo] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function OrdemServico::setPocentagemTempoUtilizado(), 0 passed in /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio-geral-os.php on line 45 and exactly 1 expected in /home1/anaju876/public_html/pds.dev.anaju.me/business/models/OrdemServico.php:43
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio-geral-os.php(45): OrdemServico->setPocentagemTempoUtilizado()
+#1 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/models/OrdemServico.php on line 43
+[26-Sep-2019 15:34:09 America/Sao_Paulo] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function OrdemServico::setPocentagemTempoUtilizado(), 0 passed in /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio-geral-os.php on line 45 and exactly 1 expected in /home1/anaju876/public_html/pds.dev.anaju.me/business/models/OrdemServico.php:43
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio-geral-os.php(45): OrdemServico->setPocentagemTempoUtilizado()
+#1 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/models/OrdemServico.php on line 43
+[26-Sep-2019 15:34:10 America/Sao_Paulo] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function OrdemServico::setPocentagemTempoUtilizado(), 0 passed in /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio-geral-os.php on line 45 and exactly 1 expected in /home1/anaju876/public_html/pds.dev.anaju.me/business/models/OrdemServico.php:43
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio-geral-os.php(45): OrdemServico->setPocentagemTempoUtilizado()
+#1 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/models/OrdemServico.php on line 43
+[26-Sep-2019 15:53:22 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceRelatorioOS.php on line 73
+[26-Sep-2019 15:53:22 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceRelatorioOS.php on line 73
+[26-Sep-2019 15:53:24 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceRelatorioOS.php on line 73
+[26-Sep-2019 15:53:24 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceRelatorioOS.php on line 73
+[26-Sep-2019 15:53:43 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function getServicos() on array in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceRelatorioOS.php:73
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(77): ServiceRelatorioOS->calcularStatus(Object(RelatorioOS))
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio-geral-os.php(6): ControleRelatorioOS->gerarRelatorioOS(-1)
+#2 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceRelatorioOS.php on line 73
+[26-Sep-2019 15:54:15 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function getServicos() on array in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceRelatorioOS.php:73
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(77): ServiceRelatorioOS->calcularStatus(Object(RelatorioOS))
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio-geral-os.php(6): ControleRelatorioOS->gerarRelatorioOS(-1)
+#2 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceRelatorioOS.php on line 73
+[26-Sep-2019 15:54:32 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function getListaServicos() on array in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceRelatorioOS.php:73
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(77): ServiceRelatorioOS->calcularStatus(Object(RelatorioOS))
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio-geral-os.php(6): ControleRelatorioOS->gerarRelatorioOS(-1)
+#2 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceRelatorioOS.php on line 73
+[26-Sep-2019 15:54:34 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function getListaServicos() on array in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceRelatorioOS.php:73
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(77): ServiceRelatorioOS->calcularStatus(Object(RelatorioOS))
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio-geral-os.php(6): ControleRelatorioOS->gerarRelatorioOS(-1)
+#2 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceRelatorioOS.php on line 73
+[26-Sep-2019 15:54:37 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function getListaServicos() on array in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceRelatorioOS.php:73
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(77): ServiceRelatorioOS->calcularStatus(Object(RelatorioOS))
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio-geral-os.php(6): ControleRelatorioOS->gerarRelatorioOS(-1)
+#2 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceRelatorioOS.php on line 73
+[26-Sep-2019 15:54:38 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function getListaServicos() on array in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceRelatorioOS.php:73
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(77): ServiceRelatorioOS->calcularStatus(Object(RelatorioOS))
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio-geral-os.php(6): ControleRelatorioOS->gerarRelatorioOS(-1)
+#2 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceRelatorioOS.php on line 73
+[26-Sep-2019 15:54:39 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function getListaServicos() on array in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceRelatorioOS.php:73
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(77): ServiceRelatorioOS->calcularStatus(Object(RelatorioOS))
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio-geral-os.php(6): ControleRelatorioOS->gerarRelatorioOS(-1)
+#2 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceRelatorioOS.php on line 73
+[26-Sep-2019 15:54:40 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function getListaServicos() on array in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceRelatorioOS.php:73
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(77): ServiceRelatorioOS->calcularStatus(Object(RelatorioOS))
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio-geral-os.php(6): ControleRelatorioOS->gerarRelatorioOS(-1)
+#2 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceRelatorioOS.php on line 73
+[26-Sep-2019 15:54:41 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function getListaServicos() on array in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceRelatorioOS.php:73
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(77): ServiceRelatorioOS->calcularStatus(Object(RelatorioOS))
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio-geral-os.php(6): ControleRelatorioOS->gerarRelatorioOS(-1)
+#2 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceRelatorioOS.php on line 73
+[26-Sep-2019 15:54:43 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function getListaServicos() on array in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceRelatorioOS.php:73
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(77): ServiceRelatorioOS->calcularStatus(Object(RelatorioOS))
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio-geral-os.php(6): ControleRelatorioOS->gerarRelatorioOS(-1)
+#2 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceRelatorioOS.php on line 73
+[26-Sep-2019 15:54:43 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function getListaServicos() on array in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceRelatorioOS.php:73
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(77): ServiceRelatorioOS->calcularStatus(Object(RelatorioOS))
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio-geral-os.php(6): ControleRelatorioOS->gerarRelatorioOS(-1)
+#2 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceRelatorioOS.php on line 73
+[26-Sep-2019 15:54:43 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function getListaServicos() on array in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceRelatorioOS.php:73
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(77): ServiceRelatorioOS->calcularStatus(Object(RelatorioOS))
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio-geral-os.php(6): ControleRelatorioOS->gerarRelatorioOS(-1)
+#2 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceRelatorioOS.php on line 73
+[26-Sep-2019 15:54:45 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function getListaServicos() on array in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceRelatorioOS.php:73
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(77): ServiceRelatorioOS->calcularStatus(Object(RelatorioOS))
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio-geral-os.php(6): ControleRelatorioOS->gerarRelatorioOS(-1)
+#2 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceRelatorioOS.php on line 73
+[26-Sep-2019 15:55:26 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function getListaServicos() on array in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceRelatorioOS.php:73
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(77): ServiceRelatorioOS->calcularStatus(Object(RelatorioOS))
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio-geral-os.php(6): ControleRelatorioOS->gerarRelatorioOS(-1)
+#2 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceRelatorioOS.php on line 73
+[26-Sep-2019 15:57:51 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Class 'ServiceRelatorioOS' not found in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php:20
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio-geral-os.php(5): ControleRelatorioOS->__construct()
+#1 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php on line 20
+[30-Sep-2019 23:01:36 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC), expecting end of file in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroImprevisto.php on line 11
+[30-Sep-2019 23:04:10 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC), expecting end of file in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroImprevisto.php on line 11
+[30-Sep-2019 23:09:50 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC), expecting end of file in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroImprevisto.php on line 11
+[30-Sep-2019 23:11:56 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC), expecting end of file in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroImprevisto.php on line 11
+[30-Sep-2019 23:13:24 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC), expecting end of file in /home1/anaju876/public_html/pds.dev.anaju.me/business/models/Imprevisto.php on line 11
+[30-Sep-2019 23:13:30 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC), expecting end of file in /home1/anaju876/public_html/pds.dev.anaju.me/business/models/Imprevisto.php on line 11
+[30-Sep-2019 23:13:41 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC), expecting end of file in /home1/anaju876/public_html/pds.dev.anaju.me/business/models/Imprevisto.php on line 11
+[30-Sep-2019 23:13:54 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC), expecting end of file in /home1/anaju876/public_html/pds.dev.anaju.me/business/models/Imprevisto.php on line 11
+[30-Sep-2019 23:14:37 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC), expecting end of file in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/imprevistoDAO.php on line 11
+[30-Sep-2019 23:15:45 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC), expecting end of file in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceImprevisto.php on line 11

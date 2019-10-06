@@ -45,51 +45,38 @@ class ControleRelatorioOS{
     // }
 
     public function carregarOrdemServico($idOrdemServico){
-        $ordemServico = $this->serviceOrdemServico->getOrdemServicoById($idOrdemServico);
+        if($idOrdemServico != -1){
+            $ordemServico[0] = $this->serviceOrdemServico->getOrdemServicoById($idOrdemServico);
+        }else{
+            $ordemServico = $this->serviceOrdemServico->getListaOrdemServico();
+        }
+
         $this->relatorioOS->setOrdemServico($ordemServico);
     }
 
-    public function carregarListaServicos(){
-        $listaServicos = [];
-        $contListaServicos = 0;
-        foreach ($this->relatorioOS->getOrdemServico()->getListaServicos() as $idItemServico ) {
-            $itemServico = $this->serviceServico->getServicoById($idItemServico);
-            $listaServicos[$contListaServicos] = $itemServico;
-            $contListaServicos += 1;
-        }   
-        $this->relatorioOS->getOrdemServico()->setListaServicos($listaServicos);
-    }
+    // public function carregarListaServicos(){
+    //     $listaServicos = [];
+    //     $contListaServicos = 0;
+    //     foreach ($this->relatorioOS->getOrdemServico()->getListaServicos() as $idItemServico ) {
+    //         $itemServico = $this->serviceServico->getServicoById($idItemServico);
+    //         $listaServicos[$contListaServicos] = $itemServico;
+    //         $contListaServicos += 1;
+    //     }   
+    //     $this->relatorioOS->getOrdemServico()->setListaServicos($listaServicos);
+    // }
 
 
     // retorna o valor da porcentagem de tempo que o serviço levou para ser concluído
-    public function calcularPorcentagemTempo(){
-        foreach ($this->relatorioOS->getOrdemServico()->getListaServicos() as $itemServico ) {
-            $tempoExecucao = $itemServico->getTempoExecucao();
-            if($tempoExecucao == "-1"){
-                $porcentagem = 0;
-            }else{
-                $tempoEstimado = $itemServico->getEstimativaTempoTotal();
-                $porcentagem = $tempoExecucao * 100 / $tempoEstimado;
-            }
-            $itemServico->setPorcentagemTempo($porcentagem);
-            // echo $itemServico->getPorcentagemTempo();
-        }
-    }
 
-    public function calcularEstimativaTempo(){
-        foreach ($this->relatorioOS->getOrdemServico()->getListaServicos() as $itemServico ) {
-            $tempo = $itemServico->getTipoServico()->getTempo() * $itemServico->getQuantidade();
-            $itemServico->setEstimativaTempoTotal($tempo);
-        }
-
-    }
 
     public function gerarRelatorioOS($idOrdemServico){
         $this->carregarOrdemServico($idOrdemServico);
-        $this->carregarListaServicos();
-        $this->calcularEstimativaTempo();
-        $this->calcularPorcentagemTempo();    
+        $this->relatorioOS = $this->serviceRelatorioOS->calcularEstimativas($this->relatorioOS);
+        $this->relatorioOS = $this->serviceRelatorioOS->calcularExecucaoTempo($this->relatorioOS);    
+        $this->relatorioOS = $this->serviceRelatorioOS->calcularPocentagemTempoUtilizado($this->relatorioOS);   
+        $this->relatorioOS = $this->serviceRelatorioOS->calcularStatus($this->relatorioOS);   
     }
+
 
     public function getRelatorioOS(){
         return $this->relatorioOS;

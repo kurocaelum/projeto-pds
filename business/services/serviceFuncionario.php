@@ -77,8 +77,15 @@ class ServiceFuncionario{
         if($funcionario->getEmail() == ""){
             $ret = $ret."Email não informado.\n";
         }else{
-            if(count($this->funcionarioDAO->getFuncionarioByEmail($funcionario->getEmail())) != 0){
-                throw new ServiceException("Email já cadastrado.");
+            if($this->funcionarioDAO->getFuncionarioByEmail($funcionario->getEmail()) != 0){
+                if($funcionario->getIdFuncionario() == null){
+                    throw new ServiceException("Email já cadastrado.");
+                }else{
+                    $funcionarioByEmail= $this->funcionarioDAO->getFuncionarioByEmail($funcionario->getEmail());
+                    if($funcionario->getIdFuncionario() != $funcionarioByEmail->getIdFuncionario()){
+                        throw new ServiceException("Email já cadastrado.");
+                    }
+                } 
             }
         }
         

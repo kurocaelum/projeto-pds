@@ -142,7 +142,7 @@ function resultCarregarOrdemServicos(listaOrdemServicos){
                 if(idsListaServicos != ""){
                     idsListaServicos = idsListaServicos+", ";
                 }    
-                idsListaServicos = idsListaServicos +jsonLista[k].listaServicos[i];
+                idsListaServicos = idsListaServicos +jsonLista[k].listaServicos[i].idServico;
             };
         }
 
@@ -151,7 +151,7 @@ function resultCarregarOrdemServicos(listaOrdemServicos){
                 if(idsListaFuncionarios != ""){
                     idsListaFuncionarios = idsListaFuncionarios+", ";
                 } 
-                idsListaFuncionarios = idsListaFuncionarios +jsonLista[k].listaFuncionarios[i];
+                idsListaFuncionarios = idsListaFuncionarios +jsonLista[k].listaFuncionarios[i].idFuncionario;
             };  
         }
 
@@ -160,8 +160,8 @@ function resultCarregarOrdemServicos(listaOrdemServicos){
 
         tabelaServicos = tabelaServicos+'<td class="descricao_ordem_servico">'+jsonLista[k].descricao+'</td>';
 
-        tabelaServicos = tabelaServicos+'<td attr_id="'+idsListaFuncionarios+'" class="funcionarios_ordem_servico">'+idsListaFuncionarios+'</td>';
-        tabelaServicos = tabelaServicos+'<td attr_id="'+idsListaServicos+'" class="servicos_ordem_servico">'+idsListaServicos+'</td>';
+        tabelaServicos = tabelaServicos+'<td attr_id='+idsListaFuncionarios+' class="funcionarios_ordem_servico">'+idsListaFuncionarios+'</td>';
+        tabelaServicos = tabelaServicos+'<td attr_id='+idsListaServicos+' class="servicos_ordem_servico">'+idsListaServicos+'</td>';
         tabelaServicos = tabelaServicos+'<td>';
         tabelaServicos = tabelaServicos+'       <a href="http://pds.dev.anaju.me/gui/relatorio_os.php/?os='+jsonLista[k].idOrdemServico+'"><button type="button" class="editar_servico btn btn-info">Ver relatório</button></a>';
         tabelaServicos = tabelaServicos+'       <button type="button" id-editar="'+jsonLista[k].idOrdemServico+'" class="editar_ordem_servico btn btn-info">Editar</button>';
@@ -309,7 +309,7 @@ function resultCarregarOptionServicos(listaServicos){
     jsonLista = JSON.parse(listaServicos);
     var optionServicos = "<option value=''></option> ";
     for(var k in jsonLista) {
-        optionServicos = optionServicos+'<option value='+jsonLista[k].id_servico+' >'+jsonLista[k].nome+'</option>';
+        optionServicos = optionServicos+'<option value='+jsonLista[k].idServico+' >'+jsonLista[k].nome+'</option>';
     }
 
     $(".exibirListaServicosOption").html("");
@@ -322,16 +322,16 @@ function resultCarregarServicos(listaServicos){
     jsonLista = JSON.parse(listaServicos);
     var tabelaServicos = "";
     for(var k in jsonLista) {
-        tabelaServicos = tabelaServicos+'<tr id="servico'+jsonLista[k].id_servico+'">';
-        tabelaServicos = tabelaServicos+'<th class="id_servico" scope="row">'+jsonLista[k].id_servico+'</th>';
+        tabelaServicos = tabelaServicos+'<tr id="servico'+jsonLista[k].idServico+'">';
+        tabelaServicos = tabelaServicos+'<th class="id_servico" scope="row">'+jsonLista[k].idServico+'</th>';
 
         tabelaServicos = tabelaServicos+'<td class="nome_servico">'+jsonLista[k].nome+'</td>';
 
-        tabelaServicos = tabelaServicos+'<td class="local_servico">'+jsonLista[k].localizacao+'</td>';
-        tabelaServicos = tabelaServicos+'<td class="data_servico">'+jsonLista[k].data_cadastro+'</td>';
-        tabelaServicos = tabelaServicos+'<td class="id_tipo_servico">'+jsonLista[k].id_tipo_servico+'</td>';
+        tabelaServicos = tabelaServicos+'<td class="local_servico">'+jsonLista[k].local+'</td>';
+        tabelaServicos = tabelaServicos+'<td class="data_servico">'+jsonLista[k].dataCadastro+'</td>';
+        tabelaServicos = tabelaServicos+'<td class="id_tipo_servico">'+jsonLista[k]['tipoServico'].id_tipo_servico+'</td>';
         tabelaServicos = tabelaServicos+'<td class="quantidade_servico">'+jsonLista[k].quantidade+'</td>';
-        tabelaServicos = tabelaServicos+'<td class="tempo_conclusao">'+jsonLista[k].tempo_conclusao+'</td>';
+        tabelaServicos = tabelaServicos+'<td class="tempo_conclusao">'+jsonLista[k].tempoExecucao+'</td>';
         switch(jsonLista[k].status){
             case "1": tabelaServicos = tabelaServicos+'<td attr-cod= '+jsonLista[k].status+' class="status_servico">'+'Concluído'+'</td>'; break;
             case "2": tabelaServicos = tabelaServicos+'<td attr-cod= '+jsonLista[k].status+' class="status_servico">'+'Em Execução'+'</td>'; break;
@@ -340,8 +340,8 @@ function resultCarregarServicos(listaServicos){
         }
         tabelaServicos = tabelaServicos+'<td>';
         tabelaServicos = tabelaServicos+'       <a href=""><button type="button" class="editar_servico btn btn-info">Ver relatório</button></a>';
-        tabelaServicos = tabelaServicos+'       <button type="button" id-editar="'+jsonLista[k].id_servico+'" class="editar_servico btn btn-info">Editar</button>';
-        tabelaServicos = tabelaServicos+'       <button type="button" id-remove="'+jsonLista[k].id_servico+'" class="remover_servico btn btn-danger">Excluir</button>';
+        tabelaServicos = tabelaServicos+'       <button type="button" id-editar="'+jsonLista[k].idServico+'" class="editar_servico btn btn-info">Editar</button>';
+        tabelaServicos = tabelaServicos+'       <button type="button" id-remove="'+jsonLista[k].idServico+'" class="remover_servico btn btn-danger">Excluir</button>';
         tabelaServicos = tabelaServicos+'</td>';
         tabelaServicos = tabelaServicos+'</tr>';
     }
@@ -484,7 +484,7 @@ function resultCarregarOptionSupervisores(listaSupervisores){
     jsonLista = JSON.parse(listaSupervisores);
     var optionSupervisores = "<option value=''></option> ";
     for(var k in jsonLista) {
-        optionSupervisores = optionSupervisores+'<option value='+jsonLista[k].id_supervisor+' >'+jsonLista[k].nome+'</option>';
+        optionSupervisores = optionSupervisores+'<option value='+jsonLista[k].idSupervisor+' >'+jsonLista[k]['funcionario'].nome+'</option>';
     }
 
     $(".exibirListaSupervisoresOption").html("");
@@ -497,18 +497,18 @@ function resultCarregarSupervisores(listaSupervisores){
     jsonLista = JSON.parse(listaSupervisores);
     var tabelaSupervisores = "";
     for(var k in jsonLista) {
-        tabelaSupervisores = tabelaSupervisores+'<tr id="supervisor'+jsonLista[k].id_supervisor+'">';
+        tabelaSupervisores = tabelaSupervisores+'<tr id="supervisor'+jsonLista[k].idSupervisor+'">';
 
-        tabelaSupervisores = tabelaSupervisores+'<th class="id_supervisor" scope="row">'+jsonLista[k].id_supervisor+'</th>';
-        tabelaSupervisores = tabelaSupervisores+'<th class="id_funcionario" scope="row">'+jsonLista[k].id_funcionario+'</th>';
+        tabelaSupervisores = tabelaSupervisores+'<th class="id_supervisor" scope="row">'+jsonLista[k].idSupervisor+'</th>';
+        tabelaSupervisores = tabelaSupervisores+'<th class="id_funcionario" scope="row">'+jsonLista[k]['funcionario'].idFuncionario+'</th>';
 
-        tabelaSupervisores = tabelaSupervisores+'<td class="nome_supervisor">'+jsonLista[k].nome+'</td>';
+        tabelaSupervisores = tabelaSupervisores+'<td class="nome_supervisor">'+jsonLista[k]['funcionario'].nome+'</td>';
         tabelaSupervisores = tabelaSupervisores+'<td class="setor_supervisor">'+jsonLista[k].setor+'</td>';
-        tabelaSupervisores = tabelaSupervisores+'<td class="email_supervisor">'+jsonLista[k].email+'</td>';
-        tabelaSupervisores = tabelaSupervisores+'<td class="telefone_supervisor">'+jsonLista[k].telefone+'</td>';
+        tabelaSupervisores = tabelaSupervisores+'<td class="email_supervisor">'+jsonLista[k]['funcionario'].email+'</td>';
+        tabelaSupervisores = tabelaSupervisores+'<td class="telefone_supervisor">'+jsonLista[k]['funcionario'].telefone+'</td>';
         tabelaSupervisores = tabelaSupervisores+'<td>';
-        tabelaSupervisores = tabelaSupervisores+'       <button type="button" id-editar="'+jsonLista[k].id_supervisor+'" class="editar_supervisor btn btn-info">Editar</button>';
-        tabelaSupervisores = tabelaSupervisores+'       <button type="button" id-remove="'+jsonLista[k].id_supervisor+'" class="remover_supervisor btn btn-danger">Excluir</button>';
+        tabelaSupervisores = tabelaSupervisores+'       <button type="button" id-editar="'+jsonLista[k].idSupervisor+'" class="editar_supervisor btn btn-info">Editar</button>';
+        tabelaSupervisores = tabelaSupervisores+'       <button type="button" id-remove="'+jsonLista[k].idSupervisor+'" class="remover_supervisor btn btn-danger">Excluir</button>';
         tabelaSupervisores = tabelaSupervisores+'</td>';
         tabelaSupervisores = tabelaSupervisores+'</tr>';
     }
@@ -631,17 +631,17 @@ function resultCarregarFuncionarios(listaFuncionarios){
 	jsonLista = JSON.parse(listaFuncionarios);
 	var tabelaFuncionarios = "";
 	for(var k in jsonLista) {
-	    tabelaFuncionarios = tabelaFuncionarios+'<tr id="funcionario'+jsonLista[k].id_funcionario+'">';
+	    tabelaFuncionarios = tabelaFuncionarios+'<tr id="funcionario'+jsonLista[k].idFuncionario+'">';
 
-		tabelaFuncionarios = tabelaFuncionarios+'<th class="id_funcionario" scope="row">'+jsonLista[k].id_funcionario+'</th>';
-        tabelaFuncionarios = tabelaFuncionarios+'<th class="id_supervisor_chefe" scope="row">'+jsonLista[k].id_supervisor_chefe+'</th>';
+		tabelaFuncionarios = tabelaFuncionarios+'<th class="id_funcionario" scope="row">'+jsonLista[k].idFuncionario+'</th>';
+        tabelaFuncionarios = tabelaFuncionarios+'<th class="id_supervisor_chefe" scope="row">'+jsonLista[k].idSupervisorChefe+'</th>';
 
 		tabelaFuncionarios = tabelaFuncionarios+'<td class="nome_funcionario">'+jsonLista[k].nome+'</td>';
 		tabelaFuncionarios = tabelaFuncionarios+'<td class="telefone_funcionario">'+jsonLista[k].telefone+'</td>';
 		tabelaFuncionarios = tabelaFuncionarios+'<td class="email_funcionario">'+jsonLista[k].email+'</td>';
 		tabelaFuncionarios = tabelaFuncionarios+'<td>';
-		tabelaFuncionarios = tabelaFuncionarios+'		<button type="button" id-editar="'+jsonLista[k].id_funcionario+'" class="editar_funcionario btn btn-info">Editar</button>';
-		tabelaFuncionarios = tabelaFuncionarios+'		<button type="button" id-remove="'+jsonLista[k].id_funcionario+'" class="remover_funcionario btn btn-danger">Excluir</button>';
+		tabelaFuncionarios = tabelaFuncionarios+'		<button type="button" id-editar="'+jsonLista[k].idFuncionario+'" class="editar_funcionario btn btn-info">Editar</button>';
+		tabelaFuncionarios = tabelaFuncionarios+'		<button type="button" id-remove="'+jsonLista[k].idFuncionario+'" class="remover_funcionario btn btn-danger">Excluir</button>';
 		tabelaFuncionarios = tabelaFuncionarios+'</td>';
     	tabelaFuncionarios = tabelaFuncionarios+'</tr>';
 	}
@@ -674,7 +674,7 @@ function resultCarregarOptionFuncionarios(listaFuncionarios){
     jsonLista = JSON.parse(listaFuncionarios);
     var optionFuncionarios = "<option value=''></option> ";
     for(var k in jsonLista) {
-        optionFuncionarios = optionFuncionarios+'<option value='+jsonLista[k].id_funcionario+' >'+jsonLista[k].nome+'</option>';
+        optionFuncionarios = optionFuncionarios+'<option value='+jsonLista[k].idFuncionario+' >'+jsonLista[k].nome+'</option>';
     }
 
     $(".exibirListaFuncionariosOption").html("");

@@ -4,14 +4,23 @@ include_once($_SERVER["DOCUMENT_ROOT"]."/business/exception/dataException.php");
 include_once($_SERVER["DOCUMENT_ROOT"]."/business/models/OrdemServico.php");
 include_once($_SERVER["DOCUMENT_ROOT"]."/business/models/Servico.php");
 include_once($_SERVER["DOCUMENT_ROOT"]."/business/models/Funcionario.php");
+include_once($_SERVER["DOCUMENT_ROOT"]."/data/DAO/tipoServicoDAO.php");
+include_once($_SERVER["DOCUMENT_ROOT"]."/data/DAO/funcionarioDAO.php");
+include_once($_SERVER["DOCUMENT_ROOT"]."/data/DAO/servicoDAO.php");
 
 class OrdemServicoDAO{
     public $arrayOrdemServicos;
     public $conexao;
+    public $tipoServicoDAO;
+    public $servicoDAO;
+    public $funcionarioDAO;
 
     public function __construct(){
         $this->arrayOrdemServicos = [];
         $this->conexao = (new Conexao())->getConexao();
+        $this->tipoServicoDAO = new TipoServicoDAO();
+        $this->funcionarioDAO = new FuncionarioDAO();
+        $this->servicoDAO = new ServicoDAO();
     }
     
     public function insert($ordemServico){
@@ -117,7 +126,9 @@ class OrdemServicoDAO{
         if($result){
             if ($result->num_rows > 0) {
                 while($row = mysqli_fetch_object($result)) {
-                    $servicos[$servicos_cont] = $row->id_servico;
+                    // print_r($row);
+                    $servico = $this->servicoDAO->getServicoById($row->id_servico);
+                    $servicos[$servicos_cont] = $servico;
                     $servicos_cont += 1; 
                 }
                 return $servicos;
@@ -135,7 +146,8 @@ class OrdemServicoDAO{
         if($result){
             if ($result->num_rows > 0) {
                 while($row = mysqli_fetch_object($result)) {
-                    $funcionarios[$funcionario_cont] = $row->id_funcionario;
+                    $funcionario = $this->funcionarioDAO->getFuncionarioById($row->id_funcionario);
+                    $funcionarios[$funcionario_cont] = $funcionario;
                     $funcionario_cont += 1; 
                 }
                 return $funcionarios;

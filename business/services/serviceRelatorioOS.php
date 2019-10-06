@@ -9,13 +9,86 @@ include_once($_SERVER["DOCUMENT_ROOT"]."/business/exception/dataException.php");
 
 class ServiceRelatorioOS{
     public $ordemServicoDAO; // objeto dao para salvar as funcionarios e obter dados.
-    public $listaOrdemServicos;
+    // public $listaOrdemServicos;
     
 
     public function __construct(){
         $this->ordemServicoDAO = new OrdemServicoDAO();
     }
 
+    public function calcularPorcentagemTempoServico($relatorioOS){// calcula a porcentagem de conclusao de cada servico individual
+        foreach ($relatorioOS->getOrdemServico() as $ordemServico) { 
+            foreach ($ordemServico->getListaServicos() as $itemServico ) {
+                $tempoExecucao = $itemServico->getTempoExecucao();
+                if($tempoExecucao == "-1"){
+                    $porcentagem = 0;
+                }else{
+                    $tempoEstimado = $itemServico->getEstimativaTempoTotal();
+                    $porcentagem = $tempoExecucao * 100 / $tempoEstimado;
+                }
+                $itemServico->setPorcentagemTempo($porcentagem);
+            }
+        }
+        return $relatorioOS;
+    }
+
+    public function calcularEstimativas($relatorioOS){ // calcula o tempo total estimado pela OS, soma o tempo estimado de cada serviço
+        foreach ($relatorioOS->getOrdemServico() as $ordemServico) { 
+            $tempoEstimadoTotal = 0;
+            foreach ($ordemServico->getListaServicos() as $itemServico ) {
+                $tempo = $itemServico->getTipoServico()->getTempo() * $itemServico->getQuantidade();
+                $itemServico->setEstimativaTempoTotal($tempo);
+                $tempoEstimadoTotal = $tempoEstimadoTotal + $tempo;
+            }
+            $ordemServico->setTempoEstimadoTotal($tempoEstimadoTotal);
+        }
+        return $relatorioOS;
+    }
+
+    public function calcularExecucaoTempo($relatorioOS){ // tempo total de execução da OS
+        foreach ($relatorioOS->getOrdemServico() as $ordemServico) { 
+            $tempoReal = 0;
+            foreach ($ordemServico->getListaServicos() as $itemServico ) {
+                $tempoReal = $tempoReal + $itemServico->getTempoExecucao();
+            }
+            $ordemServico->setTempoExecucaoTotal($tempoReal);
+        }
+        return $relatorioOS;
+    }
+
+    public function calcularPocentagemTempoUtilizado($relatorioOS){ // porcentagem do tempo previsto utilizado na OS
+        foreach ($relatorioOS->getOrdemServico() as $ordemServico) { 
+            $tempoReal = $ordemServico->getTempoExecucaoTotal();
+            $tempoEstimado = $ordemServico->getTempoEstimadoTotal();
+            $ordemServico->setPocentagemTempoUtilizado(($tempoReal * 100 / $tempoEstimado));
+        }
+        return $relatorioOS;
+    }
+
+    public function calcularStatus($relatorioOS){ // calcula a porcentagem do tempo previsto dos serviços com status concluído
+        foreach ($relatorioOS->getOrdemServico() as $ordemServico) { 
+            $tempoPendente = 0;
+            $tempoEstimado = 0;
+            $tempoConcluido = 0;
+            foreach ($ordemServico->getListaServicos() as $itemServico) { 
+
+                if( $itemServico->getStatus() == "1"){
+                    $tempoConcluido = $tempoConcluido + $itemServico->getEstimativaTempoTotal();
+                }
+                if( ($itemServico->getStatus() == "2") || ($ordemServico->getStatus() == "3")){
+                     $tempoPendente = $tempoPendente + $itemServico->getEstimativaTempoTotal();
+                }
+            }
+
+            if($tempoConcluido == 0){
+                $ordemServico->setStatus(0);
+            }else{
+                $ordemServico->setStatus(($tempoConcluido * 100) / ($tempoPendente + $tempoConcluido));
+            }
+
+        }
+        return $relatorioOS;
+    }
     // public function addOrdemServico($ordemServico){
     //     try {
     //         $this->verificarOrdemServico($ordemServico);

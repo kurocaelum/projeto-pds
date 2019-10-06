@@ -4,6 +4,7 @@ include_once("Funcionario.php");
 class Supervisor extends Funcionario{
 	public $idSupervisor;
 	public $setor;
+    public $funcionario;
     // public $funcionariosAdministrados;
 
 	public function __construct(){
@@ -25,6 +26,14 @@ class Supervisor extends Funcionario{
 
     function setSetor($setor){
     	$this->setor = $setor;
+    }
+
+    function getFuncionario(){
+        return $this->funcionario;
+    }
+
+    function setFuncionario($funcionario){
+        $this->funcionario = $funcionario;
     }
 
     // function setFuncionariosAdministrados($funcionariosAdministrados){

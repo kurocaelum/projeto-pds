@@ -41,8 +41,15 @@ class FuncionarioDAO{
         $result = mysqli_query($this->conexao, $sql);
         if($result){
             if ($result->num_rows > 0) {
-                while($row = $result->fetch_assoc()) {
-                    $this->arrayFuncionarios[count($this->arrayFuncionarios) + 1] = $row;
+                while($row = mysqli_fetch_object($result)) {
+                    $funcionario = new Funcionario();
+                    $funcionario->setNome($row->nome);
+                    $funcionario->setEmail($row->email);
+                    $funcionario->setTelefone($row->telefone);
+                    $funcionario->setIdFuncionario($row->id_funcionario);
+                    $funcionario->setIdSupervisorChefe($row->id_supervisor_chefe);
+
+                    $this->arrayFuncionarios[count($this->arrayFuncionarios) + 1] = $funcionario;
                 }
                 return $this->arrayFuncionarios;
             }   
@@ -55,7 +62,14 @@ class FuncionarioDAO{
         $sql = "SELECT * FROM funcionario WHERE id_funcionario = '".$id."' ;";
         $result = mysqli_query($this->conexao, $sql);
         if($result){
-            return mysqli_fetch_object($result);
+            $row = mysqli_fetch_object($result);
+            $funcionario = new Funcionario();
+            $funcionario->setNome($row->nome);
+            $funcionario->setEmail($row->email);
+            $funcionario->setTelefone($row->telefone);
+            $funcionario->setIdFuncionario($row->id_funcionario);
+            $funcionario->setIdSupervisorChefe($row->id_supervisor_chefe);
+            return $funcionario;
         }else{
             throw new DataException("Erro ao selecionar o funcionário no banco de dados.\n");
         }
@@ -64,8 +78,22 @@ class FuncionarioDAO{
     public function getFuncionarioByEmail($email){
         $sql = "SELECT * FROM funcionario WHERE email = '".$email."' ;";
         $result = mysqli_query($this->conexao, $sql);
+
         if($result){
-            return mysqli_fetch_object($result);
+
+            if($result->num_rows > 0){
+                $row = mysqli_fetch_object($result);
+                $funcionario = new Funcionario();
+                $funcionario->setNome($row->nome);
+                $funcionario->setEmail($row->email);
+                $funcionario->setTelefone($row->telefone);
+                $funcionario->setIdFuncionario($row->id_funcionario);
+                $funcionario->setIdSupervisorChefe($row->id_supervisor_chefe);
+                return $funcionario;
+            }else{
+                return 0;
+            }
+
         }else{
             throw new DataException("Erro ao selecionar o funcionário no banco de dados.\n");
         }

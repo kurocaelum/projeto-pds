@@ -1,14 +1,18 @@
 <?php
 include_once($_SERVER["DOCUMENT_ROOT"]."/data/conexao.php");
 include_once($_SERVER["DOCUMENT_ROOT"]."/business/exception/dataException.php");
+include_once($_SERVER["DOCUMENT_ROOT"]."/data/DAO/funcionarioDAO.php");
+
 
 class SupervisorDAO{
     public $arraySupervisores;
     public $conexao;
+    public $supervisorDAO;
 
     public function __construct(){
         $this->arraySupervisores = [];
         $this->conexao = (new Conexao())->getConexao();
+        $this->funcionarioDAO = new FuncionarioDAO();
     }
     
     public function insert($supervisor){
@@ -43,8 +47,12 @@ class SupervisorDAO{
 
         $result = mysqli_query($this->conexao, $sql);
             if ($result->num_rows > 0) {
-                while($row = $result->fetch_assoc()) {
-                    $this->arraySupervisores[count($this->arraySupervisores) + 1] = $row;
+                while($row = mysqli_fetch_object($result)) {
+                    $supervisor = new Supervisor();
+                    $supervisor->setIdSupervisor($row->id_supervisor);
+                    $supervisor->setSetor($row->setor);
+                    $supervisor->setFuncionario($this->funcionarioDAO->getFuncionarioById($row->id_funcionario));
+                    $this->arraySupervisores[count($this->arraySupervisores) + 1] = $supervisor;
                 }
                 return $this->arraySupervisores;
             } else {
@@ -56,7 +64,12 @@ class SupervisorDAO{
         $sql = "SELECT * FROM supervisor WHERE id_supervisor = '".$idSupervisor."' ;";
         $result = mysqli_query($this->conexao, $sql);
         if($result){
-            return mysqli_fetch_object($result);
+            $row = mysqli_fetch_object($result);
+            $supervisor = new Supervisor();
+            $supervisor->setIdSupervisor($row->id_supervisor);
+            $supervisor->setSetor($row->setor);
+            $supervisor->setFuncionario($this->funcionarioDAO->getFuncionarioById($row->id_funcionario));
+            return $supervisor;
         }else{
             throw new DataException("Erro ao selecionar o supervisor no banco de dados.\n");
         }

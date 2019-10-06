@@ -5,12 +5,11 @@
     $controleRelatorioOS = new ControleRelatorioOS();
     $controleRelatorioOS->gerarRelatorioOS($_GET['os']);
     $relatorioOS = $controleRelatorioOS->getRelatorioOS();
-
  ?>
  <div class="container">
     <form id="form_ordem_servico" action="" method="post">
         <h3>Relatório de ordem de serviço</h3>
-        <p>Ordem de servico: <?= $relatorioOS->getOrdemServico()->getDescricao() ?></p>
+        <p>Ordem de servico: <?= $relatorioOS->getOrdemServico()[0]->getDescricao() ?></p>
         <br>
         <h4>Serviços</h4>
         <table class="table">
@@ -25,13 +24,14 @@
               <th scope="col">Quantidade</th>
               <th scope="col">Tempo estimado</th>
               <th scope="col">Tempo real</th>
+              <th scope="col">Porcentagem de tempo gasto</th>
             </tr>
           </thead>
           <tbody>
             
             
                 <?php 
-                    foreach ($relatorioOS->getOrdemServico()->getListaServicos() as $itemServico) {
+                    foreach ($relatorioOS->getOrdemServico()[0]->getListaServicos() as $itemServico) {
                 ?>
                 <tr>
                     <th scope="row"><?= $itemServico->getIdServico() ?></th>
@@ -42,7 +42,8 @@
                     <td><?= $itemServico->getTipoServico()->getNome() ?></td>
                     <td><?= $itemServico->getQuantidade() ?></td>
                     <td><?= $itemServico->getEstimativaTempoTotal() ?></td>
-                    <td><?= $itemServico->getPorcentagemTempo() ?></td>
+                    <td><?= $itemServico->getTempoExecucao() ?></td>
+                    <td><?= $itemServico->getPorcentagemTempo() ?>%</td>
                 </tr>
                 <?php
                     }
@@ -59,31 +60,25 @@
             <tr>
               <th scope="col">ID</th>
               <th scope="col">Nome</th>
-              <th scope="col">Local</th>
+<!--               <th scope="col">Local</th>
               <th scope="col">Data</th>
               <th scope="col">Status</th>
               <th scope="col">Tipo serviço</th>
               <th scope="col">Quantidade</th>
               <th scope="col">Tempo estimado</th>
-              <th scope="col">Tempo real</th>
+              <th scope="col">Tempo real</th> -->
             </tr>
           </thead>
           <tbody>
             
             
                 <?php 
-                    foreach ($relatorioOS->getOrdemServico()->getListaServicos() as $itemServico) {
+                    foreach ($relatorioOS->getOrdemServico()[0]->getListaFuncionarios() as $itemFuncionario) {
                 ?>
                 <tr>
-                    <th scope="row"><?= $itemServico->getIdServico() ?></th>
-                    <td><?= $itemServico->getNome() ?></td>
-                    <td><?= $itemServico->getLocal() ?></td>
-                    <td><?= $itemServico->getDataCadastro() ?></td>
-                    <td><?= $itemServico->getStatus() ?></td>
-                    <td><?= $itemServico->getTipoServico()->getNome() ?></td>
-                    <td><?= $itemServico->getQuantidade() ?></td>
-                    <td><?= $itemServico->getEstimativaTempoTotal() ?></td>
-                    <td><?= $itemServico->getPorcentagemTempo() ?></td>
+                    <th scope="row"><?= $itemFuncionario->getIdFuncionario() ?></th>
+                    <td><?= $itemFuncionario->getNome() ?></td>
+             
                 </tr>
                 <?php
                     }

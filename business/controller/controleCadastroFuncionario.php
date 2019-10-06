@@ -64,6 +64,7 @@ class ControleCadastroFuncionario{
     }
 
     public function alterarFuncionario(){
+        $this->setAtrPostsFuncionario();
         try {    
             $this->serviceFuncionario->alterarFuncionario($this->getFuncionario());
         } catch (ServiceException $e) {

@@ -6,7 +6,10 @@ class OrdemServico
 	public $descricao;
 	public $listaFuncionarios;
 	public $listaServicos;
-	public $tempoTotal;
+	public $status; // porcentagem dos serviços concluídos, leva em conta o tempo de cada
+	public $tempoEstimadoTotal; // total estimado dos servicos
+	public $tempoRealTotal;
+	public $pocentagemTempoUtilizado; // porcentagem do tempo disponível utilizado
 	
 	public function __construct(){
 		$listaFuncionarios = [];
@@ -18,6 +21,31 @@ class OrdemServico
 	public function getIdOrdemServico(){
 		return $this->idOrdemServico;
 	}
+
+	public function setStatus($status){
+		$this->status = $status;
+	}
+	public function getStatus(){
+		return $this->status;
+	}
+	public function setTempoEstimadoTotal($tempoEstimadoTotal){
+		$this->tempoEstimadoTotal = $tempoEstimadoTotal;
+	}
+	public function getTempoEstimadoTotal(){
+		return $this->tempoEstimadoTotal;
+	}
+	public function setTempoExecucaoTotal($tempoRealTotal){
+		$this->tempoRealTotal = $tempoRealTotal;
+	}
+	public function getTempoExecucaoTotal(){
+		return $this->tempoRealTotal;
+	}
+	public function setPocentagemTempoUtilizado($pocentagemTempoUtilizado){
+		$this->pocentagemTempoUtilizado = $pocentagemTempoUtilizado;
+	}
+	public function getPocentagemTempoUtilizado(){
+		return $this->pocentagemTempoUtilizado;
+	}	
 
 	public function setDescricao($descricao){
 		$this->descricao = $descricao;

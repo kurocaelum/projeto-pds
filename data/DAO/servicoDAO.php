@@ -2,6 +2,7 @@
 include_once($_SERVER["DOCUMENT_ROOT"]."/data/conexao.php");
 include_once($_SERVER["DOCUMENT_ROOT"]."/business/exception/dataException.php");
 include_once($_SERVER["DOCUMENT_ROOT"]."/data/DAO/tipoServicoDAO.php");
+include_once($_SERVER["DOCUMENT_ROOT"]."/business/models/Servico.php");
 
 class ServicoDAO{
     private $arrayServicos;
@@ -56,8 +57,18 @@ class ServicoDAO{
         
         if ($result) {
             if($result->num_rows > 0){
-                while($row = $result->fetch_assoc()) {
-                    $this->arrayServicos[count($this->arrayServicos) + 1] = $row;
+                while($row = mysqli_fetch_object($result)) {
+                    $servico = null;
+                    $servico = new Servico();
+                    $servico->setNome($row->nome);
+                    $servico->setIdServico($row->id_servico);
+                    $servico->setTipoServico($this->tipoServicoDAO->getTipoServicoById($row->id_tipo_servico));
+                    $servico->setQuantidade($row->quantidade);
+                    $servico->setLocal($row->localizacao);
+                    $servico->setDataCadastro($row->data_cadastro);
+                    $servico->setStatus($row->status);
+                    $servico->setTempoExecucao($row->tempo_conclusao);
+                    $this->arrayServicos[count($this->arrayServicos) + 1] = $servico;
                 }
             }
              
@@ -77,11 +88,9 @@ class ServicoDAO{
             $servico = new Servico();
             $servico->setNome($row->nome);
             $servico->setIdServico($row->id_servico);
-
             $servico->setTipoServico($this->tipoServicoDAO->getTipoServicoById($row->id_tipo_servico));
-
             $servico->setQuantidade($row->quantidade);
-            $servico->setLocal($row->local);
+            $servico->setLocal($row->localizacao);
             $servico->setDataCadastro($row->data_cadastro);
             $servico->setStatus($row->status);
             $servico->setTempoExecucao($row->tempo_conclusao);

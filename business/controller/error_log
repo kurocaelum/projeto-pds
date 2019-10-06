@@ -2010,3 +2010,47 @@ Stack trace:
 [24-Sep-2019 15:58:26 America/Sao_Paulo] PHP Warning:  Division by zero in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php on line 69
 [24-Sep-2019 15:58:27 America/Sao_Paulo] PHP Warning:  Division by zero in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php on line 69
 [24-Sep-2019 15:58:27 America/Sao_Paulo] PHP Warning:  Division by zero in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php on line 69
+[25-Sep-2019 09:05:37 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Class 'servicoDAO' not found in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceServico.php:15
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroServico.php(15): ServiceServico->__construct()
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroServico.php(110): ControleCadastroServico->__construct()
+#2 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceServico.php on line 15
+[25-Sep-2019 09:27:28 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function getTipoServicoById() on null in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php:123
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php(93): OrdemServicoDAO->getServicosByOrdemServico('21')
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceOrdemServico.php(52): OrdemServicoDAO->getOrdemServicos()
+#2 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroOrdemServico.php(94): ServiceOrdemServico->getListaOrdemServico()
+#3 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroOrdemServico.php(29): ControleCadastroOrdemServico->listarOrdemServicos()
+#4 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroOrdemServico.php(13): ControleCadastroOrdemServico->verificarRequisicao()
+#5 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroOrdemServico.php(111): ControleCadastroOrdemSer in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php on line 123
+[25-Sep-2019 09:27:44 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function getTipoServicoById() on null in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php:123
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php(93): OrdemServicoDAO->getServicosByOrdemServico('21')
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceOrdemServico.php(52): OrdemServicoDAO->getOrdemServicos()
+#2 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroOrdemServico.php(94): ServiceOrdemServico->getListaOrdemServico()
+#3 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroOrdemServico.php(29): ControleCadastroOrdemServico->listarOrdemServicos()
+#4 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroOrdemServico.php(13): ControleCadastroOrdemServico->verificarRequisicao()
+#5 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroOrdemServico.php(111): ControleCadastroOrdemSer in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php on line 123
+[25-Sep-2019 09:29:19 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to undefined method Funcionario::setSupervisorChefe() in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php:156
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php(98): OrdemServicoDAO->getFuncionariosByOrdemServico('21')
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceOrdemServico.php(52): OrdemServicoDAO->getOrdemServicos()
+#2 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroOrdemServico.php(94): ServiceOrdemServico->getListaOrdemServico()
+#3 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroOrdemServico.php(29): ControleCadastroOrdemServico->listarOrdemServicos()
+#4 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroOrdemServico.php(13): ControleCadastroOrdemServico->verificarRequisicao()
+#5 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroOrdemServico.php(111): ControleCadastro in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php on line 156
+[25-Sep-2019 09:29:22 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to undefined method Funcionario::setSupervisorChefe() in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php:156
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php(98): OrdemServicoDAO->getFuncionariosByOrdemServico('21')
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceOrdemServico.php(52): OrdemServicoDAO->getOrdemServicos()
+#2 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroOrdemServico.php(94): ServiceOrdemServico->getListaOrdemServico()
+#3 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroOrdemServico.php(29): ControleCadastroOrdemServico->listarOrdemServicos()
+#4 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroOrdemServico.php(13): ControleCadastroOrdemServico->verificarRequisicao()
+#5 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroOrdemServico.php(111): ControleCadastro in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php on line 156
+[25-Sep-2019 10:08:26 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Class 'SupervisorDAO' not found in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceSupervisor.php:14
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroSupervisor.php(11): ServiceSupervisor->__construct()
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroSupervisor.php(97): ControleCadastroSupervisor->__construct()
+#2 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceSupervisor.php on line 14
