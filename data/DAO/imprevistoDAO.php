@@ -16,6 +16,7 @@ class ImprevistoDAO{
         $sql = "INSERT INTO imprevisto (servico, descricao, quantidade) VALUES ('".$imprevisto->getServico()."', '".$imprevisto->getDescricao()."', '".$imprevisto->getQuantidade()."') ";
     
         if(mysqli_query($this->conexao, $sql) == 0){
+            echo mysqli_error($conexao). "\n";
             throw new DataException("Erro ao tentar inserir o imprevisto no banco de dados.\n");
         }
     
