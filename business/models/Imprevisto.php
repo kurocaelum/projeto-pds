@@ -19,7 +19,7 @@ class Imprevisto
 	}
 	
 	public function setServico($servico){
-		$this->Servico = $servico;
+		$this->servico = $servico;
 	}
 	
 	public function getServico(){

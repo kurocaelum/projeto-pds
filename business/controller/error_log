@@ -2068,3 +2068,21 @@ Stack trace:
 [08-Oct-2019 09:59:18 America/Sao_Paulo] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, string given in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/imprevistoDAO.php on line 19
 [08-Oct-2019 09:59:32 America/Sao_Paulo] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, string given in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/imprevistoDAO.php on line 19
 [08-Oct-2019 15:25:39 America/Sao_Paulo] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/imprevistoDAO.php on line 19
+[08-Oct-2019 16:20:46 America/Sao_Paulo] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/imprevistoDAO.php on line 24
+[08-Oct-2019 16:20:54 America/Sao_Paulo] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/imprevistoDAO.php on line 24
+[08-Oct-2019 16:21:52 America/Sao_Paulo] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/imprevistoDAO.php on line 24
+[08-Oct-2019 16:23:11 America/Sao_Paulo] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/imprevistoDAO.php on line 24
+[08-Oct-2019 16:23:53 America/Sao_Paulo] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/imprevistoDAO.php on line 24
+[08-Oct-2019 16:27:49 America/Sao_Paulo] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/imprevistoDAO.php on line 23
+[08-Oct-2019 16:28:17 America/Sao_Paulo] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/imprevistoDAO.php on line 23
+[08-Oct-2019 16:28:38 America/Sao_Paulo] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/imprevistoDAO.php on line 23
+[08-Oct-2019 16:28:53 America/Sao_Paulo] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/imprevistoDAO.php on line 23
+[08-Oct-2019 16:31:18 America/Sao_Paulo] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/imprevistoDAO.php on line 21
+[08-Oct-2019 17:57:20 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function getServico() on null in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroImprevisto.php:52
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroImprevisto.php(57): ControleCadastroImprevisto->setAtrPostsImprevisto()
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroImprevisto.php(25): ControleCadastroImprevisto->addImprevisto()
+#2 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroImprevisto.php(14): ControleCadastroImprevisto->verificarRequisicao()
+#3 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroImprevisto.php(107): ControleCadastroImprevisto->__construct()
+#4 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroImprevisto.php on line 52

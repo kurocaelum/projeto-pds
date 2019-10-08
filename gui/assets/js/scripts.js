@@ -841,43 +841,44 @@ function resultCarregarOptionTiposServicos(listaTiposServicos){
 
 
 jQuery(document).ready(function($){
-    $('#form_imprevisto').submit(function() {
-        var ids_servicos = "";
-        $( "#form_input_servicos option:selected" ).each(function(){
-            if(ids_servicos != ""){
-                ids_servicos = ids_servicos+",";
-            }
-            if($(this).val() != ""){  
-                ids_servicos = ids_servicos + $(this).val(); 
-            }
-            $("#ids_servicos").val(ids_servicos);
-        });
-        
+    
+    //     var ids_servicos = "";
+    //     $( "#form_input_servicos option:selected" ).each(function(){
+    //         if(ids_servicos != ""){
+    //             ids_servicos = ids_servicos+",";
+    //         }
+    //         if($(this).val() != ""){  
+    //             ids_servicos = ids_servicos + $(this).val(); 
+    //         }
+    //         $("#ids_servicos").val(ids_servicos);
+
+    $('#form_imprevisto').submit(function() {    
         dados = $('#form_imprevisto').serialize();
-            $.ajax({
-                    type: 'POST',
-                    dataType: 'json',
-                    url: 'http://pds.dev.anaju.me/business/controller/controleCadastroImprevisto.php',
-                    async: true,
-                    data: dados,
-                error: function(enviado) {
-                    resultFormImprevisto(JSON.stringify(enviado));
-                 },
-                success: function(enviado) {
-                    resultFormImprevisto(JSON.stringify(enviado));
-                }    
-            });
-            return false;
+        $.ajax({
+                type: 'POST',
+                dataType: 'json',
+                url: 'http://pds.dev.anaju.me/business/controller/controleCadastroImprevisto.php',
+                async: true,
+                data: dados,
+            error: function(enviado) {
+                resultFormImprevisto(JSON.stringify(enviado));
+                },
+            success: function(enviado) {
+                resultFormImprevisto(JSON.stringify(enviado));
+            }    
         });
-        function resultFormImprevisto(ret){
-            if(ret == "1"){
-                alert("Cadastrado com sucesso.");
-                $('#form_imprevisto')[0].reset();
-                carregarImprevistos("tabela");
-            }else{
-                alert(JSON.parse(ret).responseText);
-            }
+        return false;
+    });
+        
+    function resultFormImprevisto(ret){
+        if(ret == "1"){
+            alert("Cadastrado com sucesso.");
+            $('#form_imprevisto')[0].reset();
+            carregarImprevistos("tabela");
+        }else{
+            alert(JSON.parse(ret).responseText);
         }
+    }
 
 });
 

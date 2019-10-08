@@ -58,12 +58,12 @@ class ServiceImprevisto{
     
     // TODO Valida antes de inserir no banco
     public function verificarImprevisto($imprevisto){
-    
+        return true;
     }
     
     // TODO Checa pelo ID se está cadastrado no banco
     public function verificarDataId($imprevisto){
-    
+        return true;
     }
 }
 

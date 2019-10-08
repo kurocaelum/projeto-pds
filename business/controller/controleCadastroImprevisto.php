@@ -44,7 +44,7 @@ class ControleCadastroImprevisto{
     }
 
     public function setAtrPostsImprevisto() {
-        $servico = $_POST['servico'];
+        $servico = $_POST['servico_imprevisto'];
         $descricao = $_POST['descricao'];
         $quantidade = $_POST['quantidade'];
         $this->setAtrImprevisto($servico, $descricao, $quantidade);
