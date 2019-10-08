@@ -74,7 +74,10 @@ class ControleRelatorioOS{
         $this->relatorioOS = $this->serviceRelatorioOS->calcularEstimativas($this->relatorioOS);
         $this->relatorioOS = $this->serviceRelatorioOS->calcularExecucaoTempo($this->relatorioOS);    
         $this->relatorioOS = $this->serviceRelatorioOS->calcularPocentagemTempoUtilizado($this->relatorioOS);   
-        $this->relatorioOS = $this->serviceRelatorioOS->calcularStatus($this->relatorioOS);   
+        $this->relatorioOS = $this->serviceRelatorioOS->calcularStatus($this->relatorioOS); 
+        $this->relatorioOS = $this->serviceRelatorioOS->calcularPorcentagemTempoServico($this->relatorioOS);
+        
+
     }
 
 

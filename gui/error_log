@@ -825,3 +825,7 @@ Stack trace:
 [30-Sep-2019 23:13:54 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC), expecting end of file in /home1/anaju876/public_html/pds.dev.anaju.me/business/models/Imprevisto.php on line 11
 [30-Sep-2019 23:14:37 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC), expecting end of file in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/imprevistoDAO.php on line 11
 [30-Sep-2019 23:15:45 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC), expecting end of file in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceImprevisto.php on line 11
+[07-Oct-2019 14:10:08 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Class 'ControleRelatorioOS' not found in /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio_os.php:5
+Stack trace:
+#0 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio_os.php on line 5

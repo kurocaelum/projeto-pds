@@ -52,6 +52,7 @@
 <!-- TODO carregar imprevistos na tabela -->
 <script type="text/javascript">
     carregarServicos("option");
+    carregarImprevistos("tabela");
 </script>
 
 <?php 

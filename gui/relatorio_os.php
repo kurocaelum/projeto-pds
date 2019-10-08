@@ -38,7 +38,13 @@
                     <td><?= $itemServico->getNome() ?></td>
                     <td><?= $itemServico->getLocal() ?></td>
                     <td><?= $itemServico->getDataCadastro() ?></td>
-                    <td><?= $itemServico->getStatus() ?></td>
+                    <td>
+                      <?php if($itemServico->getStatus() == "1"){echo"Concluído";}
+                            if($itemServico->getStatus() == "2"){echo"Em execução";}  
+                            if($itemServico->getStatus() == "3"){echo"Pendente";}
+                            if($itemServico->getStatus() == "4"){echo"Cancelado";}
+                      ?>
+                    </td>
                     <td><?= $itemServico->getTipoServico()->getNome() ?></td>
                     <td><?= $itemServico->getQuantidade() ?></td>
                     <td><?= $itemServico->getEstimativaTempoTotal() ?></td>

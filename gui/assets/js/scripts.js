@@ -835,3 +835,175 @@ function resultCarregarOptionTiposServicos(listaTiposServicos){
 }
 
 // ------------------ FIM Controle Tipo Serviço ---------------------------
+
+
+// ------------------ Controle Imprevisto ---------------------------
+
+
+jQuery(document).ready(function($){
+    $('#form_imprevisto').submit(function() {
+        var ids_servicos = "";
+        $( "#form_input_servicos option:selected" ).each(function(){
+            if(ids_servicos != ""){
+                ids_servicos = ids_servicos+",";
+            }
+            if($(this).val() != ""){  
+                ids_servicos = ids_servicos + $(this).val(); 
+            }
+            $("#ids_servicos").val(ids_servicos);
+        });
+        
+        dados = $('#form_imprevisto').serialize();
+            $.ajax({
+                    type: 'POST',
+                    dataType: 'json',
+                    url: 'http://pds.dev.anaju.me/business/controller/controleCadastroImprevisto.php',
+                    async: true,
+                    data: dados,
+                error: function(enviado) {
+                    resultFormImprevisto(JSON.stringify(enviado));
+                 },
+                success: function(enviado) {
+                    resultFormImprevisto(JSON.stringify(enviado));
+                }    
+            });
+            return false;
+        });
+        function resultFormImprevisto(ret){
+            if(ret == "1"){
+                alert("Cadastrado com sucesso.");
+                $('#form_imprevisto')[0].reset();
+                carregarImprevistos("tabela");
+            }else{
+                alert(JSON.parse(ret).responseText);
+            }
+        }
+
+});
+
+
+function carregarImprevistos(tipo){
+    $.ajax({
+            type: 'POST',
+            dataType: 'json',
+            url: 'http://pds.dev.anaju.me/business/controller/controleCadastroImprevisto.php',
+            async: true,
+            data: {"listaImprevistos": true},
+        error: function(enviado) {
+            if(tipo == "tabela"){
+                resultCarregarImprevisto(JSON.stringify(enviado));
+            }else{
+                resultCarregarOptionImprevistos(JSON.stringify(enviado));
+            }
+         },
+        success: function(enviado) {
+            if(tipo == "tabela"){
+                resultCarregarImprevisto(JSON.stringify(enviado));
+            }else{
+                resultCarregarOptionImprevistos(JSON.stringify(enviado));
+            }
+        }    
+        });
+}
+
+
+function removerImprevisto(id_remover){
+    $.ajax({
+            type: 'POST',
+            dataType: 'json',
+            url: 'http://pds.dev.anaju.me/business/controller/controleCadastroImprevisto.php',
+            async: true,
+            data: {"excluirImprevisto": id_remover},
+        error: function(enviado) {
+            resultFormRemoverImprevisto(JSON.stringify(enviado), id_remover);
+         },
+        success: function(enviado) {
+            resultFormRemoverImprevisto(JSON.stringify(enviado), id_remover);
+        }    
+        });
+}
+
+function resultFormRemoverImprevisto(ret, id_remover){
+    if(ret == "1"){
+        alert("Imprevisto removido!")
+        carregarImprevistos("tabela");
+    }else{
+        alert(JSON.parse(ret).responseText);
+    }
+}
+
+// TODO editar contexto de TipoServico para Imprevisto
+function resultCarregarImprevisto(listaImprevistos){
+    jsonLista = JSON.parse(listaImprevistos);
+    var tabelaImprevistos = "";
+    var idsListaServicos = "";
+
+    for(var k in jsonLista) {
+        idsListaServicos = "";
+
+        if(jsonLista[k].listaServicos != null){        
+            for(var i in jsonLista[k].listaServicos){
+                if(idsListaServicos != ""){
+                    idsListaServicos = idsListaServicos+", ";
+                }    
+                idsListaServicos = idsListaServicos +jsonLista[k].listaServicos[i].idServico;
+            };
+        }
+
+        tabelaImprevistos = tabelaImprevistos+'<tr id="imprevisto'+jsonLista[k].idImprevisto+'">';
+        tabelaImprevistos = tabelaImprevistos+'<th class="id_imprevisto" scope="row">'+jsonLista[k].idImprevisto+'</th>';
+        tabelaImprevistos = tabelaImprevistos+'<td attr_id='+idsListaServicos+' class="servicos_imprevisto">'+idsListaServicos+'</td>';
+
+        tabelaImprevistos = tabelaImprevistos+'<td class="descricao_imprevisto">'+jsonLista[k].descricao+'</td>';
+
+        tabelaImprevistos = tabelaImprevistos+'<td>';
+        tabelaImprevistos = tabelaImprevistos+'       <button type="button" id-editar="'+jsonLista[k].idImprevisto+'" class="editar_imprevisto btn btn-info">Editar</button>';
+        tabelaImprevistos = tabelaImprevistos+'       <button type="button" id-remove="'+jsonLista[k].idImprevisto+'" class="remover_imprevisto btn btn-danger">Excluir</button>';
+        tabelaImprevistos = tabelaImprevistos+'</td>';
+        tabelaImprevistos = tabelaImprevistos+'</tr>';
+    }
+
+    $(".allImprevistos").html("");
+    $(".allImprevistos").append(tabelaImprevistos);
+    
+    $('.remover_imprevisto').on('click', function() {
+        var id_remover = $(this).attr("id-remove");
+        removerImprevisto(id_remover);
+        carregarImprevistos("tabela");
+    });
+
+    $('.editar_imprevisto').on('click', function() {
+        var id_editar = $(this).attr("id-editar");
+        $("#form_input_id").val( $("#imprevisto"+id_editar).find(".id_imprevisto").text() );
+        
+        var imprevisto_array_servicos = ($("#imprevisto"+id_editar).find(".servicos_imprevisto").attr("attr_id")).split(",");
+        var imprevisto_array_tratado_servicos = [];
+
+        for (var i = 0; i < imprevisto_array_servicos.length; i++) {
+            imprevisto_array_tratado_servicos.push(imprevisto_array_servicos[i].replace(" ",""));
+        };
+
+        $("#form_input_servicos").val(imprevisto_array_tratado_servicos);
+        
+        $("#form_input_descricao").val( $("#imprevisto"+id_editar).find(".descricao_imprevisto").text() );
+        $("#form_input_quantidade").val( $("#imprevisto"+id_editar).find(".quantidade_imprevisto").text() );
+    });
+
+}
+
+// TODO editar contexto de TipoServico para Imprevisto
+function resultCarregarOptionImprevistos(listaImprevistos){
+    jsonLista = JSON.parse(listaImprevistos);
+    var optionImprevistos = "<option value=''></option> ";
+    for(var k in jsonLista) {
+        optionImprevistos = optionImprevistos+'<option value='+jsonLista[k].id_imprevisto+' >'+jsonLista[k].descricao+'</option>';
+    }
+
+    $(".exibirListaImprevistosOption").html("");
+    $(".exibirListaImprevistosOption").append(optionImprevistos);
+    
+   
+
+}
+
+// ------------------ FIM Controle Imprevisto ---------------------------
