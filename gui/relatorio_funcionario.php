@@ -9,7 +9,6 @@
 
 
     $relatorioFuncionarios = $controleRelatorioFuncionario->getRelatorioFuncionarios();
-    print_r($relatorioFuncionarios);
  ?>
  <div class="container">
     <form id="form_ordem_servico" action="" method="post">
@@ -32,16 +31,21 @@
           </thead>
           <tbody>
             
+
             
                 <?php 
-                    // foreach ($relatorioOS->getOrdemServico() as $itemReltorioOS) {
+                    foreach ($relatorioFuncionarios as $itemReltorio) {
                
-                ?>
-
-
+                ?>  
+                 <tr>
+                  <th><?= $itemReltorio->getFuncionario()->getIdFuncionario() ?></th>
+                  <td><?= $itemReltorio->getFuncionario()->getNome() ?></td>
+                  <td><?= $itemReltorio->getQuantidadeOrdemServicos() ?></td>
+                  <td><?php echo intval($itemReltorio->getPorcentagemOrdemServicoExcesso()) ?> %</td>
+                 </tr>
                 <?php
                            
-                    // }
+                  }
                 ?>
            
             

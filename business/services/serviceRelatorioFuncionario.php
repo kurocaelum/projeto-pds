@@ -14,10 +14,10 @@ class ServiceRelatorioFuncionario{
 
     public function calcularQuantidadeOrdemServicos($funcionario, $relatorioOS){
         $total = 0;
-        foreach ($relatorioOS->getOrdemServico() as $relatorio) {
+        foreach ($relatorioOS->getOrdemServico() as $ordemServico) {
 
-            foreach ($relatorio->listaFuncionarios as $itemListaFuncionario) {
-                if($itemListaFuncionario->idFuncionario == $funcionario->idFuncionario){
+            foreach ($ordemServico->getListaFuncionarios() as $itemListaFuncionario) {
+                if($itemListaFuncionario->getIdFuncionario() == $funcionario->getIdFuncionario()){
                     $total += 1;
                 }
             }
@@ -31,14 +31,14 @@ class ServiceRelatorioFuncionario{
         $totalPrazo = 0;
         foreach ($relatorioOS->getOrdemServico() as $ordemServico) {
             $teste = 0;
-            foreach ($ordemServico->listaFuncionarios as $itemListaFuncionario) {
-                if($itemListaFuncionario->idFuncionario == $funcionario->idFuncionario){
+            foreach ($ordemServico->getListaFuncionarios() as $itemListaFuncionario) {
+                if($itemListaFuncionario->getIdFuncionario() == $funcionario->getIdFuncionario()){
                     $teste = 1;
                     break;
                 }
             }
             if($teste == 1){
-                if($ordemServico->pocentagemTempoUtilizado > 100){
+                if($ordemServico->getPocentagemTempoUtilizado() > 100){
                     $totalExcesso += 1;
                 }else{
                     $totalPrazo += 1;

@@ -841,17 +841,6 @@ function resultCarregarOptionTiposServicos(listaTiposServicos){
 
 
 jQuery(document).ready(function($){
-    
-    //     var ids_servicos = "";
-    //     $( "#form_input_servicos option:selected" ).each(function(){
-    //         if(ids_servicos != ""){
-    //             ids_servicos = ids_servicos+",";
-    //         }
-    //         if($(this).val() != ""){  
-    //             ids_servicos = ids_servicos + $(this).val(); 
-    //         }
-    //         $("#ids_servicos").val(ids_servicos);
-
     $('#form_imprevisto').submit(function() {    
         dados = $('#form_imprevisto').serialize();
         $.ajax({
@@ -933,35 +922,23 @@ function resultFormRemoverImprevisto(ret, id_remover){
     }
 }
 
-// TODO editar contexto de TipoServico para Imprevisto
 function resultCarregarImprevisto(listaImprevistos){
     jsonLista = JSON.parse(listaImprevistos);
     var tabelaImprevistos = "";
     var idsListaServicos = "";
 
     for(var k in jsonLista) {
-        idsListaServicos = "";
-
-        if(jsonLista[k].listaServicos != null){        
-            for(var i in jsonLista[k].listaServicos){
-                if(idsListaServicos != ""){
-                    idsListaServicos = idsListaServicos+", ";
-                }    
-                idsListaServicos = idsListaServicos +jsonLista[k].listaServicos[i].idServico;
-            };
-        }
-
         tabelaImprevistos = tabelaImprevistos+'<tr id="imprevisto'+jsonLista[k].idImprevisto+'">';
+
         tabelaImprevistos = tabelaImprevistos+'<th class="id_imprevisto" scope="row">'+jsonLista[k].idImprevisto+'</th>';
-        tabelaImprevistos = tabelaImprevistos+'<td attr_id='+idsListaServicos+' class="servicos_imprevisto">'+idsListaServicos+'</td>';
-
-        tabelaImprevistos = tabelaImprevistos+'<td class="descricao_imprevisto">'+jsonLista[k].descricao+'</td>';
-
-        tabelaImprevistos = tabelaImprevistos+'<td>';
-        tabelaImprevistos = tabelaImprevistos+'       <button type="button" id-editar="'+jsonLista[k].idImprevisto+'" class="editar_imprevisto btn btn-info">Editar</button>';
-        tabelaImprevistos = tabelaImprevistos+'       <button type="button" id-remove="'+jsonLista[k].idImprevisto+'" class="remover_imprevisto btn btn-danger">Excluir</button>';
-        tabelaImprevistos = tabelaImprevistos+'</td>';
-        tabelaImprevistos = tabelaImprevistos+'</tr>';
+        tabelaImprevistos = tabelaImprevistos+'<td class="id_servico">'+jsonLista[k].servico+'</td>';
+        tabelaImprevistos = tabelaImprevistos+'<td class="descricao">'+jsonLista[k].descricao+'</td>';
+		tabelaImprevistos = tabelaImprevistos+'<td class="quantidade">'+jsonLista[k].quantidade+'</td>';
+		// tabelaImprevistos = tabelaImprevistos+'<td>';
+		// tabelaImprevistos = tabelaImprevistos+'		<button type="button" id-editar="'+jsonLista[k].idImprevisto+'" class="editar_imprevisto btn btn-info">Editar</button>';
+		// tabelaImprevistos = tabelaImprevistos+'		<button type="button" id-remove="'+jsonLista[k].idImprevisto+'" class="remover_imprevisto btn btn-danger">Excluir</button>';
+		// tabelaImprevistos = tabelaImprevistos+'</td>';
+    	// tabelaImprevistos = tabelaImprevistos+'</tr>';
     }
 
     $(".allImprevistos").html("");

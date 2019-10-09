@@ -41,6 +41,7 @@
                   <th scope="col">ID Serviço</th>
 			      <th scope="col">Descrição</th>
 			      <th scope="col">Quantidade</th>
+                  <th scope="col">Ações</th>
 		    </tr>
 		</thead>
 		<tbody class="allImprevistos">

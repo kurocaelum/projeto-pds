@@ -8,7 +8,6 @@ include_once($_SERVER["DOCUMENT_ROOT"]."/data/DAO/servicoDAO.php");
 class ImprevistoDAO{
     public $arrayImprevistos;
     public $conexao;
-    public $servicoDAO;
 
     public function __construct(){
         $this->arrayImprevistos = [];
@@ -18,7 +17,6 @@ class ImprevistoDAO{
     
     public function insert($imprevisto){
         $sql = "INSERT INTO imprevisto (id_servico, descricao, quantidade) VALUES ('".$imprevisto->getServico()."', '".$imprevisto->getDescricao()."', '".$imprevisto->getQuantidade()."') ";
-        echo "sql: ". $sql . "\n";
     
         if(!mysqli_query($this->conexao, $sql)){
             throw new DataException("Erro ao tentar inserir o imprevisto no banco de dados.\n");

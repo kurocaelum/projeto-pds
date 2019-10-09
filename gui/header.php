@@ -25,7 +25,9 @@
 					<a href="http://pds.dev.anaju.me/gui/cadastro-tipo-servico.php">Gerenciar tipos de serviços</a>
 					<a href="http://pds.dev.anaju.me/gui/cadastro-ordem-servico.php">Gerenciar OS</a>
 					<a href="http://pds.dev.anaju.me/gui/cadastro-imprevisto.php">Gerenciar Imprevistos</a>
-					<a href="http://pds.dev.anaju.me/gui/relatorio-geral-os.php">Relatório geral OS</a>
+					<a href="http://pds.dev.anaju.me/gui/relatorio-geral-os.php">Relatório OS</a>
+					<a href="http://pds.dev.anaju.me/gui/relatorio_funcionario.php">Relatório Funcionários</a>
+
 					
 				</nav>
 			</div>

@@ -7,6 +7,7 @@ class RelatorioFuncionario {
     public $porcentagemOrdemServicoExcesso;
 
 	public function __construct(){
+        $this->funcionario = new Funcionario();
     }
 
     public function setFuncionario($funcionario){
@@ -16,15 +17,15 @@ class RelatorioFuncionario {
     	return $this->funcionario;
     }
 
-    public function setQuantidadeOrdemServicos($quantidadeOrdemServicos){
-    	$this->$quantidadeOrdemServicos = $quantidadeOrdemServicos;
+    public function setQuantidadeOrdemServicos($qua){
+    	$this->quantidadeOrdemServicos = $qua;
     }
     public function getQuantidadeOrdemServicos(){
     	return $this->quantidadeOrdemServicos;
     }
 
-    public function setPorcentagemOrdemServicoExcesso($porcentagemOrdemServicoExcesso){
-    	$this->$porcentagemOrdemServicoExcesso = $porcentagemOrdemServicoExcesso;
+    public function setPorcentagemOrdemServicoExcesso($porc){
+    	$this->porcentagemOrdemServicoExcesso = $porc;
     }
     public function getPorcentagemOrdemServicoExcesso(){
     	return $this->porcentagemOrdemServicoExcesso;
