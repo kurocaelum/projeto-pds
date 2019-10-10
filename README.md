@@ -5,4 +5,4 @@ O projeto consiste na implementação de um sistema para controlar a produtivida
 ![Imgur](https://i.imgur.com/E6kzd7T.png)
 
 
-Projeto desenvolvido para a disciplina de Projeto Detalhado de Software.
+*Projeto desenvolvido para a disciplina de Projeto Detalhado de Software.*
