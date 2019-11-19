@@ -1,8 +1,8 @@
 <?php 
 	include("header.php");
-	include($_SERVER["DOCUMENT_ROOT"]."/business/controller/controleCadastroTipoServico.php");
+	include($_SERVER["DOCUMENT_ROOT"]."/business/controller/controleCadastroTipoServicoPredial.php");
 
-	$controleCadastroTipoServico = new ControleCadastroTipoServico();
+	// $controleCadastroTipoServico = new ControleCadastroTipoServicoPredial();
 
  ?>
  <div class="container">
@@ -24,6 +24,19 @@
 			<label for="form_input_tempo">Tempo em minutos para cada unidade</label>
 			<input name="tempo" required type="text" class="form-control" id="form_input_tempo" placeholder="">
 		</div>
+		
+
+		<div class="form-group">
+			<label for="form_input_tempo">Tempo em minutos para remoção de cada unidade</label>
+			<input name="tempo_remocao" required type="text" class="form-control" id="form_input_tempo" placeholder="">
+		</div>
+
+		<div class="form-group">
+			<label for="form_input_tempo">Porcentagem de tempo reduzida por ajudante</label>
+			<input name="porcentagem_ajudante" required type="text" class="form-control" id="form_input_tempo" placeholder="">
+		</div>
+
+
 		  <button type="submit" class="btn btn-primary">Cadastrar</button>
 	</form>
 
@@ -36,6 +49,9 @@
 			      <th scope="col">Nome</th>
 			      <th scope="col">Unidade</th>
 			      <th scope="col">Tempo</th>
+			      <th scope="col">Tempo para remoção</th>
+			      <th scope="col">Porcentagem tempo ajudante</th>
+			      <th scope="col">Ações</th> 
 		    </tr>
 		</thead>
 		<tbody class="allTiposServicos">

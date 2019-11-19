@@ -7,7 +7,7 @@ include_once($_SERVER["DOCUMENT_ROOT"]."/business/exception/serviceException.php
 include_once($_SERVER["DOCUMENT_ROOT"]."/business/exception/dataException.php");
 
 
-class ServiceRelatorioOS{
+abstract class ServiceRelatorioOS{
     public $ordemServicoDAO; // objeto dao para salvar as funcionarios e obter dados.
     // public $listaOrdemServicos;
     
@@ -32,18 +32,7 @@ class ServiceRelatorioOS{
         return $relatorioOS;
     }
 
-    public function calcularEstimativas($relatorioOS){ // calcula o tempo total estimado pela OS, soma o tempo estimado de cada serviço
-        foreach ($relatorioOS->getOrdemServico() as $ordemServico) { 
-            $tempoEstimadoTotal = 0;
-            foreach ($ordemServico->getListaServicos() as $itemServico ) {
-                $tempo = $itemServico->getTipoServico()->getTempo() * $itemServico->getQuantidade();
-                $itemServico->setEstimativaTempoTotal($tempo);
-                $tempoEstimadoTotal = $tempoEstimadoTotal + $tempo;
-            }
-            $ordemServico->setTempoEstimadoTotal($tempoEstimadoTotal);
-        }
-        return $relatorioOS;
-    }
+    abstract function calcularEstimativas($relatorioOS); // calcula o tempo total estimado pela OS, soma o tempo estimado de cada serviço
 
     public function calcularExecucaoTempo($relatorioOS){ // tempo total de execução da OS
         foreach ($relatorioOS->getOrdemServico() as $ordemServico) { 

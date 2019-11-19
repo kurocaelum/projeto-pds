@@ -5,19 +5,19 @@ include_once($_SERVER["DOCUMENT_ROOT"]."/business/models/RelatorioOS.php");
 include_once($_SERVER["DOCUMENT_ROOT"]."/data/DAO/ordemServicoDAO.php");
 include_once($_SERVER["DOCUMENT_ROOT"]."/business/services/serviceOrdemServico.php");
 include_once($_SERVER["DOCUMENT_ROOT"]."/business/services/serviceRelatorioOS.php");
-include_once($_SERVER["DOCUMENT_ROOT"]."/business/services/serviceServico.php");
+// include_once($_SERVER["DOCUMENT_ROOT"]."/business/services/serviceServico.php");
 
 
-class ControleRelatorioOS{
+abstract class ControleRelatorioOS{
     public $serviceRelatorioOS;
     public $serviceOrdemServico;
-    public $serviceServico;
+    // public $serviceServico;
     public $relatorioOS;
 
     public function __construct(){
         $this->serviceOrdemServico = new ServiceOrdemServico();
-        $this->serviceServico = new ServiceServico();
-        $this->serviceRelatorioOS = new ServiceRelatorioOS();
+        // $this->serviceServico = new ServiceServico();
+        // $this->serviceRelatorioOS = new ServiceRelatorioOS();
         $this->relatorioOS = new RelatorioOS();
     }
 

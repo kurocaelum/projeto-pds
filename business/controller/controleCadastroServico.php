@@ -1,19 +1,15 @@
 <?php 
-// controlador da parte do gerenciamento de Servico. Essa classe recebe os dados do html, faz a //validação dos dados, encapsula-os em um objeto Servico e envia para serviceServico
 
-include_once($_SERVER["DOCUMENT_ROOT"]."/business/services/serviceServico.php");
+include_once($_SERVER["DOCUMENT_ROOT"]."/business/services/serviceServicoPredial.php");
 include_once($_SERVER["DOCUMENT_ROOT"]."/business/models/Servico.php");
 
 
-class ControleCadastroServico{
+abstract class ControleCadastroServico{
 
-	private $serviceServico;
-	private $servico;
+	public $serviceServico;
+	public $servico;
 
 	public function __construct(){
-		
-		$this->serviceServico = new ServiceServico();
-		$this->servico = new Servico();
 		$this->verificarRequisicao();
 	}
 
@@ -38,7 +34,7 @@ class ControleCadastroServico{
         
     }
 
-    private function setServico(){
+    public function setServico(){
 
          $nome = $_POST['nome'];
          $local = $_POST['local'];
@@ -106,9 +102,6 @@ class ControleCadastroServico{
 }
 
 
-if(isset($_POST['idServico']) || isset($_POST['listaServicos']) || isset($_POST['excluirServico']) || isset($_POST['addServico']) ){
-    $controleCadastroServico = new ControleCadastroServico();
-}
 
 
 ?>

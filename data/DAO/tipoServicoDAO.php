@@ -4,7 +4,7 @@ include_once($_SERVER["DOCUMENT_ROOT"]."/business/exception/dataException.php");
 include_once($_SERVER["DOCUMENT_ROOT"]."/business/models/TipoServico.php");
 
 
-class TipoServicoDAO{
+abstract class TipoServicoDAO{
     public $arrayTiposServicos;
     public $conexao;
 
@@ -13,8 +13,10 @@ class TipoServicoDAO{
         $this->conexao = (new Conexao())->getConexao();
     }
     
-    public function insert($tipoServico){
-        $sql = "INSERT INTO tipo_servico (nome, unidade_medida, tempo) VALUES ('".$tipoServico->getNome()."', '".$tipoServico->getUnidadeMedida()."', '".$tipoServico->getTempo()."') ";
+    //(nome, unidade_medida, tempo)
+    //('".$tipoServico->getNome()."', '".$tipoServico->getUnidadeMedida()."', '".$tipoServico->getTempo()."')
+    public function insertDAO($campos, $values ){
+        $sql = "INSERT INTO tipo_servico ".$campos." VALUES ".$values.";";
 
         if(mysqli_query($this->conexao, $sql) == 0){
             throw new DataException("Erro ao tentar inserir o tipo de serviço no banco de dados.\n");
@@ -69,17 +71,13 @@ class TipoServicoDAO{
         $result = mysqli_query($this->conexao, $sql);
         if($result){
             $row = mysqli_fetch_object($result);
-            $tipoServico = new TipoServico();
-            $tipoServico->setNome( $row->nome );
-            $tipoServico->setUnidadeMedida( $row->unidade_medida );
-            $tipoServico->setIdTipoServico( $row->id_tipo_servico );
-            $tipoServico->setTempo( $row->tempo );
-
-            return $tipoServico;
+            return $this->objectTipoServicoById($row);
         }else{
             throw new DataException("Erro ao selecionar o tipo de serviço no banco de dados.\n");
         }
     }
+
+    abstract function objectTipoServicoById($result);
 
 }
 

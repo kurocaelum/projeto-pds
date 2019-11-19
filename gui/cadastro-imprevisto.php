@@ -46,14 +46,15 @@
 		</thead>
 		<tbody class="allImprevistos">
 			
+            
 		</tbody>
 	</table>
 </div>
 
 <!-- TODO carregar imprevistos na tabela -->
 <script type="text/javascript">
-    carregarServicos("option");
     carregarImprevistos("tabela");
+    carregarServicos("option");
 </script>
 
 <?php 

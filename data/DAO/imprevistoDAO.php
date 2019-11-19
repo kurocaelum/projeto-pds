@@ -48,7 +48,9 @@ class ImprevistoDAO{
             if ($result->num_rows > 0) {
                 while($row = mysqli_fetch_object($result)) {
                     $imprevisto = new Imprevisto();
-                    $imprevisto->setServico($row->servico);
+                    // $imprevisto->setIdServico($row->id_servico);
+                    $imprevisto->setIdImprevisto($row->id_imprevisto);
+                    $imprevisto->setServico($row->id_servico);
                     $imprevisto->setDescricao($row->descricao);
                     $imprevisto->setQuantidade($row->quantidade);
                     

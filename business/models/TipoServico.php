@@ -1,6 +1,6 @@
 <?php
 
-class TipoServico{
+abstract class TipoServico{
 	public $nome;
 	public $unidadeMedida;
 	public $tempo;
@@ -18,7 +18,6 @@ class TipoServico{
 	function getIdTipoServico(){
 		return $this->id_tipo_servico;
 	}
-
 
 	function setNome($nome){
 		$this->nome = $nome;

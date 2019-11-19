@@ -8,11 +8,11 @@ include_once($_SERVER["DOCUMENT_ROOT"]."/business/models/Servico.php");
 include_once($_SERVER["DOCUMENT_ROOT"]."/business/exception/serviceException.php");
 
 
-class ServiceServico{
-	private $servicoDAO; // objeto dao para salvar as tipoServicos e obter dados.
+abstract class ServiceServico{
+	public $servicoDAO; // objeto dao para salvar as tipoServicos e obter dados.
 
 	public function __construct(){
-		$this->servicoDAO = new servicoDAO();
+		// $this->servicoDAO = new servicoDAO();
 	}
 	
 
@@ -67,17 +67,16 @@ class ServiceServico{
     	
     }
 
-    private function validarIdServico($servico){
+    public function validarIdServico($servico){
         if(count($this->servicoDAO->getServicoById($servico->getIdServico())) == 0){
             throw new ServiceException("Serviço não encontrado");
             
         }
     }
 
-    private function validarIdTipoServico($servico){
-        if(count((new TipoServicoDAO())->getTipoServicoById($servico->getTipoServico())) == 0){
+    public function validarIdTipoServico($servico){
+        if($servico->getTipoServico() <= 0){
             throw new ServiceException("Tipo de Serviço não encontrado");
-            
         }
     }
 
@@ -93,7 +92,7 @@ class ServiceServico{
     }
 
 
-    private function validarDadosServico($servico){
+    public function validarDadosServico($servico){
 
         $ret="";
 

@@ -10,7 +10,7 @@ include_once($_SERVER["DOCUMENT_ROOT"]."/business/controller/controleCadastroFun
 
 
 class ControleRelatorioFuncionario extends ControleRelatorioOS{
-    public $listaRelatorioFuncionario;
+    // public $listaRelatorioFuncionario;
     public $serviceRelatorioFuncionario;
     public $relatoriosFuncionario;
     public $listaFuncionarios;

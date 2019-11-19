@@ -221,7 +221,7 @@ jQuery(document).ready(function($){
         $.ajax({
                 type: 'POST',
                 dataType: 'json',
-                url: 'http://pds.dev.anaju.me/business/controller/controleCadastroServico.php',
+                url: 'http://pds.dev.anaju.me/business/controller/controleCadastroServicoPredial.php',
                 async: true,
                 data: dados,
             error: function(enviado) {
@@ -255,7 +255,7 @@ function carregarServicos(tipo){
     $.ajax({
             type: 'POST',
             dataType: 'json',
-            url: 'http://pds.dev.anaju.me/business/controller/controleCadastroServico.php',
+            url: 'http://pds.dev.anaju.me/business/controller/controleCadastroServicoPredial.php',
             async: true,
             data: {"listaServicos": true},
             error: function(enviado) {
@@ -283,7 +283,7 @@ function removerServico(id_remover){
     $.ajax({
             type: 'POST',
             dataType: 'json',
-            url: 'http://pds.dev.anaju.me/business/controller/controleCadastroServico.php',
+            url: 'http://pds.dev.anaju.me/business/controller/controleCadastroServicoPredial.php',
             async: true,
             data: {"excluirServico": id_remover},
         error: function(enviado) {
@@ -322,6 +322,11 @@ function resultCarregarServicos(listaServicos){
     jsonLista = JSON.parse(listaServicos);
     var tabelaServicos = "";
     for(var k in jsonLista) {
+        var remocao_material = "Não";
+        if(jsonLista[k].remocao == 1){
+            remocao_material = "Sim";
+        }
+
         tabelaServicos = tabelaServicos+'<tr id="servico'+jsonLista[k].idServico+'">';
         tabelaServicos = tabelaServicos+'<th class="id_servico" scope="row">'+jsonLista[k].idServico+'</th>';
 
@@ -332,6 +337,8 @@ function resultCarregarServicos(listaServicos){
         tabelaServicos = tabelaServicos+'<td class="id_tipo_servico">'+jsonLista[k]['tipoServico'].id_tipo_servico+'</td>';
         tabelaServicos = tabelaServicos+'<td class="quantidade_servico">'+jsonLista[k].quantidade+'</td>';
         tabelaServicos = tabelaServicos+'<td class="tempo_conclusao">'+jsonLista[k].tempoExecucao+'</td>';
+        tabelaServicos = tabelaServicos+'<td class="tempo_conclusao">'+jsonLista[k].quantidadeAjudante+'</td>';
+        tabelaServicos = tabelaServicos+'<td class="tempo_conclusao">'+remocao_material+'</td>';
         switch(jsonLista[k].status){
             case "1": tabelaServicos = tabelaServicos+'<td attr-cod= '+jsonLista[k].status+' class="status_servico">'+'Concluído'+'</td>'; break;
             case "2": tabelaServicos = tabelaServicos+'<td attr-cod= '+jsonLista[k].status+' class="status_servico">'+'Em Execução'+'</td>'; break;
@@ -699,7 +706,7 @@ jQuery(document).ready(function($){
             $.ajax({
                     type: 'POST',
                     dataType: 'json',
-                    url: 'http://pds.dev.anaju.me/business/controller/controleCadastroTipoServico.php',
+                    url: 'http://pds.dev.anaju.me/business/controller/controleCadastroTipoServicoPredial.php',
                     async: true,
                     data: dados,
                 error: function(enviado) {
@@ -735,7 +742,7 @@ function carregarTipoServico(tipo){
     $.ajax({
             type: 'POST',
             dataType: 'json',
-            url: 'http://pds.dev.anaju.me/business/controller/controleCadastroTipoServico.php',
+            url: 'http://pds.dev.anaju.me/business/controller/controleCadastroTipoServicoPredial.php',
             async: true,
             data: {"listaTipoServicos": true}, // listaFuncionarios?
         error: function(enviado) {
@@ -760,7 +767,7 @@ function removerTipoServico(id_remover){
     $.ajax({
             type: 'POST',
             dataType: 'json',
-            url: 'http://pds.dev.anaju.me/business/controller/controleCadastroTipoServico.php',
+            url: 'http://pds.dev.anaju.me/business/controller/controleCadastroTipoServicoPredial.php',
             async: true,
             data: {"excluirTipoServico": id_remover},
         error: function(enviado) {
@@ -786,12 +793,16 @@ function resultCarregarTipoServico(listaTiposServicos){
     jsonLista = JSON.parse(listaTiposServicos);
     var tabelaTiposServicos = "";
     for(var k in jsonLista) {
+        console.log(jsonLista[k]);
+
         tabelaTiposServicos = tabelaTiposServicos+'<tr id="tipo_servico'+jsonLista[k].id_tipo_servico+'">';
 
         tabelaTiposServicos = tabelaTiposServicos+'<th class="id_tipo_servico" scope="row">'+jsonLista[k].id_tipo_servico+'</th>';
         tabelaTiposServicos = tabelaTiposServicos+'<td class="nome_tipo_servico">'+jsonLista[k].nome+'</td>';
         tabelaTiposServicos = tabelaTiposServicos+'<td class="unidade_tipo_servico">'+jsonLista[k].unidade_medida+'</td>';
         tabelaTiposServicos = tabelaTiposServicos+'<td class="tempo_tipo_servico">'+jsonLista[k].tempo+'</td>';
+        tabelaTiposServicos = tabelaTiposServicos+'<td class="tempo_tipo_servico">'+jsonLista[k].tempo_remocao+'</td>';
+        tabelaTiposServicos = tabelaTiposServicos+'<td class="tempo_tipo_servico">'+jsonLista[k].porcentagem_ajudante+'</td>';
         tabelaTiposServicos = tabelaTiposServicos+'<td>';
         tabelaTiposServicos = tabelaTiposServicos+'       <button type="button" id-editar="'+jsonLista[k].id_tipo_servico+'" class="editar_tipo_servico btn btn-info">Editar</button>';
         tabelaTiposServicos = tabelaTiposServicos+'       <button type="button" id-remove="'+jsonLista[k].id_tipo_servico+'" class="remover_tipo_servico btn btn-danger">Excluir</button>';
@@ -925,7 +936,7 @@ function resultFormRemoverImprevisto(ret, id_remover){
 function resultCarregarImprevisto(listaImprevistos){
     jsonLista = JSON.parse(listaImprevistos);
     var tabelaImprevistos = "";
-    var idsListaServicos = "";
+    // var idsListaServicos = "";
 
     for(var k in jsonLista) {
         tabelaImprevistos = tabelaImprevistos+'<tr id="imprevisto'+jsonLista[k].idImprevisto+'">';
@@ -934,38 +945,38 @@ function resultCarregarImprevisto(listaImprevistos){
         tabelaImprevistos = tabelaImprevistos+'<td class="id_servico">'+jsonLista[k].servico+'</td>';
         tabelaImprevistos = tabelaImprevistos+'<td class="descricao">'+jsonLista[k].descricao+'</td>';
 		tabelaImprevistos = tabelaImprevistos+'<td class="quantidade">'+jsonLista[k].quantidade+'</td>';
-		// tabelaImprevistos = tabelaImprevistos+'<td>';
-		// tabelaImprevistos = tabelaImprevistos+'		<button type="button" id-editar="'+jsonLista[k].idImprevisto+'" class="editar_imprevisto btn btn-info">Editar</button>';
-		// tabelaImprevistos = tabelaImprevistos+'		<button type="button" id-remove="'+jsonLista[k].idImprevisto+'" class="remover_imprevisto btn btn-danger">Excluir</button>';
-		// tabelaImprevistos = tabelaImprevistos+'</td>';
-    	// tabelaImprevistos = tabelaImprevistos+'</tr>';
+		tabelaImprevistos = tabelaImprevistos+'<td>';
+		tabelaImprevistos = tabelaImprevistos+'		<button type="button" id-editar="'+jsonLista[k].idImprevisto+'" class="editar_imprevisto btn btn-info">Editar</button>';
+		tabelaImprevistos = tabelaImprevistos+'		<button type="button" id-remove="'+jsonLista[k].idImprevisto+'" class="remover_imprevisto btn btn-danger">Excluir</button>';
+		tabelaImprevistos = tabelaImprevistos+'</td>';
+    	tabelaImprevistos = tabelaImprevistos+'</tr>';
     }
 
     $(".allImprevistos").html("");
     $(".allImprevistos").append(tabelaImprevistos);
     
-    $('.remover_imprevisto').on('click', function() {
-        var id_remover = $(this).attr("id-remove");
-        removerImprevisto(id_remover);
-        carregarImprevistos("tabela");
-    });
+    // $('.remover_imprevisto').on('click', function() {
+    //     var id_remover = $(this).attr("id-remove");
+    //     removerImprevisto(id_remover);
+    //     carregarImprevistos("tabela");
+    // });
 
-    $('.editar_imprevisto').on('click', function() {
-        var id_editar = $(this).attr("id-editar");
-        $("#form_input_id").val( $("#imprevisto"+id_editar).find(".id_imprevisto").text() );
+    // $('.editar_imprevisto').on('click', function() {
+    //     var id_editar = $(this).attr("id-editar");
+    //     $("#form_input_id").val( $("#imprevisto"+id_editar).find(".id_imprevisto").text() );
         
-        var imprevisto_array_servicos = ($("#imprevisto"+id_editar).find(".servicos_imprevisto").attr("attr_id")).split(",");
-        var imprevisto_array_tratado_servicos = [];
+    //     var imprevisto_array_servicos = ($("#imprevisto"+id_editar).find(".servicos_imprevisto").attr("attr_id")).split(",");
+    //     var imprevisto_array_tratado_servicos = [];
 
-        for (var i = 0; i < imprevisto_array_servicos.length; i++) {
-            imprevisto_array_tratado_servicos.push(imprevisto_array_servicos[i].replace(" ",""));
-        };
+    //     for (var i = 0; i < imprevisto_array_servicos.length; i++) {
+    //         imprevisto_array_tratado_servicos.push(imprevisto_array_servicos[i].replace(" ",""));
+    //     };
 
-        $("#form_input_servicos").val(imprevisto_array_tratado_servicos);
+    //     $("#form_input_servicos").val(imprevisto_array_tratado_servicos);
         
-        $("#form_input_descricao").val( $("#imprevisto"+id_editar).find(".descricao_imprevisto").text() );
-        $("#form_input_quantidade").val( $("#imprevisto"+id_editar).find(".quantidade_imprevisto").text() );
-    });
+    //     $("#form_input_descricao").val( $("#imprevisto"+id_editar).find(".descricao_imprevisto").text() );
+    //     $("#form_input_quantidade").val( $("#imprevisto"+id_editar).find(".quantidade_imprevisto").text() );
+    // });
 
 }
 

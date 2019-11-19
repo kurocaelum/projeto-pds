@@ -4,27 +4,31 @@ include_once($_SERVER["DOCUMENT_ROOT"]."/business/exception/dataException.php");
 include_once($_SERVER["DOCUMENT_ROOT"]."/data/DAO/tipoServicoDAO.php");
 include_once($_SERVER["DOCUMENT_ROOT"]."/business/models/Servico.php");
 
-class ServicoDAO{
-    private $arrayServicos;
-    private $conexao;
-    private $tipoServicoDAO;
+abstract class ServicoDAO{
+    public $arrayServicos;
+    public $conexao;
+    public $tipoServicoDAO;
 
     public function __construct(){
         $this->arrayServicos = [];
         $this->conexao = (new Conexao())->getConexao();
-        $this->tipoServicoDAO = new TipoServicoDAO();
+        // $this->tipoServicoDAO = new TipoServicoDAO();
     }
     
-    public function insert($servico){
+
+    
+    public function insertDAO($campos, $values ){
+        $sql = "INSERT INTO servico ".$campos." VALUES ".$values.";";
         
-        $sql = "INSERT INTO servico (id_tipo_servico, nome, localizacao, quantidade, data_cadastro, status, tempo_conclusao) VALUES (".$servico->getTipoServico().", '".$servico->getNome()."', '".$servico->getLocal()."', ".$servico->getQuantidade().", '".$servico->getDataCadastro()."', '".$servico->getStatus()."', ".$servico->getTempoExecucao().")";
+        // echo $sql;
 
         if(mysqli_query($this->conexao, $sql) == 0){
-            throw new DataException("Erro ao tentar inserir o serviço no banco de dados.\n");
+            throw new DataException("Erro ao tentar inserir o tipo de serviço no banco de dados.\n");
         }
 
         return true;
     }
+
      
     public function update($servico){
          $sql = "UPDATE servico SET id_tipo_servico = ".$servico->getTipoServico().", nome = '".$servico->getNome()."', localizacao = '".$servico->getLocal()."', quantidade = ".$servico->getQuantidade().", data_cadastro= '".$servico->getDataCadastro()."', status= '".$servico->getStatus()."', tempo_conclusao= ".$servico->getTempoExecucao()." WHERE  id_servico = ".$servico->getIdServico();
@@ -58,17 +62,8 @@ class ServicoDAO{
         if ($result) {
             if($result->num_rows > 0){
                 while($row = mysqli_fetch_object($result)) {
-                    $servico = null;
-                    $servico = new Servico();
-                    $servico->setNome($row->nome);
-                    $servico->setIdServico($row->id_servico);
-                    $servico->setTipoServico($this->tipoServicoDAO->getTipoServicoById($row->id_tipo_servico));
-                    $servico->setQuantidade($row->quantidade);
-                    $servico->setLocal($row->localizacao);
-                    $servico->setDataCadastro($row->data_cadastro);
-                    $servico->setStatus($row->status);
-                    $servico->setTempoExecucao($row->tempo_conclusao);
-                    $this->arrayServicos[count($this->arrayServicos) + 1] = $servico;
+                    // print_r($row);
+                    $this->arrayServicos[count($this->arrayServicos) + 1] = $this->getObjectServico($row);;
                 }
             }
              
@@ -84,22 +79,13 @@ class ServicoDAO{
         $sql = "SELECT * FROM servico WHERE id_servico = '".$idServico."' ;";
         $result = mysqli_query($this->conexao, $sql);
         if($result){
-            $row = mysqli_fetch_object($result);
-            $servico = new Servico();
-            $servico->setNome($row->nome);
-            $servico->setIdServico($row->id_servico);
-            $servico->setTipoServico($this->tipoServicoDAO->getTipoServicoById($row->id_tipo_servico));
-            $servico->setQuantidade($row->quantidade);
-            $servico->setLocal($row->localizacao);
-            $servico->setDataCadastro($row->data_cadastro);
-            $servico->setStatus($row->status);
-            $servico->setTempoExecucao($row->tempo_conclusao);
-            return $servico;
+            return $this->getObjectServico(mysqli_fetch_object($result));
         }else{
             throw new DataException("Erro ao selecionar o serviço no banco de dados.\n");
         }
     }
 
+    abstract function getObjectServico($result);
     
 
 }

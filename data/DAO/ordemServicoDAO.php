@@ -18,9 +18,16 @@ class OrdemServicoDAO{
     public function __construct(){
         $this->arrayOrdemServicos = [];
         $this->conexao = (new Conexao())->getConexao();
-        $this->tipoServicoDAO = new TipoServicoDAO();
+        // $this->tipoServicoDAO = new TipoServicoDAO();
         $this->funcionarioDAO = new FuncionarioDAO();
-        $this->servicoDAO = new ServicoDAO();
+        // $this->servicoDAO = new ServicoDAO();
+    }
+
+    public function instanceOfTipoServicoDAO($tipoServicoDAO){
+         $this->tipoServicoDAO = $tipoServicoDAO;
+    }
+    public function instanceOfServicoDAO($servicoDAO){
+         $this->servicoDAO = $servicoDAO;
     }
     
     public function insert($ordemServico){

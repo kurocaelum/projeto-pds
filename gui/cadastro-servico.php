@@ -1,8 +1,8 @@
 <?php 
 	include("header.php");
-	include($_SERVER["DOCUMENT_ROOT"]."/business/controller/controleCadastroServico.php");
+	include($_SERVER["DOCUMENT_ROOT"]."/business/controller/controleCadastroServicoPredial.php");
 
-	$controleCadastroServico = new ControleCadastroServico();
+	$controleCadastroServico = new ControleCadastroServicoPredial();
 
  ?>
  <div class="container">
@@ -46,6 +46,16 @@
 			    <label for="form_input_tempo">Tempo para Conclusão (minutos)</label>
 			    <input name="tempo" type="text" class="form-control" id="form_input_tempo" placeholder="">
 		  	</div>
+
+		  	<div class="form-group">
+			    <label for="form_input_tempo">Quantidade de ajudantes</label>
+			    <input name="quantidade_ajudante" type="text" class="form-control" id="form_input_quantidade_ajudante" placeholder="">
+		  	</div>
+
+		  	<div class="form-group">
+			    <input name="remocao" type="checkbox" id="form_input_remocao" placeholder="">
+			    <label for="form_input_tempo">Marque caso seja preciso remoção do serviço antigo</label>
+		  	</div>
 		
 
 		 </div>
@@ -66,6 +76,8 @@
 			      <th scope="col">ID Tipo de serviço</th>
 			      <th scope="col">Quantidade</th>
 			      <th scope="col">Tempo para Conclusão</th>
+			      <th scope="col">Quantidade de ajudantes</th>
+			      <th scope="col">Remoção de material</th>
 			      <th scope="col">Status</th>
 			      <th scope="col">Ações</th>
 		    </tr>

@@ -5,19 +5,18 @@ include_once($_SERVER["DOCUMENT_ROOT"]."/business/models/TipoServico.php");
 include_once($_SERVER["DOCUMENT_ROOT"]."/business/services/serviceTipoServico.php");
 
 
-class ControleCadastroTipoServico{
+abstract class ControleCadastroTipoServico{
 
 	public $serviceTipoServico;
 	public $tipoServico;
 
 	public function __construct(){
-		$this->serviceTipoServico = new ServiceTipoServico();
-		$this->tipoServico = new TipoServico();
+		// $this->serviceTipoServico = new ServiceTipoServico();
+		// $this->tipoServico = new TipoServico();
         $this->verificarRequisicao();
-	}
+}
 
     public function verificarRequisicao(){
-
         if(isset($_POST['idTipoServico'])){
 
             if($_POST['idTipoServico'] != ""){
@@ -46,7 +45,11 @@ class ControleCadastroTipoServico{
          $this->tipoServico->setNome($nome);
          $this->tipoServico->setUnidadeMedida($unidade);
          $this->tipoServico->setTempo($tempo);
+         $this->setTipoServicoSecundario();
     }
+
+    abstract function setTipoServicoSecundario();
+
 
 
     public function addTipoServico(){
@@ -105,9 +108,7 @@ class ControleCadastroTipoServico{
     
 }
 
-if(isset($_POST['idTipoServico']) || isset($_POST['listaTipoServicos']) || isset($_POST['excluirTipoServico']) || isset($_POST['addTipoServico']) ){
-    $controleCadastroTipoServico = new ControleCadastroTipoServico();
-}
+
 
 	
  ?>

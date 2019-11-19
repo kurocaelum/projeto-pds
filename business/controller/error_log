@@ -2086,3 +2086,248 @@ Stack trace:
 #3 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroImprevisto.php(107): ControleCadastroImprevisto->__construct()
 #4 {main}
   thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroImprevisto.php on line 52
+[09-Oct-2019 18:00:39 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to undefined method Imprevisto::setIdServico() in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/imprevistoDAO.php:51
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceImprevisto.php(50): ImprevistoDAO->getImprevistos()
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroImprevisto.php(90): ServiceImprevisto->getListaImprevistos()
+#2 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroImprevisto.php(31): ControleCadastroImprevisto->listarImprevistos()
+#3 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroImprevisto.php(14): ControleCadastroImprevisto->verificarRequisicao()
+#4 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroImprevisto.php(104): ControleCadastroImprevisto->__construct()
+#5 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/imprevistoDAO.php on line 51
+[09-Oct-2019 18:00:40 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to undefined method Imprevisto::setIdServico() in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/imprevistoDAO.php:51
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceImprevisto.php(50): ImprevistoDAO->getImprevistos()
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroImprevisto.php(90): ServiceImprevisto->getListaImprevistos()
+#2 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroImprevisto.php(31): ControleCadastroImprevisto->listarImprevistos()
+#3 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroImprevisto.php(14): ControleCadastroImprevisto->verificarRequisicao()
+#4 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroImprevisto.php(104): ControleCadastroImprevisto->__construct()
+#5 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/imprevistoDAO.php on line 51
+[09-Oct-2019 18:00:42 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to undefined method Imprevisto::setIdServico() in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/imprevistoDAO.php:51
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceImprevisto.php(50): ImprevistoDAO->getImprevistos()
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroImprevisto.php(90): ServiceImprevisto->getListaImprevistos()
+#2 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroImprevisto.php(31): ControleCadastroImprevisto->listarImprevistos()
+#3 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroImprevisto.php(14): ControleCadastroImprevisto->verificarRequisicao()
+#4 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroImprevisto.php(104): ControleCadastroImprevisto->__construct()
+#5 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/imprevistoDAO.php on line 51
+[09-Oct-2019 18:00:47 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to undefined method Imprevisto::setIdServico() in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/imprevistoDAO.php:51
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceImprevisto.php(50): ImprevistoDAO->getImprevistos()
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroImprevisto.php(90): ServiceImprevisto->getListaImprevistos()
+#2 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroImprevisto.php(31): ControleCadastroImprevisto->listarImprevistos()
+#3 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroImprevisto.php(14): ControleCadastroImprevisto->verificarRequisicao()
+#4 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroImprevisto.php(104): ControleCadastroImprevisto->__construct()
+#5 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/imprevistoDAO.php on line 51
+[09-Oct-2019 18:00:59 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to undefined method Imprevisto::setImprevisto() in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/imprevistoDAO.php:52
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceImprevisto.php(50): ImprevistoDAO->getImprevistos()
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroImprevisto.php(90): ServiceImprevisto->getListaImprevistos()
+#2 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroImprevisto.php(31): ControleCadastroImprevisto->listarImprevistos()
+#3 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroImprevisto.php(14): ControleCadastroImprevisto->verificarRequisicao()
+#4 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroImprevisto.php(104): ControleCadastroImprevisto->__construct()
+#5 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/imprevistoDAO.php on line 52
+[09-Oct-2019 18:01:00 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to undefined method Imprevisto::setImprevisto() in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/imprevistoDAO.php:52
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceImprevisto.php(50): ImprevistoDAO->getImprevistos()
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroImprevisto.php(90): ServiceImprevisto->getListaImprevistos()
+#2 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroImprevisto.php(31): ControleCadastroImprevisto->listarImprevistos()
+#3 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroImprevisto.php(14): ControleCadastroImprevisto->verificarRequisicao()
+#4 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroImprevisto.php(104): ControleCadastroImprevisto->__construct()
+#5 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/imprevistoDAO.php on line 52
+[11-Nov-2019 11:29:41 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Cannot instantiate abstract class ControleCadastroTipoServico in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroTipoServico.php:112
+Stack trace:
+#0 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroTipoServico.php on line 112
+[11-Nov-2019 12:00:10 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Cannot instantiate abstract class ControleCadastroTipoServico in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroTipoServico.php:112
+Stack trace:
+#0 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroTipoServico.php on line 112
+[11-Nov-2019 12:36:13 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Cannot instantiate abstract class ServiceTipoServico in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroTipoServico.php:14
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroTipoServicoPredial.php(22): ControleCadastroTipoServico->__construct()
+#1 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroTipoServico.php on line 14
+[11-Nov-2019 12:39:13 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to undefined function validarDadosTipoServicoSecundario() in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceTipoServico.php:89
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceTipoServico.php(26): ServiceTipoServico->validarDadosTipoServico(Object(TipoServicoPredial))
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroTipoServico.php(62): ServiceTipoServico->addTipoServico(Object(TipoServicoPredial))
+#2 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroTipoServico.php(29): ControleCadastroTipoServico->addTipoServico()
+#3 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroTipoServico.php(16): ControleCadastroTipoServico->verificarRequisicao()
+#4 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroTipoServicoPredial.php(13): ControleCadastroTipoServico->__construct()
+#5 /home1/anaju876/public_html/pds.dev.anaju in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceTipoServico.php on line 89
+[13-Nov-2019 18:01:18 America/Sao_Paulo] PHP Fatal error:  Class 'ControleCadastroTipoServico' not found in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroTipoServicoPredial.php on line 8
+[13-Nov-2019 18:20:32 America/Sao_Paulo] PHP Fatal error:  Access level to ControleCadastroTipoServicoPredial::setTipoServicoSecundario() must be public (as in class ControleCadastroTipoServico) in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroTipoServicoPredial.php on line 8
+[18-Nov-2019 10:44:16 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Cannot instantiate abstract class ControleCadastroServico in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroServico.php:106
+Stack trace:
+#0 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroServico.php on line 106
+[18-Nov-2019 10:45:31 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Cannot instantiate abstract class ControleCadastroServico in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroServico.php:106
+Stack trace:
+#0 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroServico.php on line 106
+[18-Nov-2019 10:46:04 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Cannot instantiate abstract class ControleCadastroServico in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroServico.php:106
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroServicoPredial.php(3): include_once()
+#1 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroServico.php on line 106
+[18-Nov-2019 10:46:10 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Cannot instantiate abstract class ControleCadastroServico in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroServico.php:106
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroServicoPredial.php(3): include_once()
+#1 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroServico.php on line 106
+[18-Nov-2019 10:46:16 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Cannot instantiate abstract class ControleCadastroServico in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroServico.php:106
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroServicoPredial.php(3): include_once()
+#1 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroServico.php on line 106
+[18-Nov-2019 10:46:56 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function getListaServicos() on null in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroServico.php:95
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroServico.php(29): ControleCadastroServico->getListaServicos()
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroServico.php(13): ControleCadastroServico->verificarRequisicao()
+#2 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroServicoPredial.php(13): ControleCadastroServico->__construct()
+#3 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroServicoPredial.php(41): ControleCadastroServicoPredial->__construct()
+#4 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroServico.php on line 95
+[18-Nov-2019 10:51:14 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function getServicos() on null in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceServico.php:63
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroServico.php(95): ServiceServico->getListaServicos()
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroServico.php(29): ControleCadastroServico->getListaServicos()
+#2 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroServico.php(13): ControleCadastroServico->verificarRequisicao()
+#3 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroServicoPredial.php(13): ControleCadastroServico->__construct()
+#4 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroServicoPredial.php(41): ControleCadastroServicoPredial->__construct()
+#5 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceServico.php on line 63
+[18-Nov-2019 10:52:30 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function getServicos() on null in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceServico.php:63
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroServico.php(95): ServiceServico->getListaServicos()
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroServico.php(29): ControleCadastroServico->getListaServicos()
+#2 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroServico.php(13): ControleCadastroServico->verificarRequisicao()
+#3 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroServicoPredial.php(13): ControleCadastroServico->__construct()
+#4 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroServicoPredial.php(41): ControleCadastroServicoPredial->__construct()
+#5 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceServico.php on line 63
+[18-Nov-2019 10:57:51 America/Sao_Paulo] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/servicoDAO.php on line 56
+[18-Nov-2019 10:58:45 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Cannot instantiate abstract class TipoServico in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/tipoServicoDAO.php:74
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/servicoDAO.php(65): TipoServicoDAO->getTipoServicoById('12')
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceServico.php(63): ServicoDAO->getServicos()
+#2 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroServico.php(95): ServiceServico->getListaServicos()
+#3 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroServico.php(29): ControleCadastroServico->getListaServicos()
+#4 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroServico.php(13): ControleCadastroServico->verificarRequisicao()
+#5 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroServicoPredial.php(13): ControleCadastroServico->__construct()
+#6 /home1/anaju876/public_html/pds.dev.anaju.me/business/con in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/tipoServicoDAO.php on line 74
+[18-Nov-2019 11:14:41 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to undefined function objectTipoServicoById() in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/tipoServicoDAO.php:73
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/servicoDAO.php(65): TipoServicoDAO->getTipoServicoById('12')
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceServico.php(63): ServicoDAO->getServicos()
+#2 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroServico.php(95): ServiceServico->getListaServicos()
+#3 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroServico.php(29): ControleCadastroServico->getListaServicos()
+#4 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroServico.php(13): ControleCadastroServico->verificarRequisicao()
+#5 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroServicoPredial.php(13): ControleCadastroServico->__construct()
+#6 /home1/anaju876/public_html/pds.dev.anaju.me/busines in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/tipoServicoDAO.php on line 73
+[18-Nov-2019 11:15:11 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Class 'TipoServicoPredial' not found in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/tipoServicoDAOPredial.php:18
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/tipoServicoDAO.php(73): TipoServicoDAOPredial->objectTipoServicoById(Object(mysqli_result))
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/servicoDAO.php(65): TipoServicoDAO->getTipoServicoById('12')
+#2 /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceServico.php(63): ServicoDAO->getServicos()
+#3 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroServico.php(95): ServiceServico->getListaServicos()
+#4 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroServico.php(29): ControleCadastroServico->getListaServicos()
+#5 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroServico.php(13): ControleCadastroServico->verificarRequisicao()
+#6 /home1/anaju876/public_html/pds.dev.anaju.me/business/con in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/tipoServicoDAOPredial.php on line 18
+[18-Nov-2019 11:16:08 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Class 'TipoServicoPredial' not found in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/tipoServicoDAOPredial.php:19
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/tipoServicoDAO.php(73): TipoServicoDAOPredial->objectTipoServicoById(Object(mysqli_result))
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/servicoDAO.php(65): TipoServicoDAO->getTipoServicoById('12')
+#2 /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceServico.php(63): ServicoDAO->getServicos()
+#3 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroServico.php(95): ServiceServico->getListaServicos()
+#4 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroServico.php(29): ControleCadastroServico->getListaServicos()
+#5 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroServico.php(13): ControleCadastroServico->verificarRequisicao()
+#6 /home1/anaju876/public_html/pds.dev.anaju.me/business/con in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/tipoServicoDAOPredial.php on line 19
+[18-Nov-2019 12:48:26 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to undefined function getObjectServico() in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/servicoDAO.php:61
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceServico.php(63): ServicoDAO->getServicos()
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroServico.php(95): ServiceServico->getListaServicos()
+#2 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroServico.php(29): ControleCadastroServico->getListaServicos()
+#3 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroServico.php(13): ControleCadastroServico->verificarRequisicao()
+#4 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroServicoPredial.php(13): ControleCadastroServico->__construct()
+#5 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroServicoPredial.php(41): ControleCadastroServicoPredial->__construct()
+#6 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/servicoDAO.php on line 61
+[18-Nov-2019 12:48:33 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to undefined function getObjectServico() in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/servicoDAO.php:61
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceServico.php(63): ServicoDAO->getServicos()
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroServico.php(95): ServiceServico->getListaServicos()
+#2 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroServico.php(29): ControleCadastroServico->getListaServicos()
+#3 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroServico.php(13): ControleCadastroServico->verificarRequisicao()
+#4 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroServicoPredial.php(13): ControleCadastroServico->__construct()
+#5 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroServicoPredial.php(41): ControleCadastroServicoPredial->__construct()
+#6 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/servicoDAO.php on line 61
+[18-Nov-2019 13:12:24 America/Sao_Paulo] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 33554440 bytes) in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/servicoDAO.php on line 61
+[18-Nov-2019 13:13:30 America/Sao_Paulo] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 33554440 bytes) in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/servicoDAO.php on line 61
+[18-Nov-2019 13:13:47 America/Sao_Paulo] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 33554440 bytes) in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/servicoDAO.php on line 61
+[18-Nov-2019 17:24:13 America/Sao_Paulo] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 33554440 bytes) in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/servicoDAO.php on line 63
+[18-Nov-2019 17:24:25 America/Sao_Paulo] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 33554440 bytes) in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/servicoDAO.php on line 63
+[18-Nov-2019 17:30:53 America/Sao_Paulo] PHP Fatal error:  Class 'ServicoDAO' not found in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/servicoDAOPredial.php on line 6
+[18-Nov-2019 17:41:14 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Class 'ServicoDAOPredial' not found in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceServicoPredial.php:10
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroServicoPredial.php(11): ServiceServicoPredial->__construct()
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroServicoPredial.php(41): ControleCadastroServicoPredial->__construct()
+#2 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceServicoPredial.php on line 10
+[18-Nov-2019 17:44:08 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to undefined method ServicoPredial::setQuantidadeAjudantes() in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/servicoDAOPredial.php:25
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/servicoDAO.php(62): ServicoDAOPredial->getObjectServico(Object(stdClass))
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceServico.php(63): ServicoDAO->getServicos()
+#2 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroServico.php(95): ServiceServico->getListaServicos()
+#3 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroServico.php(29): ControleCadastroServico->getListaServicos()
+#4 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroServico.php(13): ControleCadastroServico->verificarRequisicao()
+#5 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroServicoPredial.php(13): ControleCadastroServico->__construct()
+#6 /home1/anaju876/publi in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/servicoDAOPredial.php on line 25
+[18-Nov-2019 17:44:11 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to undefined method ServicoPredial::setQuantidadeAjudantes() in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/servicoDAOPredial.php:25
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/servicoDAO.php(62): ServicoDAOPredial->getObjectServico(Object(stdClass))
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceServico.php(63): ServicoDAO->getServicos()
+#2 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroServico.php(95): ServiceServico->getListaServicos()
+#3 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroServico.php(29): ControleCadastroServico->getListaServicos()
+#4 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroServico.php(13): ControleCadastroServico->verificarRequisicao()
+#5 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroServicoPredial.php(13): ControleCadastroServico->__construct()
+#6 /home1/anaju876/publi in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/servicoDAOPredial.php on line 25
+[18-Nov-2019 18:27:56 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Cannot instantiate abstract class TipoServicoDAO in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceServico.php:78
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceServico.php(25): ServiceServico->validarIdTipoServico(Object(ServicoPredial))
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroServico.php(62): ServiceServico->addServico(Object(ServicoPredial))
+#2 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroServico.php(24): ControleCadastroServico->addServico()
+#3 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroServico.php(13): ControleCadastroServico->verificarRequisicao()
+#4 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroServicoPredial.php(13): ControleCadastroServico->__construct()
+#5 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroServicoPredial.php(45): ControleCadas in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceServico.php on line 78
+[18-Nov-2019 18:33:14 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to undefined function getTipoServicoById() in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceServico.php:78
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceServico.php(25): ServiceServico->validarIdTipoServico(Object(ServicoPredial))
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroServico.php(62): ServiceServico->addServico(Object(ServicoPredial))
+#2 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroServico.php(24): ControleCadastroServico->addServico()
+#3 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroServico.php(13): ControleCadastroServico->verificarRequisicao()
+#4 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroServicoPredial.php(13): ControleCadastroServico->__construct()
+#5 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroServicoPredial.php(45): ControleCadast in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceServico.php on line 78
+[18-Nov-2019 18:33:48 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function getTipoServicoById() on null in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceServico.php:78
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceServico.php(25): ServiceServico->validarIdTipoServico(Object(ServicoPredial))
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroServico.php(62): ServiceServico->addServico(Object(ServicoPredial))
+#2 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroServico.php(24): ControleCadastroServico->addServico()
+#3 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroServico.php(13): ControleCadastroServico->verificarRequisicao()
+#4 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroServicoPredial.php(13): ControleCadastroServico->__construct()
+#5 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroServicoPredial.php(45): Control in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceServico.php on line 78
+[18-Nov-2019 18:33:52 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function getTipoServicoById() on null in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceServico.php:78
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceServico.php(25): ServiceServico->validarIdTipoServico(Object(ServicoPredial))
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroServico.php(62): ServiceServico->addServico(Object(ServicoPredial))
+#2 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroServico.php(24): ControleCadastroServico->addServico()
+#3 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroServico.php(13): ControleCadastroServico->verificarRequisicao()
+#4 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroServicoPredial.php(13): ControleCadastroServico->__construct()
+#5 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroServicoPredial.php(45): Control in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceServico.php on line 78

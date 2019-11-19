@@ -1,8 +1,8 @@
 <?php 
     include("header.php");
-    include($_SERVER["DOCUMENT_ROOT"]."/business/controller/controleRelatorioOS.php");
+    include($_SERVER["DOCUMENT_ROOT"]."/business/controller/controleRelatorioOSPredial.php");
 
-    $controleRelatorioOS = new ControleRelatorioOS();
+    $controleRelatorioOS = new ControleRelatorioOSPredial();
     $controleRelatorioOS->gerarRelatorioOS(-1);
     $relatorioOS = $controleRelatorioOS->getRelatorioOS();
 

@@ -1565,3 +1565,780 @@ Stack trace:
 Stack trace:
 #0 {main}
   thrown in /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio_funcionario.php on line 44
+[11-Nov-2019 08:33:25 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Cannot instantiate abstract class TipoServico in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroTipoServico.php:15
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/gui/cadastro-tipo-servico.php(5): ControleCadastroTipoServico->__construct()
+#1 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroTipoServico.php on line 15
+[11-Nov-2019 08:34:46 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Cannot instantiate abstract class TipoServico in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroTipoServico.php:15
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/gui/cadastro-tipo-servico.php(5): ControleCadastroTipoServico->__construct()
+#1 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroTipoServico.php on line 15
+[11-Nov-2019 10:40:49 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC), expecting end of file in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroTipoServicoPredial.php on line 6
+[11-Nov-2019 10:40:51 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC), expecting end of file in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroTipoServicoPredial.php on line 6
+[11-Nov-2019 10:40:53 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC), expecting end of file in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroTipoServicoPredial.php on line 6
+[11-Nov-2019 10:41:11 America/Sao_Paulo] PHP Warning:  include_once(/home1/anaju876/public_html/pds.dev.anaju.me/business/controler/ControleCadastroTipoServico.php): failed to open stream: No such file or directory in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroTipoServicoPredial.php on line 2
+[11-Nov-2019 10:41:11 America/Sao_Paulo] PHP Warning:  include_once(): Failed opening '/home1/anaju876/public_html/pds.dev.anaju.me/business/controler/ControleCadastroTipoServico.php' for inclusion (include_path='.:/opt/php71/lib/php') in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroTipoServicoPredial.php on line 2
+[11-Nov-2019 10:41:11 America/Sao_Paulo] PHP Warning:  include_once(/home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceTipoServicoPredial.php): failed to open stream: No such file or directory in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroTipoServicoPredial.php on line 3
+[11-Nov-2019 10:41:11 America/Sao_Paulo] PHP Warning:  include_once(): Failed opening '/home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceTipoServicoPredial.php' for inclusion (include_path='.:/opt/php71/lib/php') in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroTipoServicoPredial.php on line 3
+[11-Nov-2019 10:41:11 America/Sao_Paulo] PHP Fatal error:  Class 'ControleCadastroTipoServico' not found in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroTipoServicoPredial.php on line 6
+[11-Nov-2019 10:41:12 America/Sao_Paulo] PHP Warning:  include_once(/home1/anaju876/public_html/pds.dev.anaju.me/business/controler/ControleCadastroTipoServico.php): failed to open stream: No such file or directory in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroTipoServicoPredial.php on line 2
+[11-Nov-2019 10:41:12 America/Sao_Paulo] PHP Warning:  include_once(): Failed opening '/home1/anaju876/public_html/pds.dev.anaju.me/business/controler/ControleCadastroTipoServico.php' for inclusion (include_path='.:/opt/php71/lib/php') in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroTipoServicoPredial.php on line 2
+[11-Nov-2019 10:41:12 America/Sao_Paulo] PHP Warning:  include_once(/home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceTipoServicoPredial.php): failed to open stream: No such file or directory in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroTipoServicoPredial.php on line 3
+[11-Nov-2019 10:41:12 America/Sao_Paulo] PHP Warning:  include_once(): Failed opening '/home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceTipoServicoPredial.php' for inclusion (include_path='.:/opt/php71/lib/php') in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroTipoServicoPredial.php on line 3
+[11-Nov-2019 10:41:12 America/Sao_Paulo] PHP Fatal error:  Class 'ControleCadastroTipoServico' not found in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroTipoServicoPredial.php on line 6
+[11-Nov-2019 10:41:29 America/Sao_Paulo] PHP Warning:  include_once(/home1/anaju876/public_html/pds.dev.anaju.me/business/controler/controleCadastroTipoServico.php): failed to open stream: No such file or directory in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroTipoServicoPredial.php on line 2
+[11-Nov-2019 10:41:29 America/Sao_Paulo] PHP Warning:  include_once(): Failed opening '/home1/anaju876/public_html/pds.dev.anaju.me/business/controler/controleCadastroTipoServico.php' for inclusion (include_path='.:/opt/php71/lib/php') in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroTipoServicoPredial.php on line 2
+[11-Nov-2019 10:41:29 America/Sao_Paulo] PHP Warning:  include_once(/home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceTipoServicoPredial.php): failed to open stream: No such file or directory in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroTipoServicoPredial.php on line 3
+[11-Nov-2019 10:41:29 America/Sao_Paulo] PHP Warning:  include_once(): Failed opening '/home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceTipoServicoPredial.php' for inclusion (include_path='.:/opt/php71/lib/php') in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroTipoServicoPredial.php on line 3
+[11-Nov-2019 10:41:29 America/Sao_Paulo] PHP Fatal error:  Class 'ControleCadastroTipoServico' not found in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroTipoServicoPredial.php on line 6
+[11-Nov-2019 10:41:30 America/Sao_Paulo] PHP Warning:  include_once(/home1/anaju876/public_html/pds.dev.anaju.me/business/controler/controleCadastroTipoServico.php): failed to open stream: No such file or directory in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroTipoServicoPredial.php on line 2
+[11-Nov-2019 10:41:30 America/Sao_Paulo] PHP Warning:  include_once(): Failed opening '/home1/anaju876/public_html/pds.dev.anaju.me/business/controler/controleCadastroTipoServico.php' for inclusion (include_path='.:/opt/php71/lib/php') in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroTipoServicoPredial.php on line 2
+[11-Nov-2019 10:41:30 America/Sao_Paulo] PHP Warning:  include_once(/home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceTipoServicoPredial.php): failed to open stream: No such file or directory in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroTipoServicoPredial.php on line 3
+[11-Nov-2019 10:41:30 America/Sao_Paulo] PHP Warning:  include_once(): Failed opening '/home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceTipoServicoPredial.php' for inclusion (include_path='.:/opt/php71/lib/php') in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroTipoServicoPredial.php on line 3
+[11-Nov-2019 10:41:30 America/Sao_Paulo] PHP Fatal error:  Class 'ControleCadastroTipoServico' not found in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroTipoServicoPredial.php on line 6
+[11-Nov-2019 10:41:33 America/Sao_Paulo] PHP Warning:  include_once(/home1/anaju876/public_html/pds.dev.anaju.me/business/controler/controleCadastroTipoServico.php): failed to open stream: No such file or directory in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroTipoServicoPredial.php on line 2
+[11-Nov-2019 10:41:33 America/Sao_Paulo] PHP Warning:  include_once(): Failed opening '/home1/anaju876/public_html/pds.dev.anaju.me/business/controler/controleCadastroTipoServico.php' for inclusion (include_path='.:/opt/php71/lib/php') in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroTipoServicoPredial.php on line 2
+[11-Nov-2019 10:41:33 America/Sao_Paulo] PHP Warning:  include_once(/home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceTipoServicoPredial.php): failed to open stream: No such file or directory in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroTipoServicoPredial.php on line 3
+[11-Nov-2019 10:41:33 America/Sao_Paulo] PHP Warning:  include_once(): Failed opening '/home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceTipoServicoPredial.php' for inclusion (include_path='.:/opt/php71/lib/php') in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroTipoServicoPredial.php on line 3
+[11-Nov-2019 10:41:33 America/Sao_Paulo] PHP Fatal error:  Class 'ControleCadastroTipoServico' not found in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroTipoServicoPredial.php on line 6
+[11-Nov-2019 10:41:58 America/Sao_Paulo] PHP Warning:  include_once(/home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceTipoServicoPredial.php): failed to open stream: No such file or directory in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroTipoServicoPredial.php on line 3
+[11-Nov-2019 10:41:58 America/Sao_Paulo] PHP Warning:  include_once(): Failed opening '/home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceTipoServicoPredial.php' for inclusion (include_path='.:/opt/php71/lib/php') in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroTipoServicoPredial.php on line 3
+[11-Nov-2019 10:41:58 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Class 'ServiceTipoServicoPredial' not found in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroTipoServicoPredial.php:9
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/gui/cadastro-tipo-servico.php(5): ControleCadastroTipoServicoPredial->__construct()
+#1 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroTipoServicoPredial.php on line 9
+[11-Nov-2019 10:41:59 America/Sao_Paulo] PHP Warning:  include_once(/home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceTipoServicoPredial.php): failed to open stream: No such file or directory in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroTipoServicoPredial.php on line 3
+[11-Nov-2019 10:41:59 America/Sao_Paulo] PHP Warning:  include_once(): Failed opening '/home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceTipoServicoPredial.php' for inclusion (include_path='.:/opt/php71/lib/php') in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroTipoServicoPredial.php on line 3
+[11-Nov-2019 10:41:59 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Class 'ServiceTipoServicoPredial' not found in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroTipoServicoPredial.php:9
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/gui/cadastro-tipo-servico.php(5): ControleCadastroTipoServicoPredial->__construct()
+#1 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroTipoServicoPredial.php on line 9
+[11-Nov-2019 10:46:55 America/Sao_Paulo] PHP Warning:  include_once(/home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceTipoServicoPredial.php): failed to open stream: No such file or directory in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroTipoServicoPredial.php on line 3
+[11-Nov-2019 10:46:55 America/Sao_Paulo] PHP Warning:  include_once(): Failed opening '/home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceTipoServicoPredial.php' for inclusion (include_path='.:/opt/php71/lib/php') in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroTipoServicoPredial.php on line 3
+[11-Nov-2019 10:46:55 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Class 'ServiceTipoServicoPredial' not found in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroTipoServicoPredial.php:9
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/gui/cadastro-tipo-servico.php(5): ControleCadastroTipoServicoPredial->__construct()
+#1 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroTipoServicoPredial.php on line 9
+[11-Nov-2019 10:47:28 America/Sao_Paulo] PHP Warning:  include_once(/home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceTipoServicoPredial.php): failed to open stream: No such file or directory in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroTipoServicoPredial.php on line 3
+[11-Nov-2019 10:47:28 America/Sao_Paulo] PHP Warning:  include_once(): Failed opening '/home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceTipoServicoPredial.php' for inclusion (include_path='.:/opt/php71/lib/php') in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroTipoServicoPredial.php on line 3
+[11-Nov-2019 10:47:28 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Class 'ServiceTipoServicoPredial' not found in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroTipoServicoPredial.php:9
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/gui/cadastro-tipo-servico.php(5): ControleCadastroTipoServicoPredial->__construct()
+#1 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroTipoServicoPredial.php on line 9
+[11-Nov-2019 10:47:30 America/Sao_Paulo] PHP Warning:  include_once(/home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceTipoServicoPredial.php): failed to open stream: No such file or directory in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroTipoServicoPredial.php on line 3
+[11-Nov-2019 10:47:30 America/Sao_Paulo] PHP Warning:  include_once(): Failed opening '/home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceTipoServicoPredial.php' for inclusion (include_path='.:/opt/php71/lib/php') in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroTipoServicoPredial.php on line 3
+[11-Nov-2019 10:47:30 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Class 'ServiceTipoServicoPredial' not found in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroTipoServicoPredial.php:9
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/gui/cadastro-tipo-servico.php(5): ControleCadastroTipoServicoPredial->__construct()
+#1 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroTipoServicoPredial.php on line 9
+[11-Nov-2019 10:49:09 America/Sao_Paulo] PHP Warning:  include_once(/home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceTipoServicoPredial.php): failed to open stream: No such file or directory in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroTipoServicoPredial.php on line 4
+[11-Nov-2019 10:49:09 America/Sao_Paulo] PHP Warning:  include_once(): Failed opening '/home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceTipoServicoPredial.php' for inclusion (include_path='.:/opt/php71/lib/php') in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroTipoServicoPredial.php on line 4
+[11-Nov-2019 10:49:09 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Class 'ServiceTipoServicoPredial' not found in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroTipoServicoPredial.php:10
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/gui/cadastro-tipo-servico.php(5): ControleCadastroTipoServicoPredial->__construct()
+#1 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroTipoServicoPredial.php on line 10
+[11-Nov-2019 10:49:10 America/Sao_Paulo] PHP Warning:  include_once(/home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceTipoServicoPredial.php): failed to open stream: No such file or directory in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroTipoServicoPredial.php on line 4
+[11-Nov-2019 10:49:10 America/Sao_Paulo] PHP Warning:  include_once(): Failed opening '/home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceTipoServicoPredial.php' for inclusion (include_path='.:/opt/php71/lib/php') in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroTipoServicoPredial.php on line 4
+[11-Nov-2019 10:49:10 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Class 'ServiceTipoServicoPredial' not found in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroTipoServicoPredial.php:10
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/gui/cadastro-tipo-servico.php(5): ControleCadastroTipoServicoPredial->__construct()
+#1 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroTipoServicoPredial.php on line 10
+[11-Nov-2019 10:49:32 America/Sao_Paulo] PHP Warning:  include_once(/home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceTipoServicoPredial.php): failed to open stream: No such file or directory in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroTipoServicoPredial.php on line 4
+[11-Nov-2019 10:49:32 America/Sao_Paulo] PHP Warning:  include_once(): Failed opening '/home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceTipoServicoPredial.php' for inclusion (include_path='.:/opt/php71/lib/php') in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroTipoServicoPredial.php on line 4
+[11-Nov-2019 10:49:32 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Class 'ServiceTipoServicoPredial' not found in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroTipoServicoPredial.php:10
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/gui/cadastro-tipo-servico.php(5): ControleCadastroTipoServicoPredial->__construct()
+#1 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroTipoServicoPredial.php on line 10
+[11-Nov-2019 10:49:33 America/Sao_Paulo] PHP Warning:  include_once(/home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceTipoServicoPredial.php): failed to open stream: No such file or directory in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroTipoServicoPredial.php on line 4
+[11-Nov-2019 10:49:33 America/Sao_Paulo] PHP Warning:  include_once(): Failed opening '/home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceTipoServicoPredial.php' for inclusion (include_path='.:/opt/php71/lib/php') in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroTipoServicoPredial.php on line 4
+[11-Nov-2019 10:49:33 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Class 'ServiceTipoServicoPredial' not found in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroTipoServicoPredial.php:10
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/gui/cadastro-tipo-servico.php(5): ControleCadastroTipoServicoPredial->__construct()
+#1 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroTipoServicoPredial.php on line 10
+[11-Nov-2019 10:49:35 America/Sao_Paulo] PHP Warning:  include_once(/home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceTipoServicoPredial.php): failed to open stream: No such file or directory in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroTipoServicoPredial.php on line 4
+[11-Nov-2019 10:49:35 America/Sao_Paulo] PHP Warning:  include_once(): Failed opening '/home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceTipoServicoPredial.php' for inclusion (include_path='.:/opt/php71/lib/php') in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroTipoServicoPredial.php on line 4
+[11-Nov-2019 10:49:35 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Class 'ServiceTipoServicoPredial' not found in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroTipoServicoPredial.php:10
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/gui/cadastro-tipo-servico.php(5): ControleCadastroTipoServicoPredial->__construct()
+#1 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroTipoServicoPredial.php on line 10
+[11-Nov-2019 10:49:36 America/Sao_Paulo] PHP Warning:  include_once(/home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceTipoServicoPredial.php): failed to open stream: No such file or directory in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroTipoServicoPredial.php on line 4
+[11-Nov-2019 10:49:36 America/Sao_Paulo] PHP Warning:  include_once(): Failed opening '/home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceTipoServicoPredial.php' for inclusion (include_path='.:/opt/php71/lib/php') in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroTipoServicoPredial.php on line 4
+[11-Nov-2019 10:49:36 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Class 'ServiceTipoServicoPredial' not found in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroTipoServicoPredial.php:10
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/gui/cadastro-tipo-servico.php(5): ControleCadastroTipoServicoPredial->__construct()
+#1 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroTipoServicoPredial.php on line 10
+[11-Nov-2019 10:49:37 America/Sao_Paulo] PHP Warning:  include_once(/home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceTipoServicoPredial.php): failed to open stream: No such file or directory in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroTipoServicoPredial.php on line 4
+[11-Nov-2019 10:49:37 America/Sao_Paulo] PHP Warning:  include_once(): Failed opening '/home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceTipoServicoPredial.php' for inclusion (include_path='.:/opt/php71/lib/php') in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroTipoServicoPredial.php on line 4
+[11-Nov-2019 10:49:37 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Class 'ServiceTipoServicoPredial' not found in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroTipoServicoPredial.php:10
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/gui/cadastro-tipo-servico.php(5): ControleCadastroTipoServicoPredial->__construct()
+#1 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroTipoServicoPredial.php on line 10
+[11-Nov-2019 10:49:37 America/Sao_Paulo] PHP Warning:  include_once(/home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceTipoServicoPredial.php): failed to open stream: No such file or directory in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroTipoServicoPredial.php on line 4
+[11-Nov-2019 10:49:37 America/Sao_Paulo] PHP Warning:  include_once(): Failed opening '/home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceTipoServicoPredial.php' for inclusion (include_path='.:/opt/php71/lib/php') in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroTipoServicoPredial.php on line 4
+[11-Nov-2019 10:49:37 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Class 'ServiceTipoServicoPredial' not found in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroTipoServicoPredial.php:10
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/gui/cadastro-tipo-servico.php(5): ControleCadastroTipoServicoPredial->__construct()
+#1 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroTipoServicoPredial.php on line 10
+[11-Nov-2019 10:49:39 America/Sao_Paulo] PHP Warning:  include_once(/home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceTipoServicoPredial.php): failed to open stream: No such file or directory in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroTipoServicoPredial.php on line 4
+[11-Nov-2019 10:49:39 America/Sao_Paulo] PHP Warning:  include_once(): Failed opening '/home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceTipoServicoPredial.php' for inclusion (include_path='.:/opt/php71/lib/php') in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroTipoServicoPredial.php on line 4
+[11-Nov-2019 10:49:39 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Class 'ServiceTipoServicoPredial' not found in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroTipoServicoPredial.php:10
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/gui/cadastro-tipo-servico.php(5): ControleCadastroTipoServicoPredial->__construct()
+#1 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroTipoServicoPredial.php on line 10
+[11-Nov-2019 10:49:41 America/Sao_Paulo] PHP Warning:  include_once(/home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceTipoServicoPredial.php): failed to open stream: No such file or directory in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroTipoServicoPredial.php on line 4
+[11-Nov-2019 10:49:41 America/Sao_Paulo] PHP Warning:  include_once(): Failed opening '/home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceTipoServicoPredial.php' for inclusion (include_path='.:/opt/php71/lib/php') in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroTipoServicoPredial.php on line 4
+[11-Nov-2019 10:49:41 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Class 'ServiceTipoServicoPredial' not found in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroTipoServicoPredial.php:10
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/gui/cadastro-tipo-servico.php(5): ControleCadastroTipoServicoPredial->__construct()
+#1 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroTipoServicoPredial.php on line 10
+[11-Nov-2019 10:49:42 America/Sao_Paulo] PHP Warning:  include_once(/home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceTipoServicoPredial.php): failed to open stream: No such file or directory in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroTipoServicoPredial.php on line 4
+[11-Nov-2019 10:49:42 America/Sao_Paulo] PHP Warning:  include_once(): Failed opening '/home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceTipoServicoPredial.php' for inclusion (include_path='.:/opt/php71/lib/php') in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroTipoServicoPredial.php on line 4
+[11-Nov-2019 10:49:42 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Class 'ServiceTipoServicoPredial' not found in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroTipoServicoPredial.php:10
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/gui/cadastro-tipo-servico.php(5): ControleCadastroTipoServicoPredial->__construct()
+#1 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroTipoServicoPredial.php on line 10
+[11-Nov-2019 10:49:44 America/Sao_Paulo] PHP Warning:  include_once(/home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceTipoServicoPredial.php): failed to open stream: No such file or directory in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroTipoServicoPredial.php on line 4
+[11-Nov-2019 10:49:44 America/Sao_Paulo] PHP Warning:  include_once(): Failed opening '/home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceTipoServicoPredial.php' for inclusion (include_path='.:/opt/php71/lib/php') in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroTipoServicoPredial.php on line 4
+[11-Nov-2019 10:49:44 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Class 'ServiceTipoServicoPredial' not found in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroTipoServicoPredial.php:10
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/gui/cadastro-tipo-servico.php(5): ControleCadastroTipoServicoPredial->__construct()
+#1 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroTipoServicoPredial.php on line 10
+[11-Nov-2019 10:49:44 America/Sao_Paulo] PHP Warning:  include_once(/home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceTipoServicoPredial.php): failed to open stream: No such file or directory in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroTipoServicoPredial.php on line 4
+[11-Nov-2019 10:49:44 America/Sao_Paulo] PHP Warning:  include_once(): Failed opening '/home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceTipoServicoPredial.php' for inclusion (include_path='.:/opt/php71/lib/php') in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroTipoServicoPredial.php on line 4
+[11-Nov-2019 10:49:44 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Class 'ServiceTipoServicoPredial' not found in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroTipoServicoPredial.php:10
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/gui/cadastro-tipo-servico.php(5): ControleCadastroTipoServicoPredial->__construct()
+#1 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroTipoServicoPredial.php on line 10
+[11-Nov-2019 10:49:44 America/Sao_Paulo] PHP Warning:  include_once(/home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceTipoServicoPredial.php): failed to open stream: No such file or directory in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroTipoServicoPredial.php on line 4
+[11-Nov-2019 10:49:44 America/Sao_Paulo] PHP Warning:  include_once(): Failed opening '/home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceTipoServicoPredial.php' for inclusion (include_path='.:/opt/php71/lib/php') in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroTipoServicoPredial.php on line 4
+[11-Nov-2019 10:49:44 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Class 'ServiceTipoServicoPredial' not found in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroTipoServicoPredial.php:10
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/gui/cadastro-tipo-servico.php(5): ControleCadastroTipoServicoPredial->__construct()
+#1 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroTipoServicoPredial.php on line 10
+[11-Nov-2019 10:50:52 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC), expecting end of file in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceTipoServicoPredial.php on line 4
+[11-Nov-2019 10:52:13 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Class 'ServiceTipoServicoPredial' not found in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroTipoServicoPredial.php:10
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/gui/cadastro-tipo-servico.php(5): ControleCadastroTipoServicoPredial->__construct()
+#1 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroTipoServicoPredial.php on line 10
+[11-Nov-2019 10:52:15 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Cannot instantiate abstract class TipoServicoDAO in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceTipoServicoPredial.php:8
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroTipoServicoPredial.php(10): ServiceTipoServicoPredial->__construct()
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/gui/cadastro-tipo-servico.php(5): ControleCadastroTipoServicoPredial->__construct()
+#2 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceTipoServicoPredial.php on line 8
+[11-Nov-2019 10:52:17 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Cannot instantiate abstract class TipoServicoDAO in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceTipoServicoPredial.php:8
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroTipoServicoPredial.php(10): ServiceTipoServicoPredial->__construct()
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/gui/cadastro-tipo-servico.php(5): ControleCadastroTipoServicoPredial->__construct()
+#2 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceTipoServicoPredial.php on line 8
+[11-Nov-2019 10:53:46 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Cannot instantiate abstract class TipoServicoDAO in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceTipoServicoPredial.php:8
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroTipoServicoPredial.php(10): ServiceTipoServicoPredial->__construct()
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/gui/cadastro-tipo-servico.php(5): ControleCadastroTipoServicoPredial->__construct()
+#2 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceTipoServicoPredial.php on line 8
+[11-Nov-2019 10:54:22 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Cannot instantiate abstract class TipoServicoDAO in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceTipoServicoPredial.php:8
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroTipoServicoPredial.php(10): ServiceTipoServicoPredial->__construct()
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/gui/cadastro-tipo-servico.php(5): ControleCadastroTipoServicoPredial->__construct()
+#2 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceTipoServicoPredial.php on line 8
+[11-Nov-2019 10:54:23 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Class 'TipoServicoDAOPredial' not found in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceTipoServicoPredial.php:8
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroTipoServicoPredial.php(10): ServiceTipoServicoPredial->__construct()
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/gui/cadastro-tipo-servico.php(5): ControleCadastroTipoServicoPredial->__construct()
+#2 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceTipoServicoPredial.php on line 8
+[11-Nov-2019 10:54:25 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Class 'TipoServicoDAOPredial' not found in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceTipoServicoPredial.php:8
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroTipoServicoPredial.php(10): ServiceTipoServicoPredial->__construct()
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/gui/cadastro-tipo-servico.php(5): ControleCadastroTipoServicoPredial->__construct()
+#2 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceTipoServicoPredial.php on line 8
+[11-Nov-2019 10:54:26 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Class 'TipoServicoDAOPredial' not found in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceTipoServicoPredial.php:8
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroTipoServicoPredial.php(10): ServiceTipoServicoPredial->__construct()
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/gui/cadastro-tipo-servico.php(5): ControleCadastroTipoServicoPredial->__construct()
+#2 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceTipoServicoPredial.php on line 8
+[11-Nov-2019 10:54:27 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Class 'TipoServicoDAOPredial' not found in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceTipoServicoPredial.php:8
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroTipoServicoPredial.php(10): ServiceTipoServicoPredial->__construct()
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/gui/cadastro-tipo-servico.php(5): ControleCadastroTipoServicoPredial->__construct()
+#2 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceTipoServicoPredial.php on line 8
+[11-Nov-2019 10:57:45 America/Sao_Paulo] PHP Warning:  include_once(/home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/tipoServicoDAOPredial.php): failed to open stream: No such file or directory in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceTipoServico.php on line 8
+[11-Nov-2019 10:57:45 America/Sao_Paulo] PHP Warning:  include_once(): Failed opening '/home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/tipoServicoDAOPredial.php' for inclusion (include_path='.:/opt/php71/lib/php') in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceTipoServico.php on line 8
+[11-Nov-2019 10:57:45 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Class 'TipoServicoDAOPredial' not found in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceTipoServicoPredial.php:8
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroTipoServicoPredial.php(10): ServiceTipoServicoPredial->__construct()
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/gui/cadastro-tipo-servico.php(5): ControleCadastroTipoServicoPredial->__construct()
+#2 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceTipoServicoPredial.php on line 8
+[11-Nov-2019 10:57:47 America/Sao_Paulo] PHP Warning:  include_once(/home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/tipoServicoDAOPredial.php): failed to open stream: No such file or directory in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceTipoServico.php on line 8
+[11-Nov-2019 10:57:47 America/Sao_Paulo] PHP Warning:  include_once(): Failed opening '/home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/tipoServicoDAOPredial.php' for inclusion (include_path='.:/opt/php71/lib/php') in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceTipoServico.php on line 8
+[11-Nov-2019 10:57:47 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Class 'TipoServicoDAOPredial' not found in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceTipoServicoPredial.php:8
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroTipoServicoPredial.php(10): ServiceTipoServicoPredial->__construct()
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/gui/cadastro-tipo-servico.php(5): ControleCadastroTipoServicoPredial->__construct()
+#2 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceTipoServicoPredial.php on line 8
+[11-Nov-2019 10:57:51 America/Sao_Paulo] PHP Warning:  include_once(/home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/tipoServicoDAOPredial.php): failed to open stream: No such file or directory in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceTipoServico.php on line 8
+[11-Nov-2019 10:57:51 America/Sao_Paulo] PHP Warning:  include_once(): Failed opening '/home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/tipoServicoDAOPredial.php' for inclusion (include_path='.:/opt/php71/lib/php') in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceTipoServico.php on line 8
+[11-Nov-2019 10:57:51 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Class 'TipoServicoDAOPredial' not found in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceTipoServicoPredial.php:8
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroTipoServicoPredial.php(10): ServiceTipoServicoPredial->__construct()
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/gui/cadastro-tipo-servico.php(5): ControleCadastroTipoServicoPredial->__construct()
+#2 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceTipoServicoPredial.php on line 8
+[11-Nov-2019 10:58:27 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected ')' in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/tipoServicoDAOPredial.php on line 11
+[11-Nov-2019 10:58:33 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected ')' in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/tipoServicoDAOPredial.php on line 11
+[11-Nov-2019 10:58:52 America/Sao_Paulo] PHP Warning:  Declaration of TipoServicoDAOPredial::insert($tipoServico) should be compatible with TipoServicoDAO::insert($campos, $values) in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/tipoServicoDAOPredial.php on line 16
+[11-Nov-2019 10:58:52 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Class 'TipoServicoPredial' not found in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroTipoServicoPredial.php:11
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/gui/cadastro-tipo-servico.php(5): ControleCadastroTipoServicoPredial->__construct()
+#1 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroTipoServicoPredial.php on line 11
+[11-Nov-2019 10:58:53 America/Sao_Paulo] PHP Warning:  Declaration of TipoServicoDAOPredial::insert($tipoServico) should be compatible with TipoServicoDAO::insert($campos, $values) in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/tipoServicoDAOPredial.php on line 16
+[11-Nov-2019 10:58:53 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Class 'TipoServicoPredial' not found in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroTipoServicoPredial.php:11
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/gui/cadastro-tipo-servico.php(5): ControleCadastroTipoServicoPredial->__construct()
+#1 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroTipoServicoPredial.php on line 11
+[11-Nov-2019 10:58:55 America/Sao_Paulo] PHP Warning:  Declaration of TipoServicoDAOPredial::insert($tipoServico) should be compatible with TipoServicoDAO::insert($campos, $values) in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/tipoServicoDAOPredial.php on line 16
+[11-Nov-2019 10:58:55 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Class 'TipoServicoPredial' not found in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroTipoServicoPredial.php:11
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/gui/cadastro-tipo-servico.php(5): ControleCadastroTipoServicoPredial->__construct()
+#1 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroTipoServicoPredial.php on line 11
+[11-Nov-2019 10:59:37 America/Sao_Paulo] PHP Warning:  Declaration of TipoServicoDAOPredial::insert($tipoServico) should be compatible with TipoServicoDAO::insert($campos, $values) in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/tipoServicoDAOPredial.php on line 16
+[11-Nov-2019 10:59:37 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Class 'TipoServicoPredial' not found in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroTipoServicoPredial.php:11
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/gui/cadastro-tipo-servico.php(5): ControleCadastroTipoServicoPredial->__construct()
+#1 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroTipoServicoPredial.php on line 11
+[11-Nov-2019 10:59:39 America/Sao_Paulo] PHP Warning:  Declaration of TipoServicoDAOPredial::insert($tipoServico) should be compatible with TipoServicoDAO::insert($campos, $values) in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/tipoServicoDAOPredial.php on line 16
+[11-Nov-2019 10:59:39 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Class 'TipoServicoPredial' not found in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroTipoServicoPredial.php:11
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/gui/cadastro-tipo-servico.php(5): ControleCadastroTipoServicoPredial->__construct()
+#1 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroTipoServicoPredial.php on line 11
+[11-Nov-2019 10:59:41 America/Sao_Paulo] PHP Warning:  Declaration of TipoServicoDAOPredial::insert($tipoServico) should be compatible with TipoServicoDAO::insert($campos, $values) in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/tipoServicoDAOPredial.php on line 16
+[11-Nov-2019 10:59:41 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Class 'TipoServicoPredial' not found in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroTipoServicoPredial.php:11
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/gui/cadastro-tipo-servico.php(5): ControleCadastroTipoServicoPredial->__construct()
+#1 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroTipoServicoPredial.php on line 11
+[11-Nov-2019 10:59:42 America/Sao_Paulo] PHP Warning:  Declaration of TipoServicoDAOPredial::insert($tipoServico) should be compatible with TipoServicoDAO::insert($campos, $values) in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/tipoServicoDAOPredial.php on line 16
+[11-Nov-2019 10:59:42 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Class 'TipoServicoPredial' not found in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroTipoServicoPredial.php:11
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/gui/cadastro-tipo-servico.php(5): ControleCadastroTipoServicoPredial->__construct()
+#1 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroTipoServicoPredial.php on line 11
+[11-Nov-2019 11:03:49 America/Sao_Paulo] PHP Warning:  Declaration of TipoServicoDAOPredial::insert($tipoServico) should be compatible with TipoServicoDAO::insert($campos, $values) in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/tipoServicoDAOPredial.php on line 16
+[11-Nov-2019 11:03:49 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Class 'TipoServicoPredial' not found in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroTipoServicoPredial.php:11
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/gui/cadastro-tipo-servico.php(5): ControleCadastroTipoServicoPredial->__construct()
+#1 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroTipoServicoPredial.php on line 11
+[11-Nov-2019 11:07:11 America/Sao_Paulo] PHP Fatal error:  Class 'TipoServicoDAO' not found in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/tipoServicoDAOPredial.php on line 5
+[11-Nov-2019 11:07:12 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Class 'TipoServicoPredial' not found in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroTipoServicoPredial.php:11
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/gui/cadastro-tipo-servico.php(5): ControleCadastroTipoServicoPredial->__construct()
+#1 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroTipoServicoPredial.php on line 11
+[11-Nov-2019 11:07:13 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Class 'TipoServicoPredial' not found in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroTipoServicoPredial.php:11
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/gui/cadastro-tipo-servico.php(5): ControleCadastroTipoServicoPredial->__construct()
+#1 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroTipoServicoPredial.php on line 11
+[11-Nov-2019 11:07:46 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC), expecting end of file in /home1/anaju876/public_html/pds.dev.anaju.me/business/models/TipoServicoPredial.php on line 4
+[11-Nov-2019 11:11:05 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC), expecting end of file in /home1/anaju876/public_html/pds.dev.anaju.me/business/models/TipoServicoPredial.php on line 4
+[11-Nov-2019 11:24:21 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC), expecting end of file in /home1/anaju876/public_html/pds.dev.anaju.me/business/models/TipoServicoPredial.php on line 4
+[11-Nov-2019 11:28:35 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to undefined method ControleCadastroTipoServicoPredial::verificarRequisicaoPredial() in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroTipoServicoPredial.php:13
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/gui/cadastro-tipo-servico.php(5): ControleCadastroTipoServicoPredial->__construct()
+#1 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroTipoServicoPredial.php on line 13
+[11-Nov-2019 11:29:11 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to undefined method ControleCadastroTipoServicoPredial::verificarRequisicaoPredial() in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroTipoServicoPredial.php:13
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/gui/cadastro-tipo-servico.php(5): ControleCadastroTipoServicoPredial->__construct()
+#1 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroTipoServicoPredial.php on line 13
+[11-Nov-2019 11:29:13 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Class 'ControleCadastroTipoServicoPredial' not found in /home1/anaju876/public_html/pds.dev.anaju.me/gui/cadastro-tipo-servico.php:5
+Stack trace:
+#0 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/gui/cadastro-tipo-servico.php on line 5
+[11-Nov-2019 11:29:15 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to undefined method ControleCadastroTipoServico::verificarRequisicaoPredial() in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroTipoServicoPredial.php:13
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/gui/cadastro-tipo-servico.php(5): ControleCadastroTipoServicoPredial->__construct()
+#1 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroTipoServicoPredial.php on line 13
+[11-Nov-2019 11:29:16 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to undefined method ControleCadastroTipoServico::verificarRequisicaoPredial() in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroTipoServicoPredial.php:13
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/gui/cadastro-tipo-servico.php(5): ControleCadastroTipoServicoPredial->__construct()
+#1 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroTipoServicoPredial.php on line 13
+[11-Nov-2019 11:29:38 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Class 'ControleCadastroTipoServicoPredial' not found in /home1/anaju876/public_html/pds.dev.anaju.me/gui/cadastro-tipo-servico.php:5
+Stack trace:
+#0 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/gui/cadastro-tipo-servico.php on line 5
+[11-Nov-2019 12:17:09 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Cannot instantiate abstract class ControleCadastroTipoServico in /home1/anaju876/public_html/pds.dev.anaju.me/gui/cadastro-tipo-servico.php:5
+Stack trace:
+#0 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/gui/cadastro-tipo-servico.php on line 5
+[11-Nov-2019 12:17:13 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Cannot instantiate abstract class ControleCadastroTipoServico in /home1/anaju876/public_html/pds.dev.anaju.me/gui/cadastro-tipo-servico.php:5
+Stack trace:
+#0 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/gui/cadastro-tipo-servico.php on line 5
+[13-Nov-2019 19:07:18 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Cannot instantiate abstract class TipoServicoDAO in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/servicoDAO.php:15
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceServico.php(15): ServicoDAO->__construct()
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroServico.php(15): ServiceServico->__construct()
+#2 /home1/anaju876/public_html/pds.dev.anaju.me/gui/cadastro-servico.php(5): ControleCadastroServico->__construct()
+#3 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/servicoDAO.php on line 15
+[13-Nov-2019 19:13:01 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Cannot instantiate abstract class TipoServicoDAO in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/servicoDAO.php:15
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceServico.php(15): ServicoDAO->__construct()
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroServico.php(15): ServiceServico->__construct()
+#2 /home1/anaju876/public_html/pds.dev.anaju.me/gui/cadastro-servico.php(5): ControleCadastroServico->__construct()
+#3 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/servicoDAO.php on line 15
+[13-Nov-2019 19:13:03 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Cannot instantiate abstract class ServicoDAO in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceServico.php:15
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroServico.php(15): ServiceServico->__construct()
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/gui/cadastro-servico.php(5): ControleCadastroServico->__construct()
+#2 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceServico.php on line 15
+[13-Nov-2019 19:13:04 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Cannot instantiate abstract class ServicoDAO in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceServico.php:15
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroServico.php(15): ServiceServico->__construct()
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/gui/cadastro-servico.php(5): ControleCadastroServico->__construct()
+#2 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceServico.php on line 15
+[13-Nov-2019 19:13:06 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Cannot instantiate abstract class ServicoDAO in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceServico.php:15
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroServico.php(15): ServiceServico->__construct()
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/gui/cadastro-servico.php(5): ControleCadastroServico->__construct()
+#2 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceServico.php on line 15
+[13-Nov-2019 19:13:07 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Cannot instantiate abstract class ServicoDAO in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceServico.php:15
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroServico.php(15): ServiceServico->__construct()
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/gui/cadastro-servico.php(5): ControleCadastroServico->__construct()
+#2 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceServico.php on line 15
+[13-Nov-2019 19:14:37 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Cannot instantiate abstract class ServicoDAO in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceServico.php:15
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroServico.php(15): ServiceServico->__construct()
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/gui/cadastro-servico.php(5): ControleCadastroServico->__construct()
+#2 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceServico.php on line 15
+[13-Nov-2019 19:17:00 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Cannot instantiate abstract class ServiceServico in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroServico.php:15
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/gui/cadastro-servico.php(5): ControleCadastroServico->__construct()
+#1 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroServico.php on line 15
+[13-Nov-2019 19:17:01 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Cannot instantiate abstract class ServiceServico in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroServico.php:15
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/gui/cadastro-servico.php(5): ControleCadastroServico->__construct()
+#1 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroServico.php on line 15
+[13-Nov-2019 19:34:06 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Cannot instantiate abstract class ServiceServico in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroServico.php:15
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/gui/cadastro-servico.php(5): ControleCadastroServico->__construct()
+#1 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroServico.php on line 15
+[13-Nov-2019 19:41:16 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Cannot instantiate abstract class ServiceServico in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroServico.php:15
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/gui/cadastro-servico.php(5): ControleCadastroServico->__construct()
+#1 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroServico.php on line 15
+[13-Nov-2019 19:52:32 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Cannot instantiate abstract class ServiceServico in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroServico.php:15
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/gui/cadastro-servico.php(5): ControleCadastroServico->__construct()
+#1 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroServico.php on line 15
+[13-Nov-2019 19:53:14 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Cannot instantiate abstract class ControleCadastroServico in /home1/anaju876/public_html/pds.dev.anaju.me/gui/cadastro-servico.php:5
+Stack trace:
+#0 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/gui/cadastro-servico.php on line 5
+[13-Nov-2019 19:53:15 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Cannot instantiate abstract class ControleCadastroServico in /home1/anaju876/public_html/pds.dev.anaju.me/gui/cadastro-servico.php:5
+Stack trace:
+#0 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/gui/cadastro-servico.php on line 5
+[13-Nov-2019 19:53:17 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Cannot instantiate abstract class ControleCadastroServico in /home1/anaju876/public_html/pds.dev.anaju.me/gui/cadastro-servico.php:5
+Stack trace:
+#0 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/gui/cadastro-servico.php on line 5
+[13-Nov-2019 20:00:07 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected 'if' (T_IF), expecting function (T_FUNCTION) or const (T_CONST) in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroServicoPredial.php on line 36
+[13-Nov-2019 20:00:12 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected 'if' (T_IF), expecting function (T_FUNCTION) or const (T_CONST) in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroServicoPredial.php on line 36
+[13-Nov-2019 20:00:28 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected 'if' (T_IF), expecting function (T_FUNCTION) or const (T_CONST) in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroServicoPredial.php on line 36
+[13-Nov-2019 20:00:30 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Class 'ServiceServicoPredial' not found in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroServicoPredial.php:10
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/gui/cadastro-servico.php(5): ControleCadastroServicoPredial->__construct()
+#1 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroServicoPredial.php on line 10
+[13-Nov-2019 20:00:30 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Class 'ServiceServicoPredial' not found in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroServicoPredial.php:10
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/gui/cadastro-servico.php(5): ControleCadastroServicoPredial->__construct()
+#1 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroServicoPredial.php on line 10
+[13-Nov-2019 20:00:32 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Class 'ServiceServicoPredial' not found in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroServicoPredial.php:10
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/gui/cadastro-servico.php(5): ControleCadastroServicoPredial->__construct()
+#1 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroServicoPredial.php on line 10
+[13-Nov-2019 20:00:33 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Class 'ServiceServicoPredial' not found in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroServicoPredial.php:10
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/gui/cadastro-servico.php(5): ControleCadastroServicoPredial->__construct()
+#1 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroServicoPredial.php on line 10
+[18-Nov-2019 10:32:38 America/Sao_Paulo] PHP Warning:  include_once(/home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/servicoServico.php): failed to open stream: No such file or directory in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceServicoPredial.php on line 4
+[18-Nov-2019 10:32:38 America/Sao_Paulo] PHP Warning:  include_once(): Failed opening '/home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/servicoServico.php' for inclusion (include_path='.:/opt/php71/lib/php') in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceServicoPredial.php on line 4
+[18-Nov-2019 10:32:38 America/Sao_Paulo] PHP Fatal error:  Class 'ServiceServico' not found in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceServicoPredial.php on line 6
+[18-Nov-2019 10:35:24 America/Sao_Paulo] PHP Fatal error:  Class 'ServiceServico' not found in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceServicoPredial.php on line 6
+[18-Nov-2019 10:35:26 America/Sao_Paulo] PHP Fatal error:  Class 'ServiceServico' not found in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceServicoPredial.php on line 6
+[18-Nov-2019 10:35:28 America/Sao_Paulo] PHP Fatal error:  Class 'ServiceServico' not found in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceServicoPredial.php on line 6
+[18-Nov-2019 10:35:52 America/Sao_Paulo] PHP Fatal error:  Class 'ServiceServico' not found in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceServicoPredial.php on line 6
+[18-Nov-2019 10:36:18 America/Sao_Paulo] PHP Fatal error:  Class 'ServiceServico' not found in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceServicoPredial.php on line 6
+[18-Nov-2019 10:36:19 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Cannot instantiate abstract class TipoServicoDAO in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/servicoDAOPredial.php:6
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceServicoPredial.php(10): ServicoDAOPredial->__construct()
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroServicoPredial.php(10): ServiceServicoPredial->__construct()
+#2 /home1/anaju876/public_html/pds.dev.anaju.me/gui/cadastro-servico.php(5): ControleCadastroServicoPredial->__construct()
+#3 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/servicoDAOPredial.php on line 6
+[18-Nov-2019 10:36:23 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Cannot instantiate abstract class TipoServicoDAO in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/servicoDAOPredial.php:6
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceServicoPredial.php(10): ServicoDAOPredial->__construct()
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroServicoPredial.php(10): ServiceServicoPredial->__construct()
+#2 /home1/anaju876/public_html/pds.dev.anaju.me/gui/cadastro-servico.php(5): ControleCadastroServicoPredial->__construct()
+#3 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/servicoDAOPredial.php on line 6
+[18-Nov-2019 10:36:32 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Cannot instantiate abstract class TipoServicoDAO in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/servicoDAOPredial.php:6
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceServicoPredial.php(10): ServicoDAOPredial->__construct()
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroServicoPredial.php(10): ServiceServicoPredial->__construct()
+#2 /home1/anaju876/public_html/pds.dev.anaju.me/gui/cadastro-servico.php(5): ControleCadastroServicoPredial->__construct()
+#3 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/servicoDAOPredial.php on line 6
+[18-Nov-2019 10:37:13 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Class 'ServicoDAOPredial' not found in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceServicoPredial.php:10
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroServicoPredial.php(10): ServiceServicoPredial->__construct()
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/gui/cadastro-servico.php(5): ControleCadastroServicoPredial->__construct()
+#2 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceServicoPredial.php on line 10
+[18-Nov-2019 10:37:15 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Class 'TipoServicoDAOPredial' not found in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/servicoDAOPredial.php:6
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceServicoPredial.php(10): ServicoDAOPredial->__construct()
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroServicoPredial.php(10): ServiceServicoPredial->__construct()
+#2 /home1/anaju876/public_html/pds.dev.anaju.me/gui/cadastro-servico.php(5): ControleCadastroServicoPredial->__construct()
+#3 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/servicoDAOPredial.php on line 6
+[18-Nov-2019 10:37:16 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Class 'TipoServicoDAOPredial' not found in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/servicoDAOPredial.php:6
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceServicoPredial.php(10): ServicoDAOPredial->__construct()
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroServicoPredial.php(10): ServiceServicoPredial->__construct()
+#2 /home1/anaju876/public_html/pds.dev.anaju.me/gui/cadastro-servico.php(5): ControleCadastroServicoPredial->__construct()
+#3 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/servicoDAOPredial.php on line 6
+[18-Nov-2019 10:37:18 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Class 'TipoServicoDAOPredial' not found in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/servicoDAOPredial.php:6
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceServicoPredial.php(10): ServicoDAOPredial->__construct()
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroServicoPredial.php(10): ServiceServicoPredial->__construct()
+#2 /home1/anaju876/public_html/pds.dev.anaju.me/gui/cadastro-servico.php(5): ControleCadastroServicoPredial->__construct()
+#3 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/servicoDAOPredial.php on line 6
+[18-Nov-2019 10:37:31 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Class 'ServicoPredial' not found in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroServicoPredial.php:11
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/gui/cadastro-servico.php(5): ControleCadastroServicoPredial->__construct()
+#1 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroServicoPredial.php on line 11
+[18-Nov-2019 10:37:31 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Class 'ServicoPredial' not found in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroServicoPredial.php:11
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/gui/cadastro-servico.php(5): ControleCadastroServicoPredial->__construct()
+#1 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroServicoPredial.php on line 11
+[18-Nov-2019 10:37:33 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Class 'ServicoPredial' not found in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroServicoPredial.php:11
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/gui/cadastro-servico.php(5): ControleCadastroServicoPredial->__construct()
+#1 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroServicoPredial.php on line 11
+[18-Nov-2019 10:37:34 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Class 'ServicoPredial' not found in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroServicoPredial.php:11
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/gui/cadastro-servico.php(5): ControleCadastroServicoPredial->__construct()
+#1 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroServicoPredial.php on line 11
+[18-Nov-2019 10:42:38 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Class 'ServicoPredial' not found in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroServicoPredial.php:11
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/gui/cadastro-servico.php(5): ControleCadastroServicoPredial->__construct()
+#1 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroServicoPredial.php on line 11
+[18-Nov-2019 10:42:59 America/Sao_Paulo] PHP Warning:  include_once(/home1/anaju876/public_html/pds.dev.anaju.me/business/models/servicoPredial.php): failed to open stream: No such file or directory in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroServicoPredial.php on line 4
+[18-Nov-2019 10:42:59 America/Sao_Paulo] PHP Warning:  include_once(): Failed opening '/home1/anaju876/public_html/pds.dev.anaju.me/business/models/servicoPredial.php' for inclusion (include_path='.:/opt/php71/lib/php') in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroServicoPredial.php on line 4
+[18-Nov-2019 10:42:59 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Class 'ServicoPredial' not found in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroServicoPredial.php:12
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/gui/cadastro-servico.php(5): ControleCadastroServicoPredial->__construct()
+#1 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroServicoPredial.php on line 12
+[18-Nov-2019 10:43:07 America/Sao_Paulo] PHP Warning:  include_once(/home1/anaju876/public_html/pds.dev.anaju.me/business/models/servicoPredial.php): failed to open stream: No such file or directory in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroServicoPredial.php on line 4
+[18-Nov-2019 10:43:07 America/Sao_Paulo] PHP Warning:  include_once(): Failed opening '/home1/anaju876/public_html/pds.dev.anaju.me/business/models/servicoPredial.php' for inclusion (include_path='.:/opt/php71/lib/php') in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroServicoPredial.php on line 4
+[18-Nov-2019 10:43:07 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Class 'ServicoPredial' not found in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroServicoPredial.php:12
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/gui/cadastro-servico.php(5): ControleCadastroServicoPredial->__construct()
+#1 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroServicoPredial.php on line 12
+[18-Nov-2019 10:44:12 America/Sao_Paulo] PHP Warning:  include_once(/home1/anaju876/public_html/pds.dev.anaju.me/business/models/servicoPredial.php): failed to open stream: No such file or directory in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroServicoPredial.php on line 4
+[18-Nov-2019 10:44:12 America/Sao_Paulo] PHP Warning:  include_once(): Failed opening '/home1/anaju876/public_html/pds.dev.anaju.me/business/models/servicoPredial.php' for inclusion (include_path='.:/opt/php71/lib/php') in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroServicoPredial.php on line 4
+[18-Nov-2019 10:44:12 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Class 'ServicoPredial' not found in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroServicoPredial.php:12
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/gui/cadastro-servico.php(5): ControleCadastroServicoPredial->__construct()
+#1 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroServicoPredial.php on line 12
+[18-Nov-2019 10:44:13 America/Sao_Paulo] PHP Warning:  include_once(/home1/anaju876/public_html/pds.dev.anaju.me/business/models/servicoPredial.php): failed to open stream: No such file or directory in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroServicoPredial.php on line 4
+[18-Nov-2019 10:44:13 America/Sao_Paulo] PHP Warning:  include_once(): Failed opening '/home1/anaju876/public_html/pds.dev.anaju.me/business/models/servicoPredial.php' for inclusion (include_path='.:/opt/php71/lib/php') in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroServicoPredial.php on line 4
+[18-Nov-2019 10:44:13 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Class 'ServicoPredial' not found in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroServicoPredial.php:12
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/gui/cadastro-servico.php(5): ControleCadastroServicoPredial->__construct()
+#1 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroServicoPredial.php on line 12
+[18-Nov-2019 10:44:14 America/Sao_Paulo] PHP Warning:  include_once(/home1/anaju876/public_html/pds.dev.anaju.me/business/models/servicoPredial.php): failed to open stream: No such file or directory in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroServicoPredial.php on line 4
+[18-Nov-2019 10:44:14 America/Sao_Paulo] PHP Warning:  include_once(): Failed opening '/home1/anaju876/public_html/pds.dev.anaju.me/business/models/servicoPredial.php' for inclusion (include_path='.:/opt/php71/lib/php') in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroServicoPredial.php on line 4
+[18-Nov-2019 10:44:14 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Class 'ServicoPredial' not found in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroServicoPredial.php:12
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/gui/cadastro-servico.php(5): ControleCadastroServicoPredial->__construct()
+#1 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroServicoPredial.php on line 12
+[18-Nov-2019 10:50:40 America/Sao_Paulo] PHP Fatal error:  Access level to ControleCadastroServicoPredial::setServico() must be public (as in class ControleCadastroServico) in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroServicoPredial.php on line 7
+[18-Nov-2019 10:50:45 America/Sao_Paulo] PHP Fatal error:  Access level to ControleCadastroServicoPredial::setServico() must be public (as in class ControleCadastroServico) in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroServicoPredial.php on line 7
+[18-Nov-2019 18:26:46 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected '$valores' (T_VARIABLE) in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/servicoDAOPredial.php on line 35
+[18-Nov-2019 18:26:48 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected '$valores' (T_VARIABLE) in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/servicoDAOPredial.php on line 35
+[18-Nov-2019 18:26:49 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected '$valores' (T_VARIABLE) in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/servicoDAOPredial.php on line 35
+[19-Nov-2019 10:03:17 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Class 'ControleRelatorioOSPredial' not found in /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio-geral-os.php:5
+Stack trace:
+#0 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio-geral-os.php on line 5
+[19-Nov-2019 10:03:19 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Class 'ControleRelatorioOSPredial' not found in /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio-geral-os.php:5
+Stack trace:
+#0 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio-geral-os.php on line 5
+[19-Nov-2019 10:03:21 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Class 'ControleRelatorioOSPredial' not found in /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio-geral-os.php:5
+Stack trace:
+#0 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio-geral-os.php on line 5
+[19-Nov-2019 10:03:39 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Class 'ControleRelatorioOSPredial' not found in /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio-geral-os.php:5
+Stack trace:
+#0 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio-geral-os.php on line 5
+[19-Nov-2019 10:03:40 America/Sao_Paulo] PHP Fatal error:  Class 'ControleRelatorioOSPredial' not found in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOSPredial.php on line 4
+[19-Nov-2019 10:03:41 America/Sao_Paulo] PHP Fatal error:  Class 'ControleRelatorioOSPredial' not found in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOSPredial.php on line 4
+[19-Nov-2019 10:03:42 America/Sao_Paulo] PHP Fatal error:  Class 'ControleRelatorioOSPredial' not found in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOSPredial.php on line 4
+[19-Nov-2019 10:03:43 America/Sao_Paulo] PHP Fatal error:  Class 'ControleRelatorioOSPredial' not found in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOSPredial.php on line 4
+[19-Nov-2019 10:03:46 America/Sao_Paulo] PHP Fatal error:  Class 'ControleRelatorioOSPredial' not found in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOSPredial.php on line 4
+[19-Nov-2019 10:03:47 America/Sao_Paulo] PHP Fatal error:  Class 'ControleRelatorioOSPredial' not found in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOSPredial.php on line 4
+[19-Nov-2019 10:06:11 America/Sao_Paulo] PHP Fatal error:  Class 'ControleRelatorioOSPredial' not found in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOSPredial.php on line 4
+[19-Nov-2019 10:06:37 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Cannot instantiate abstract class TipoServicoDAO in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php:21
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceOrdemServico.php(13): OrdemServicoDAO->__construct()
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(18): ServiceOrdemServico->__construct()
+#2 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOSPredial.php(8): ControleRelatorioOS->__construct()
+#3 /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio-geral-os.php(5): ControleRelatorioOSPredial->__construct()
+#4 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php on line 21
+[19-Nov-2019 10:06:41 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Cannot instantiate abstract class TipoServicoDAO in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php:21
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceOrdemServico.php(13): OrdemServicoDAO->__construct()
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(18): ServiceOrdemServico->__construct()
+#2 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOSPredial.php(8): ControleRelatorioOS->__construct()
+#3 /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio-geral-os.php(5): ControleRelatorioOSPredial->__construct()
+#4 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php on line 21
+[19-Nov-2019 10:10:51 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Cannot instantiate abstract class TipoServicoDAO in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php:21
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceOrdemServico.php(13): OrdemServicoDAO->__construct()
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroOrdemServico.php(12): ServiceOrdemServico->__construct()
+#2 /home1/anaju876/public_html/pds.dev.anaju.me/gui/cadastro-ordem-servico.php(5): ControleCadastroOrdemServico->__construct()
+#3 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php on line 21
+[19-Nov-2019 10:10:53 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Cannot instantiate abstract class TipoServicoDAO in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php:21
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceOrdemServico.php(13): OrdemServicoDAO->__construct()
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(18): ServiceOrdemServico->__construct()
+#2 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOSPredial.php(8): ControleRelatorioOS->__construct()
+#3 /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio-geral-os.php(5): ControleRelatorioOSPredial->__construct()
+#4 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php on line 21
+[19-Nov-2019 10:11:32 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Cannot instantiate abstract class TipoServicoDAO in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php:21
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceOrdemServico.php(13): OrdemServicoDAO->__construct()
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(18): ServiceOrdemServico->__construct()
+#2 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOSPredial.php(8): ControleRelatorioOS->__construct()
+#3 /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio-geral-os.php(5): ControleRelatorioOSPredial->__construct()
+#4 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php on line 21
+[19-Nov-2019 10:14:27 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Cannot instantiate abstract class TipoServicoDAO in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php:21
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceOrdemServico.php(13): OrdemServicoDAO->__construct()
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(18): ServiceOrdemServico->__construct()
+#2 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOSPredial.php(8): ControleRelatorioOS->__construct()
+#3 /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio-geral-os.php(5): ControleRelatorioOSPredial->__construct()
+#4 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php on line 21
+[19-Nov-2019 10:14:29 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Cannot instantiate abstract class TipoServicoDAO in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php:21
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceOrdemServico.php(13): OrdemServicoDAO->__construct()
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(18): ServiceOrdemServico->__construct()
+#2 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOSPredial.php(8): ControleRelatorioOS->__construct()
+#3 /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio-geral-os.php(5): ControleRelatorioOSPredial->__construct()
+#4 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php on line 21
+[19-Nov-2019 10:14:30 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Cannot instantiate abstract class TipoServicoDAO in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php:21
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceOrdemServico.php(13): OrdemServicoDAO->__construct()
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(18): ServiceOrdemServico->__construct()
+#2 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOSPredial.php(8): ControleRelatorioOS->__construct()
+#3 /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio-geral-os.php(5): ControleRelatorioOSPredial->__construct()
+#4 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php on line 21
+[19-Nov-2019 10:14:31 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Cannot instantiate abstract class TipoServicoDAO in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php:21
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceOrdemServico.php(13): OrdemServicoDAO->__construct()
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(18): ServiceOrdemServico->__construct()
+#2 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioFuncionario.php(20): ControleRelatorioOS->__construct()
+#3 /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio_funcionario.php(5): ControleRelatorioFuncionario->__construct()
+#4 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php on line 21
+[19-Nov-2019 10:14:32 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Cannot instantiate abstract class TipoServicoDAO in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php:21
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceOrdemServico.php(13): OrdemServicoDAO->__construct()
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(18): ServiceOrdemServico->__construct()
+#2 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOSPredial.php(8): ControleRelatorioOS->__construct()
+#3 /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio-geral-os.php(5): ControleRelatorioOSPredial->__construct()
+#4 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php on line 21
+[19-Nov-2019 10:14:34 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Cannot instantiate abstract class TipoServicoDAO in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php:21
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceOrdemServico.php(13): OrdemServicoDAO->__construct()
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(18): ServiceOrdemServico->__construct()
+#2 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOSPredial.php(8): ControleRelatorioOS->__construct()
+#3 /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio-geral-os.php(5): ControleRelatorioOSPredial->__construct()
+#4 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php on line 21
+[19-Nov-2019 10:14:37 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Cannot instantiate abstract class TipoServicoDAO in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php:21
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceOrdemServico.php(13): OrdemServicoDAO->__construct()
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(18): ServiceOrdemServico->__construct()
+#2 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOSPredial.php(8): ControleRelatorioOS->__construct()
+#3 /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio-geral-os.php(5): ControleRelatorioOSPredial->__construct()
+#4 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php on line 21
+[19-Nov-2019 10:14:55 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Cannot instantiate abstract class TipoServicoDAO in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php:21
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceOrdemServico.php(13): OrdemServicoDAO->__construct()
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(18): ServiceOrdemServico->__construct()
+#2 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOSPredial.php(8): ControleRelatorioOS->__construct()
+#3 /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio-geral-os.php(5): ControleRelatorioOSPredial->__construct()
+#4 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php on line 21
+[19-Nov-2019 10:14:56 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Class 'OrdemServicoDAO' not found in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceOrdemServico.php:13
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(18): ServiceOrdemServico->__construct()
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOSPredial.php(8): ControleRelatorioOS->__construct()
+#2 /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio-geral-os.php(5): ControleRelatorioOSPredial->__construct()
+#3 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceOrdemServico.php on line 13
+[19-Nov-2019 10:14:57 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Cannot instantiate abstract class ServicoDAO in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php:23
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceOrdemServico.php(13): OrdemServicoDAO->__construct()
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(18): ServiceOrdemServico->__construct()
+#2 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOSPredial.php(8): ControleRelatorioOS->__construct()
+#3 /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio-geral-os.php(5): ControleRelatorioOSPredial->__construct()
+#4 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php on line 23
+[19-Nov-2019 10:14:58 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Cannot instantiate abstract class ServicoDAO in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php:23
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceOrdemServico.php(13): OrdemServicoDAO->__construct()
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(18): ServiceOrdemServico->__construct()
+#2 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOSPredial.php(8): ControleRelatorioOS->__construct()
+#3 /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio-geral-os.php(5): ControleRelatorioOSPredial->__construct()
+#4 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php on line 23
+[19-Nov-2019 10:14:58 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Cannot instantiate abstract class ServicoDAO in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php:23
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceOrdemServico.php(13): OrdemServicoDAO->__construct()
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(18): ServiceOrdemServico->__construct()
+#2 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOSPredial.php(8): ControleRelatorioOS->__construct()
+#3 /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio-geral-os.php(5): ControleRelatorioOSPredial->__construct()
+#4 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php on line 23
+[19-Nov-2019 10:15:42 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Cannot instantiate abstract class ServiceRelatorioOS in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php:20
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOSPredial.php(8): ControleRelatorioOS->__construct()
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio-geral-os.php(5): ControleRelatorioOSPredial->__construct()
+#2 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php on line 20
+[19-Nov-2019 10:15:44 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Cannot instantiate abstract class ServiceRelatorioOS in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php:20
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOSPredial.php(8): ControleRelatorioOS->__construct()
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio-geral-os.php(5): ControleRelatorioOSPredial->__construct()
+#2 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php on line 20
+[19-Nov-2019 10:15:45 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Cannot instantiate abstract class ServiceRelatorioOS in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php:20
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOSPredial.php(8): ControleRelatorioOS->__construct()
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio-geral-os.php(5): ControleRelatorioOSPredial->__construct()
+#2 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php on line 20
+[19-Nov-2019 10:15:46 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Cannot instantiate abstract class ServiceRelatorioOS in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php:20
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOSPredial.php(8): ControleRelatorioOS->__construct()
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio-geral-os.php(5): ControleRelatorioOSPredial->__construct()
+#2 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php on line 20
+[19-Nov-2019 10:15:49 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Cannot instantiate abstract class ServiceRelatorioOS in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php:20
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOSPredial.php(8): ControleRelatorioOS->__construct()
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio-geral-os.php(5): ControleRelatorioOSPredial->__construct()
+#2 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php on line 20
+[19-Nov-2019 10:17:17 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Cannot instantiate abstract class ServiceRelatorioOS in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php:20
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOSPredial.php(8): ControleRelatorioOS->__construct()
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio-geral-os.php(5): ControleRelatorioOSPredial->__construct()
+#2 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php on line 20
+[19-Nov-2019 10:17:18 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Class 'ServiceRelatorioOSPredial' not found in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOSPredial.php:9
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio-geral-os.php(5): ControleRelatorioOSPredial->__construct()
+#1 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOSPredial.php on line 9
+[19-Nov-2019 10:17:19 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Class 'ServiceRelatorioOSPredial' not found in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOSPredial.php:9
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio-geral-os.php(5): ControleRelatorioOSPredial->__construct()
+#1 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOSPredial.php on line 9

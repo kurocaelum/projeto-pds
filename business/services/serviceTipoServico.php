@@ -5,8 +5,10 @@ include_once($_SERVER["DOCUMENT_ROOT"]."/data/DAO/tipoServicoDAO.php");
 include_once($_SERVER["DOCUMENT_ROOT"]."/business/models/TipoServico.php");
 include_once($_SERVER["DOCUMENT_ROOT"]."/business/exception/serviceException.php");
 
+include_once($_SERVER["DOCUMENT_ROOT"]."/data/DAO/tipoServicoDAOPredial.php");
 
-class ServiceTipoServico{
+
+abstract class ServiceTipoServico{
 	public $tipoServicoDAO; // objeto dao para salvar as tipoServicos e obter dados.
 
 
@@ -63,9 +65,7 @@ class ServiceTipoServico{
     }
 
     private function validarDadosTipoServico($tipoServico){
-
         $ret= "";
-
         if($tipoServico->getNome() == "" ){
             $ret .= "Nome não informado\n";  
         }
@@ -81,14 +81,16 @@ class ServiceTipoServico{
         if(!is_numeric($tipoServico->getTempo())){
             $ret .= "Tempo deve ser um valor numérico\n";  
         }
-
-
         
         if($ret != ""){
             throw new ServiceException($ret);
             
         }
+        $this->validarDadosTipoServicoSecundario($tipoServico);
     }
+
+
+    abstract function validarDadosTipoServicoSecundario($tipoServico);
 
 
     
