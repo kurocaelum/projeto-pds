@@ -53,6 +53,7 @@ abstract class ControleCadastroTipoServico{
 
 
     public function addTipoServico(){
+        // echo "string";
 
         $this->setTipoServico();
        

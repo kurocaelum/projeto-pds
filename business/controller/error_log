@@ -2331,3 +2331,140 @@ Stack trace:
 #3 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroServico.php(13): ControleCadastroServico->verificarRequisicao()
 #4 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroServicoPredial.php(13): ControleCadastroServico->__construct()
 #5 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroServicoPredial.php(45): Control in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceServico.php on line 78
+[19-Nov-2019 14:31:10 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function getServicoById() on null in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php:138
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php(110): OrdemServicoDAO->getServicosByOrdemServico('25')
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceOrdemServico.php(52): OrdemServicoDAO->getOrdemServicos()
+#2 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroOrdemServico.php(94): ServiceOrdemServico->getListaOrdemServico()
+#3 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroOrdemServico.php(29): ControleCadastroOrdemServico->listarOrdemServicos()
+#4 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroOrdemServico.php(13): ControleCadastroOrdemServico->verificarRequisicao()
+#5 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroOrdemServico.php(111): ControleCadastroOrdemServic in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php on line 138
+[20-Nov-2019 13:51:36 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function getServicoById() on null in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php:143
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php(115): OrdemServicoDAO->getServicosByOrdemServico('25')
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceOrdemServico.php(57): OrdemServicoDAO->getOrdemServicos()
+#2 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroOrdemServico.php(94): ServiceOrdemServico->getListaOrdemServico()
+#3 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroOrdemServico.php(29): ControleCadastroOrdemServico->listarOrdemServicos()
+#4 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroOrdemServico.php(13): ControleCadastroOrdemServico->verificarRequisicao()
+#5 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroOrdemServico.php(111): ControleCadastroOrdemServic in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php on line 143
+[20-Nov-2019 13:51:41 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function getServicoById() on null in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php:143
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php(115): OrdemServicoDAO->getServicosByOrdemServico('25')
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceOrdemServico.php(57): OrdemServicoDAO->getOrdemServicos()
+#2 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroOrdemServico.php(94): ServiceOrdemServico->getListaOrdemServico()
+#3 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroOrdemServico.php(29): ControleCadastroOrdemServico->listarOrdemServicos()
+#4 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroOrdemServico.php(13): ControleCadastroOrdemServico->verificarRequisicao()
+#5 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroOrdemServico.php(111): ControleCadastroOrdemServic in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php on line 143
+[20-Nov-2019 13:51:49 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function getServicoById() on null in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php:143
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php(115): OrdemServicoDAO->getServicosByOrdemServico('25')
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceOrdemServico.php(57): OrdemServicoDAO->getOrdemServicos()
+#2 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroOrdemServico.php(94): ServiceOrdemServico->getListaOrdemServico()
+#3 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroOrdemServico.php(29): ControleCadastroOrdemServico->listarOrdemServicos()
+#4 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroOrdemServico.php(13): ControleCadastroOrdemServico->verificarRequisicao()
+#5 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroOrdemServico.php(111): ControleCadastroOrdemServic in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php on line 143
+[20-Nov-2019 14:02:23 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function getServicoById() on null in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php:143
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php(115): OrdemServicoDAO->getServicosByOrdemServico('25')
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceOrdemServico.php(57): OrdemServicoDAO->getOrdemServicos()
+#2 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroOrdemServico.php(98): ServiceOrdemServico->getListaOrdemServico()
+#3 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroOrdemServico.php(33): ControleCadastroOrdemServico->listarOrdemServicos()
+#4 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroOrdemServico.php(13): ControleCadastroOrdemServico->verificarRequisicao()
+#5 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroOrdemServico.php(115): ControleCadastroOrdemServic in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php on line 143
+[20-Nov-2019 14:02:26 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function getServicoById() on null in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php:143
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php(115): OrdemServicoDAO->getServicosByOrdemServico('25')
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceOrdemServico.php(57): OrdemServicoDAO->getOrdemServicos()
+#2 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroOrdemServico.php(98): ServiceOrdemServico->getListaOrdemServico()
+#3 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroOrdemServico.php(33): ControleCadastroOrdemServico->listarOrdemServicos()
+#4 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroOrdemServico.php(13): ControleCadastroOrdemServico->verificarRequisicao()
+#5 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroOrdemServico.php(115): ControleCadastroOrdemServic in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php on line 143
+[20-Nov-2019 14:02:52 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function getServicoById() on null in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php:143
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php(115): OrdemServicoDAO->getServicosByOrdemServico('25')
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceOrdemServico.php(57): OrdemServicoDAO->getOrdemServicos()
+#2 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroOrdemServico.php(98): ServiceOrdemServico->getListaOrdemServico()
+#3 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroOrdemServico.php(33): ControleCadastroOrdemServico->listarOrdemServicos()
+#4 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroOrdemServico.php(13): ControleCadastroOrdemServico->verificarRequisicao()
+#5 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroOrdemServico.php(115): ControleCadastroOrdemServic in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php on line 143
+[20-Nov-2019 14:04:16 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function getServicoById() on null in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php:143
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php(115): OrdemServicoDAO->getServicosByOrdemServico('25')
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceOrdemServico.php(57): OrdemServicoDAO->getOrdemServicos()
+#2 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroOrdemServico.php(98): ServiceOrdemServico->getListaOrdemServico()
+#3 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroOrdemServico.php(33): ControleCadastroOrdemServico->listarOrdemServicos()
+#4 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroOrdemServico.php(13): ControleCadastroOrdemServico->verificarRequisicao()
+#5 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroOrdemServico.php(115): ControleCadastroOrdemServic in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php on line 143
+[20-Nov-2019 14:04:48 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function getServicoById() on null in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php:143
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php(115): OrdemServicoDAO->getServicosByOrdemServico('25')
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceOrdemServico.php(57): OrdemServicoDAO->getOrdemServicos()
+#2 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroOrdemServico.php(98): ServiceOrdemServico->getListaOrdemServico()
+#3 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroOrdemServico.php(33): ControleCadastroOrdemServico->listarOrdemServicos()
+#4 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroOrdemServico.php(13): ControleCadastroOrdemServico->verificarRequisicao()
+#5 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroOrdemServico.php(115): ControleCadastroOrdemServic in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php on line 143
+[20-Nov-2019 14:09:02 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function getServicoById() on null in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php:143
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php(115): OrdemServicoDAO->getServicosByOrdemServico('25')
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceOrdemServico.php(57): OrdemServicoDAO->getOrdemServicos()
+#2 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroOrdemServico.php(98): ServiceOrdemServico->getListaOrdemServico()
+#3 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroOrdemServico.php(33): ControleCadastroOrdemServico->listarOrdemServicos()
+#4 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroOrdemServico.php(13): ControleCadastroOrdemServico->verificarRequisicao()
+#5 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroOrdemServico.php(115): ControleCadastroOrdemServic in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php on line 143
+[20-Nov-2019 14:09:06 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function getServicoById() on null in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php:143
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php(115): OrdemServicoDAO->getServicosByOrdemServico('25')
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceOrdemServico.php(57): OrdemServicoDAO->getOrdemServicos()
+#2 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroOrdemServico.php(98): ServiceOrdemServico->getListaOrdemServico()
+#3 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroOrdemServico.php(33): ControleCadastroOrdemServico->listarOrdemServicos()
+#4 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroOrdemServico.php(13): ControleCadastroOrdemServico->verificarRequisicao()
+#5 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroOrdemServico.php(115): ControleCadastroOrdemServic in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php on line 143
+[20-Nov-2019 14:09:18 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function getServicoById() on null in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php:143
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php(115): OrdemServicoDAO->getServicosByOrdemServico('25')
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceOrdemServico.php(57): OrdemServicoDAO->getOrdemServicos()
+#2 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroOrdemServico.php(98): ServiceOrdemServico->getListaOrdemServico()
+#3 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroOrdemServico.php(33): ControleCadastroOrdemServico->listarOrdemServicos()
+#4 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroOrdemServico.php(13): ControleCadastroOrdemServico->verificarRequisicao()
+#5 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroOrdemServico.php(115): ControleCadastroOrdemServic in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php on line 143
+[20-Nov-2019 14:09:44 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function getServicoById() on null in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php:143
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php(115): OrdemServicoDAO->getServicosByOrdemServico('25')
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceOrdemServico.php(57): OrdemServicoDAO->getOrdemServicos()
+#2 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroOrdemServico.php(98): ServiceOrdemServico->getListaOrdemServico()
+#3 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroOrdemServico.php(33): ControleCadastroOrdemServico->listarOrdemServicos()
+#4 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroOrdemServico.php(13): ControleCadastroOrdemServico->verificarRequisicao()
+#5 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroOrdemServicoPredial.php(8): ControleCadastroOrdemS in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php on line 143
+[20-Nov-2019 14:09:47 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function getServicoById() on null in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php:143
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php(115): OrdemServicoDAO->getServicosByOrdemServico('25')
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceOrdemServico.php(57): OrdemServicoDAO->getOrdemServicos()
+#2 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroOrdemServico.php(98): ServiceOrdemServico->getListaOrdemServico()
+#3 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroOrdemServico.php(33): ControleCadastroOrdemServico->listarOrdemServicos()
+#4 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroOrdemServico.php(13): ControleCadastroOrdemServico->verificarRequisicao()
+#5 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroOrdemServicoPredial.php(8): ControleCadastroOrdemS in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php on line 143
+[20-Nov-2019 14:09:52 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function getServicoById() on null in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php:143
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php(115): OrdemServicoDAO->getServicosByOrdemServico('25')
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceOrdemServico.php(57): OrdemServicoDAO->getOrdemServicos()
+#2 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroOrdemServico.php(98): ServiceOrdemServico->getListaOrdemServico()
+#3 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroOrdemServico.php(33): ControleCadastroOrdemServico->listarOrdemServicos()
+#4 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroOrdemServico.php(13): ControleCadastroOrdemServico->verificarRequisicao()
+#5 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroOrdemServicoPredial.php(8): ControleCadastroOrdemS in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php on line 143
+[20-Nov-2019 14:15:41 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function getServicoById() on null in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php:143
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php(115): OrdemServicoDAO->getServicosByOrdemServico('25')
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceOrdemServico.php(57): OrdemServicoDAO->getOrdemServicos()
+#2 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroOrdemServico.php(98): ServiceOrdemServico->getListaOrdemServico()
+#3 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroOrdemServico.php(33): ControleCadastroOrdemServico->listarOrdemServicos()
+#4 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroOrdemServico.php(13): ControleCadastroOrdemServico->verificarRequisicao()
+#5 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroOrdemServicoPredial.php(10): ControleCadastroOrdem in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php on line 143
+[20-Nov-2019 14:15:46 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function getServicoById() on null in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php:143
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php(115): OrdemServicoDAO->getServicosByOrdemServico('25')
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceOrdemServico.php(57): OrdemServicoDAO->getOrdemServicos()
+#2 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroOrdemServico.php(98): ServiceOrdemServico->getListaOrdemServico()
+#3 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroOrdemServico.php(33): ControleCadastroOrdemServico->listarOrdemServicos()
+#4 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroOrdemServico.php(13): ControleCadastroOrdemServico->verificarRequisicao()
+#5 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroOrdemServicoPredial.php(10): ControleCadastroOrdem in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php on line 143
+[20-Nov-2019 14:44:06 America/Sao_Paulo] PHP Fatal error:  Class 'TipoServicoDAO' not found in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/tipoServicoDAOPredial.php on line 6

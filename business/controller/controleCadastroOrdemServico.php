@@ -9,8 +9,11 @@ class ControleCadastroOrdemServico{
 
     public function __construct(){
         $this->ordemServico = new OrdemServico();
-        $this->serviceOrdemServico = new ServiceOrdemServico();
         $this->verificarRequisicao();
+    }
+
+    public function getServiceOrdemServico(){
+        return $this->serviceOrdemServico;
     }
 
     public function verificarRequisicao(){
@@ -107,8 +110,5 @@ class ControleCadastroOrdemServico{
 }
 
 
-if(isset($_POST['idOrdemServico']) || isset($_POST['listaOrdemServicos']) || isset($_POST['excluirOrdemServico']) || isset($_POST['addOrdemServico']) ){
-    $controleCadastroOrdemServico = new ControleCadastroOrdemServico();
-}
     
 ?>

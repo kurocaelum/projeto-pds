@@ -13,6 +13,11 @@ class ServiceOrdemServico{
         $this->ordemServicoDAO = new OrdemServicoDAO();
     }
 
+
+    public function getOrdemServicoDAO(){
+        return $this->ordemServicoDAO;
+    }
+
     public function addOrdemServico($ordemServico){
         try {
             $this->verificarOrdemServico($ordemServico);

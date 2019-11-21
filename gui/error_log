@@ -2342,3 +2342,994 @@ Stack trace:
 #0 /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio-geral-os.php(5): ControleRelatorioOSPredial->__construct()
 #1 {main}
   thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOSPredial.php on line 9
+[19-Nov-2019 10:27:47 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC), expecting end of file in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceRelatorioOSPredial.php on line 7
+[19-Nov-2019 10:27:49 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC), expecting end of file in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceRelatorioOSPredial.php on line 7
+[19-Nov-2019 10:28:07 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC), expecting end of file in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceRelatorioOSPredial.php on line 7
+[19-Nov-2019 10:28:09 America/Sao_Paulo] PHP Warning:  include_once(/home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceOrdemServicoOS.php): failed to open stream: No such file or directory in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceRelatorioOSPredial.php on line 3
+[19-Nov-2019 10:28:09 America/Sao_Paulo] PHP Warning:  include_once(): Failed opening '/home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceOrdemServicoOS.php' for inclusion (include_path='.:/opt/php71/lib/php') in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceRelatorioOSPredial.php on line 3
+[19-Nov-2019 10:28:09 America/Sao_Paulo] PHP Warning:  include_once(/home1/anaju876/public_html/pds.dev.anaju.me/business/data/DAO/tipoServicoDAOPredial.php): failed to open stream: No such file or directory in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceRelatorioOSPredial.php on line 4
+[19-Nov-2019 10:28:09 America/Sao_Paulo] PHP Warning:  include_once(): Failed opening '/home1/anaju876/public_html/pds.dev.anaju.me/business/data/DAO/tipoServicoDAOPredial.php' for inclusion (include_path='.:/opt/php71/lib/php') in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceRelatorioOSPredial.php on line 4
+[19-Nov-2019 10:28:09 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Class 'TipoServicoDAOPredial' not found in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceRelatorioOSPredial.php:11
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOSPredial.php(10): ServiceRelatorioOSPredial->__construct()
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio-geral-os.php(5): ControleRelatorioOSPredial->__construct()
+#2 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceRelatorioOSPredial.php on line 11
+[19-Nov-2019 10:28:10 America/Sao_Paulo] PHP Warning:  include_once(/home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceOrdemServicoOS.php): failed to open stream: No such file or directory in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceRelatorioOSPredial.php on line 3
+[19-Nov-2019 10:28:10 America/Sao_Paulo] PHP Warning:  include_once(): Failed opening '/home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceOrdemServicoOS.php' for inclusion (include_path='.:/opt/php71/lib/php') in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceRelatorioOSPredial.php on line 3
+[19-Nov-2019 10:28:10 America/Sao_Paulo] PHP Warning:  include_once(/home1/anaju876/public_html/pds.dev.anaju.me/business/data/DAO/tipoServicoDAOPredial.php): failed to open stream: No such file or directory in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceRelatorioOSPredial.php on line 4
+[19-Nov-2019 10:28:10 America/Sao_Paulo] PHP Warning:  include_once(): Failed opening '/home1/anaju876/public_html/pds.dev.anaju.me/business/data/DAO/tipoServicoDAOPredial.php' for inclusion (include_path='.:/opt/php71/lib/php') in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceRelatorioOSPredial.php on line 4
+[19-Nov-2019 10:28:10 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Class 'TipoServicoDAOPredial' not found in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceRelatorioOSPredial.php:11
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOSPredial.php(10): ServiceRelatorioOSPredial->__construct()
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio-geral-os.php(5): ControleRelatorioOSPredial->__construct()
+#2 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceRelatorioOSPredial.php on line 11
+[19-Nov-2019 10:49:02 America/Sao_Paulo] PHP Warning:  include_once(/home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceOrdemServicoOS.php): failed to open stream: No such file or directory in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceRelatorioOSPredial.php on line 3
+[19-Nov-2019 10:49:02 America/Sao_Paulo] PHP Warning:  include_once(): Failed opening '/home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceOrdemServicoOS.php' for inclusion (include_path='.:/opt/php71/lib/php') in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceRelatorioOSPredial.php on line 3
+[19-Nov-2019 10:49:02 America/Sao_Paulo] PHP Warning:  include_once(/home1/anaju876/public_html/pds.dev.anaju.me/business/data/DAO/tipoServicoDAOPredial.php): failed to open stream: No such file or directory in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceRelatorioOSPredial.php on line 4
+[19-Nov-2019 10:49:02 America/Sao_Paulo] PHP Warning:  include_once(): Failed opening '/home1/anaju876/public_html/pds.dev.anaju.me/business/data/DAO/tipoServicoDAOPredial.php' for inclusion (include_path='.:/opt/php71/lib/php') in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceRelatorioOSPredial.php on line 4
+[19-Nov-2019 10:49:02 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Class 'TipoServicoDAOPredial' not found in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceRelatorioOSPredial.php:11
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOSPredial.php(10): ServiceRelatorioOSPredial->__construct()
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio-geral-os.php(5): ControleRelatorioOSPredial->__construct()
+#2 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceRelatorioOSPredial.php on line 11
+[19-Nov-2019 10:49:58 America/Sao_Paulo] PHP Warning:  include_once(/home1/anaju876/public_html/pds.dev.anaju.me/business/data/DAO/tipoServicoDAOPredial.php): failed to open stream: No such file or directory in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceRelatorioOSPredial.php on line 4
+[19-Nov-2019 10:49:58 America/Sao_Paulo] PHP Warning:  include_once(): Failed opening '/home1/anaju876/public_html/pds.dev.anaju.me/business/data/DAO/tipoServicoDAOPredial.php' for inclusion (include_path='.:/opt/php71/lib/php') in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceRelatorioOSPredial.php on line 4
+[19-Nov-2019 10:49:58 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Class 'TipoServicoDAOPredial' not found in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceRelatorioOSPredial.php:11
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOSPredial.php(10): ServiceRelatorioOSPredial->__construct()
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio-geral-os.php(5): ControleRelatorioOSPredial->__construct()
+#2 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceRelatorioOSPredial.php on line 11
+[19-Nov-2019 10:50:00 America/Sao_Paulo] PHP Warning:  include_once(/home1/anaju876/public_html/pds.dev.anaju.me/business/data/DAO/tipoServicoDAOPredial.php): failed to open stream: No such file or directory in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceRelatorioOSPredial.php on line 4
+[19-Nov-2019 10:50:00 America/Sao_Paulo] PHP Warning:  include_once(): Failed opening '/home1/anaju876/public_html/pds.dev.anaju.me/business/data/DAO/tipoServicoDAOPredial.php' for inclusion (include_path='.:/opt/php71/lib/php') in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceRelatorioOSPredial.php on line 4
+[19-Nov-2019 10:50:00 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Class 'TipoServicoDAOPredial' not found in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceRelatorioOSPredial.php:11
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOSPredial.php(10): ServiceRelatorioOSPredial->__construct()
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio-geral-os.php(5): ControleRelatorioOSPredial->__construct()
+#2 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceRelatorioOSPredial.php on line 11
+[19-Nov-2019 10:51:20 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Class 'ServicoDAOPredial' not found in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceRelatorioOSPredial.php:12
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOSPredial.php(10): ServiceRelatorioOSPredial->__construct()
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio-geral-os.php(5): ControleRelatorioOSPredial->__construct()
+#2 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceRelatorioOSPredial.php on line 12
+[19-Nov-2019 10:51:22 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Class 'ServicoDAOPredial' not found in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceRelatorioOSPredial.php:12
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOSPredial.php(10): ServiceRelatorioOSPredial->__construct()
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio-geral-os.php(5): ControleRelatorioOSPredial->__construct()
+#2 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceRelatorioOSPredial.php on line 12
+[19-Nov-2019 11:58:51 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Class 'ServicoDAOPredial' not found in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceRelatorioOSPredial.php:12
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOSPredial.php(10): ServiceRelatorioOSPredial->__construct()
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio-geral-os.php(5): ControleRelatorioOSPredial->__construct()
+#2 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceRelatorioOSPredial.php on line 12
+[19-Nov-2019 12:06:19 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Class 'ServicoDAOPredial' not found in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceRelatorioOSPredial.php:12
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOSPredial.php(10): ServiceRelatorioOSPredial->__construct()
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio-geral-os.php(5): ControleRelatorioOSPredial->__construct()
+#2 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceRelatorioOSPredial.php on line 12
+[19-Nov-2019 12:06:33 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Class 'ServicoDAOPredial' not found in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceRelatorioOSPredial.php:12
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOSPredial.php(10): ServiceRelatorioOSPredial->__construct()
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio-geral-os.php(5): ControleRelatorioOSPredial->__construct()
+#2 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceRelatorioOSPredial.php on line 12
+[19-Nov-2019 12:06:35 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Class 'ServicoDAOPredial' not found in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceRelatorioOSPredial.php:12
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOSPredial.php(10): ServiceRelatorioOSPredial->__construct()
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio-geral-os.php(5): ControleRelatorioOSPredial->__construct()
+#2 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceRelatorioOSPredial.php on line 12
+[19-Nov-2019 12:06:36 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Class 'ServicoDAOPredial' not found in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceRelatorioOSPredial.php:12
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOSPredial.php(10): ServiceRelatorioOSPredial->__construct()
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio-geral-os.php(5): ControleRelatorioOSPredial->__construct()
+#2 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceRelatorioOSPredial.php on line 12
+[19-Nov-2019 12:06:59 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Class 'ServicoDAOPredial' not found in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceRelatorioOSPredial.php:12
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOSPredial.php(10): ServiceRelatorioOSPredial->__construct()
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio-geral-os.php(5): ControleRelatorioOSPredial->__construct()
+#2 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceRelatorioOSPredial.php on line 12
+[19-Nov-2019 12:07:00 America/Sao_Paulo] PHP Warning:  include_once(/home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ServicoDAOPredial.php): failed to open stream: No such file or directory in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceRelatorioOSPredial.php on line 5
+[19-Nov-2019 12:07:00 America/Sao_Paulo] PHP Warning:  include_once(): Failed opening '/home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ServicoDAOPredial.php' for inclusion (include_path='.:/opt/php71/lib/php') in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceRelatorioOSPredial.php on line 5
+[19-Nov-2019 12:07:00 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Class 'ServicoDAOPredial' not found in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceRelatorioOSPredial.php:13
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOSPredial.php(10): ServiceRelatorioOSPredial->__construct()
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio-geral-os.php(5): ControleRelatorioOSPredial->__construct()
+#2 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceRelatorioOSPredial.php on line 13
+[19-Nov-2019 12:07:01 America/Sao_Paulo] PHP Warning:  include_once(/home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ServicoDAOPredial.php): failed to open stream: No such file or directory in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceRelatorioOSPredial.php on line 5
+[19-Nov-2019 12:07:01 America/Sao_Paulo] PHP Warning:  include_once(): Failed opening '/home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ServicoDAOPredial.php' for inclusion (include_path='.:/opt/php71/lib/php') in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceRelatorioOSPredial.php on line 5
+[19-Nov-2019 12:07:01 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Class 'ServicoDAOPredial' not found in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceRelatorioOSPredial.php:13
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOSPredial.php(10): ServiceRelatorioOSPredial->__construct()
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio-geral-os.php(5): ControleRelatorioOSPredial->__construct()
+#2 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceRelatorioOSPredial.php on line 13
+[19-Nov-2019 12:07:02 America/Sao_Paulo] PHP Warning:  include_once(/home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ServicoDAOPredial.php): failed to open stream: No such file or directory in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceRelatorioOSPredial.php on line 5
+[19-Nov-2019 12:07:03 America/Sao_Paulo] PHP Warning:  include_once(): Failed opening '/home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ServicoDAOPredial.php' for inclusion (include_path='.:/opt/php71/lib/php') in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceRelatorioOSPredial.php on line 5
+[19-Nov-2019 12:07:03 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Class 'ServicoDAOPredial' not found in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceRelatorioOSPredial.php:13
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOSPredial.php(10): ServiceRelatorioOSPredial->__construct()
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio-geral-os.php(5): ControleRelatorioOSPredial->__construct()
+#2 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceRelatorioOSPredial.php on line 13
+[19-Nov-2019 12:07:04 America/Sao_Paulo] PHP Warning:  include_once(/home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ServicoDAOPredial.php): failed to open stream: No such file or directory in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceRelatorioOSPredial.php on line 5
+[19-Nov-2019 12:07:04 America/Sao_Paulo] PHP Warning:  include_once(): Failed opening '/home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ServicoDAOPredial.php' for inclusion (include_path='.:/opt/php71/lib/php') in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceRelatorioOSPredial.php on line 5
+[19-Nov-2019 12:07:04 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Class 'ServicoDAOPredial' not found in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceRelatorioOSPredial.php:13
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOSPredial.php(10): ServiceRelatorioOSPredial->__construct()
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio-geral-os.php(5): ControleRelatorioOSPredial->__construct()
+#2 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceRelatorioOSPredial.php on line 13
+[19-Nov-2019 12:07:05 America/Sao_Paulo] PHP Warning:  include_once(/home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ServicoDAOPredial.php): failed to open stream: No such file or directory in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceRelatorioOSPredial.php on line 5
+[19-Nov-2019 12:07:05 America/Sao_Paulo] PHP Warning:  include_once(): Failed opening '/home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ServicoDAOPredial.php' for inclusion (include_path='.:/opt/php71/lib/php') in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceRelatorioOSPredial.php on line 5
+[19-Nov-2019 12:07:05 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Class 'ServicoDAOPredial' not found in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceRelatorioOSPredial.php:13
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOSPredial.php(10): ServiceRelatorioOSPredial->__construct()
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio-geral-os.php(5): ControleRelatorioOSPredial->__construct()
+#2 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceRelatorioOSPredial.php on line 13
+[19-Nov-2019 12:07:07 America/Sao_Paulo] PHP Warning:  include_once(/home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ServicoDAOPredial.php): failed to open stream: No such file or directory in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceRelatorioOSPredial.php on line 5
+[19-Nov-2019 12:07:07 America/Sao_Paulo] PHP Warning:  include_once(): Failed opening '/home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ServicoDAOPredial.php' for inclusion (include_path='.:/opt/php71/lib/php') in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceRelatorioOSPredial.php on line 5
+[19-Nov-2019 12:07:07 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Class 'ServicoDAOPredial' not found in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceRelatorioOSPredial.php:13
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOSPredial.php(10): ServiceRelatorioOSPredial->__construct()
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio-geral-os.php(5): ControleRelatorioOSPredial->__construct()
+#2 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceRelatorioOSPredial.php on line 13
+[19-Nov-2019 12:07:34 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function getServicoById() on null in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php:137
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php(109): OrdemServicoDAO->getServicosByOrdemServico('25')
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceOrdemServico.php(52): OrdemServicoDAO->getOrdemServicos()
+#2 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(28): ServiceOrdemServico->getListaOrdemServico()
+#3 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(36): ControleRelatorioOS->carregarOrdemServico(-1)
+#4 /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio-geral-os.php(6): ControleRelatorioOS->gerarRelatorioOS(-1)
+#5 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php on line 137
+[19-Nov-2019 12:07:36 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function getServicoById() on null in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php:137
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php(109): OrdemServicoDAO->getServicosByOrdemServico('25')
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceOrdemServico.php(52): OrdemServicoDAO->getOrdemServicos()
+#2 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(28): ServiceOrdemServico->getListaOrdemServico()
+#3 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(36): ControleRelatorioOS->carregarOrdemServico(-1)
+#4 /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio-geral-os.php(6): ControleRelatorioOS->gerarRelatorioOS(-1)
+#5 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php on line 137
+[19-Nov-2019 12:07:55 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function getServicoById() on null in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php:137
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php(109): OrdemServicoDAO->getServicosByOrdemServico('25')
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceOrdemServico.php(52): OrdemServicoDAO->getOrdemServicos()
+#2 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(28): ServiceOrdemServico->getListaOrdemServico()
+#3 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(36): ControleRelatorioOS->carregarOrdemServico(-1)
+#4 /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio-geral-os.php(6): ControleRelatorioOS->gerarRelatorioOS(-1)
+#5 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php on line 137
+[19-Nov-2019 12:10:48 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function getServicoById() on null in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php:137
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php(109): OrdemServicoDAO->getServicosByOrdemServico('25')
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceOrdemServico.php(52): OrdemServicoDAO->getOrdemServicos()
+#2 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(28): ServiceOrdemServico->getListaOrdemServico()
+#3 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(36): ControleRelatorioOS->carregarOrdemServico(-1)
+#4 /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio-geral-os.php(6): ControleRelatorioOS->gerarRelatorioOS(-1)
+#5 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php on line 137
+[19-Nov-2019 12:10:51 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Cannot instantiate abstract class ServicoDAO in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceRelatorioOSPredial.php:13
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOSPredial.php(10): ServiceRelatorioOSPredial->__construct()
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio-geral-os.php(5): ControleRelatorioOSPredial->__construct()
+#2 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceRelatorioOSPredial.php on line 13
+[19-Nov-2019 12:10:53 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Cannot instantiate abstract class ServicoDAO in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceRelatorioOSPredial.php:13
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOSPredial.php(10): ServiceRelatorioOSPredial->__construct()
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio-geral-os.php(5): ControleRelatorioOSPredial->__construct()
+#2 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceRelatorioOSPredial.php on line 13
+[19-Nov-2019 12:10:53 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Cannot instantiate abstract class ServicoDAO in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceRelatorioOSPredial.php:13
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOSPredial.php(10): ServiceRelatorioOSPredial->__construct()
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio-geral-os.php(5): ControleRelatorioOSPredial->__construct()
+#2 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceRelatorioOSPredial.php on line 13
+[19-Nov-2019 12:10:54 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Cannot instantiate abstract class ServicoDAO in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceRelatorioOSPredial.php:13
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOSPredial.php(10): ServiceRelatorioOSPredial->__construct()
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio-geral-os.php(5): ControleRelatorioOSPredial->__construct()
+#2 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceRelatorioOSPredial.php on line 13
+[19-Nov-2019 14:21:38 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Cannot instantiate abstract class ServicoDAO in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceRelatorioOSPredial.php:13
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOSPredial.php(10): ServiceRelatorioOSPredial->__construct()
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio-geral-os.php(5): ControleRelatorioOSPredial->__construct()
+#2 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceRelatorioOSPredial.php on line 13
+[19-Nov-2019 14:23:24 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Cannot instantiate abstract class ServicoDAO in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceRelatorioOSPredial.php:13
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOSPredial.php(10): ServiceRelatorioOSPredial->__construct()
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio-geral-os.php(5): ControleRelatorioOSPredial->__construct()
+#2 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceRelatorioOSPredial.php on line 13
+[19-Nov-2019 14:24:29 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function getServicoById() on null in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php:137
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php(109): OrdemServicoDAO->getServicosByOrdemServico('25')
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceOrdemServico.php(52): OrdemServicoDAO->getOrdemServicos()
+#2 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(28): ServiceOrdemServico->getListaOrdemServico()
+#3 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(36): ControleRelatorioOS->carregarOrdemServico(-1)
+#4 /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio-geral-os.php(6): ControleRelatorioOS->gerarRelatorioOS(-1)
+#5 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php on line 137
+[19-Nov-2019 14:24:31 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function getServicoById() on null in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php:137
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php(109): OrdemServicoDAO->getServicosByOrdemServico('25')
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceOrdemServico.php(52): OrdemServicoDAO->getOrdemServicos()
+#2 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(28): ServiceOrdemServico->getListaOrdemServico()
+#3 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(36): ControleRelatorioOS->carregarOrdemServico(-1)
+#4 /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio-geral-os.php(6): ControleRelatorioOS->gerarRelatorioOS(-1)
+#5 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php on line 137
+[19-Nov-2019 14:26:20 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function getServicoById() on null in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php:137
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php(109): OrdemServicoDAO->getServicosByOrdemServico('25')
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceOrdemServico.php(52): OrdemServicoDAO->getOrdemServicos()
+#2 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(28): ServiceOrdemServico->getListaOrdemServico()
+#3 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(36): ControleRelatorioOS->carregarOrdemServico(-1)
+#4 /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio-geral-os.php(6): ControleRelatorioOS->gerarRelatorioOS(-1)
+#5 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php on line 137
+[19-Nov-2019 14:26:24 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function getServicoById() on null in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php:137
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php(109): OrdemServicoDAO->getServicosByOrdemServico('25')
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceOrdemServico.php(52): OrdemServicoDAO->getOrdemServicos()
+#2 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(28): ServiceOrdemServico->getListaOrdemServico()
+#3 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(36): ControleRelatorioOS->carregarOrdemServico(-1)
+#4 /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio-geral-os.php(6): ControleRelatorioOS->gerarRelatorioOS(-1)
+#5 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php on line 137
+[19-Nov-2019 14:26:26 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function getServicoById() on null in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php:137
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php(109): OrdemServicoDAO->getServicosByOrdemServico('25')
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceOrdemServico.php(52): OrdemServicoDAO->getOrdemServicos()
+#2 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(28): ServiceOrdemServico->getListaOrdemServico()
+#3 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(36): ControleRelatorioOS->carregarOrdemServico(-1)
+#4 /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio-geral-os.php(6): ControleRelatorioOS->gerarRelatorioOS(-1)
+#5 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php on line 137
+[19-Nov-2019 14:27:02 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function getServicoById() on null in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php:137
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php(109): OrdemServicoDAO->getServicosByOrdemServico('25')
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceOrdemServico.php(52): OrdemServicoDAO->getOrdemServicos()
+#2 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(28): ServiceOrdemServico->getListaOrdemServico()
+#3 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(36): ControleRelatorioOS->carregarOrdemServico(-1)
+#4 /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio-geral-os.php(6): ControleRelatorioOS->gerarRelatorioOS(-1)
+#5 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php on line 137
+[19-Nov-2019 14:27:03 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function getServicoById() on null in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php:137
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php(109): OrdemServicoDAO->getServicosByOrdemServico('25')
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceOrdemServico.php(52): OrdemServicoDAO->getOrdemServicos()
+#2 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(28): ServiceOrdemServico->getListaOrdemServico()
+#3 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(36): ControleRelatorioOS->carregarOrdemServico(-1)
+#4 /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio-geral-os.php(6): ControleRelatorioOS->gerarRelatorioOS(-1)
+#5 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php on line 137
+[19-Nov-2019 14:27:04 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function getServicoById() on null in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php:137
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php(109): OrdemServicoDAO->getServicosByOrdemServico('25')
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceOrdemServico.php(52): OrdemServicoDAO->getOrdemServicos()
+#2 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(28): ServiceOrdemServico->getListaOrdemServico()
+#3 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(36): ControleRelatorioOS->carregarOrdemServico(-1)
+#4 /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio-geral-os.php(6): ControleRelatorioOS->gerarRelatorioOS(-1)
+#5 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php on line 137
+[19-Nov-2019 14:27:22 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function getServicoById() on null in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php:138
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php(110): OrdemServicoDAO->getServicosByOrdemServico('25')
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceOrdemServico.php(52): OrdemServicoDAO->getOrdemServicos()
+#2 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(28): ServiceOrdemServico->getListaOrdemServico()
+#3 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(36): ControleRelatorioOS->carregarOrdemServico(-1)
+#4 /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio-geral-os.php(6): ControleRelatorioOS->gerarRelatorioOS(-1)
+#5 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php on line 138
+[19-Nov-2019 14:27:24 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function getServicoById() on null in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php:138
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php(110): OrdemServicoDAO->getServicosByOrdemServico('25')
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceOrdemServico.php(52): OrdemServicoDAO->getOrdemServicos()
+#2 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(28): ServiceOrdemServico->getListaOrdemServico()
+#3 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(36): ControleRelatorioOS->carregarOrdemServico(-1)
+#4 /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio-geral-os.php(6): ControleRelatorioOS->gerarRelatorioOS(-1)
+#5 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php on line 138
+[19-Nov-2019 14:28:55 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function getServicoById() on null in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php:138
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php(110): OrdemServicoDAO->getServicosByOrdemServico('25')
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceOrdemServico.php(52): OrdemServicoDAO->getOrdemServicos()
+#2 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(28): ServiceOrdemServico->getListaOrdemServico()
+#3 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(36): ControleRelatorioOS->carregarOrdemServico(-1)
+#4 /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio-geral-os.php(6): ControleRelatorioOS->gerarRelatorioOS(-1)
+#5 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php on line 138
+[19-Nov-2019 14:28:56 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function getServicoById() on null in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php:138
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php(110): OrdemServicoDAO->getServicosByOrdemServico('25')
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceOrdemServico.php(52): OrdemServicoDAO->getOrdemServicos()
+#2 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(28): ServiceOrdemServico->getListaOrdemServico()
+#3 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(36): ControleRelatorioOS->carregarOrdemServico(-1)
+#4 /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio-geral-os.php(6): ControleRelatorioOS->gerarRelatorioOS(-1)
+#5 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php on line 138
+[19-Nov-2019 14:28:57 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function getServicoById() on null in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php:138
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php(110): OrdemServicoDAO->getServicosByOrdemServico('25')
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceOrdemServico.php(52): OrdemServicoDAO->getOrdemServicos()
+#2 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(28): ServiceOrdemServico->getListaOrdemServico()
+#3 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(36): ControleRelatorioOS->carregarOrdemServico(-1)
+#4 /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio-geral-os.php(6): ControleRelatorioOS->gerarRelatorioOS(-1)
+#5 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php on line 138
+[19-Nov-2019 14:31:02 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function getServicoById() on null in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php:138
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php(110): OrdemServicoDAO->getServicosByOrdemServico('25')
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceOrdemServico.php(52): OrdemServicoDAO->getOrdemServicos()
+#2 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(28): ServiceOrdemServico->getListaOrdemServico()
+#3 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(36): ControleRelatorioOS->carregarOrdemServico(-1)
+#4 /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio-geral-os.php(6): ControleRelatorioOS->gerarRelatorioOS(-1)
+#5 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php on line 138
+[19-Nov-2019 14:31:09 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Cannot instantiate abstract class ServicoDAO in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/imprevistoDAO.php:15
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceImprevisto.php(11): ImprevistoDAO->__construct()
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroImprevisto.php(13): ServiceImprevisto->__construct()
+#2 /home1/anaju876/public_html/pds.dev.anaju.me/gui/cadastro-imprevisto.php(5): ControleCadastroImprevisto->__construct()
+#3 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/imprevistoDAO.php on line 15
+[19-Nov-2019 14:31:12 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function instanceOfTipoServicoDAO() on null in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceRelatorioOSPredial.php:12
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOSPredial.php(10): ServiceRelatorioOSPredial->__construct()
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio-geral-os.php(5): ControleRelatorioOSPredial->__construct()
+#2 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceRelatorioOSPredial.php on line 12
+[19-Nov-2019 14:31:13 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function getServicoById() on null in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php:138
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php(110): OrdemServicoDAO->getServicosByOrdemServico('25')
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceOrdemServico.php(52): OrdemServicoDAO->getOrdemServicos()
+#2 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(28): ServiceOrdemServico->getListaOrdemServico()
+#3 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(36): ControleRelatorioOS->carregarOrdemServico(-1)
+#4 /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio_funcionario.php(6): ControleRelatorioOS->gerarRelatorioOS(-1)
+#5 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php on line 138
+[19-Nov-2019 14:31:16 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function instanceOfTipoServicoDAO() on null in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceRelatorioOSPredial.php:12
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOSPredial.php(10): ServiceRelatorioOSPredial->__construct()
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio-geral-os.php(5): ControleRelatorioOSPredial->__construct()
+#2 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceRelatorioOSPredial.php on line 12
+[19-Nov-2019 14:31:18 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function getServicoById() on null in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php:138
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php(110): OrdemServicoDAO->getServicosByOrdemServico('25')
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceOrdemServico.php(52): OrdemServicoDAO->getOrdemServicos()
+#2 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(28): ServiceOrdemServico->getListaOrdemServico()
+#3 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(36): ControleRelatorioOS->carregarOrdemServico(-1)
+#4 /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio_funcionario.php(6): ControleRelatorioOS->gerarRelatorioOS(-1)
+#5 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php on line 138
+[19-Nov-2019 14:31:20 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function instanceOfTipoServicoDAO() on null in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceRelatorioOSPredial.php:12
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOSPredial.php(10): ServiceRelatorioOSPredial->__construct()
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio-geral-os.php(5): ControleRelatorioOSPredial->__construct()
+#2 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceRelatorioOSPredial.php on line 12
+[19-Nov-2019 14:32:15 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function getServicoById() on null in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php:138
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php(110): OrdemServicoDAO->getServicosByOrdemServico('25')
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceOrdemServico.php(52): OrdemServicoDAO->getOrdemServicos()
+#2 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(28): ServiceOrdemServico->getListaOrdemServico()
+#3 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(36): ControleRelatorioOS->carregarOrdemServico(-1)
+#4 /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio-geral-os.php(6): ControleRelatorioOS->gerarRelatorioOS(-1)
+#5 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php on line 138
+[19-Nov-2019 14:32:16 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function getServicoById() on null in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php:138
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php(110): OrdemServicoDAO->getServicosByOrdemServico('25')
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceOrdemServico.php(52): OrdemServicoDAO->getOrdemServicos()
+#2 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(28): ServiceOrdemServico->getListaOrdemServico()
+#3 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(36): ControleRelatorioOS->carregarOrdemServico(-1)
+#4 /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio-geral-os.php(6): ControleRelatorioOS->gerarRelatorioOS(-1)
+#5 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php on line 138
+[19-Nov-2019 14:32:19 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function getServicoById() on null in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php:138
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php(110): OrdemServicoDAO->getServicosByOrdemServico('25')
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceOrdemServico.php(52): OrdemServicoDAO->getOrdemServicos()
+#2 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(28): ServiceOrdemServico->getListaOrdemServico()
+#3 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(36): ControleRelatorioOS->carregarOrdemServico(-1)
+#4 /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio-geral-os.php(6): ControleRelatorioOS->gerarRelatorioOS(-1)
+#5 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php on line 138
+[19-Nov-2019 14:32:21 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function getServicoById() on null in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php:138
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php(110): OrdemServicoDAO->getServicosByOrdemServico('25')
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceOrdemServico.php(52): OrdemServicoDAO->getOrdemServicos()
+#2 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(28): ServiceOrdemServico->getListaOrdemServico()
+#3 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(36): ControleRelatorioOS->carregarOrdemServico(-1)
+#4 /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio-geral-os.php(6): ControleRelatorioOS->gerarRelatorioOS(-1)
+#5 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php on line 138
+[19-Nov-2019 14:35:00 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function getServicoById() on null in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php:138
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php(110): OrdemServicoDAO->getServicosByOrdemServico('25')
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceOrdemServico.php(52): OrdemServicoDAO->getOrdemServicos()
+#2 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(28): ServiceOrdemServico->getListaOrdemServico()
+#3 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(36): ControleRelatorioOS->carregarOrdemServico(-1)
+#4 /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio-geral-os.php(6): ControleRelatorioOS->gerarRelatorioOS(-1)
+#5 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php on line 138
+[19-Nov-2019 14:43:30 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function getServicoById() on null in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php:141
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php(113): OrdemServicoDAO->getServicosByOrdemServico('25')
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceOrdemServico.php(52): OrdemServicoDAO->getOrdemServicos()
+#2 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(28): ServiceOrdemServico->getListaOrdemServico()
+#3 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(36): ControleRelatorioOS->carregarOrdemServico(-1)
+#4 /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio-geral-os.php(6): ControleRelatorioOS->gerarRelatorioOS(-1)
+#5 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php on line 141
+[19-Nov-2019 14:43:37 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function getServicoById() on null in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php:141
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php(113): OrdemServicoDAO->getServicosByOrdemServico('25')
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceOrdemServico.php(52): OrdemServicoDAO->getOrdemServicos()
+#2 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(28): ServiceOrdemServico->getListaOrdemServico()
+#3 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(36): ControleRelatorioOS->carregarOrdemServico(-1)
+#4 /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio-geral-os.php(6): ControleRelatorioOS->gerarRelatorioOS(-1)
+#5 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php on line 141
+[19-Nov-2019 14:43:40 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function getServicoById() on null in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php:141
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php(113): OrdemServicoDAO->getServicosByOrdemServico('25')
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceOrdemServico.php(52): OrdemServicoDAO->getOrdemServicos()
+#2 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(28): ServiceOrdemServico->getListaOrdemServico()
+#3 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(36): ControleRelatorioOS->carregarOrdemServico(-1)
+#4 /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio-geral-os.php(6): ControleRelatorioOS->gerarRelatorioOS(-1)
+#5 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php on line 141
+[19-Nov-2019 14:43:43 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function getServicoById() on null in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php:141
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php(113): OrdemServicoDAO->getServicosByOrdemServico('25')
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceOrdemServico.php(52): OrdemServicoDAO->getOrdemServicos()
+#2 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(28): ServiceOrdemServico->getListaOrdemServico()
+#3 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(36): ControleRelatorioOS->carregarOrdemServico(-1)
+#4 /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio-geral-os.php(6): ControleRelatorioOS->gerarRelatorioOS(-1)
+#5 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php on line 141
+[19-Nov-2019 14:48:50 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function getServicoById() on null in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php:141
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php(113): OrdemServicoDAO->getServicosByOrdemServico('25')
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceOrdemServico.php(52): OrdemServicoDAO->getOrdemServicos()
+#2 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(28): ServiceOrdemServico->getListaOrdemServico()
+#3 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(36): ControleRelatorioOS->carregarOrdemServico(-1)
+#4 /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio-geral-os.php(6): ControleRelatorioOS->gerarRelatorioOS(-1)
+#5 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php on line 141
+[19-Nov-2019 14:50:50 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function getServicoById() on null in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php:141
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php(113): OrdemServicoDAO->getServicosByOrdemServico('25')
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceOrdemServico.php(52): OrdemServicoDAO->getOrdemServicos()
+#2 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(28): ServiceOrdemServico->getListaOrdemServico()
+#3 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(36): ControleRelatorioOS->carregarOrdemServico(-1)
+#4 /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio-geral-os.php(6): ControleRelatorioOS->gerarRelatorioOS(-1)
+#5 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php on line 141
+[19-Nov-2019 15:02:08 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function getServicoById() on null in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php:141
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php(113): OrdemServicoDAO->getServicosByOrdemServico('25')
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceOrdemServico.php(52): OrdemServicoDAO->getOrdemServicos()
+#2 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(28): ServiceOrdemServico->getListaOrdemServico()
+#3 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(36): ControleRelatorioOS->carregarOrdemServico(-1)
+#4 /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio-geral-os.php(6): ControleRelatorioOS->gerarRelatorioOS(-1)
+#5 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php on line 141
+[19-Nov-2019 15:02:10 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function getServicoById() on null in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php:141
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php(113): OrdemServicoDAO->getServicosByOrdemServico('25')
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceOrdemServico.php(52): OrdemServicoDAO->getOrdemServicos()
+#2 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(28): ServiceOrdemServico->getListaOrdemServico()
+#3 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(36): ControleRelatorioOS->carregarOrdemServico(-1)
+#4 /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio-geral-os.php(6): ControleRelatorioOS->gerarRelatorioOS(-1)
+#5 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php on line 141
+[19-Nov-2019 15:02:11 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function getServicoById() on null in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php:141
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php(113): OrdemServicoDAO->getServicosByOrdemServico('25')
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceOrdemServico.php(52): OrdemServicoDAO->getOrdemServicos()
+#2 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(28): ServiceOrdemServico->getListaOrdemServico()
+#3 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(36): ControleRelatorioOS->carregarOrdemServico(-1)
+#4 /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio-geral-os.php(6): ControleRelatorioOS->gerarRelatorioOS(-1)
+#5 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php on line 141
+[19-Nov-2019 15:02:12 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function getServicoById() on null in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php:141
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php(113): OrdemServicoDAO->getServicosByOrdemServico('25')
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceOrdemServico.php(52): OrdemServicoDAO->getOrdemServicos()
+#2 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(28): ServiceOrdemServico->getListaOrdemServico()
+#3 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(36): ControleRelatorioOS->carregarOrdemServico(-1)
+#4 /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio-geral-os.php(6): ControleRelatorioOS->gerarRelatorioOS(-1)
+#5 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php on line 141
+[19-Nov-2019 18:39:03 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function getServicoById() on null in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php:141
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php(113): OrdemServicoDAO->getServicosByOrdemServico('25')
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceOrdemServico.php(52): OrdemServicoDAO->getOrdemServicos()
+#2 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(28): ServiceOrdemServico->getListaOrdemServico()
+#3 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(36): ControleRelatorioOS->carregarOrdemServico(-1)
+#4 /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio-geral-os.php(6): ControleRelatorioOS->gerarRelatorioOS(-1)
+#5 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php on line 141
+[19-Nov-2019 20:12:18 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function getServicoById() on null in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php:141
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php(113): OrdemServicoDAO->getServicosByOrdemServico('25')
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceOrdemServico.php(52): OrdemServicoDAO->getOrdemServicos()
+#2 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(28): ServiceOrdemServico->getListaOrdemServico()
+#3 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(36): ControleRelatorioOS->carregarOrdemServico(-1)
+#4 /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio-geral-os.php(6): ControleRelatorioOS->gerarRelatorioOS(-1)
+#5 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php on line 141
+[19-Nov-2019 20:13:47 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function getServicoById() on null in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php:143
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php(115): OrdemServicoDAO->getServicosByOrdemServico('25')
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceOrdemServico.php(52): OrdemServicoDAO->getOrdemServicos()
+#2 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(28): ServiceOrdemServico->getListaOrdemServico()
+#3 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(36): ControleRelatorioOS->carregarOrdemServico(-1)
+#4 /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio-geral-os.php(6): ControleRelatorioOS->gerarRelatorioOS(-1)
+#5 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php on line 143
+[19-Nov-2019 20:16:46 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function getListaOrdemServico() on null in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php:28
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(36): ControleRelatorioOS->carregarOrdemServico(-1)
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio-geral-os.php(6): ControleRelatorioOS->gerarRelatorioOS(-1)
+#2 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php on line 28
+[19-Nov-2019 20:16:47 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function getListaOrdemServico() on null in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php:28
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(36): ControleRelatorioOS->carregarOrdemServico(-1)
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio-geral-os.php(6): ControleRelatorioOS->gerarRelatorioOS(-1)
+#2 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php on line 28
+[19-Nov-2019 20:16:48 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function getListaOrdemServico() on null in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php:28
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(36): ControleRelatorioOS->carregarOrdemServico(-1)
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio-geral-os.php(6): ControleRelatorioOS->gerarRelatorioOS(-1)
+#2 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php on line 28
+[19-Nov-2019 20:16:49 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function getListaOrdemServico() on null in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php:28
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(36): ControleRelatorioOS->carregarOrdemServico(-1)
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio-geral-os.php(6): ControleRelatorioOS->gerarRelatorioOS(-1)
+#2 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php on line 28
+[19-Nov-2019 20:16:50 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function getListaOrdemServico() on null in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php:28
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(36): ControleRelatorioOS->carregarOrdemServico(-1)
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio-geral-os.php(6): ControleRelatorioOS->gerarRelatorioOS(-1)
+#2 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php on line 28
+[19-Nov-2019 20:20:41 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function getServicoById() on null in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php:142
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php(114): OrdemServicoDAO->getServicosByOrdemServico('25')
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceOrdemServico.php(52): OrdemServicoDAO->getOrdemServicos()
+#2 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(28): ServiceOrdemServico->getListaOrdemServico()
+#3 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(36): ControleRelatorioOS->carregarOrdemServico(-1)
+#4 /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio-geral-os.php(6): ControleRelatorioOS->gerarRelatorioOS(-1)
+#5 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php on line 142
+[19-Nov-2019 20:20:43 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function getServicoById() on null in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php:142
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php(114): OrdemServicoDAO->getServicosByOrdemServico('25')
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceOrdemServico.php(52): OrdemServicoDAO->getOrdemServicos()
+#2 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(28): ServiceOrdemServico->getListaOrdemServico()
+#3 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(36): ControleRelatorioOS->carregarOrdemServico(-1)
+#4 /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio-geral-os.php(6): ControleRelatorioOS->gerarRelatorioOS(-1)
+#5 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php on line 142
+[19-Nov-2019 20:20:44 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function getServicoById() on null in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php:142
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php(114): OrdemServicoDAO->getServicosByOrdemServico('25')
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceOrdemServico.php(52): OrdemServicoDAO->getOrdemServicos()
+#2 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(28): ServiceOrdemServico->getListaOrdemServico()
+#3 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(36): ControleRelatorioOS->carregarOrdemServico(-1)
+#4 /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio-geral-os.php(6): ControleRelatorioOS->gerarRelatorioOS(-1)
+#5 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php on line 142
+[19-Nov-2019 20:20:45 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function getServicoById() on null in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php:142
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php(114): OrdemServicoDAO->getServicosByOrdemServico('25')
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceOrdemServico.php(52): OrdemServicoDAO->getOrdemServicos()
+#2 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(28): ServiceOrdemServico->getListaOrdemServico()
+#3 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(36): ControleRelatorioOS->carregarOrdemServico(-1)
+#4 /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio-geral-os.php(6): ControleRelatorioOS->gerarRelatorioOS(-1)
+#5 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php on line 142
+[19-Nov-2019 20:24:12 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function getServicoById() on null in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php:143
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php(115): OrdemServicoDAO->getServicosByOrdemServico('25')
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceOrdemServico.php(52): OrdemServicoDAO->getOrdemServicos()
+#2 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(28): ServiceOrdemServico->getListaOrdemServico()
+#3 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(36): ControleRelatorioOS->carregarOrdemServico(-1)
+#4 /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio-geral-os.php(6): ControleRelatorioOS->gerarRelatorioOS(-1)
+#5 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php on line 143
+[19-Nov-2019 20:24:14 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Class 'OrdemServicoDAO' not found in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceOrdemServico.php:13
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(18): ServiceOrdemServico->__construct()
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOSPredial.php(9): ControleRelatorioOS->__construct()
+#2 /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio-geral-os.php(5): ControleRelatorioOSPredial->__construct()
+#3 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceOrdemServico.php on line 13
+[19-Nov-2019 20:24:15 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function instanceOfTipoServicoDAO() on null in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOSPredial.php:11
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio-geral-os.php(5): ControleRelatorioOSPredial->__construct()
+#1 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOSPredial.php on line 11
+[19-Nov-2019 20:24:16 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function instanceOfTipoServicoDAO() on null in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOSPredial.php:11
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio-geral-os.php(5): ControleRelatorioOSPredial->__construct()
+#1 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOSPredial.php on line 11
+[19-Nov-2019 20:24:17 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function instanceOfTipoServicoDAO() on null in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOSPredial.php:11
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio-geral-os.php(5): ControleRelatorioOSPredial->__construct()
+#1 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOSPredial.php on line 11
+[19-Nov-2019 20:24:59 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function instanceOfTipoServicoDAO() on null in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOSPredial.php:11
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio-geral-os.php(5): ControleRelatorioOSPredial->__construct()
+#1 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOSPredial.php on line 11
+[19-Nov-2019 20:25:00 America/Sao_Paulo] PHP Warning:  include_once(/home1/anaju876/public_html/pds.dev.anaju.me/data/dao/tipoServicoDAOPredial.php): failed to open stream: No such file or directory in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOSPredial.php on line 4
+[19-Nov-2019 20:25:00 America/Sao_Paulo] PHP Warning:  include_once(): Failed opening '/home1/anaju876/public_html/pds.dev.anaju.me/data/dao/tipoServicoDAOPredial.php' for inclusion (include_path='.:/opt/php71/lib/php') in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOSPredial.php on line 4
+[19-Nov-2019 20:25:00 America/Sao_Paulo] PHP Warning:  include_once(/home1/anaju876/public_html/pds.dev.anaju.me/data/dao/servicoDAOPredial.php): failed to open stream: No such file or directory in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOSPredial.php on line 5
+[19-Nov-2019 20:25:00 America/Sao_Paulo] PHP Warning:  include_once(): Failed opening '/home1/anaju876/public_html/pds.dev.anaju.me/data/dao/servicoDAOPredial.php' for inclusion (include_path='.:/opt/php71/lib/php') in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOSPredial.php on line 5
+[19-Nov-2019 20:25:00 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function instanceOfTipoServicoDAO() on null in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOSPredial.php:13
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio-geral-os.php(5): ControleRelatorioOSPredial->__construct()
+#1 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOSPredial.php on line 13
+[19-Nov-2019 20:25:02 America/Sao_Paulo] PHP Warning:  include_once(/home1/anaju876/public_html/pds.dev.anaju.me/data/dao/tipoServicoDAOPredial.php): failed to open stream: No such file or directory in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOSPredial.php on line 4
+[19-Nov-2019 20:25:02 America/Sao_Paulo] PHP Warning:  include_once(): Failed opening '/home1/anaju876/public_html/pds.dev.anaju.me/data/dao/tipoServicoDAOPredial.php' for inclusion (include_path='.:/opt/php71/lib/php') in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOSPredial.php on line 4
+[19-Nov-2019 20:25:02 America/Sao_Paulo] PHP Warning:  include_once(/home1/anaju876/public_html/pds.dev.anaju.me/data/dao/servicoDAOPredial.php): failed to open stream: No such file or directory in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOSPredial.php on line 5
+[19-Nov-2019 20:25:02 America/Sao_Paulo] PHP Warning:  include_once(): Failed opening '/home1/anaju876/public_html/pds.dev.anaju.me/data/dao/servicoDAOPredial.php' for inclusion (include_path='.:/opt/php71/lib/php') in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOSPredial.php on line 5
+[19-Nov-2019 20:25:02 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function instanceOfTipoServicoDAO() on null in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOSPredial.php:13
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio-geral-os.php(5): ControleRelatorioOSPredial->__construct()
+#1 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOSPredial.php on line 13
+[19-Nov-2019 20:25:03 America/Sao_Paulo] PHP Warning:  include_once(/home1/anaju876/public_html/pds.dev.anaju.me/data/dao/tipoServicoDAOPredial.php): failed to open stream: No such file or directory in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOSPredial.php on line 4
+[19-Nov-2019 20:25:03 America/Sao_Paulo] PHP Warning:  include_once(): Failed opening '/home1/anaju876/public_html/pds.dev.anaju.me/data/dao/tipoServicoDAOPredial.php' for inclusion (include_path='.:/opt/php71/lib/php') in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOSPredial.php on line 4
+[19-Nov-2019 20:25:03 America/Sao_Paulo] PHP Warning:  include_once(/home1/anaju876/public_html/pds.dev.anaju.me/data/dao/servicoDAOPredial.php): failed to open stream: No such file or directory in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOSPredial.php on line 5
+[19-Nov-2019 20:25:03 America/Sao_Paulo] PHP Warning:  include_once(): Failed opening '/home1/anaju876/public_html/pds.dev.anaju.me/data/dao/servicoDAOPredial.php' for inclusion (include_path='.:/opt/php71/lib/php') in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOSPredial.php on line 5
+[19-Nov-2019 20:25:03 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function instanceOfTipoServicoDAO() on null in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOSPredial.php:13
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio-geral-os.php(5): ControleRelatorioOSPredial->__construct()
+#1 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOSPredial.php on line 13
+[19-Nov-2019 20:25:04 America/Sao_Paulo] PHP Warning:  include_once(/home1/anaju876/public_html/pds.dev.anaju.me/data/dao/tipoServicoDAOPredial.php): failed to open stream: No such file or directory in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOSPredial.php on line 4
+[19-Nov-2019 20:25:04 America/Sao_Paulo] PHP Warning:  include_once(): Failed opening '/home1/anaju876/public_html/pds.dev.anaju.me/data/dao/tipoServicoDAOPredial.php' for inclusion (include_path='.:/opt/php71/lib/php') in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOSPredial.php on line 4
+[19-Nov-2019 20:25:04 America/Sao_Paulo] PHP Warning:  include_once(/home1/anaju876/public_html/pds.dev.anaju.me/data/dao/servicoDAOPredial.php): failed to open stream: No such file or directory in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOSPredial.php on line 5
+[19-Nov-2019 20:25:04 America/Sao_Paulo] PHP Warning:  include_once(): Failed opening '/home1/anaju876/public_html/pds.dev.anaju.me/data/dao/servicoDAOPredial.php' for inclusion (include_path='.:/opt/php71/lib/php') in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOSPredial.php on line 5
+[19-Nov-2019 20:25:04 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function instanceOfTipoServicoDAO() on null in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOSPredial.php:13
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio-geral-os.php(5): ControleRelatorioOSPredial->__construct()
+#1 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOSPredial.php on line 13
+[19-Nov-2019 20:25:20 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function instanceOfTipoServicoDAO() on null in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOSPredial.php:13
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio-geral-os.php(5): ControleRelatorioOSPredial->__construct()
+#1 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOSPredial.php on line 13
+[19-Nov-2019 20:25:21 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function instanceOfTipoServicoDAO() on null in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOSPredial.php:13
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio-geral-os.php(5): ControleRelatorioOSPredial->__construct()
+#1 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOSPredial.php on line 13
+[19-Nov-2019 20:25:24 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function instanceOfTipoServicoDAO() on null in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOSPredial.php:13
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio-geral-os.php(5): ControleRelatorioOSPredial->__construct()
+#1 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOSPredial.php on line 13
+[19-Nov-2019 20:25:25 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function instanceOfTipoServicoDAO() on null in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOSPredial.php:13
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio-geral-os.php(5): ControleRelatorioOSPredial->__construct()
+#1 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOSPredial.php on line 13
+[19-Nov-2019 20:26:17 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function instanceOfTipoServicoDAO() on null in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOSPredial.php:13
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio-geral-os.php(5): ControleRelatorioOSPredial->__construct()
+#1 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOSPredial.php on line 13
+[19-Nov-2019 20:26:18 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function instanceOfTipoServicoDAO() on null in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOSPredial.php:13
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio-geral-os.php(5): ControleRelatorioOSPredial->__construct()
+#1 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOSPredial.php on line 13
+[19-Nov-2019 20:26:19 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function instanceOfTipoServicoDAO() on null in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOSPredial.php:13
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio-geral-os.php(5): ControleRelatorioOSPredial->__construct()
+#1 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOSPredial.php on line 13
+[19-Nov-2019 20:26:20 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function instanceOfTipoServicoDAO() on null in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOSPredial.php:14
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio-geral-os.php(5): ControleRelatorioOSPredial->__construct()
+#1 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOSPredial.php on line 14
+[19-Nov-2019 20:26:21 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function instanceOfTipoServicoDAO() on null in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOSPredial.php:14
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio-geral-os.php(5): ControleRelatorioOSPredial->__construct()
+#1 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOSPredial.php on line 14
+[19-Nov-2019 20:26:22 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function instanceOfTipoServicoDAO() on null in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOSPredial.php:14
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio-geral-os.php(5): ControleRelatorioOSPredial->__construct()
+#1 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOSPredial.php on line 14
+[19-Nov-2019 20:26:23 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function instanceOfTipoServicoDAO() on null in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOSPredial.php:14
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio-geral-os.php(5): ControleRelatorioOSPredial->__construct()
+#1 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOSPredial.php on line 14
+[19-Nov-2019 20:26:23 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function instanceOfTipoServicoDAO() on null in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOSPredial.php:14
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio-geral-os.php(5): ControleRelatorioOSPredial->__construct()
+#1 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOSPredial.php on line 14
+[19-Nov-2019 20:26:58 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function getServicoById() on null in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php:143
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php(115): OrdemServicoDAO->getServicosByOrdemServico('25')
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceOrdemServico.php(52): OrdemServicoDAO->getOrdemServicos()
+#2 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(28): ServiceOrdemServico->getListaOrdemServico()
+#3 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(36): ControleRelatorioOS->carregarOrdemServico(-1)
+#4 /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio-geral-os.php(6): ControleRelatorioOS->gerarRelatorioOS(-1)
+#5 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php on line 143
+[19-Nov-2019 20:26:59 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function getServicoById() on null in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php:143
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php(115): OrdemServicoDAO->getServicosByOrdemServico('25')
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceOrdemServico.php(52): OrdemServicoDAO->getOrdemServicos()
+#2 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(28): ServiceOrdemServico->getListaOrdemServico()
+#3 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(36): ControleRelatorioOS->carregarOrdemServico(-1)
+#4 /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio-geral-os.php(6): ControleRelatorioOS->gerarRelatorioOS(-1)
+#5 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php on line 143
+[19-Nov-2019 20:27:00 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function getServicoById() on null in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php:143
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php(115): OrdemServicoDAO->getServicosByOrdemServico('25')
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceOrdemServico.php(52): OrdemServicoDAO->getOrdemServicos()
+#2 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(28): ServiceOrdemServico->getListaOrdemServico()
+#3 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(36): ControleRelatorioOS->carregarOrdemServico(-1)
+#4 /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio-geral-os.php(6): ControleRelatorioOS->gerarRelatorioOS(-1)
+#5 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php on line 143
+[19-Nov-2019 20:27:24 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function getServicoById() on null in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php:143
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php(115): OrdemServicoDAO->getServicosByOrdemServico('25')
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceOrdemServico.php(52): OrdemServicoDAO->getOrdemServicos()
+#2 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(28): ServiceOrdemServico->getListaOrdemServico()
+#3 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(36): ControleRelatorioOS->carregarOrdemServico(-1)
+#4 /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio-geral-os.php(6): ControleRelatorioOS->gerarRelatorioOS(-1)
+#5 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php on line 143
+[19-Nov-2019 20:27:25 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Class 'OrdemServicoDAO' not found in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceOrdemServico.php:13
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(18): ServiceOrdemServico->__construct()
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOSPredial.php(11): ControleRelatorioOS->__construct()
+#2 /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio-geral-os.php(5): ControleRelatorioOSPredial->__construct()
+#3 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceOrdemServico.php on line 13
+[19-Nov-2019 20:27:26 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function getServicoById() on null in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php:143
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php(115): OrdemServicoDAO->getServicosByOrdemServico('25')
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceOrdemServico.php(52): OrdemServicoDAO->getOrdemServicos()
+#2 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(28): ServiceOrdemServico->getListaOrdemServico()
+#3 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(36): ControleRelatorioOS->carregarOrdemServico(-1)
+#4 /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio-geral-os.php(6): ControleRelatorioOS->gerarRelatorioOS(-1)
+#5 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php on line 143
+[19-Nov-2019 20:27:40 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Class 'ControleRelatorioOSPredial' not found in /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio-geral-os.php:5
+Stack trace:
+#0 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio-geral-os.php on line 5
+[19-Nov-2019 20:27:41 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function instanceOfTipoServicoDAO() on null in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOSPredial.php:13
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio-geral-os.php(5): ControleRelatorioOSPredial->__construct()
+#1 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOSPredial.php on line 13
+[19-Nov-2019 20:27:42 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function instanceOfTipoServicoDAO() on null in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOSPredial.php:13
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio-geral-os.php(5): ControleRelatorioOSPredial->__construct()
+#1 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOSPredial.php on line 13
+[19-Nov-2019 20:29:31 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function getServicoById() on null in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php:143
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php(115): OrdemServicoDAO->getServicosByOrdemServico('25')
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceOrdemServico.php(52): OrdemServicoDAO->getOrdemServicos()
+#2 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(28): ServiceOrdemServico->getListaOrdemServico()
+#3 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(36): ControleRelatorioOS->carregarOrdemServico(-1)
+#4 /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio-geral-os.php(6): ControleRelatorioOS->gerarRelatorioOS(-1)
+#5 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php on line 143
+[19-Nov-2019 20:29:32 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function getServicoById() on null in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php:143
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php(115): OrdemServicoDAO->getServicosByOrdemServico('25')
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceOrdemServico.php(52): OrdemServicoDAO->getOrdemServicos()
+#2 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(28): ServiceOrdemServico->getListaOrdemServico()
+#3 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(36): ControleRelatorioOS->carregarOrdemServico(-1)
+#4 /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio-geral-os.php(6): ControleRelatorioOS->gerarRelatorioOS(-1)
+#5 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php on line 143
+[19-Nov-2019 20:29:33 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function getServicoById() on null in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php:143
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php(115): OrdemServicoDAO->getServicosByOrdemServico('25')
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceOrdemServico.php(52): OrdemServicoDAO->getOrdemServicos()
+#2 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(28): ServiceOrdemServico->getListaOrdemServico()
+#3 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(36): ControleRelatorioOS->carregarOrdemServico(-1)
+#4 /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio-geral-os.php(6): ControleRelatorioOS->gerarRelatorioOS(-1)
+#5 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php on line 143
+[19-Nov-2019 20:29:35 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function getServicoById() on null in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php:143
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php(115): OrdemServicoDAO->getServicosByOrdemServico('25')
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceOrdemServico.php(52): OrdemServicoDAO->getOrdemServicos()
+#2 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(28): ServiceOrdemServico->getListaOrdemServico()
+#3 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(36): ControleRelatorioOS->carregarOrdemServico(-1)
+#4 /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio-geral-os.php(6): ControleRelatorioOS->gerarRelatorioOS(-1)
+#5 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php on line 143
+[19-Nov-2019 20:29:36 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function getServicoById() on null in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php:143
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php(115): OrdemServicoDAO->getServicosByOrdemServico('25')
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceOrdemServico.php(52): OrdemServicoDAO->getOrdemServicos()
+#2 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(28): ServiceOrdemServico->getListaOrdemServico()
+#3 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(36): ControleRelatorioOS->carregarOrdemServico(-1)
+#4 /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio-geral-os.php(6): ControleRelatorioOS->gerarRelatorioOS(-1)
+#5 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php on line 143
+[19-Nov-2019 20:29:55 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Class 'ServiceOrdemServico' not found in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php:18
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOSPredial.php(11): ControleRelatorioOS->__construct()
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio-geral-os.php(5): ControleRelatorioOSPredial->__construct()
+#2 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php on line 18
+[19-Nov-2019 20:29:57 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function getServicoById() on null in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php:143
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php(115): OrdemServicoDAO->getServicosByOrdemServico('25')
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceOrdemServico.php(53): OrdemServicoDAO->getOrdemServicos()
+#2 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(28): ServiceOrdemServico->getListaOrdemServico()
+#3 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(36): ControleRelatorioOS->carregarOrdemServico(-1)
+#4 /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio-geral-os.php(6): ControleRelatorioOS->gerarRelatorioOS(-1)
+#5 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php on line 143
+[19-Nov-2019 20:29:58 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function getServicoById() on null in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php:143
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php(115): OrdemServicoDAO->getServicosByOrdemServico('25')
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceOrdemServico.php(53): OrdemServicoDAO->getOrdemServicos()
+#2 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(28): ServiceOrdemServico->getListaOrdemServico()
+#3 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(36): ControleRelatorioOS->carregarOrdemServico(-1)
+#4 /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio-geral-os.php(6): ControleRelatorioOS->gerarRelatorioOS(-1)
+#5 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php on line 143
+[20-Nov-2019 15:04:34 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Class 'ServiceRelatorioOSPredial' not found in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOSPredial.php:12
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio-geral-os.php(5): ControleRelatorioOSPredial->__construct()
+#1 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOSPredial.php on line 12
+[20-Nov-2019 15:11:35 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to undefined method TipoServicoPredial::setRemocao() in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/tipoServicoDAOPredial.php:23
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/tipoServicoDAO.php(74): TipoServicoDAOPredial->objectTipoServicoById(Object(stdClass))
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/servicoDAOPredial.php(19): TipoServicoDAO->getTipoServicoById('38')
+#2 /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/servicoDAO.php(82): ServicoDAOPredial->getObjectServico(Object(stdClass))
+#3 /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php(144): ServicoDAO->getServicoById('63')
+#4 /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php(116): OrdemServicoDAO->getServicosByOrdemServico('27')
+#5 /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceOrdemServico.php(57): OrdemServicoDAO->getOrdemServicos()
+#6 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/cont in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/tipoServicoDAOPredial.php on line 23
+[20-Nov-2019 15:12:26 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to undefined method TipoServicoPredial::setRemocao() in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/tipoServicoDAOPredial.php:23
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/tipoServicoDAO.php(74): TipoServicoDAOPredial->objectTipoServicoById(Object(stdClass))
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/servicoDAOPredial.php(19): TipoServicoDAO->getTipoServicoById('38')
+#2 /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/servicoDAO.php(82): ServicoDAOPredial->getObjectServico(Object(stdClass))
+#3 /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php(144): ServicoDAO->getServicoById('63')
+#4 /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php(116): OrdemServicoDAO->getServicosByOrdemServico('27')
+#5 /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceOrdemServico.php(57): OrdemServicoDAO->getOrdemServicos()
+#6 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/cont in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/tipoServicoDAOPredial.php on line 23
+[20-Nov-2019 15:52:43 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Class 'ServiceRelatorioOSPredial' not found in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOSPredial.php:12
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio-geral-os.php(5): ControleRelatorioOSPredial->__construct()
+#1 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOSPredial.php on line 12
+[20-Nov-2019 17:01:51 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Cannot instantiate abstract class ServicoDAO in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/imprevistoDAO.php:15
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceImprevisto.php(11): ImprevistoDAO->__construct()
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroImprevisto.php(13): ServiceImprevisto->__construct()
+#2 /home1/anaju876/public_html/pds.dev.anaju.me/gui/cadastro-imprevisto.php(5): ControleCadastroImprevisto->__construct()
+#3 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/imprevistoDAO.php on line 15
+[20-Nov-2019 17:01:56 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function getServicoById() on null in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php:144
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php(116): OrdemServicoDAO->getServicosByOrdemServico('27')
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceOrdemServico.php(57): OrdemServicoDAO->getOrdemServicos()
+#2 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(28): ServiceOrdemServico->getListaOrdemServico()
+#3 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(36): ControleRelatorioOS->carregarOrdemServico(-1)
+#4 /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio_funcionario.php(6): ControleRelatorioOS->gerarRelatorioOS(-1)
+#5 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php on line 144
+[21-Nov-2019 10:21:16 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Cannot instantiate abstract class ServicoDAO in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/imprevistoDAO.php:15
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceImprevisto.php(11): ImprevistoDAO->__construct()
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroImprevisto.php(13): ServiceImprevisto->__construct()
+#2 /home1/anaju876/public_html/pds.dev.anaju.me/gui/cadastro-imprevisto.php(5): ControleCadastroImprevisto->__construct()
+#3 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/imprevistoDAO.php on line 15
+[21-Nov-2019 10:21:17 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function getServicoById() on null in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php:144
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php(116): OrdemServicoDAO->getServicosByOrdemServico('27')
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceOrdemServico.php(57): OrdemServicoDAO->getOrdemServicos()
+#2 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(28): ServiceOrdemServico->getListaOrdemServico()
+#3 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(36): ControleRelatorioOS->carregarOrdemServico(-1)
+#4 /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio_funcionario.php(6): ControleRelatorioOS->gerarRelatorioOS(-1)
+#5 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/ordemServicoDAO.php on line 144
+[21-Nov-2019 10:24:06 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Class 'ControleRelatorioFuncionarioPredial' not found in /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio_funcionario.php:5
+Stack trace:
+#0 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio_funcionario.php on line 5
+[21-Nov-2019 10:24:11 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Class 'ControleRelatorioFuncionarioPredial' not found in /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio_funcionario.php:5
+Stack trace:
+#0 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio_funcionario.php on line 5
+[21-Nov-2019 10:25:18 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to undefined method ControleRelatorioFuncionarioPredial::carregarFuncionarios() in /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio_funcionario.php:7
+Stack trace:
+#0 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio_funcionario.php on line 7
+[21-Nov-2019 10:25:19 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to undefined method ControleRelatorioFuncionarioPredial::carregarFuncionarios() in /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio_funcionario.php:7
+Stack trace:
+#0 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio_funcionario.php on line 7
+[21-Nov-2019 10:26:17 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to undefined method ControleRelatorioFuncionarioPredial::carregarFuncionarios() in /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio_funcionario.php:7
+Stack trace:
+#0 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio_funcionario.php on line 7
+[21-Nov-2019 10:26:19 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to undefined method ControleRelatorioFuncionarioPredial::carregarFuncionarios() in /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio_funcionario.php:7
+Stack trace:
+#0 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio_funcionario.php on line 7
+[21-Nov-2019 10:28:37 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to undefined method ControleRelatorioFuncionarioPredial::carregarFuncionarios() in /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio_funcionario.php:7
+Stack trace:
+#0 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio_funcionario.php on line 7
+[21-Nov-2019 10:28:39 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Class 'ControleRelatorioFuncionarioPredial' not found in /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio_funcionario.php:5
+Stack trace:
+#0 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio_funcionario.php on line 5
+[21-Nov-2019 10:28:40 America/Sao_Paulo] PHP Fatal error:  Class 'ControleRelatorioFuncionario' not found in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioFuncionarioPredial.php on line 12
+[21-Nov-2019 10:28:41 America/Sao_Paulo] PHP Fatal error:  Class 'ControleRelatorioFuncionario' not found in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioFuncionarioPredial.php on line 12
+[21-Nov-2019 10:28:43 America/Sao_Paulo] PHP Fatal error:  Class 'ControleRelatorioFuncionario' not found in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioFuncionarioPredial.php on line 12
+[21-Nov-2019 10:29:07 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Class 'ServiceRelatorioOSPredial' not found in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioFuncionarioPredial.php:16
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio_funcionario.php(5): ControleRelatorioFuncionarioPredial->__construct()
+#1 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioFuncionarioPredial.php on line 16
+[21-Nov-2019 10:29:09 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Class 'ServiceRelatorioOSPredial' not found in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioFuncionarioPredial.php:16
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio_funcionario.php(5): ControleRelatorioFuncionarioPredial->__construct()
+#1 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioFuncionarioPredial.php on line 16
+[21-Nov-2019 10:29:11 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Class 'ServiceRelatorioOSPredial' not found in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioFuncionarioPredial.php:16
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/gui/relatorio_funcionario.php(5): ControleRelatorioFuncionarioPredial->__construct()
+#1 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioFuncionarioPredial.php on line 16

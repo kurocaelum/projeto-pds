@@ -17,7 +17,7 @@ abstract class TipoServicoDAO{
     //('".$tipoServico->getNome()."', '".$tipoServico->getUnidadeMedida()."', '".$tipoServico->getTempo()."')
     public function insertDAO($campos, $values ){
         $sql = "INSERT INTO tipo_servico ".$campos." VALUES ".$values.";";
-
+        // echo $sql;
         if(mysqli_query($this->conexao, $sql) == 0){
             throw new DataException("Erro ao tentar inserir o tipo de serviço no banco de dados.\n");
         }

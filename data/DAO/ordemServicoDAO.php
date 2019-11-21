@@ -21,13 +21,20 @@ class OrdemServicoDAO{
         // $this->tipoServicoDAO = new TipoServicoDAO();
         $this->funcionarioDAO = new FuncionarioDAO();
         // $this->servicoDAO = new ServicoDAO();
+        // echo "contrutor1";
     }
 
     public function instanceOfTipoServicoDAO($tipoServicoDAO){
+        // echo "instacia2";
          $this->tipoServicoDAO = $tipoServicoDAO;
     }
     public function instanceOfServicoDAO($servicoDAO){
+        // echo "instacia1";
          $this->servicoDAO = $servicoDAO;
+         
+         // $this->servicoDAO->getServicoById(22);
+
+         // print_r($this->servicoDAO);
     }
     
     public function insert($ordemServico){

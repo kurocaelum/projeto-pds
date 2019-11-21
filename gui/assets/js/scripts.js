@@ -31,7 +31,7 @@ jQuery(document).ready(function($){
         $.ajax({
                 type: 'POST',
                 dataType: 'json',
-                url: 'http://pds.dev.anaju.me/business/controller/controleCadastroOrdemServico.php',
+                url: 'http://pds.dev.anaju.me/business/controller/controleCadastroOrdemServicoPredial.php',
                 async: true,
                 data: dados,
             error: function(enviado) {
@@ -65,7 +65,7 @@ function carregarOrdemServicos(tipo){
     $.ajax({
             type: 'POST',
             dataType: 'json',
-            url: 'http://pds.dev.anaju.me/business/controller/controleCadastroOrdemServico.php',
+            url: 'http://pds.dev.anaju.me/business/controller/controleCadastroOrdemServicoPredial.php',
             async: true,
             data: {"listaOrdemServicos": true},
             error: function(enviado) {
@@ -93,7 +93,7 @@ function removerOrdemServico(id_remover){
     $.ajax({
             type: 'POST',
             dataType: 'json',
-            url: 'http://pds.dev.anaju.me/business/controller/controleCadastroOrdemServico.php',
+            url: 'http://pds.dev.anaju.me/business/controller/controleCadastroOrdemServicoPredial.php',
             async: true,
             data: {"excluirOrdemServico": id_remover},
         error: function(enviado) {

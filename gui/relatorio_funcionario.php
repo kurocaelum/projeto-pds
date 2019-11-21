@@ -1,8 +1,8 @@
 <?php 
     include("header.php");
-    include($_SERVER["DOCUMENT_ROOT"]."/business/controller/controleRelatorioFuncionario.php");
+    include($_SERVER["DOCUMENT_ROOT"]."/business/controller/controleRelatorioFuncionarioPredial.php");
 
-    $controleRelatorioFuncionario = new ControleRelatorioFuncionario();
+    $controleRelatorioFuncionario = new ControleRelatorioFuncionarioPredial();
     $controleRelatorioFuncionario->gerarRelatorioOS(-1);
     $controleRelatorioFuncionario->carregarFuncionarios();
     $controleRelatorioFuncionario->gerarRelatorioFuncionarios();

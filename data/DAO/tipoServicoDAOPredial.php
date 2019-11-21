@@ -20,6 +20,8 @@ class TipoServicoDAOPredial extends TipoServicoDAO{
             $tipoServico->setUnidadeMedida( $row->unidade_medida );
             $tipoServico->setIdTipoServico( $row->id_tipo_servico );
             $tipoServico->setTempo( $row->tempo );
+            $tipoServico->setTempoRemocao( $row->tempo_remocao );
+            $tipoServico->setPorcentagemAjudante( $row->porcentagem_ajudante );
 
             return $tipoServico;
      }
