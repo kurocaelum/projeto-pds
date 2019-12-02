@@ -17,12 +17,14 @@ abstract class ServiceRelatorioOS{
     }
 
     public function calcularPorcentagemTempoServico($relatorioOS){// calcula a porcentagem de conclusao de cada servico individual
+        // print_r($relatorioOS);
         foreach ($relatorioOS->getOrdemServico() as $ordemServico) { 
             foreach ($ordemServico->getListaServicos() as $itemServico ) {
                 $tempoExecucao = $itemServico->getTempoExecucao();
                 if($tempoExecucao == "-1"){
                     $porcentagem = 0;
                 }else{
+                    // print_r($ordemServico);
                     $tempoEstimado = $itemServico->getEstimativaTempoTotal();
                     $porcentagem = $tempoExecucao * 100 / $tempoEstimado;
                 }

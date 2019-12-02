@@ -31,7 +31,7 @@ jQuery(document).ready(function($){
         $.ajax({
                 type: 'POST',
                 dataType: 'json',
-                url: 'http://pds.dev.anaju.me/business/controller/controleCadastroOrdemServicoPredial.php',
+                url: 'http://pds.dev.anaju.me/business/controller/controleCadastroOrdemServicoManutencao.php',
                 async: true,
                 data: dados,
             error: function(enviado) {
@@ -65,7 +65,7 @@ function carregarOrdemServicos(tipo){
     $.ajax({
             type: 'POST',
             dataType: 'json',
-            url: 'http://pds.dev.anaju.me/business/controller/controleCadastroOrdemServicoPredial.php',
+            url: 'http://pds.dev.anaju.me/business/controller/controleCadastroOrdemServicoManutencao.php',
             async: true,
             data: {"listaOrdemServicos": true},
             error: function(enviado) {
@@ -93,7 +93,7 @@ function removerOrdemServico(id_remover){
     $.ajax({
             type: 'POST',
             dataType: 'json',
-            url: 'http://pds.dev.anaju.me/business/controller/controleCadastroOrdemServicoPredial.php',
+            url: 'http://pds.dev.anaju.me/business/controller/controleCadastroOrdemServicoManutencao.php',
             async: true,
             data: {"excluirOrdemServico": id_remover},
         error: function(enviado) {
@@ -134,8 +134,8 @@ function resultCarregarOrdemServicos(listaOrdemServicos){
     var idsListaServicos = "";
     var idsListaFuncionarios = "";
     for(var k in jsonLista) {
-        if(jsonLista[k].listaServicos[1].remocao != -1){
 
+        if(jsonLista[k].listaServicos[1].isTempoExtraFixo != -1){
             idsListaServicos = "";
             idsListaFuncionarios = "";
 
@@ -224,7 +224,7 @@ jQuery(document).ready(function($){
         $.ajax({
                 type: 'POST',
                 dataType: 'json',
-                url: 'http://pds.dev.anaju.me/business/controller/controleCadastroServicoPredial.php',
+                url: 'http://pds.dev.anaju.me/business/controller/controleCadastroServicoManutencao.php',
                 async: true,
                 data: dados,
             error: function(enviado) {
@@ -258,7 +258,7 @@ function carregarServicos(tipo){
     $.ajax({
             type: 'POST',
             dataType: 'json',
-            url: 'http://pds.dev.anaju.me/business/controller/controleCadastroServicoPredial.php',
+            url: 'http://pds.dev.anaju.me/business/controller/controleCadastroServicoManutencao.php',
             async: true,
             data: {"listaServicos": true},
             error: function(enviado) {
@@ -286,7 +286,7 @@ function removerServico(id_remover){
     $.ajax({
             type: 'POST',
             dataType: 'json',
-            url: 'http://pds.dev.anaju.me/business/controller/controleCadastroServicoPredial.php',
+            url: 'http://pds.dev.anaju.me/business/controller/controleCadastroServicoManutencao.php',
             async: true,
             data: {"excluirServico": id_remover},
         error: function(enviado) {
@@ -312,7 +312,7 @@ function resultCarregarOptionServicos(listaServicos){
     jsonLista = JSON.parse(listaServicos);
     var optionServicos = "<option value=''></option> ";
     for(var k in jsonLista) {
-        if( jsonLista[k].remocao != -1){
+        if(jsonLista[k].isTempoExtraFixo != -1){
             optionServicos = optionServicos+'<option value='+jsonLista[k].idServico+' >'+jsonLista[k].nome+'</option>';
         }
     }
@@ -327,10 +327,11 @@ function resultCarregarServicos(listaServicos){
     jsonLista = JSON.parse(listaServicos);
     var tabelaServicos = "";
     for(var k in jsonLista) {
-        if( jsonLista[k].remocao != -1){
-            var remocao_material = "Não";
-            if(jsonLista[k].remocao == 1){
-                remocao_material = "Sim";
+        if(jsonLista[k].isTempoExtraFixo != -1){
+
+            var tempo_extra_fixo = "Não";
+            if(jsonLista[k].isTempoExtraFixo == 1){
+                tempo_extra_fixo = "Sim";
             }
 
             tabelaServicos = tabelaServicos+'<tr id="servico'+jsonLista[k].idServico+'">';
@@ -343,14 +344,15 @@ function resultCarregarServicos(listaServicos){
             tabelaServicos = tabelaServicos+'<td class="id_tipo_servico">'+jsonLista[k]['tipoServico'].id_tipo_servico+'</td>';
             tabelaServicos = tabelaServicos+'<td class="quantidade_servico">'+jsonLista[k].quantidade+'</td>';
             tabelaServicos = tabelaServicos+'<td class="tempo_conclusao">'+jsonLista[k].tempoExecucao+'</td>';
-            tabelaServicos = tabelaServicos+'<td class="quantidade_ajudantes">'+jsonLista[k].quantidadeAjudante+'</td>';
-            tabelaServicos = tabelaServicos+'<td class="remocao_material">'+remocao_material+'</td>';
             switch(jsonLista[k].status){
                 case "1": tabelaServicos = tabelaServicos+'<td attr-cod= '+jsonLista[k].status+' class="status_servico">'+'Concluído'+'</td>'; break;
                 case "2": tabelaServicos = tabelaServicos+'<td attr-cod= '+jsonLista[k].status+' class="status_servico">'+'Em Execução'+'</td>'; break;
                 case "3": tabelaServicos = tabelaServicos+'<td attr-cod= '+jsonLista[k].status+' class="status_servico">'+'Pendente'+'</td>'; break;
                 case "4": tabelaServicos = tabelaServicos+'<td attr-cod= '+jsonLista[k].status+' class="status_servico">'+'Cancelado'+'</td>'; break;
             }
+            tabelaServicos = tabelaServicos+'<td class="grau_dificuldade">'+jsonLista[k].grauDificuldade+'</td>';
+            tabelaServicos = tabelaServicos+'<td class="tempo_extra_fixo">'+tempo_extra_fixo+'</td>';
+
             tabelaServicos = tabelaServicos+'<td>';
             tabelaServicos = tabelaServicos+'       <a href=""><button type="button" class="editar_servico btn btn-info">Ver relatório</button></a>';
             tabelaServicos = tabelaServicos+'       <button type="button" id-editar="'+jsonLista[k].idServico+'" class="editar_servico btn btn-info">Editar</button>';
@@ -358,6 +360,7 @@ function resultCarregarServicos(listaServicos){
             tabelaServicos = tabelaServicos+'</td>';
             tabelaServicos = tabelaServicos+'</tr>';
         }
+
     }
 
 
@@ -716,7 +719,7 @@ jQuery(document).ready(function($){
             $.ajax({
                     type: 'POST',
                     dataType: 'json',
-                    url: 'http://pds.dev.anaju.me/business/controller/controleCadastroTipoServicoPredial.php',
+                    url: 'http://pds.dev.anaju.me/business/controller/controleCadastroTipoServicoManutencao.php',
                     async: true,
                     data: dados,
                 error: function(enviado) {
@@ -752,7 +755,7 @@ function carregarTipoServico(tipo){
     $.ajax({
             type: 'POST',
             dataType: 'json',
-            url: 'http://pds.dev.anaju.me/business/controller/controleCadastroTipoServicoPredial.php',
+            url: 'http://pds.dev.anaju.me/business/controller/controleCadastroTipoServicoManutencao.php',
             async: true,
             data: {"listaTipoServicos": true}, // listaFuncionarios?
         error: function(enviado) {
@@ -777,7 +780,7 @@ function removerTipoServico(id_remover){
     $.ajax({
             type: 'POST',
             dataType: 'json',
-            url: 'http://pds.dev.anaju.me/business/controller/controleCadastroTipoServicoPredial.php',
+            url: 'http://pds.dev.anaju.me/business/controller/controleCadastroTipoServicoManutencao.php',
             async: true,
             data: {"excluirTipoServico": id_remover},
         error: function(enviado) {
@@ -803,16 +806,13 @@ function resultCarregarTipoServico(listaTiposServicos){
     jsonLista = JSON.parse(listaTiposServicos);
     var tabelaTiposServicos = "";
     for(var k in jsonLista) {
-        if(jsonLista[k].porcentagem_ajudante != -1){
-            // console.log(jsonLista[k]);
+        if(jsonLista[k].tempo_extra_fixo != "-1"){
             tabelaTiposServicos = tabelaTiposServicos+'<tr id="tipo_servico'+jsonLista[k].id_tipo_servico+'">';
-
-            tabelaTiposServicos = tabelaTiposServicos+'<th class="id_tipo_servico" scope="row">'+jsonLista[k].id_tipo_servico+'</th>';
+            tabelaTiposServicos = tabelaTiposServicos+'<td class="id_tipo_servico" scope="row">'+jsonLista[k].id_tipo_servico+'</td>';
             tabelaTiposServicos = tabelaTiposServicos+'<td class="nome_tipo_servico">'+jsonLista[k].nome+'</td>';
             tabelaTiposServicos = tabelaTiposServicos+'<td class="unidade_tipo_servico">'+jsonLista[k].unidade_medida+'</td>';
             tabelaTiposServicos = tabelaTiposServicos+'<td class="tempo_tipo_servico">'+jsonLista[k].tempo+'</td>';
-            tabelaTiposServicos = tabelaTiposServicos+'<td class="tempo_remocao_tipo_servico">'+jsonLista[k].tempo_remocao+'</td>';
-            tabelaTiposServicos = tabelaTiposServicos+'<td class="porcentagem_ajudante_tipo_servico">'+jsonLista[k].porcentagem_ajudante+'</td>';
+            tabelaTiposServicos = tabelaTiposServicos+'<td class="tempo_extra_fixo_tipo_servico">'+jsonLista[k].tempo_extra_fixo+'</td>';
             tabelaTiposServicos = tabelaTiposServicos+'<td>';
             tabelaTiposServicos = tabelaTiposServicos+'       <button type="button" id-editar="'+jsonLista[k].id_tipo_servico+'" class="editar_tipo_servico btn btn-info">Editar</button>';
             tabelaTiposServicos = tabelaTiposServicos+'       <button type="button" id-remove="'+jsonLista[k].id_tipo_servico+'" class="remover_tipo_servico btn btn-danger">Excluir</button>';
@@ -836,8 +836,7 @@ function resultCarregarTipoServico(listaTiposServicos){
         $("#form_input_unidade").val( $("#tipo_servico"+id_editar).find(".unidade_tipo_servico").text() );
         $("#form_input_tempo").val( $("#tipo_servico"+id_editar).find(".tempo_tipo_servico").text() );
 
-        $("#form_input_tempo_remocao").val( $("#tipo_servico"+id_editar).find(".tempo_remocao_tipo_servico").text() );
-        $("#form_input_porcentagem_ajudante").val( $("#tipo_servico"+id_editar).find(".porcentagem_ajudante_tipo_servico").text() );
+        $("#form_input_tempo_extra_fixo").val( $("#tipo_servico"+id_editar).find(".tempo_extra_fixo_tipo_servico").text() );
 
     });
 
@@ -850,7 +849,9 @@ function resultCarregarOptionTiposServicos(listaTiposServicos){
     jsonLista = JSON.parse(listaTiposServicos);
     var optionTiposServicos = "<option value=''></option> ";
     for(var k in jsonLista) {
-        optionTiposServicos = optionTiposServicos+'<option value='+jsonLista[k].id_tipo_servico+' >'+jsonLista[k].nome+'</option>';
+        if(jsonLista[k].tempo_extra_fixo != "-1"){
+            optionTiposServicos = optionTiposServicos+'<option value='+jsonLista[k].id_tipo_servico+' >'+jsonLista[k].nome+'</option>';
+        }
     }
 
     $(".exibirListaTiposServicosOption").html("");

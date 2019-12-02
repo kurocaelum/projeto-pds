@@ -13,16 +13,14 @@
 			parent::__construct();
 		}
 
-	    public function setTipoServicoSecundario(){
+		public function setTipoServicoSecundario(){
 
 	         $tempo_remocao = $_POST['tempo_remocao'];
 	         $porcentagem_ajudante = $_POST['porcentagem_ajudante'];
 
 	         $this->tipoServico->setPorcentagemAjudante($porcentagem_ajudante);
-	         $this->tipoServico->setTempoRemocao($tempo_remocao);
-	    }
-
-
+			 $this->tipoServico->setTempoRemocao($tempo_remocao);
+		}
 
 	}
 
