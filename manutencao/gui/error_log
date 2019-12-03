@@ -3402,3 +3402,51 @@ Stack trace:
 [01-Dec-2019 10:46:58 America/Fortaleza] PHP Warning:  Division by zero in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceRelatorioOS.php on line 27
 [01-Dec-2019 10:47:27 America/Fortaleza] PHP Warning:  Division by zero in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceRelatorioOS.php on line 52
 [01-Dec-2019 10:47:27 America/Fortaleza] PHP Warning:  Division by zero in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceRelatorioOS.php on line 27
+[02-Dec-2019 08:43:39 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to undefined method ServicoManutencao::getRemocao() in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceRelatorioOSManutencao.php:26
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(37): ServiceRelatorioOSManutencao->calcularEstimativas(Object(RelatorioOS))
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/manutencao/gui/relatorio-geral-os.php(6): ControleRelatorioOS->gerarRelatorioOS(-1)
+#2 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceRelatorioOSManutencao.php on line 26
+[02-Dec-2019 08:43:41 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to undefined method ServicoManutencao::getRemocao() in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceRelatorioOSManutencao.php:26
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(37): ServiceRelatorioOSManutencao->calcularEstimativas(Object(RelatorioOS))
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/manutencao/gui/relatorio-geral-os.php(6): ControleRelatorioOS->gerarRelatorioOS(-1)
+#2 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceRelatorioOSManutencao.php on line 26
+[02-Dec-2019 08:45:18 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to undefined method ServicoManutencao::getRemocao() in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceRelatorioOSManutencao.php:26
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleRelatorioOS.php(37): ServiceRelatorioOSManutencao->calcularEstimativas(Object(RelatorioOS))
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/manutencao/gui/relatorio-geral-os.php(6): ControleRelatorioOS->gerarRelatorioOS(-1)
+#2 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceRelatorioOSManutencao.php on line 26
+[02-Dec-2019 09:03:27 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to undefined method OrdemServico::getIsTempoExtraFixo() in /home1/anaju876/public_html/pds.dev.anaju.me/manutencao/gui/relatorio-geral-os.php:37
+Stack trace:
+#0 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/manutencao/gui/relatorio-geral-os.php on line 37
+[02-Dec-2019 09:03:29 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to undefined method OrdemServico::getIsTempoExtraFixo() in /home1/anaju876/public_html/pds.dev.anaju.me/manutencao/gui/relatorio-geral-os.php:37
+Stack trace:
+#0 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/manutencao/gui/relatorio-geral-os.php on line 37
+[02-Dec-2019 09:04:04 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function getIsTempoExtraFixo() on null in /home1/anaju876/public_html/pds.dev.anaju.me/manutencao/gui/relatorio-geral-os.php:37
+Stack trace:
+#0 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/manutencao/gui/relatorio-geral-os.php on line 37
+[02-Dec-2019 09:04:07 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function getIsTempoExtraFixo() on null in /home1/anaju876/public_html/pds.dev.anaju.me/manutencao/gui/relatorio-geral-os.php:37
+Stack trace:
+#0 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/manutencao/gui/relatorio-geral-os.php on line 37
+[02-Dec-2019 18:46:55 America/Fortaleza] PHP Fatal error:  Uncaught Error: Cannot instantiate abstract class ServicoDAO in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/imprevistoDAO.php:15
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceImprevisto.php(11): ImprevistoDAO->__construct()
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroImprevisto.php(13): ServiceImprevisto->__construct()
+#2 /home1/anaju876/public_html/pds.dev.anaju.me/manutencao/gui/cadastro-imprevisto.php(5): ControleCadastroImprevisto->__construct()
+#3 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/imprevistoDAO.php on line 15
+[03-Dec-2019 01:48:19 America/Fortaleza] PHP Fatal error:  Uncaught Error: Cannot instantiate abstract class ServicoDAO in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/imprevistoDAO.php:15
+Stack trace:
+#0 /home1/anaju876/public_html/pds.dev.anaju.me/business/services/serviceImprevisto.php(11): ImprevistoDAO->__construct()
+#1 /home1/anaju876/public_html/pds.dev.anaju.me/business/controller/controleCadastroImprevisto.php(13): ServiceImprevisto->__construct()
+#2 /home1/anaju876/public_html/pds.dev.anaju.me/manutencao/gui/cadastro-imprevisto.php(5): ControleCadastroImprevisto->__construct()
+#3 {main}
+  thrown in /home1/anaju876/public_html/pds.dev.anaju.me/data/DAO/imprevistoDAO.php on line 15

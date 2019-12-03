@@ -33,7 +33,7 @@
             
                 <?php 
                     foreach ($relatorioOS->getOrdemServico() as $itemReltorioOS) {
-                      
+                      if($itemReltorioOS->getListaServicos()[1]->getRemocao() != -1){
                 ?>
 
                 <tr>
@@ -46,7 +46,7 @@
                 <tr>     
 
                 <?php
-                           
+                        }
                     }
                 ?>
            

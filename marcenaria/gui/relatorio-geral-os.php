@@ -1,8 +1,8 @@
 <?php 
     include("header.php");
-    include($_SERVER["DOCUMENT_ROOT"]."/business/controller/controleRelatorioOSManutencao.php");
+    include($_SERVER["DOCUMENT_ROOT"]."/business/controller/controleRelatorioOSPredial.php");
 
-    $controleRelatorioOS = new ControleRelatorioOSManutencao();
+    $controleRelatorioOS = new ControleRelatorioOSPredial();
     $controleRelatorioOS->gerarRelatorioOS(-1);
     $relatorioOS = $controleRelatorioOS->getRelatorioOS();
 
@@ -33,9 +33,7 @@
             
                 <?php 
                     foreach ($relatorioOS->getOrdemServico() as $itemReltorioOS) {
-                        // print_r($itemReltorioOS);
-                      if($itemReltorioOS->getListaServicos()[1]->getIsTempoExtraFixo() != -1){
-
+                      
                 ?>
 
                 <tr>
@@ -48,7 +46,7 @@
                 <tr>     
 
                 <?php
-                      }  
+                           
                     }
                 ?>
            

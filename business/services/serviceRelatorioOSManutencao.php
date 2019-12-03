@@ -18,34 +18,20 @@ class ServiceRelatorioOSManutencao extends ServiceRelatorioOS{
     public function calcularEstimativas($relatorioOS){ // calcula o tempo total estimado pela OS, soma o tempo estimado de cada serviço
         foreach ($relatorioOS->getOrdemServico() as $ordemServico) { 
             $tempoEstimadoTotal = 0;
+            $tempoFixo = 0;
             foreach ($ordemServico->getListaServicos() as $itemServico ) {
-                // if($itemServico->getIsTempoExtraFixo() != -1){
-                    $tempo_remocao = 0;
-                    $tempoPorcentagemAjudante = 0;
-
-                    if($itemServico->getRemocao() == 1){
-                       $tempo_remocao = $itemServico->getTipoServico()->getTempoRemocao() * $itemServico->getQuantidade();
-                    }else{
-                        // echo "  n ";
-                    }
-                    $tempo = $itemServico->getTipoServico()->getTempo() * $itemServico->getQuantidade();
-                    $tempo = $tempo + $tempo_remocao;
-                    // echo $tempo_remocao;
-                    
-                    if($itemServico->getQuantidadeAjudante() > 0){
-                        $tempoPorcentagemAjudante = (($itemServico->getTipoServico()->getPorcentagemAjudante()) * $tempo / 100) * $itemServico->getQuantidadeAjudante();
-                        // echo $tempoPorcentagemAjudante;
-                        // echo " ";
-                        // echo $tempo;
-                    }else{
-                        // echo " a ";
-                    }
-
-                    $itemServico->setEstimativaTempoTotal(2);
-                    $tempoEstimadoTotal = $tempoEstimadoTotal + $tempo- $tempoPorcentagemAjudante;
+                if($itemServico->getIsTempoExtraFixo() == 1){
+                    $tempoEstimadoTotal = $itemServico->getTipoServico()->getTempoExtraFixo();
+                }
+                $tempo = $itemServico->getTipoServico()->getTempo() * $itemServico->getQuantidade();
+                if($itemServico->getGrauDificuldade() >= 1){
+                    $tempo = $tempo + ($tempo * ($itemServico->getGrauDificuldade() * 10) / 100);
+                }
+                $itemServico->setEstimativaTempoTotal($tempo + $tempoEstimadoTotal);
+                $tempoEstimadoTotal = $tempoEstimadoTotal + $tempo + $tempoEstimadoTotal;
                 // }
             }
-            $ordemServico->setTempoEstimadoTotal(333);
+            $ordemServico->setTempoEstimadoTotal($tempoEstimadoTotal);
         }
         return $relatorioOS;
     }

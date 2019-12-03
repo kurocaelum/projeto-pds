@@ -32,6 +32,8 @@
             
                 <?php 
                     foreach ($relatorioOS->getOrdemServico()[0]->getListaServicos() as $itemServico) {
+                      print_r($itemServico);
+                      if($itemServico->getIsTempoExtraFixo() != -1){
                 ?>
                 <tr>
                     <th scope="row"><?= $itemServico->getIdServico() ?></th>
@@ -52,7 +54,7 @@
                     <td><?= $itemServico->getPorcentagemTempo() ?>%</td>
                 </tr>
                 <?php
-                      
+                      }
                     }
                 ?>
            
